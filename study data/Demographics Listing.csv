@@ -1,0 +1,679 @@
+Site ID,Subject,VISIT,Date of Birth,Age in months,Gender,Ethnicity,Number of children living with the subject,First Data Time,Last Data Time
+51,785100050,Screening,20 02 2021,7,Male,Black African or Black other,2,1 09 2021 05:09,16 06 2022 10:14
+51,785100055,Screening,21 06 2020,15,Female,Black African or Black other,2,1 09 2021 09:01,3 10 2021 15:32
+51,785100057,Screening,1 03 2020,18,Female,Black African or Black other,2,1 09 2021 13:50,3 10 2021 14:19
+51,785100059,Screening,20 03 2021,6,Male,Black African or Black other,2,1 09 2021 15:32,27 09 2021 12:37
+51,785100060,Screening,25 01 2021,8,Female,Black African or Black other,1,1 09 2021 16:06,16 06 2022 09:22
+51,785100073,Screening,26 02 2020,19,Female,Black African or Black other,6,2 09 2021 12:46,4 10 2021 19:42
+51,785100104,Screening,28 09 2018,36,Female,Black African or Black other,3,8 09 2021 07:46,10 10 2021 14:08
+51,785100107,Screening,17 04 2020,17,Female,Black African or Black other,5,8 09 2021 08:22,12 10 2021 03:31
+51,785100119,Screening,16 11 2018,34,Male,Black African or Black other,2,11 09 2021 05:53,30 09 2021 10:17
+51,785100120,Screening,1 03 2020,18,Female,Black African or Black other,0,11 09 2021 08:21,14 02 2023 03:21
+51,785100121,Screening,23 05 2019,28,Male,Black African or Black other,1,11 09 2021 08:40,1 10 2021 07:14
+51,785100122,Screening,3 10 2020,11,Male,Black African or Black other,1,12 09 2021 11:42,12 10 2021 17:56
+51,785100126,Screening,2 11 2020,10,Female,Black African or Black other,6,13 09 2021 06:57,13 10 2021 15:28
+51,785100130,Screening,4 03 2020,18,Female,Black African or Black other,4,13 09 2021 12:04,14 02 2023 05:09
+51,785100135,Screening,4 04 2020,17,Male,Black African or Black other,1,14 09 2021 05:51,18 09 2021 09:08
+51,785100144,Screening,13 06 2019,27,Male,Black African or Black other,7,14 09 2021 10:26,18 09 2021 16:54
+51,785100154,Screening,6 06 2020,15,Female,Black African or Black other,0,15 09 2021 09:09,1 10 2021 03:05
+51,785100155,Screening,24 11 2018,34,Female,Black African or Black other,6,15 09 2021 10:11,1 10 2021 03:26
+51,785100158,Screening,22 07 2019,26,Male,Black African or Black other,1,15 09 2021 10:56,11 10 2021 13:33
+51,785100159,Screening,1 02 2021,7,Male,Black African or Black other,2,15 09 2021 11:01,14 10 2021 04:34
+51,785100162,Screening,25 09 2020,12,Male,Black African or Black other,4,15 09 2021 12:16,22 10 2021 13:58
+51,785100165,Screening,2 11 2019,22,Male,Black African or Black other,5,15 09 2021 12:25,20 09 2021 18:36
+51,785100166,Screening,4 03 2020,18,Female,Black African or Black other,1,15 09 2021 14:19,25 09 2021 06:00
+51,785100069,Screening,22 08 2020,13,Female,Black African or Black other,2,2 09 2021 09:05,5 10 2021 02:58
+51,785100077,Screening,26 11 2018,34,Male,Black African or Black other,4,6 09 2021 05:12,5 10 2021 17:21
+51,785100082,Screening,6 06 2020,15,Male,Black African or Black other,1,6 09 2021 09:03,25 09 2021 17:13
+51,785100092,Screening,2 05 2020,16,Female,Black African or Black other,3,6 09 2021 15:12,5 10 2021 13:58
+51,785100094,Screening,24 04 2020,17,Male,Black African or Black other,3,7 09 2021 08:52,6 10 2021 16:11
+51,785100096,Screening,10 08 2019,25,Male,Black African or Black other,5,7 09 2021 12:16,6 10 2021 17:17
+51,785100113,Screening,14 05 2020,16,Female,Black African or Black other,0,9 09 2021 07:26,
+51,785100142,Screening,20 03 2019,30,Male,Black African or Black other,1,14 09 2021 09:29,18 09 2021 14:44
+51,785100149,Screening,25 10 2019,23,Female,Black African or Black other,4,14 09 2021 11:49,13 10 2021 19:09
+51,785100156,Screening,19 12 2019,21,Female,Black African or Black other,6,15 09 2021 10:38,
+51,785100167,Screening,12 05 2019,28,Male,Black African or Black other,2,16 09 2021 06:56,
+51,785100168,Screening,12 02 2021,7,Male,Black African or Black other,3,16 09 2021 07:57,25 09 2021 16:45
+51,785100169,Screening,7 02 2019,31,Female,Black African or Black other,2,16 09 2021 08:23,11 10 2021 13:06
+51,785100170,Screening,17 01 2021,8,Male,Black African or Black other,5,16 09 2021 12:05,16 02 2023 06:54
+51,785100172,Screening,6 05 2020,16,Female,Black African or Black other,5,16 09 2021 12:23,18 10 2021 03:03
+51,785100173,Screening,14 04 2020,17,Male,Black African or Black other,0,16 09 2021 12:23,29 09 2021 07:56
+51,785100179,Screening,8 11 2019,22,Female,Black African or Black other,0,17 09 2021 07:45,
+51,785100180,Screening,27 03 2020,18,Female,Black African or Black other,1,17 09 2021 07:54,16 02 2023 15:16
+51,785100181,Screening,16 05 2020,16,Female,Black African or Black other,6,17 09 2021 08:05,
+51,785100182,Screening,3 08 2020,13,Male,Black African or Black other,4,17 09 2021 08:13,
+51,785100183,Screening,13 07 2019,26,Male,Black African or Black other,1,17 09 2021 08:38,
+51,785100184,Screening,6 07 2019,26,Female,Black African or Black other,1,17 09 2021 09:00,1 10 2021 17:59
+51,785100185,Screening,19 04 2019,29,Female,Black African or Black other,6,17 09 2021 09:53,
+51,785100186,Screening,10 06 2019,27,Male,Black African or Black other,1,17 09 2021 09:59,
+51,785100187,Screening,26 11 2020,10,Male,Black African or Black other,1,17 09 2021 10:04,
+51,785100078,Screening,30 12 2018,33,Male,Black African or Black other,0,6 09 2021 05:35,7 10 2021 18:02
+51,785100084,Screening,20 09 2020,12,Female,Black African or Black other,2,6 09 2021 09:08,5 10 2021 19:18
+51,785100085,Screening,22 09 2020,12,Male,Black African or Black other,3,6 09 2021 09:10,
+51,785100088,Screening,17 12 2020,9,Female,Black African or Black other,5,6 09 2021 09:42,6 10 2021 08:17
+51,785100095,Screening,15 11 2018,34,Male,Black African or Black other,2,7 09 2021 09:17,11 10 2021 08:25
+51,785100098,Screening,2 05 2019,28,Male,Black African or Black other,2,7 09 2021 13:05,
+51,785100099,Screening,1 03 2021,6,Male,Black African or Black other,2,7 09 2021 14:38,
+51,785100101,Screening,26 10 2020,11,Male,Black African or Black other,0,7 09 2021 15:12,
+51,785100102,Screening,7 07 2020,14,Female,Black African or Black other,4,7 09 2021 15:14,
+51,785100105,Screening,20 05 2020,16,Male,Black African or Black other,0,8 09 2021 08:00,12 10 2021 03:10
+51,785100110,Screening,23 05 2020,16,Female,Black African or Black other,1,8 09 2021 10:38,13 02 2023 12:00
+51,785100112,Screening,14 01 2020,20,Male,Black African or Black other,1,9 09 2021 06:40,
+51,785100114,Screening,28 03 2021,6,Male,Black African or Black other,0,9 09 2021 12:49,12 10 2021 18:31
+51,785100124,Screening,14 06 2019,27,Male,Black African or Black other,0,13 09 2021 06:30,25 09 2021 04:59
+51,785100132,Screening,1 04 2020,17,Female,Black African or Black other,1,13 09 2021 15:01,
+51,785100137,Screening,19 10 2019,23,Female,Black African or Black other,4,14 09 2021 07:07,
+51,785100138,Screening,13 05 2020,16,Male,Black African or Black other,3,14 09 2021 07:18,15 09 2021 11:13
+51,785100139,Screening,23 12 2018,33,Male,Black African or Black other,5,14 09 2021 07:54,19 09 2021 06:28
+51,785100140,Screening,5 03 2020,18,Female,Black African or Black other,4,14 09 2021 08:44,14 02 2023 06:20
+51,785100141,Screening,20 07 2020,14,Male,Black African or Black other,1,14 09 2021 09:02,19 09 2021 05:09
+51,785100148,Screening,12 08 2019,25,Male,Black African or Black other,5,14 09 2021 11:46,13 10 2021 17:00
+51,785100150,Screening,19 02 2021,7,Male,Black African or Black other,3,14 09 2021 12:00,15 02 2023 03:24
+51,785100151,Screening,16 07 2019,26,Female,Black African or Black other,2,14 09 2021 12:08,30 09 2021 20:15
+51,785100152,Screening,19 08 2020,13,Male,Black African or Black other,2,14 09 2021 12:14,30 09 2021 20:30
+51,785100160,Screening,22 02 2020,19,Male,Black African or Black other,2,15 09 2021 11:06,15 02 2023 18:20
+51,785100161,Screening,27 07 2020,14,Female,Black African or Black other,5,15 09 2021 11:52,
+51,785100093,Screening,27 02 2020,19,Female,Black African or Black other,6,7 09 2021 06:40,6 10 2021 14:26
+51,785100111,Screening,14 05 2019,28,Male,Black African or Black other,0,8 09 2021 15:00,11 10 2021 08:03
+51,785100125,Screening,29 09 2019,24,Female,Black African or Black other,0,13 09 2021 06:46,13 10 2021 15:08
+51,785100127,Screening,15 04 2020,17,Female,Black African or Black other,4,13 09 2021 07:27,18 09 2021 06:00
+51,785100129,Screening,3 11 2019,22,Female,Black African or Black other,5,13 09 2021 11:29,19 09 2021 04:59
+51,785100143,Screening,23 03 2020,18,Male,Black African or Black other,2,14 09 2021 10:19,18 09 2021 15:27
+51,785100163,Screening,11 09 2020,12,Male,Black African or Black other,2,15 09 2021 12:17,14 10 2021 03:23
+51,785100164,Screening,11 02 2021,7,Female,Black African or Black other,2,15 09 2021 12:21,14 10 2021 03:00
+51,785100174,Screening,12 05 2019,28,Female,Black African or Black other,5,16 09 2021 13:15,
+51,785100175,Screening,27 05 2020,16,Male,Black African or Black other,2,16 09 2021 14:22,18 10 2021 03:24
+51,785100177,Screening,11 02 2019,31,Female,Black African or Black other,2,16 09 2021 14:43,18 10 2021 04:34
+51,785100189,Screening,9 11 2020,10,Male,Black African or Black other,0,17 09 2021 11:05,
+51,785100191,Screening,18 06 2019,27,Male,Black African or Black other,2,18 09 2021 14:12,21 09 2021 10:29
+51,785100192,Screening,18 05 2019,28,Female,Black African or Black other,2,18 09 2021 14:18,21 09 2021 10:10
+51,785100194,Screening,17 11 2019,22,Male,Black African or Black other,1,19 09 2021 13:53,21 09 2021 08:11
+51,785100195,Screening,17 11 2019,22,Female,Black African or Black other,1,19 09 2021 13:55,21 09 2021 09:02
+51,785100197,Screening,25 05 2019,28,Male,Black African or Black other,3,20 09 2021 05:51,26 09 2021 12:39
+51,785100198,Screening,10 10 2018,35,Female,Black African or Black other,0,20 09 2021 07:00,20 10 2021 17:33
+51,785100200,Screening,2 04 2021,5,Male,Black African or Black other,1,20 09 2021 08:11,16 02 2023 23:31
+51,785100201,Screening,23 05 2019,28,Female,Black African or Black other,1,20 09 2021 08:32,27 09 2021 18:47
+51,785100202,Screening,4 08 2019,25,Female,Black African or Black other,1,20 09 2021 08:34,
+51,785100203,Screening,11 06 2020,15,Male,Black African or Black other,2,20 09 2021 10:03,26 09 2021 12:10
+51,785100204,Screening,12 04 2021,5,Male,Black African or Black other,4,20 09 2021 10:15,21 09 2021 09:30
+51,785100205,Screening,2 11 2020,10,Male,Black African or Black other,5,20 09 2021 10:31,12 10 2021 08:56
+51,785100207,Screening,5 01 2019,32,Male,Black African or Black other,6,20 09 2021 10:51,13 10 2021 09:38
+51,785100208,Screening,23 05 2020,16,Female,Black African or Black other,2,20 09 2021 11:33,20 10 2021 18:26
+51,785100157,Screening,2 11 2018,34,Male,Black African or Black other,0,15 09 2021 10:46,30 09 2021 11:47
+51,785100209,Screening,28 05 2020,16,Male,Black African or Black other,0,20 09 2021 11:53,28 09 2021 08:18
+51,785100215,Screening,3 02 2020,19,Female,Black African or Black other,1,21 09 2021 08:15,23 09 2021 09:20
+51,785100219,Screening,22 02 2020,19,Male,Black African or Black other,2,21 09 2021 09:57,6 10 2021 09:43
+51,785100220,Screening,21 05 2019,28,Female,Black African or Black other,3,21 09 2021 10:07,17 05 2023 06:54
+51,785100221,Screening,25 02 2021,7,Male,Black African or Black other,2,21 09 2021 10:16,
+51,785100223,Screening,22 11 2019,22,Male,Black African or Black other,5,21 09 2021 11:53,25 09 2021 14:48
+51,785100056,Screening,13 09 2019,24,Male,Black African or Black other,3,1 09 2021 11:40,
+51,785100062,Screening,24 01 2019,32,Female,Black African or Black other,4,2 09 2021 04:08,3 10 2021 14:18
+51,785100063,Screening,17 03 2021,6,Male,Black African or Black other,4,2 09 2021 06:19,4 10 2021 13:39
+51,785100064,Screening,2 04 2020,17,Male,Black African or Black other,4,2 09 2021 07:15,24 09 2021 14:31
+51,785100065,Screening,7 09 2020,12,Female,Black African or Black other,0,2 09 2021 07:21,4 10 2021 18:39
+51,785100066,Screening,28 03 2020,18,Male,Black African or Black other,3,2 09 2021 07:21,11 10 2021 08:49
+51,785100067,Screening,11 03 2020,18,Female,Black African or Black other,6,2 09 2021 07:25,5 10 2021 02:42
+51,785100068,Screening,9 04 2020,17,Male,Black African or Black other,0,2 09 2021 08:45,14 10 2021 02:43
+51,785100070,Screening,17 01 2019,32,Male,Black African or Black other,2,2 09 2021 09:44,16 06 2022 08:02
+51,785100071,Screening,9 11 2019,22,Female,Black African or Black other,1,2 09 2021 12:05,4 10 2021 20:05
+51,785100072,Screening,12 02 2021,7,Female,Black African or Black other,4,2 09 2021 12:42,11 10 2021 08:31
+51,785100074,Screening,9 09 2019,24,Female,Black African or Black other,3,2 09 2021 14:28,
+51,785100075,Screening,17 01 2020,20,Female,Black African or Black other,4,4 09 2021 08:58,26 10 2021 12:21
+51,785100076,Screening,23 12 2020,9,Male,Black African or Black other,4,5 09 2021 13:23,4 10 2021 19:02
+51,785100079,Screening,27 09 2018,36,Female,Black African or Black other,4,6 09 2021 08:15,5 10 2021 18:15
+51,785100080,Screening,27 07 2020,14,Male,Black African or Black other,4,6 09 2021 08:22,16 06 2022 07:03
+51,785100081,Screening,18 01 2019,32,Female,Black African or Black other,1,6 09 2021 08:37,29 09 2021 06:46
+51,785100087,Screening,12 11 2018,34,Male,Black African or Black other,5,6 09 2021 09:37,6 10 2021 03:09
+51,785100083,Screening,14 11 2019,22,Female,Black African or Black other,5,6 09 2021 09:05,5 10 2021 18:16
+51,785100086,Screening,26 01 2020,20,Male,Black African or Black other,2,6 09 2021 09:32,5 10 2021 19:19
+51,785100089,Screening,14 05 2020,16,Female,Black African or Black other,2,6 09 2021 13:52,5 10 2021 14:42
+51,785100090,Screening,14 03 2021,6,Male,Black African or Black other,3,6 09 2021 14:25,24 11 2022 08:37
+51,785100091,Screening,26 06 2020,15,Male,Black African or Black other,3,6 09 2021 14:45,13 10 2021 14:29
+51,785100097,Screening,22 08 2020,13,Female,Black African or Black other,0,7 09 2021 12:47,6 10 2021 18:29
+51,785100100,Screening,30 11 2019,22,Female,Black African or Black other,1,7 09 2021 15:06,24 11 2022 16:19
+51,785100103,Screening,17 02 2021,7,Male,Black African or Black other,3,8 09 2021 07:43,12 10 2021 17:02
+51,785100106,Screening,21 12 2020,9,Female,Black African or Black other,6,8 09 2021 08:15,
+51,785100108,Screening,29 05 2019,28,Male,Black African or Black other,0,8 09 2021 08:51,12 10 2021 05:36
+51,785100109,Screening,5 11 2020,10,Female,Black African or Black other,0,8 09 2021 10:06,26 09 2021 08:27
+51,785100115,Screening,26 08 2020,13,Female,Black African or Black other,2,10 09 2021 07:21,13 10 2021 14:43
+51,785100116,Screening,26 02 2020,19,Female,Black African or Black other,1,10 09 2021 11:00,27 09 2021 10:39
+51,785100117,Screening,28 01 2020,20,Female,Black African or Black other,4,10 09 2021 13:25,29 09 2021 11:35
+51,785100118,Screening,18 04 2019,29,Male,Black African or Black other,2,10 09 2021 14:43,12 10 2021 19:08
+51,785100123,Screening,9 04 2021,5,Female,Black African or Black other,2,13 09 2021 04:43,30 09 2021 08:44
+51,785100128,Screening,15 04 2020,17,Male,Black African or Black other,4,13 09 2021 07:54,9 12 2021 10:48
+51,785100131,Screening,23 07 2020,14,Male,Black African or Black other,3,13 09 2021 14:01,
+51,785100133,Screening,10 01 2019,32,Female,Black African or Black other,5,13 09 2021 16:12,
+51,785100134,Screening,13 04 2021,5,Male,Black African or Black other,1,14 09 2021 04:15,18 09 2021 08:26
+51,785100136,Screening,21 02 2020,19,Female,Black African or Black other,2,14 09 2021 06:10,18 09 2021 10:15
+51,785100145,Screening,30 05 2020,16,Male,Black African or Black other,3,14 09 2021 10:43,19 09 2021 04:19
+51,785100146,Screening,1 12 2019,21,Female,Black African or Black other,1,14 09 2021 11:12,22 03 2023 09:35
+51,785100147,Screening,23 03 2020,18,Female,Black African or Black other,2,14 09 2021 11:12,14 10 2021 16:52
+51,785100153,Screening,23 01 2019,32,Male,Black African or Black other,5,15 09 2021 09:04,30 09 2021 20:58
+51,785100003,Screening,20 10 2019,22,Female,Black African or Black other,3,27 08 2021 07:26,14 09 2021 09:15
+51,785100004,Screening,21 11 2020,9,Male,Black African or Black other,1,27 08 2021 07:34,25 09 2021 19:21
+51,785100007,Screening,17 09 2020,11,Female,Black African or Black other,0,28 08 2021 07:11,26 09 2021 07:17
+51,785100012,Screening,13 04 2020,16,Male,Black African or Black other,3,28 08 2021 14:42,14 09 2021 10:46
+51,785100013,Screening,25 01 2021,7,Female,Black African or Black other,7,29 08 2021 06:09,14 09 2021 09:50
+51,785100015,Screening,1 04 2020,16,Female,Black African or Black other,6,29 08 2021 13:38,9 12 2021 10:45
+51,785100014,Screening,19 06 2020,14,Female,Black African or Black other,1,29 08 2021 12:10,15 09 2021 08:51
+51,785100020,Screening,16 03 2021,5,Male,Black African or Black other,1,30 08 2021 04:21,16 12 2021 13:04
+51,785100022,Screening,28 05 2020,15,Male,Black African or Black other,2,30 08 2021 06:41,30 09 2021 08:37
+51,785100024,Screening,1 07 2019,25,Male,Black African or Black other,2,30 08 2021 06:59,1 03 2022 08:26
+51,785100026,Screening,17 08 2019,24,Male,Black African or Black other,1,30 08 2021 08:25,14 09 2021 18:10
+51,785100001,Screening,12 12 2019,20,Female,Black African or Black other,2,27 08 2021 07:17,13 09 2021 17:10
+51,785100002,Screening,3 01 2020,19,Female,Black African or Black other,1,27 08 2021 07:22,14 09 2021 07:54
+51,785100006,Screening,15 10 2019,22,Female,Black African or Black other,2,27 08 2021 08:01,26 09 2021 07:08
+51,785100018,Screening,27 07 2019,25,Female,Black African or Black other,2,29 08 2021 14:55,14 09 2021 16:55
+51,785100019,Screening,13 09 2020,11,Female,Black African or Black other,2,29 08 2021 15:01,29 08 2021 15:02
+51,785100021,Screening,27 01 2021,7,Male,Black African or Black other,0,30 08 2021 05:06,14 09 2021 04:36
+51,785100028,Screening,12 03 2020,17,Female,Black African or Black other,1,30 08 2021 12:52,7 10 2021 06:20
+51,785100030,Screening,12 05 2019,27,Female,Black African or Black other,2,30 08 2021 13:08,17 12 2021 07:09
+51,785100043,Screening,13 11 2020,9,Female,Black African or Black other,3,31 08 2021 10:37,3 10 2021 13:26
+51,785100005,Screening,24 09 2018,35,Female,Black African or Black other,2,27 08 2021 07:43,14 09 2021 11:11
+51,785100008,Screening,7 08 2020,12,Male,Black African or Black other,9,28 08 2021 07:57,27 09 2021 06:56
+51,785100009,Screening,5 05 2020,15,Female,Black African or Black other,0,28 08 2021 09:14,26 09 2021 08:07
+51,785100010,Screening,31 10 2018,34,Male,Black African or Black other,9,28 08 2021 09:16,25 09 2021 19:04
+51,785100011,Screening,20 04 2020,16,Male,Black African or Black other,1,28 08 2021 13:14,14 09 2021 11:09
+51,785100016,Screening,29 07 2019,25,Male,Black African or Black other,2,29 08 2021 14:18,1 03 2022 08:16
+51,785100025,Screening,27 03 2021,5,Male,Black African or Black other,4,30 08 2021 07:13,14 09 2021 16:59
+51,785100017,Screening,21 01 2021,7,Female,Black African or Black other,7,29 08 2021 14:54,14 09 2021 15:52
+51,785100033,Screening,24 03 2021,5,Male,Black African or Black other,4,31 08 2021 04:16,29 10 2021 03:33
+51,785100036,Screening,18 05 2019,27,Male,Black African or Black other,1,31 08 2021 07:46,2 09 2021 06:30
+51,785100040,Screening,10 03 2021,5,Female,Black African or Black other,1,31 08 2021 08:45,17 12 2021 11:42
+51,785100041,Screening,11 04 2020,16,Male,Black African or Black other,3,31 08 2021 08:53,18 09 2021 06:58
+51,785100023,Screening,27 03 2021,5,Female,Black African or Black other,4,30 08 2021 06:47,14 09 2021 16:16
+51,785100027,Screening,29 12 2019,20,Male,Black African or Black other,5,30 08 2021 09:19,15 09 2021 06:49
+51,785100044,Screening,12 07 2019,25,Female,Black African or Black other,2,31 08 2021 10:56,
+51,785100045,Screening,17 02 2021,6,Female,Black African or Black other,1,31 08 2021 12:15,29 09 2021 15:37
+51,785100046,Screening,8 06 2020,14,Female,Black African or Black other,2,31 08 2021 13:51,29 09 2021 16:38
+51,785100029,Screening,17 07 2020,13,Male,Black African or Black other,7,30 08 2021 13:05,1 03 2022 08:32
+51,785100034,Screening,23 10 2020,10,Male,Black African or Black other,0,31 08 2021 06:07,9 12 2021 10:47
+51,785100037,Screening,26 11 2019,21,Female,Black African or Black other,4,31 08 2021 07:49,29 09 2021 13:31
+51,785100038,Screening,4 01 2020,19,Male,Black African or Black other,0,31 08 2021 07:50,29 09 2021 15:05
+51,785100042,Screening,26 03 2021,5,Female,Black African or Black other,3,31 08 2021 09:39,18 09 2021 09:22
+51,785100048,Screening,22 01 2021,7,Female,Black African or Black other,2,31 08 2021 15:29,29 09 2021 18:07
+51,785100031,Screening,9 08 2020,12,Female,Black African or Black other,0,30 08 2021 14:48,9 12 2021 10:46
+51,785100032,Screening,21 07 2020,13,Female,Black African or Black other,3,30 08 2021 15:17,29 09 2021 17:37
+51,785100035,Screening,19 01 2021,7,Female,Black African or Black other,2,31 08 2021 06:24,29 09 2021 16:08
+51,785100039,Screening,23 10 2020,10,Male,Black African or Black other,4,31 08 2021 08:38,29 09 2021 17:15
+51,785100047,Screening,9 07 2020,13,Male,Black African or Black other,1,31 08 2021 14:37,29 09 2021 17:05
+51,785100049,Screening,30 08 2020,12,Female,Black African or Black other,1,31 08 2021 15:35,
+51,785100051,Screening,3 05 2020,16,Female,Black African or Black other,2,1 09 2021 05:57,3 10 2021 15:14
+51,785100053,Screening,25 12 2019,21,Female,Black African or Black other,6,1 09 2021 08:27,
+51,785100054,Screening,21 06 2020,15,Male,Black African or Black other,2,1 09 2021 08:39,3 10 2021 19:34
+51,785100052,Screening,21 09 2020,12,Female,Black African or Black other,3,1 09 2021 07:31,3 10 2021 15:50
+51,785100058,Screening,20 06 2020,15,Male,Black African or Black other,1,1 09 2021 14:02,3 10 2021 14:44
+51,785100061,Screening,23 04 2019,29,Male,Black African or Black other,1,1 09 2021 16:12,3 10 2021 14:43
+51,785100171,Screening,17 01 2021,8,Male,Black African or Black other,5,16 09 2021 12:18,17 10 2021 19:09
+51,785100214,Screening,12 10 2018,35,Male,Black African or Black other,3,21 09 2021 07:31,21 10 2021 04:40
+51,785100233,Screening,6 07 2020,14,Male,Black African or Black other,0,22 09 2021 08:19,
+51,785100234,Screening,9 05 2020,16,Male,Black African or Black other,4,22 09 2021 08:50,9 12 2021 10:39
+51,785100235,Screening,14 03 2019,30,Female,Black African or Black other,0,22 09 2021 09:04,9 12 2021 10:40
+51,785100236,Screening,28 11 2019,22,Female,Black African or Black other,1,22 09 2021 09:12,23 09 2021 08:16
+51,785100237,Screening,12 03 2021,6,Female,Black African or Black other,0,22 09 2021 09:16,26 09 2021 17:11
+51,785100239,Screening,3 10 2020,11,Male,Black African or Black other,5,22 09 2021 10:55,9 12 2021 10:42
+51,785100176,Screening,8 06 2019,27,Male,Black African or Black other,2,16 09 2021 14:29,18 10 2021 04:15
+51,785100178,Screening,15 10 2018,35,Female,Black African or Black other,2,16 09 2021 14:52,
+51,785100193,Screening,5 04 2019,29,Male,Black African or Black other,2,19 09 2021 11:17,9 10 2021 14:02
+51,785100206,Screening,2 11 2020,10,Male,Black African or Black other,5,20 09 2021 10:38,12 10 2021 17:24
+51,785100218,Screening,26 06 2019,27,Male,Black African or Black other,1,21 09 2021 09:09,22 09 2021 08:27
+51,785100222,Screening,9 10 2020,11,Male,Black African or Black other,2,21 09 2021 11:50,22 09 2021 09:15
+51,785100224,Screening,16 01 2019,32,Male,Black African or Black other,4,21 09 2021 12:16,25 09 2021 14:10
+51,785100232,Screening,8 08 2019,25,Male,Black African or Black other,8,22 09 2021 07:31,23 09 2021 08:38
+51,785100188,Screening,29 11 2020,10,Female,Black African or Black other,0,17 09 2021 10:54,22 09 2021 08:52
+51,785100190,Screening,27 05 2020,16,Male,Black African or Black other,4,17 09 2021 13:10,23 04 2023 07:23
+51,785100225,Screening,2 11 2020,10,Male,Black African or Black other,2,22 09 2021 06:20,26 09 2021 11:32
+51,785100227,Screening,2 09 2020,12,Male,Black African or Black other,6,22 09 2021 07:14,5 10 2021 10:12
+51,785100228,Screening,29 07 2020,14,Male,Black African or Black other,0,22 09 2021 07:16,26 09 2021 10:03
+51,785100229,Screening,10 12 2019,21,Female,Black African or Black other,2,22 09 2021 07:20,
+51,785100231,Screening,5 11 2020,10,Female,Black African or Black other,2,22 09 2021 07:25,23 09 2021 07:06
+51,785100246,Screening,6 03 2021,6,Male,Black African or Black other,1,23 09 2021 07:39,27 09 2021 09:11
+51,785100250,Screening,20 10 2020,11,Male,Black African or Black other,1,23 09 2021 08:39,
+51,785100251,Screening,2 01 2020,20,Male,Black African or Black other,0,23 09 2021 08:48,27 09 2021 12:01
+51,785100252,Screening,29 07 2019,26,Male,Black African or Black other,0,23 09 2021 08:56,27 09 2021 11:23
+51,785100253,Screening,20 10 2019,23,Male,Black African or Black other,1,23 09 2021 09:33,28 09 2021 06:30
+51,785100254,Screening,27 03 2021,6,Female,Black African or Black other,1,23 09 2021 09:55,28 09 2021 07:39
+51,785100196,Screening,27 05 2020,16,Female,Black African or Black other,1,19 09 2021 15:10,11 10 2021 11:31
+51,785100199,Screening,27 02 2020,19,Male,Black African or Black other,0,20 09 2021 07:40,20 10 2021 17:58
+51,785100210,Screening,22 03 2019,30,Male,Black African or Black other,2,20 09 2021 12:02,17 05 2023 03:35
+51,785100211,Screening,17 06 2019,27,Male,Black African or Black other,0,21 09 2021 06:28,4 10 2021 18:31
+51,785100212,Screening,9 02 2019,31,Female,Black African or Black other,2,21 09 2021 06:50,23 09 2021 06:00
+51,785100217,Screening,31 01 2021,8,Female,Black African or Black other,1,21 09 2021 08:53,
+51,785100226,Screening,25 02 2020,19,Female,Black African or Black other,4,22 09 2021 06:30,23 09 2021 07:41
+51,785100230,Screening,16 02 2019,31,Female,Black African or Black other,6,22 09 2021 07:21,18 05 2023 06:48
+51,785100238,Screening,27 08 2020,13,Female,Black African or Black other,6,22 09 2021 10:27,28 09 2021 11:31
+51,785100213,Screening,5 03 2020,18,Female,Black African or Black other,7,21 09 2021 07:11,21 10 2021 04:00
+51,785100216,Screening,1 10 2020,11,Male,Black African or Black other,0,21 09 2021 08:42,21 10 2021 05:20
+51,785100240,Screening,11 02 2021,7,Male,Black African or Black other,2,22 09 2021 11:46,19 05 2023 09:46
+51,785100241,Screening,16 03 2021,6,Female,Black African or Black other,4,22 09 2021 12:33,27 09 2021 12:23
+51,785100242,Screening,12 02 2019,31,Female,Black African or Black other,3,23 09 2021 05:19,27 09 2021 11:04
+51,785100243,Screening,9 10 2018,35,Female,Black African or Black other,3,23 09 2021 06:27,26 02 2022 11:08
+51,785100244,Screening,20 05 2019,28,Female,Black African or Black other,2,23 09 2021 07:11,27 09 2021 11:43
+51,785100245,Screening,24 08 2020,13,Male,Black African or Black other,4,23 09 2021 07:36,29 09 2021 06:57
+51,785100248,Screening,23 11 2020,10,Female,Black African or Black other,0,23 09 2021 08:18,23 09 2021 09:18
+51,785100249,Screening,3 11 2019,22,Male,Black African or Black other,8,23 09 2021 08:31,28 09 2021 06:14
+51,785100255,Screening,16 05 2020,16,Female,Black African or Black other,1,23 09 2021 10:18,27 09 2021 10:12
+51,785100258,Screening,25 04 2019,29,Male,Black African or Black other,0,24 09 2021 08:28,28 09 2021 09:46
+51,785100259,Screening,16 10 2018,35,Female,Black African or Black other,6,24 09 2021 11:32,28 09 2021 08:25
+51,785100247,Screening,5 03 2020,18,Male,Black African or Black other,4,23 09 2021 07:46,27 09 2021 09:42
+51,785100256,Screening,1 08 2019,25,Female,Black African or Black other,2,23 09 2021 11:26,28 09 2021 10:56
+51,785100260,Screening,21 04 2021,5,Female,Black African or Black other,0,25 09 2021 04:31,28 09 2021 07:59
+51,785100262,Screening,25 03 2021,6,Female,Black African or Black other,2,25 09 2021 07:15,29 09 2021 08:10
+51,785100263,Screening,13 09 2019,24,Male,Black African or Black other,7,25 09 2021 08:02,28 09 2021 07:49
+51,785100257,Screening,30 06 2019,27,Male,Black African or Black other,5,23 09 2021 14:23,
+51,785100269,Screening,1 10 2019,23,Male,Black African or Black other,1,27 09 2021 15:20,28 09 2021 12:18
+51,785100267,Screening,3 11 2018,34,Female,Black African or Black other,0,27 09 2021 09:14,11 10 2021 10:31
+51,785100274,Screening,6 02 2021,7,Male,Black African or Black other,6,29 09 2021 06:21,29 09 2021 07:27
+51,785100276,Screening,31 03 2021,6,Male,Black African or Black other,1,29 09 2021 08:18,4 10 2021 08:15
+51,785100281,Screening,5 10 2018,35,Male,Black African or Black other,2,29 09 2021 11:04,4 10 2021 10:05
+51,785100283,Screening,18 07 2020,14,Male,Black African or Black other,1,30 09 2021 08:52,5 10 2021 10:37
+51,785100285,Screening,4 11 2020,10,Female,Black African or Black other,2,30 09 2021 10:33,4 10 2021 07:16
+51,785100286,Screening,18 05 2019,28,Female,Black African or Black other,2,30 09 2021 10:45,4 10 2021 09:40
+51,785100288,Screening,8 08 2020,13,Female,Black African or Black other,6,30 09 2021 12:24,26 10 2021 09:00
+51,785100290,Screening,5 10 2019,24,Male,Black African or Black other,3,1 10 2021 11:52,4 10 2021 09:31
+51,785100273,Screening,29 04 2021,5,Female,Black African or Black other,1,29 09 2021 04:05,29 09 2021 07:36
+51,785100278,Screening,7 01 2020,20,Female,Black African or Black other,2,29 09 2021 10:45,6 10 2021 08:55
+51,785100279,Screening,1 01 2019,32,Male,Black African or Black other,4,29 09 2021 10:53,4 10 2021 10:40
+51,785100261,Screening,30 10 2019,23,Female,Black African or Black other,2,25 09 2021 06:51,28 09 2021 09:42
+51,785100277,Screening,8 12 2019,21,Female,Black African or Black other,2,29 09 2021 09:56,4 10 2021 07:37
+51,785100291,Screening,1 02 2021,8,Female,Black African or Black other,0,4 10 2021 11:33,6 10 2021 06:05
+51,785100292,Screening,22 04 2021,6,Male,Black African or Black other,4,4 10 2021 13:50,
+51,785100293,Screening,22 04 2021,6,Male,Black African or Black other,4,4 10 2021 13:55,
+51,785100297,Screening,9 03 2019,31,Male,Black African or Black other,1,5 10 2021 03:55,5 10 2021 09:50
+51,785100300,Screening,5 07 2019,27,Male,Black African or Black other,0,5 10 2021 09:10,7 10 2021 03:14
+51,785100303,Screening,7 05 2019,29,Male,Black African or Black other,5,5 10 2021 14:28,
+51,785100304,Screening,26 06 2020,16,Male,Black African or Black other,0,6 10 2021 08:06,7 10 2021 12:27
+51,785100305,Screening,30 10 2019,24,Male,Black African or Black other,2,6 10 2021 09:12,7 10 2021 14:09
+51,785100306,Screening,14 12 2019,22,Male,Black African or Black other,2,6 10 2021 10:33,8 10 2021 07:19
+51,785100307,Screening,1 02 2021,8,Female,Black African or Black other,4,6 10 2021 11:50,7 10 2021 10:43
+51,785100310,Screening,2 07 2019,27,Female,Black African or Black other,5,7 10 2021 07:09,
+51,785100270,Screening,2 02 2019,31,Male,Black African or Black other,4,28 09 2021 07:22,29 09 2021 17:59
+51,785100272,Screening,13 12 2020,9,Male,Black African or Black other,5,28 09 2021 08:41,29 09 2021 09:29
+51,785100294,Screening,11 08 2019,26,Female,Black African or Black other,4,4 10 2021 14:11,7 10 2021 14:25
+51,785100295,Screening,30 05 2019,29,Female,Black African or Black other,2,4 10 2021 14:29,
+51,785100296,Screening,1 05 2021,5,Male,Black African or Black other,2,4 10 2021 14:59,5 10 2021 11:38
+51,785100311,Screening,16 02 2021,8,Male,Black African or Black other,6,7 10 2021 08:18,
+51,785100312,Screening,10 04 2021,6,Male,Black African or Black other,1,7 10 2021 08:20,12 10 2021 14:19
+51,785100264,Screening,19 01 2020,20,Female,Black African or Black other,4,26 09 2021 05:31,29 09 2021 06:11
+51,785100265,Screening,13 01 2020,20,Male,Black African or Black other,1,27 09 2021 07:32,28 09 2021 10:05
+51,785100266,Screening,17 04 2020,17,Male,Black African or Black other,1,27 09 2021 08:09,28 09 2021 09:09
+51,785100268,Screening,17 04 2021,5,Female,Black African or Black other,1,27 09 2021 09:33,28 09 2021 10:36
+51,785100282,Screening,30 11 2020,10,Male,Black African or Black other,1,29 09 2021 13:32,4 10 2021 08:18
+51,785100314,Screening,15 10 2020,12,Male,Black African or Black other,4,8 10 2021 08:34,
+51,785100315,Screening,7 05 2021,5,Female,Black African or Black other,2,8 10 2021 08:59,
+51,785100271,Screening,1 05 2019,28,Male,Black African or Black other,5,28 09 2021 08:39,29 09 2021 08:28
+51,785100275,Screening,21 05 2020,16,Male,Black African or Black other,1,29 09 2021 08:03,4 10 2021 10:10
+51,785100280,Screening,11 05 2020,16,Female,Black African or Black other,4,29 09 2021 11:00,4 10 2021 13:13
+51,785100284,Screening,16 01 2019,32,Male,Black African or Black other,2,30 09 2021 10:32,4 10 2021 06:58
+51,785100287,Screening,23 09 2020,12,Female,Black African or Black other,4,30 09 2021 12:07,4 10 2021 08:59
+51,785100299,Screening,26 12 2018,34,Female,Black African or Black other,0,5 10 2021 08:23,6 10 2021 06:21
+51,785100301,Screening,13 03 2021,7,Male,Black African or Black other,2,5 10 2021 11:07,
+51,785100308,Screening,1 04 2020,18,Female,Black African or Black other,2,6 10 2021 11:53,9 10 2021 07:08
+51,785100309,Screening,14 09 2020,13,Male,Black African or Black other,3,6 10 2021 11:57,7 10 2021 09:46
+51,785100313,Screening,26 12 2020,10,Male,Black African or Black other,1,8 10 2021 08:29,
+51,785100289,Screening,19 06 2020,15,Female,Black African or Black other,2,30 09 2021 12:51,5 10 2021 06:31
+51,785100318,Screening,30 12 2018,34,Male,Black African or Black other,2,9 10 2021 12:14,
+51,785100298,Screening,12 12 2019,22,Male,Black African or Black other,0,5 10 2021 03:59,5 10 2021 12:09
+51,785100302,Screening,15 05 2020,17,Male,Black African or Black other,3,5 10 2021 11:55,6 10 2021 06:47
+51,785100316,Screening,14 04 2020,18,Male,Black African or Black other,1,8 10 2021 10:52,12 10 2021 10:29
+51,785100319,Screening,5 05 2020,17,Male,Black African or Black other,1,10 10 2021 06:05,12 10 2021 15:05
+51,785100317,Screening,25 05 2019,29,Male,Black African or Black other,0,8 10 2021 11:47,
+51,785100322,Screening,29 11 2018,35,Male,Black African or Black other,1,11 10 2021 13:04,12 10 2021 14:31
+51,785100323,Screening,28 04 2020,18,Male,Black African or Black other,9,11 10 2021 13:37,12 10 2021 10:45
+51,785100324,Screening,19 03 2021,7,Male,Black African or Black other,10,11 10 2021 14:01,
+51,785100325,Screening,15 10 2020,12,Female,Black African or Black other,3,12 10 2021 06:17,13 10 2021 09:15
+51,785100326,Screening,13 03 2021,7,Male,Black African or Black other,2,12 10 2021 08:03,
+51,785100327,Screening,24 03 2020,19,Male,Black African or Black other,2,12 10 2021 08:05,
+51,785100328,Screening,1 10 2019,24,Female,Black African or Black other,1,12 10 2021 09:16,
+51,785100329,Screening,3 09 2019,25,Female,Black African or Black other,1,12 10 2021 09:18,13 10 2021 10:04
+51,785100330,Screening,23 06 2020,16,Male,Black African or Black other,1,12 10 2021 10:31,
+51,785100332,Screening,27 11 2019,23,Male,Black African or Black other,3,12 10 2021 13:18,13 10 2021 08:42
+51,785100333,Screening,19 04 2020,18,Male,Black African or Black other,2,12 10 2021 13:31,
+51,785100334,Screening,22 11 2020,11,Male,Black African or Black other,1,12 10 2021 13:49,
+51,785100335,Screening,8 05 2021,5,Male,Black African or Black other,2,13 10 2021 10:04,
+51,785100336,Screening,1 04 2021,6,Female,Black African or Black other,4,13 10 2021 10:57,
+51,785100337,Screening,12 05 2021,5,Female,Black African or Black other,5,13 10 2021 11:24,
+51,785100320,Screening,28 08 2019,26,Female,Black African or Black other,0,10 10 2021 11:50,
+51,785100331,Screening,3 08 2019,26,Male,Black African or Black other,1,12 10 2021 11:16,13 10 2021 13:02
+51,785100321,Screening,14 10 2019,24,Male,Black African or Black other,4,11 10 2021 06:16,
+51,785100338,Screening,7 04 2019,30,Female,Black African or Black other,1,14 10 2021 06:23,18 10 2021 07:02
+51,785100339,Screening,31 01 2020,21,Female,Black African or Black other,4,14 10 2021 07:09,
+51,785100340,Screening,14 06 2019,28,Female,Black African or Black other,4,14 10 2021 07:46,
+51,785100341,Screening,27 06 2020,16,Male,Black African or Black other,2,14 10 2021 08:18,19 10 2021 08:44
+51,785100342,Screening,19 03 2020,19,Female,Black African or Black other,7,14 10 2021 08:28,
+51,785100343,Screening,21 03 2021,7,Female,Black African or Black other,2,14 10 2021 08:55,
+51,785100347,Screening,29 04 2020,18,Male,Black African or Black other,2,14 10 2021 10:01,
+51,785100348,Screening,3 06 2020,16,Female,Black African or Black other,0,14 10 2021 10:08,
+51,785100351,Screening,26 07 2019,27,Female,Black African or Black other,1,14 10 2021 12:44,
+51,785100353,Screening,15 05 2021,5,Male,Black African or Black other,0,15 10 2021 10:10,
+51,785100354,Screening,3 03 2021,7,Male,Black African or Black other,3,17 10 2021 04:57,
+51,785100355,Screening,15 09 2020,13,Male,Black African or Black other,3,17 10 2021 13:52,
+51,785100361,Screening,17 08 2019,26,Male,Black African or Black other,1,18 10 2021 08:26,
+51,785100362,Screening,29 01 2019,33,Female,Black African or Black other,1,18 10 2021 08:44,
+51,785100364,Screening,3 08 2020,14,Female,Black African or Black other,1,18 10 2021 09:07,
+51,785100365,Screening,10 05 2021,5,Female,Black African or Black other,4,18 10 2021 09:17,
+51,785100366,Screening,9 09 2020,13,Male,Black African or Black other,0,18 10 2021 10:02,
+51,785100369,Screening,10 12 2020,10,Female,Black African or Black other,8,18 10 2021 12:49,
+51,785100371,Screening,21 11 2020,11,Male,Black African or Black other,1,18 10 2021 13:51,
+51,785100375,Screening,8 04 2021,6,Female,Black African or Black other,5,19 10 2021 10:10,
+51,785100344,Screening,23 12 2019,22,Female,Black African or Black other,8,14 10 2021 08:57,
+51,785100345,Screening,29 12 2020,10,Male,Black African or Black other,5,14 10 2021 09:09,
+51,785100346,Screening,13 12 2019,22,Female,Black African or Black other,3,14 10 2021 09:55,
+51,785100349,Screening,11 02 2019,32,Male,Black African or Black other,3,14 10 2021 10:34,
+51,785100350,Screening,15 02 2020,20,Male,Black African or Black other,1,14 10 2021 11:11,
+51,785100352,Screening,4 12 2018,34,Male,Black African or Black other,3,15 10 2021 09:54,
+51,785100356,Screening,19 04 2020,18,Male,Black African or Black other,2,18 10 2021 07:38,18 11 2021 12:21
+51,785100357,Screening,2 11 2020,11,Male,Black African or Black other,7,18 10 2021 07:57,
+51,785100359,Screening,14 09 2020,13,Male,Black African or Black other,5,18 10 2021 08:15,
+51,785100360,Screening,9 10 2020,12,Female,Black African or Black other,1,18 10 2021 08:18,
+51,785100363,Screening,26 10 2019,24,Female,Black African or Black other,1,18 10 2021 08:54,
+51,785100367,Screening,5 05 2020,17,Male,Black African or Black other,5,18 10 2021 11:09,
+51,785100368,Screening,6 01 2019,33,Female,Black African or Black other,1,18 10 2021 11:14,26 10 2021 08:26
+51,785100370,Screening,18 03 2019,31,Female,Black African or Black other,1,18 10 2021 13:15,
+51,785100372,Screening,4 08 2020,14,Female,Black African or Black other,2,19 10 2021 07:38,
+51,785100374,Screening,22 11 2020,11,Male,Black African or Black other,1,19 10 2021 08:45,20 10 2021 17:05
+51,785100377,Screening,10 01 2019,33,Female,Black African or Black other,5,19 10 2021 10:23,21 10 2021 07:29
+51,785100386,Screening,1 01 2021,9,Male,Black African or Black other,7,19 10 2021 12:52,
+51,785100388,Screening,7 04 2019,30,Male,Black African or Black other,6,20 10 2021 05:46,
+51,785100389,Screening,28 05 2020,17,Female,Black African or Black other,6,20 10 2021 05:51,
+51,785100391,Screening,14 05 2019,29,Female,Black African or Black other,2,20 10 2021 07:10,
+51,785100392,Screening,9 10 2020,12,Male,Black African or Black other,2,20 10 2021 09:13,
+51,785100358,Screening,1 08 2020,14,Female,Black African or Black other,5,18 10 2021 08:02,
+51,785100373,Screening,27 11 2019,23,Male,Black African or Black other,3,19 10 2021 08:26,20 10 2021 16:53
+51,785100383,Screening,12 10 2020,12,Female,Black African or Black other,0,19 10 2021 12:32,25 10 2021 07:28
+51,785100385,Screening,11 03 2019,31,Male,Black African or Black other,7,19 10 2021 12:47,
+51,785100393,Screening,7 03 2021,7,Female,Black African or Black other,05,21 10 2021 06:41,
+51,785100394,Screening,30 05 2020,17,Male,Black African or Black other,1,21 10 2021 07:37,
+51,785100376,Screening,10 01 2019,33,Female,Black African or Black other,5,19 10 2021 10:17,
+51,785100379,Screening,20 03 2021,7,Male,Black African or Black other,5,19 10 2021 11:44,21 10 2021 06:39
+51,785100380,Screening,17 09 2020,13,Male,Black African or Black other,0,19 10 2021 11:45,28 10 2021 14:29
+51,785100381,Screening,20 03 2021,7,Male,Black African or Black other,5,19 10 2021 11:48,
+51,785100396,Screening,23 02 2021,8,Male,Black African or Black other,1,22 10 2021 07:01,
+51,785100398,Screening,12 07 2020,15,Female,Black African or Black other,0,22 10 2021 07:40,
+51,785100401,Screening,22 01 2021,9,Female,Black African or Black other,3,22 10 2021 09:33,
+51,785100406,Screening,13 06 2020,16,Female,Black African or Black other,0,22 10 2021 11:36,
+51,785100407,Screening,7 12 2020,10,Female,Black African or Black other,2,23 10 2021 06:31,
+51,785100378,Screening,9 10 2020,12,Male,Black African or Black other,1,19 10 2021 11:08,
+51,785100382,Screening,27 02 2020,20,Female,Black African or Black other,2,19 10 2021 12:09,
+51,785100384,Screening,30 04 2019,30,Female,Black African or Black other,1,19 10 2021 12:43,31 05 2023 08:42
+51,785100387,Screening,1 01 2021,9,Male,Black African or Black other,7,19 10 2021 12:57,
+51,785100390,Screening,16 05 2019,29,Male,Black African or Black other,7,20 10 2021 07:06,25 10 2021 12:21
+51,785100395,Screening,13 01 2019,33,Male,Black African or Black other,3,22 10 2021 05:07,
+51,785100397,Screening,13 02 2019,32,Female,Black African or Black other,5,22 10 2021 07:36,
+51,785100399,Screening,9 11 2018,35,Male,Black African or Black other,6,22 10 2021 07:43,25 10 2021 10:31
+51,785100403,Screening,11 10 2020,12,Female,Black African or Black other,1,22 10 2021 10:01,
+51,785100404,Screening,10 05 2021,5,Male,Black African or Black other,1,22 10 2021 11:24,
+51,785100402,Screening,21 05 2020,17,Female,Black African or Black other,1,22 10 2021 09:39,
+51,785100409,Screening,29 04 2020,18,Male,Black African or Black other,4,24 10 2021 06:31,
+51,785100410,Screening,26 04 2021,6,Female,Black African or Black other,0,24 10 2021 06:41,
+51,785100414,Screening,3 04 2019,30,Female,Black African or Black other,2,25 10 2021 06:21,
+51,785100416,Screening,14 03 2020,19,Female,Black African or Black other,5,25 10 2021 07:01,
+51,785100420,Screening,16 09 2019,25,Male,Black African or Black other,0,25 10 2021 09:37,
+51,785100422,Screening,15 05 2019,29,Female,Black African or Black other,4,25 10 2021 10:19,
+51,785100425,Screening,14 11 2020,11,Male,Black African or Black other,0,25 10 2021 11:16,
+51,785100400,Screening,22 10 2020,12,Male,Black African or Black other,6,22 10 2021 08:27,
+51,785100405,Screening,26 08 2019,26,Male,Black African or Black other,4,22 10 2021 11:30,
+51,785100434,Screening,6 02 2021,8,Female,Black African or Black other,6,25 10 2021 13:05,
+51,785100435,Screening,20 10 2019,24,Male,Black African or Black other,1,25 10 2021 13:33,28 10 2021 03:05
+51,785100437,Screening,12 04 2020,18,Female,Black African or Black other,6,26 10 2021 05:11,
+51,785100438,Screening,14 07 2019,27,Female,Black African or Black other,4,26 10 2021 05:25,28 10 2021 04:57
+51,785100447,Screening,31 10 2019,24,Female,Black African or Black other,2,26 10 2021 08:59,
+51,785100451,Screening,30 08 2019,26,Female,Black African or Black other,4,26 10 2021 09:34,
+51,785100454,Screening,8 12 2020,10,Male,Black African or Black other,3,26 10 2021 10:17,
+51,785100457,Screening,11 07 2019,27,Female,Black African or Black other,1,26 10 2021 10:57,
+51,785100458,Screening,22 11 2018,35,Female,Black African or Black other,4,26 10 2021 11:08,
+51,785100459,Screening,22 06 2020,16,Female,Black African or Black other,3,26 10 2021 11:34,
+51,785100461,Screening,25 04 2019,30,Female,Black African or Black other,1,27 10 2021 04:23,29 10 2021 12:30
+51,785100462,Screening,30 08 2019,26,Female,Black African or Black other,4,27 10 2021 05:15,
+51,785100464,Screening,16 07 2019,27,Female,Black African or Black other,6,27 10 2021 06:22,30 10 2021 03:21
+51,785100466,Screening,5 02 2019,32,Female,Black African or Black other,2,27 10 2021 06:59,
+51,785100470,Screening,8 12 2020,10,Male,Black African or Black other,3,27 10 2021 07:46,29 10 2021 10:37
+51,785100471,Screening,7 10 2019,24,Male,Black African or Black other,4,27 10 2021 07:54,
+51,785100481,Screening,3 04 2020,18,Male,Black African or Black other,4,27 10 2021 09:45,
+51,785100483,Screening,27 02 2020,20,Male,Black African or Black other,0,27 10 2021 10:25,
+51,785100484,Screening,14 04 2020,18,Male,Black African or Black other,2,27 10 2021 10:30,
+51,785100494,Screening,8 03 2019,31,Female,Black African or Black other,1,28 10 2021 07:20,
+51,785100495,Screening,11 05 2021,5,Female,Black African or Black other,1,28 10 2021 07:28,
+51,785100496,Screening,19 11 2018,35,Female,Black African or Black other,2,28 10 2021 07:50,
+51,785100418,Screening,7 12 2018,34,Male,Black African or Black other,3,25 10 2021 09:09,
+51,785100419,Screening,31 10 2020,12,Male,Black African or Black other,1,25 10 2021 09:23,
+51,785100473,Screening,15 05 2020,17,Male,Black African or Black other,1,27 10 2021 08:21,29 10 2021 09:38
+51,785100474,Screening,24 10 2020,12,Female,Black African or Black other,0,27 10 2021 08:21,
+51,785100489,Screening,2 05 2020,17,Male,Black African or Black other,1,27 10 2021 13:26,29 10 2021 10:08
+51,785100509,Screening,25 04 2021,6,Female,Black African or Black other,3,28 10 2021 10:38,
+51,785100511,Screening,30 03 2021,7,Male,Black African or Black other,2,28 10 2021 11:53,
+51,785100512,Screening,1 07 2019,27,Male,Black African or Black other,6,28 10 2021 12:00,
+51,785100513,Screening,26 11 2020,11,Female,Black African or Black other,0,28 10 2021 12:57,
+51,785100514,Screening,19 04 2019,30,Female,Black African or Black other,5,28 10 2021 13:56,
+51,785100515,Screening,26 04 2019,30,Male,Black African or Black other,7,29 10 2021 03:44,30 10 2021 08:27
+51,785100516,Screening,26 04 2019,30,Male,Black African or Black other,7,29 10 2021 03:48,30 10 2021 08:54
+51,785100520,Screening,7 02 2021,8,Female,Black African or Black other,1,29 10 2021 07:10,1 11 2021 15:25
+51,785100521,Screening,8 02 2019,32,Male,Black African or Black other,1,29 10 2021 07:12,2 11 2021 08:37
+51,785100523,Screening,1 04 2020,18,Male,Black African or Black other,1,29 10 2021 07:17,
+51,785100526,Screening,22 05 2020,17,Female,White African or White other,1,29 10 2021 08:03,
+51,785100527,Screening,20 06 2019,28,Female,Black African or Black other,1,29 10 2021 08:28,
+51,785100528,Screening,10 01 2021,9,Female,Black African or Black other,2,29 10 2021 08:30,30 10 2021 08:30
+51,785100533,Screening,26 04 2021,6,Male,Black African or Black other,1,29 10 2021 09:14,30 10 2021 14:00
+51,785100534,Screening,6 04 2021,6,Male,Black African or Black other,1,29 10 2021 09:43,
+51,785100535,Screening,10 12 2018,34,Male,Black African or Black other,3,29 10 2021 09:45,
+51,785100536,Screening,1 03 2019,31,Male,Black African or Black other,0,29 10 2021 10:10,
+51,785100408,Screening,26 06 2020,16,Female,Black African or Black other,1,23 10 2021 09:50,
+51,785100412,Screening,21 12 2019,22,Male,Black African or Black other,6,25 10 2021 05:05,
+51,785100423,Screening,12 09 2019,25,Male,Black African or Black other,8,25 10 2021 10:25,
+51,785100424,Screening,24 05 2020,17,Male,Black African or Black other,0,25 10 2021 10:25,28 10 2021 02:45
+51,785100426,Screening,21 05 2019,29,Male,Black African or Black other,4,25 10 2021 11:36,
+51,785100427,Screening,27 06 2020,16,Female,Black African or Black other,1,25 10 2021 11:38,
+51,785100428,Screening,21 05 2019,29,Male,Black African or Black other,4,25 10 2021 11:40,
+51,785100430,Screening,3 07 2020,15,Male,Black African or Black other,6,25 10 2021 12:03,28 10 2021 03:16
+51,785100431,Screening,23 05 2019,29,Male,Black African or Black other,0,25 10 2021 12:15,28 10 2021 02:56
+51,785100432,Screening,23 11 2019,23,Female,Black African or Black other,1,25 10 2021 12:22,
+51,785100433,Screening,9 05 2019,29,Male,Black African or Black other,6,25 10 2021 13:01,
+51,785100436,Screening,9 03 2019,31,Female,Black African or Black other,2,25 10 2021 14:15,28 10 2021 03:25
+51,785100439,Screening,11 08 2020,14,Male,Black African or Black other,1,26 10 2021 07:01,
+51,785100442,Screening,16 05 2020,17,Male,Black African or Black other,0,26 10 2021 08:31,27 10 2021 05:56
+51,785100411,Screening,23 10 2020,12,Male,Black African or Black other,0,24 10 2021 12:49,
+51,785100413,Screening,12 07 2020,15,Male,Black African or Black other,1,25 10 2021 05:46,
+51,785100415,Screening,23 09 2020,13,Female,Black African or Black other,0,25 10 2021 06:25,
+51,785100417,Screening,8 01 2021,9,Male,Black African or Black other,2,25 10 2021 07:43,
+51,785100421,Screening,26 11 2020,11,Female,Black African or Black other,6,25 10 2021 10:18,
+51,785100429,Screening,17 05 2020,17,Female,Black African or Black other,1,25 10 2021 11:43,28 10 2021 07:31
+51,785100440,Screening,24 12 2020,10,Female,Black African or Black other,8,26 10 2021 07:39,
+51,785100441,Screening,10 02 2020,20,Male,Black African or Black other,2,26 10 2021 08:25,
+51,785100443,Screening,29 11 2018,35,Male,Black African or Black other,5,26 10 2021 08:33,27 10 2021 06:50
+51,785100444,Screening,28 04 2021,6,Female,Black African or Black other,1,26 10 2021 08:40,
+51,785100445,Screening,25 05 2021,5,Female,Black African or Black other,5,26 10 2021 08:48,
+51,785100446,Screening,30 04 2021,6,Female,Black African or Black other,0,26 10 2021 08:52,
+51,785100448,Screening,15 02 2020,20,Female,Black African or Black other,0,26 10 2021 09:05,28 10 2021 03:36
+51,785100449,Screening,21 04 2021,6,Female,Black African or Black other,2,26 10 2021 09:10,
+51,785100452,Screening,18 04 2019,30,Male,Black African or Black other,1,26 10 2021 09:43,
+51,785100497,Screening,30 03 2021,7,Female,Black African or Black other,0,28 10 2021 08:12,
+51,785100499,Screening,28 08 2019,26,Female,Black African or Black other,4,28 10 2021 08:19,
+51,785100537,Screening,23 10 2020,12,Male,Black African or Black other,3,29 10 2021 10:26,
+51,785100538,Screening,21 06 2020,16,Female,Black African or Black other,1,29 10 2021 11:08,1 11 2021 03:00
+51,785100539,Screening,29 04 2019,30,Male,Black African or Black other,2,29 10 2021 11:30,
+51,785100540,Screening,25 07 2019,27,Male,Black African or Black other,6,30 10 2021 04:04,
+51,785100541,Screening,7 07 2019,27,Female,Black African or Black other,0,30 10 2021 04:41,
+51,785100542,Screening,5 04 2020,18,Female,Black African or Black other,0,30 10 2021 05:19,
+51,785100543,Screening,2 04 2019,30,Male,Black African or Black other,1,30 10 2021 05:19,
+51,785100546,Screening,16 12 2019,22,Male,Black African or Black other,1,30 10 2021 06:42,
+51,785100547,Screening,30 05 2021,5,Female,Black African or Black other,6,30 10 2021 07:24,
+51,785100450,Screening,21 01 2021,9,Female,Black African or Black other,2,26 10 2021 09:23,
+51,785100453,Screening,19 04 2021,6,Male,Black African or Black other,1,26 10 2021 09:52,
+51,785100455,Screening,12 04 2020,18,Male,Black African or Black other,6,26 10 2021 10:56,28 10 2021 08:51
+51,785100456,Screening,26 03 2020,19,Male,Black African or Black other,3,26 10 2021 10:56,
+51,785100460,Screening,25 08 2019,26,Female,Black African or Black other,5,26 10 2021 11:39,28 10 2021 15:44
+51,785100463,Screening,31 10 2018,36,Female,Black African or Black other,1,27 10 2021 06:15,28 10 2021 15:32
+51,785100465,Screening,12 10 2020,12,Female,Black African or Black other,0,27 10 2021 06:34,10 02 2022 11:24
+51,785100467,Screening,28 01 2021,9,Female,Black African or Black other,0,27 10 2021 07:20,
+51,785100468,Screening,21 04 2021,6,Male,Black African or Black other,3,27 10 2021 07:25,30 10 2021 03:42
+51,785100469,Screening,8 05 2021,5,Male,Black African or Black other,2,27 10 2021 07:30,30 10 2021 03:55
+51,785100472,Screening,18 10 2019,24,Female,Black African or Black other,2,27 10 2021 08:00,
+51,785100475,Screening,25 01 2021,9,Male,Black African or Black other,1,27 10 2021 08:29,
+51,785100476,Screening,14 04 2021,6,Male,Black African or Black other,3,27 10 2021 08:35,
+51,785100477,Screening,5 09 2019,25,Female,Black African or Black other,3,27 10 2021 08:38,30 10 2021 04:48
+51,785100478,Screening,9 01 2021,9,Male,Black African or Black other,0,27 10 2021 09:07,
+51,785100479,Screening,18 07 2019,27,Female,Black African or Black other,14,27 10 2021 09:12,
+51,785100480,Screening,27 05 2021,5,Male,Black African or Black other,1,27 10 2021 09:32,
+51,785100482,Screening,22 01 2020,21,Female,Black African or Black other,2,27 10 2021 09:57,
+51,785100485,Screening,19 03 2021,7,Female,Black African or Black other,5,27 10 2021 10:59,
+51,785100490,Screening,18 04 2021,6,Female,Black African or Black other,1,28 10 2021 04:39,
+51,785100491,Screening,15 11 2020,11,Male,Black African or Black other,1,28 10 2021 06:49,
+51,785100486,Screening,9 02 2021,8,Female,Black African or Black other,3,27 10 2021 11:23,
+51,785100487,Screening,23 01 2021,9,Female,Black African or Black other,7,27 10 2021 11:28,30 10 2021 03:31
+51,785100488,Screening,6 03 2020,19,Female,Black African or Black other,1,27 10 2021 12:39,29 10 2021 08:33
+51,785100492,Screening,6 11 2018,35,Female,Black African or Black other,3,28 10 2021 07:09,
+51,785100493,Screening,8 01 2020,21,Male,Black African or Black other,7,28 10 2021 07:10,
+51,785100498,Screening,29 08 2020,14,Male,Black African or Black other,1,28 10 2021 08:15,
+51,785100500,Screening,18 05 2019,29,Female,Black African or Black other,5,28 10 2021 08:26,1 11 2021 03:18
+51,785100501,Screening,5 03 2020,19,Female,Black African or Black other,0,28 10 2021 08:30,
+51,785100502,Screening,14 03 2020,19,Male,Black African or Black other,0,28 10 2021 09:09,
+51,785100503,Screening,23 06 2020,16,Male,Black African or Black other,3,28 10 2021 09:26,29 10 2021 12:04
+51,785100504,Screening,16 01 2020,21,Female,Black African or Black other,3,28 10 2021 09:29,29 10 2021 11:34
+51,785100505,Screening,23 01 2021,9,Female,Black African or Black other,3,28 10 2021 09:38,
+51,785100506,Screening,23 04 2021,6,Male,Black African or Black other,1,28 10 2021 09:38,
+51,785100507,Screening,14 12 2020,10,Male,Black African or Black other,1,28 10 2021 09:48,
+51,785100508,Screening,24 11 2018,35,Female,Black African or Black other,2,28 10 2021 10:10,
+51,785100510,Screening,26 02 2019,32,Female,Black African or Black other,2,28 10 2021 11:08,
+51,785100517,Screening,18 11 2018,35,Female,Black African or Black other,4,29 10 2021 04:51,1 11 2021 08:08
+51,785100518,Screening,27 04 2021,6,Female,Black African or Black other,0,29 10 2021 05:21,
+51,785100519,Screening,7 01 2019,33,Male,Black African or Black other,0,29 10 2021 05:54,
+51,785100522,Screening,27 07 2019,27,Female,Black African or Black other,4,29 10 2021 07:15,
+51,785100524,Screening,25 12 2019,22,Male,Black African or Black other,2,29 10 2021 07:45,
+51,785100525,Screening,27 05 2021,5,Male,Black African or Black other,3,29 10 2021 07:53,
+51,785100529,Screening,12 04 2019,30,Male,Black African or Black other,1,29 10 2021 08:42,
+51,785100530,Screening,6 12 2018,34,Female,Black African or Black other,1,29 10 2021 08:52,1 11 2021 10:18
+51,785100531,Screening,24 04 2019,30,Female,Black African or Black other,0,29 10 2021 08:59,1 11 2021 03:34
+51,785100544,Screening,25 03 2021,7,Female,Black African or Black other,1,30 10 2021 05:21,
+51,785100532,Screening,15 07 2019,27,Male,Black African or Black other,1,29 10 2021 09:01,
+51,785100545,Screening,29 08 2019,26,Female,Black African or Black other,1,30 10 2021 06:00,
+51,785100548,Screening,16 02 2021,8,Female,Black African or Black other,1,30 10 2021 08:46,1 11 2021 08:27
+51,785100549,Screening,2 11 2019,23,Female,Black African or Black other,4,30 10 2021 08:58,1 11 2021 10:35
+51,785100550,Screening,7 11 2020,11,Female,Black African or Black other,1,30 10 2021 09:26,
+51,785100551,Screening,16 01 2020,21,Female,Black African or Black other,3,30 10 2021 09:28,1 11 2021 08:52
+51,785100553,Screening,8 04 2021,6,Male,Black African or Black other,2,30 10 2021 14:49,1 11 2021 02:49
+51,785100555,Screening,12 04 2021,6,Female,Black African or Black other,3,31 10 2021 05:15,
+51,785100556,Screening,6 11 2019,23,Male,Black African or Black other,2,31 10 2021 05:15,
+51,785100557,Screening,11 01 2021,9,Female,Black African or Black other,2,31 10 2021 05:42,
+51,785100552,Screening,11 08 2020,14,Female,Black African or Black other,0,30 10 2021 13:33,
+51,785100554,Screening,23 06 2019,28,Male,Black African or Black other,7,30 10 2021 15:08,
+51,785100558,Screening,9 05 2020,17,Female,Black African or Black other,1,31 10 2021 12:37,
+51,785100559,Screening,28 03 2021,7,Female,Black African or Black other,1,31 10 2021 12:41,
+51,785100561,Screening,30 05 2021,5,Female,Black African or Black other,1,31 10 2021 13:31,
+51,785100562,Screening,12 06 2019,29,Male,Black African or Black other,1,1 11 2021 04:40,
+51,785100563,Screening,13 10 2019,25,Female,Black African or Black other,6,1 11 2021 07:14,
+51,785100564,Screening,5 01 2021,10,Female,Black African or Black other,0,1 11 2021 07:15,3 11 2021 10:43
+51,785100570,Screening,5 05 2019,30,Female,Black African or Black other,6,1 11 2021 08:38,
+51,785100571,Screening,5 02 2021,9,Male,Black African or Black other,2,1 11 2021 09:31,
+51,785100572,Screening,31 05 2021,6,Male,Black African or Black other,4,1 11 2021 09:42,
+51,785100573,Screening,6 12 2019,23,Male,Black African or Black other,1,1 11 2021 09:53,
+51,785100576,Screening,15 02 2019,33,Female,Black African or Black other,3,1 11 2021 10:19,
+51,785100577,Screening,27 09 2019,26,Male,Black African or Black other,1,1 11 2021 10:24,
+51,785100579,Screening,5 06 2020,17,Male,Black African or Black other,2,1 11 2021 10:38,
+51,785100580,Screening,23 07 2019,28,Female,Black African or Black other,3,1 11 2021 10:57,
+51,785100583,Screening,19 06 2019,29,Female,Black African or Black other,7,1 11 2021 11:57,
+51,785100587,Screening,17 10 2020,13,Female,Black African or Black other,0,2 11 2021 05:25,8 11 2021 09:40
+51,785100588,Screening,27 08 2019,27,Female,Black African or Black other,5,2 11 2021 06:06,8 11 2021 10:25
+51,785100589,Screening,19 04 2021,7,Female,Black African or Black other,3,2 11 2021 06:42,5 11 2021 03:57
+51,785100591,Screening,25 09 2020,14,Female,Black African or Black other,0,2 11 2021 07:12,
+51,785100594,Screening,11 09 2019,26,Female,Black African or Black other,1,2 11 2021 08:46,
+51,785100595,Screening,4 11 2020,12,Female,Black African or Black other,1,2 11 2021 09:27,
+51,785100597,Screening,11 10 2020,13,Female,Black African or Black other,1,2 11 2021 10:07,
+51,785100598,Screening,21 08 2019,27,Female,Black African or Black other,1,2 11 2021 10:09,
+51,785100601,Screening,24 05 2019,30,Male,Black African or Black other,0,2 11 2021 10:31,4 11 2021 10:16
+51,785100603,Screening,5 05 2021,6,Male,Black African or Black other,4,2 11 2021 13:53,
+51,785100604,Screening,16 03 2021,8,Male,Black African or Black other,1,3 11 2021 05:24,
+51,785100605,Screening,22 09 2019,26,Male,Black African or Black other,4,3 11 2021 05:58,
+51,785100606,Screening,26 01 2019,34,Female,Black African or Black other,4,3 11 2021 06:01,8 11 2021 07:57
+51,785100608,Screening,14 03 2021,8,Male,Black African or Black other,8,3 11 2021 06:53,
+51,785100609,Screening,14 03 2021,8,Male,Black African or Black other,7,3 11 2021 07:01,9 11 2021 04:21
+51,785100610,Screening,6 11 2018,36,Female,Black African or Black other,3,3 11 2021 07:26,
+51,785100611,Screening,9 01 2020,22,Male,Black African or Black other,3,3 11 2021 07:33,
+51,785100612,Screening,22 11 2020,12,Female,Black African or Black other,4,3 11 2021 08:23,
+51,785100565,Screening,8 02 2021,9,Male,Black African or Black other,3,1 11 2021 07:49,4 11 2021 04:00
+51,785100567,Screening,18 03 2021,8,Male,Black African or Black other,5,1 11 2021 08:07,
+51,785100568,Screening,6 05 2019,30,Male,Black African or Black other,5,1 11 2021 08:09,
+51,785100574,Screening,12 05 2019,30,Female,Black African or Black other,1,1 11 2021 10:12,
+51,785100575,Screening,4 11 2020,12,Female,Black African or Black other,2,1 11 2021 10:16,
+51,785100578,Screening,28 04 2020,19,Male,Black African or Black other,5,1 11 2021 10:29,
+51,785100584,Screening,17 01 2021,10,Female,Black African or Black other,2,1 11 2021 14:44,
+51,785100585,Screening,2 11 2020,12,Female,Black African or Black other,7,2 11 2021 04:39,
+51,785100586,Screening,4 07 2019,28,Female,Black African or Black other,9,2 11 2021 05:13,
+51,785100590,Screening,30 11 2019,24,Female,Black African or Black other,3,2 11 2021 07:10,
+51,785100596,Screening,19 02 2021,9,Female,Black African or Black other,1,2 11 2021 10:06,
+51,785100599,Screening,3 04 2019,31,Male,Black African or Black other,6,2 11 2021 10:23,
+51,785100602,Screening,25 12 2019,23,Male,Black African or Black other,3,2 11 2021 10:35,5 11 2021 03:11
+51,785100560,Screening,6 07 2019,27,Female,Black African or Black other,1,31 10 2021 13:30,
+51,785100569,Screening,6 05 2020,18,Female,Black African or Black other,2,1 11 2021 08:11,4 11 2021 07:41
+51,785100581,Screening,18 05 2020,18,Female,Black African or Black other,0,1 11 2021 11:40,
+51,785100582,Screening,7 04 2020,19,Male,Black African or Black other,1,1 11 2021 11:44,
+51,785100593,Screening,6 11 2018,36,Male,Black African or Black other,2,2 11 2021 08:39,
+51,785100600,Screening,26 11 2020,12,Male,Black African or Black other,6,2 11 2021 10:28,18 11 2021 12:38
+51,785100613,Screening,7 11 2018,36,Female,Black African or Black other,5,3 11 2021 08:34,
+51,785100566,Screening,28 02 2020,21,Female,Black African or Black other,3,1 11 2021 08:02,
+51,785100607,Screening,29 04 2019,31,Male,Black African or Black other,5,3 11 2021 06:49,
+51,785100614,Screening,18 06 2019,29,Female,Black African or Black other,3,3 11 2021 10:53,
+51,785100619,Screening,24 07 2019,28,Male,Black African or Black other,1,4 11 2021 08:10,5 11 2021 08:17
+51,785100620,Screening,29 01 2020,22,Male,Black African or Black other,5,4 11 2021 09:48,
+51,785100621,Screening,20 04 2021,7,Male,Black African or Black other,3,4 11 2021 10:07,18 11 2021 17:34
+51,785100592,Screening,3 04 2021,7,Male,Black African or Black other,3,2 11 2021 08:28,
+51,785100626,Screening,28 06 2020,17,Male,Black African or Black other,1,5 11 2021 07:21,
+51,785100627,Screening,29 10 2020,13,Male,Black African or Black other,0,5 11 2021 07:54,6 11 2021 05:49
+51,785100628,Screening,10 08 2019,27,Female,Black African or Black other,3,5 11 2021 07:59,
+51,785100630,Screening,15 03 2021,8,Male,Black African or Black other,5,5 11 2021 08:02,
+51,785100631,Screening,19 07 2019,28,Female,Black African or Black other,5,5 11 2021 08:05,
+51,785100633,Screening,18 07 2019,28,Male,Black African or Black other,2,5 11 2021 09:00,
+51,785100634,Screening,1 02 2020,21,Male,Black African or Black other,0,5 11 2021 09:05,1 03 2022 13:03
+51,785100636,Screening,4 06 2021,5,Male,Black African or Black other,0,5 11 2021 09:18,
+51,785100637,Screening,26 03 2020,20,Female,Black African or Black other,2,5 11 2021 09:24,
+51,785100638,Screening,21 09 2019,26,Female,Black African or Black other,1,5 11 2021 09:28,
+51,785100639,Screening,5 01 2020,22,Female,Black African or Black other,2,5 11 2021 09:59,
+51,785100640,Screening,1 07 2020,16,Female,Black African or Black other,0,5 11 2021 10:49,1 03 2022 12:49
+51,785100643,Screening,30 05 2021,6,Female,Black African or Black other,4,5 11 2021 12:32,7 11 2021 07:36
+51,785100644,Screening,15 03 2020,20,Male,Black African or Black other,0,5 11 2021 14:54,10 11 2021 02:59
+51,785100646,Screening,19 08 2020,15,Male,Black African or Black other,3,6 11 2021 07:08,
+51,785100616,Screening,17 12 2020,11,Male,Black African or Black other,6,4 11 2021 05:13,
+51,785100617,Screening,18 03 2020,20,Male,Black African or Black other,7,4 11 2021 05:16,8 11 2021 07:20
+51,785100625,Screening,28 05 2021,6,Female,Black African or Black other,0,5 11 2021 05:46,
+51,785100629,Screening,9 03 2020,20,Male,Black African or Black other,3,5 11 2021 08:01,
+51,785100645,Screening,18 01 2020,22,Male,Black African or Black other,0,6 11 2021 06:42,
+51,785100647,Screening,31 07 2019,28,Female,Black African or Black other,1,6 11 2021 07:25,
+51,785100649,Screening,27 04 2021,7,Female,Black African or Black other,0,6 11 2021 07:41,
+51,785100650,Screening,6 04 2019,31,Male,Black African or Black other,4,6 11 2021 08:10,
+51,785100651,Screening,6 04 2019,31,Male,Black African or Black other,4,6 11 2021 08:11,
+51,785100615,Screening,2 11 2019,24,Male,Black African or Black other,7,4 11 2021 04:35,8 11 2021 07:15
+51,785100618,Screening,26 05 2019,30,Female,Black African or Black other,1,4 11 2021 06:00,1 03 2022 13:20
+51,785100632,Screening,9 03 2020,20,Male,Black African or Black other,0,5 11 2021 08:42,8 11 2021 08:54
+51,785100635,Screening,12 09 2019,26,Female,Black African or Black other,11,5 11 2021 09:11,8 11 2021 14:02
+51,785100622,Screening,30 11 2019,24,Male,Black African or Black other,2,4 11 2021 11:02,5 11 2021 10:06
+51,785100623,Screening,25 03 2021,8,Male,Black African or Black other,2,4 11 2021 13:37,
+51,785100641,Screening,14 02 2021,9,Male,Black African or Black other,1,5 11 2021 11:14,
+51,785100642,Screening,15 05 2020,18,Female,Black African or Black other,2,5 11 2021 11:50,1 03 2022 11:37
+51,785100652,Screening,4 12 2019,23,Female,Black African or Black other,3,6 11 2021 09:52,
+51,785100654,Screening,25 06 2019,29,Male,Black African or Black other,0,6 11 2021 10:48,
+51,785100655,Screening,25 09 2019,26,Female,Black African or Black other,4,6 11 2021 11:46,
+51,785100657,Screening,20 06 2020,17,Female,Black African or Black other,0,7 11 2021 11:12,
+51,785100658,Screening,31 03 2021,8,Female,Black African or Black other,2,7 11 2021 11:59,9 11 2021 03:23
+51,785100659,Screening,22 09 2019,26,Female,Black African or Black other,2,7 11 2021 13:26,1 03 2022 11:25
+51,785100624,Screening,14 12 2020,11,Male,Black African or Black other,4,5 11 2021 05:26,1 03 2022 13:08
+51,785100656,Screening,21 02 2021,9,Female,Black African or Black other,4,6 11 2021 11:55,
+51,785100660,Screening,22 09 2019,26,Female,Black African or Black other,2,7 11 2021 14:04,3 03 2022 07:39
+51,785100662,Screening,27 06 2020,17,Female,Black African or Black other,11,8 11 2021 05:19,
+51,785100663,Screening,7 01 2021,10,Male,Black African or Black other,1,8 11 2021 05:44,9 11 2021 07:49
+51,785100664,Screening,4 08 2020,15,Female,Black African or Black other,2,8 11 2021 06:44,1 03 2022 08:57
+51,785100665,Screening,18 05 2021,6,Female,Black African or Black other,2,8 11 2021 07:07,9 11 2021 03:44
+51,785100666,Screening,18 01 2019,34,Female,Black African or Black other,2,8 11 2021 07:25,8 11 2021 11:34
+51,785100667,Screening,30 04 2020,19,Female,Black African or Black other,1,8 11 2021 08:18,
+51,785100670,Screening,8 03 2019,32,Male,Black African or Black other,2,9 11 2021 04:43,
+51,785100671,Screening,5 05 2020,18,Female,Black African or Black other,0,9 11 2021 05:52,1 03 2022 08:47
+51,785100672,Screening,25 11 2020,12,Female,Black African or Black other,2,9 11 2021 06:14,15 12 2021 12:22
+51,785100673,Screening,11 07 2019,28,Male,Black African or Black other,1,9 11 2021 07:32,10 11 2021 06:45
+51,785100674,Screening,10 05 2021,6,Male,Black African or Black other,0,9 11 2021 08:41,
+51,785100675,Screening,2 10 2019,25,Male,Black African or Black other,0,9 11 2021 08:52,
+51,785100648,Screening,27 07 2019,28,Female,Black African or Black other,1,6 11 2021 07:26,
+51,785100669,Screening,27 11 2019,24,Female,Black African or Black other,7,8 11 2021 10:38,
+51,785100676,Screening,14 09 2020,14,Female,Black African or Black other,1,9 11 2021 09:17,
+51,785100677,Screening,21 04 2021,7,Male,Black African or Black other,2,9 11 2021 09:20,
+51,785100678,Screening,10 04 2021,7,Female,Black African or Black other,2,9 11 2021 09:38,
+51,785100653,Screening,23 06 2020,17,Female,Black African or Black other,0,6 11 2021 10:00,
+51,785100661,Screening,11 09 2019,26,Male,Black African or Black other,1,7 11 2021 14:15,
+51,785100668,Screening,6 07 2019,28,Female,Black African or Black other,0,8 11 2021 09:39,
