@@ -27,8 +27,8 @@ screenID <- left_join(left_join(
     screenIoD<-screenD<-suppressWarnings(fread(here("study data/Eligibility Assessment Listing.csv")))|>fill_blanks()|>
       setNames(c("Site ID","Subject","VISIT","Date eligibility assessed","Does subject meet all inclusion criteria?","age_eligible","sign_consent","comply_protocol","residence_remain","Does subject meet any exclusion criteria?","prev_mal_vac","other_mal_study","allergy","anaphylaxis","congenital_def","anemia","blood_trans","immunoglobulin","malnourished","chronic_illnes","hiv_3_4","vac_1mo","other_trial","disorder","other","Describe","Does the Subject meet all eligibility criteria?","First Data Time","Last Data Time")),
     ##filter_per_vac
-    newfupdata<-# Vaccinations dataset
-      vacdata|>
+    # Vaccinations dataset
+    newfupdata<-vacdata|>
       select(2,3)|>
       pivot_wider(names_from = "VISIT", values_from = "VISIT")|>
       select(1,4,5,2,3), by="Subject",relationship = "many-to-many"),
@@ -242,10 +242,10 @@ completed_error<-anti_join(completedEos,requiredEos,by="Subject")
 #############+++++++++++++++++++++++++++++++++++++++++++++++++++++++###
 #############+Scheduler table
 ###### unscheduled visits
-dateofvisit<- suppressWarnings(fread(here("study data/Date Of Visit Listing.csv")))|>fill_blanks()|>
-  mutate(`Visit date`=as.Date(`Visit date`,"%d %m %Y"),
-         `First Data Time`=as.Date(`First Data Time`,"%d %m %Y %H:%M"),
-         `Last Data Time`=as.Date(`Last Data Time`,"%d %m %Y %H:%M"))
+dateofvisit<- suppressWarnings(fread(here("study data/Date Of Visit Listing.csv"),colClasses = c("text","numeric","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text")))|>fill_blanks()|>
+  mutate(`Visit date`=as.Date(`Visit date`,"%d-%b-%Y"),
+         `First Data Time`=as.Date(`First Data Time`,"%d-%b-%Y %H:%M"),
+         `Last Data Time`=as.Date(`Last Data Time`,"%d-%b-%Y %H:%M"))
 all_unscheduled<-dateofvisit|>
   filter(grepl('Unscheduled', VISIT))##grep() for 'Pattern Matching and/or Replacement' 
 
@@ -355,23 +355,23 @@ queries<-queries_now|>
 
 
 
-in_completed1<- suppressWarnings(fread(paste0(here(),"/study data/Visit Completed v_s SDV_2.csv")))|>fill_blanks()|>
+in_completed1<- suppressWarnings(fread(here("study data/Visit Completed v_s SDV_2.csv"),colClasses = c("text","numeric","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text")))|>fill_blanks()|>
   # mutate(VISDAT=as.Date(VISDAT,"%d %m %Y"),
   #        `Entered Date-Time`=as.Date(`Entered Date-Time`, "%d %m %Y %H:%M"))
-  mutate(VISDAT=as.Date(VISDAT,"%d-%b-%Y"),
-         `Entered Date-Time`=as.Date(`Entered Date-Time`, "%d-%b-%Y %H:%M"))
+  mutate(VISDAT=as.Date(VISDAT,"%d %b %y"),
+         `Entered Date-Time`=as.Date(`Entered Date-Time`, "%d %m %Y %H:%M"))
 in_completed<-in_completed1|>
   dplyr::rename(status="EntryStatus")|>
   filter(status == "Incomplete")|>
   select(2,5:7,9,10)
 
 trends1<-left_join(queries_now|>
-                     filter(status=="Open Query"),dateofvisit|>
-                     dplyr::rename("Subject ID"=Subject)|>
-                     select(2,3,7),by=c("Subject ID","VISIT"),relationship = "many-to-many")|>
-  select(4,5,20,6,7,10,11)|>
+                     filter(status=="Open Query")|>dplyr::rename(Module=`Module Name`),dateofvisit|>
+                     dplyr::rename("Subject ID"=Subject, Visit=VISIT)|>
+                     select(2,3,7),by=c("Subject ID","Visit"),relationship = "many-to-many")|>
+  select(4,5,21,6,7,10,11)|>
   mutate(`Visit date`=as.Date(`Visit date`, format="%Y-%m-%d"))|>left_join(dertas<-in_completed1|>select(2,6,7,10)|>
-                                                                             dplyr::rename(`Subject ID`=`Subject Id`, VISIT=VISITNAME, Module=FORMNAME),by=c("Subject ID","VISIT","Module"),relationship = "many-to-one")#|>
+                                                                             dplyr::rename(`Subject ID`=`Subject Id`, Visit=VISITNAME, Module=FORMNAME),by=c("Subject ID","Visit","Module"),relationship = "many-to-one")#|>
 # distinct(`Subject ID`, VISIT,`Visit date`, Module,`Rule Description`,`Field Name`,`Query Text`,`Entered By`, .keep_all = TRUE)
 
 
@@ -405,33 +405,39 @@ summary_vis_out<- visit_out_win|>
   adorn_totals()
 
 data_natakaga<- queries_nowe |>
-  dplyr::rename(visitCode = `VISIT`,
+  dplyr::rename(visitCode = `Visit`,
                 screenID = `Subject ID`)
 
 data_nataka <- data_natakaga|>
-  select(`screenID`, `visitCode`,`Module`,`Field Name`, `Query Text`, `Query Status`)|>
+  select(`screenID`, `visitCode`,`Module Name`,`Field Name`, `Query Text`, `Query Status`)|>
   filter(`Field Name` == "Visit date" | `Field Name` == "Date of vaccination",
          `visitCode` != "Screening",
          !str_detect(`visitCode`, "Unscheduled|Pre-vacc"),
          str_detect(`Query Text`, "Difference between")|
            str_detect(`Query Text`, "Visit Date is missing."))|>
-  distinct(`screenID`,`visitCode`, .keep_all = TRUE)
+  distinct(`screenID`,`visitCode`, .keep_all = TRUE)|>
+  mutate(
+    visitCode = case_when(
+      visitCode == "Dose 2" ~ "Day 28",
+      visitCode == "Dose 3" ~ "Day 56",
+      visitCode == "Pre-Booster" ~ "Day B0",
+      visitCode == "B 14" ~ "Day B14",
+      visitCode == "B 28" ~ "Day B28",
+      visitCode == "B 84" ~ "Day B84",
+      visitCode == "B 140" ~ "Day B140",
+      visitCode == "B 168" ~ "Day B168",
+      visitCode == "B 224" ~ "Day B224",
+      visitCode == "B 280" ~ "Day B280",
+      TRUE ~ visitCode
+    ),screenID=as.numeric(screenID)
+  )
 
-data_nataka$visitCode[data_nataka$visitCode == "Dose 2"] = "Day 28"
-data_nataka$visitCode[data_nataka$visitCode == "Dose 3"] = "Day 56"
-data_nataka$visitCode[data_nataka$visitCode == "Pre-Booster"] = "Day B0"
-data_nataka$visitCode[data_nataka$visitCode == "B 14"] = "Day B14"
-data_nataka$visitCode[data_nataka$visitCode == "B 28"] = "Day B28"
-data_nataka$visitCode[data_nataka$visitCode == "B 84"] = "Day B84"
-data_nataka$visitCode[data_nataka$visitCode == "B 140"] = "Day B140"
-
-data_nataka$screenID<-as.numeric(data_nataka$screenID)
 
 summary_of <- data_nataka |>
   group_by(visitCode) |>
   summarise(eSource=n()) |>
   arrange(factor(visitCode, levels = c("Day 14", "Day 28", "Day 42", "Day 56", "Day 70", "Day 84", "Day 140"
-                                       ,"Day 196","Day 236","Day 292","Day 348","Day 404","Day B0","Day B14","Day B28","Day B84","Day B140")))
+                                       ,"Day 196","Day 236","Day 292","Day 348","Day 404","Day B0","Day B14","Day B28","Day B84","Day B140","Day B168","Day B224","Day B280")))
 
 
 combined_l_e <- left_join(summary_of, summary_vis_out, by = "visitCode",relationship = "many-to-many")|>
@@ -444,10 +450,10 @@ op_en <- data_nataka |>
 ###++++++++++++++++++++++end deviations++++++++++++++++++++++++++++++++###
 
 ###+Lab results+####
-bloodcoll<- suppressWarnings(fread(here("study data/Blood Sample Collection Listing.csv")))|>
+bloodcoll<- suppressWarnings(fread(here("study data/Blood Sample Collection Listing.csv"),colClasses = c("text","numeric","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text")))|>
   select(2:5,9,10,15,16)|>
   setNames(c("Subject","Visit","hemblood","hemdate","bioblood","biodate","dbs","dbsdate"))|>fill_blanks()|>
-  mutate(hemdate=as.Date(hemdate,"%d %m %Y"),biodate=as.Date(biodate,"%d %m %Y"),dbsdate=as.Date(dbsdate,"%d %m %Y"))
+  mutate(hemdate=as.Date(hemdate,"%d-%b-%Y"),biodate=as.Date(biodate,"%d-%b-%Y"),dbsdate=as.Date(dbsdate,"%d-%b-%Y"))
 ## Samples collected in week and/or month
 ## Overall
 extract1<-bloodcoll|>
@@ -590,11 +596,23 @@ results_tab<-as.data.frame(rbind(
   mutate(col=as.character(col), `Plasmodium species`=as.numeric(`Plasmodium species`),Haematology=as.numeric(Haematology),Biochem=as.numeric(Biochem))|>
   adorn_totals(c("col"))|>
   flextable()|>vline()|>hline()|>vline_left()|>autofit()
+allsamp<-left_join(hemboirsltew|>
+                     filter(is.na(`Reason for No Result`))|>mutate(Subject=as.numeric(Subject)),bloodcoll|>select(1,2,4,6)|>rename(VISIT=Visit)|>mutate(`sampledate`=coalesce(hemdate,biodate)),by=c("Subject","VISIT"))|>
+  filter(!is.na(`sampledate`))|>
+  select(2,3,19,6,8)|>
+  setnames(c("Subject","VISIT","sampledate","Test","Result"))
+
+# kidms data import into my environment
+mydata<-suppressWarnings(fread(here("study data/kidmsresults.csv")))|>select(-1)
+
+entered_vbaya<-anti_join(allsamp,mydata|>mutate(Subject=as.numeric(Subject),sampledate=as.Date(sampledate),Result=as.numeric(Result)), by=c("Subject","sampledate","Test","Result"))
+distinkt<-entered_vbaya|>
+  distinct(Subject,VISIT)|>arrange(Subject)
 
 ##Out of Range results
 hembioqry23<-left_join(noresdat<-hemboirsltew|>
                          select(-c(1,4,5,7,16))|>
-                         mutate(`First Data Time`=as.Date(`First Data Time`, "%d %m %Y %H:%M")),dobnew<-fread(here("study data/Demographics Listing.csv"))|>fill_blanks()|>
+                         mutate(`First Data Time`=as.Date(`First Data Time`, "%d-%b-%Y %H:%M")),dobnew<-fread(here("study data/Demographics Listing.csv"))|>fill_blanks()|>
                          select(2,4)|>mutate(Subject=as.character(Subject),`Date of Birth`=as.Date(`Date of Birth`, "%d %m %Y")), by="Subject")|>
   mutate(ageinmonths=interval(`Date of Birth`,`First Data Time`)%/% months(1))|>
   distinct(Subject,VISIT,`Test name`, .keep_all = TRUE)|>
@@ -712,16 +730,16 @@ unsolicited_2<-unsolicited[!is.na(unsolicited$`Date of onset`),]
 ## Get name of clinician logging AE
 
 unsolicited2<-left_join(unsolicited_2|>
-                          mutate(datedif=today()-as.Date(`Date of onset`,format="%d %m %Y"),`First Data Time`=as.Date(`First Data Time`,format="%d %m %Y %H:%M")),left_join(dateofvisit|>
-                                                                                                                                                                              dplyr::rename(VISDAT=`Visit date`),
-                                                                                                                                                                            in_completed1|>
-                                                                                                                                                                              dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>mutate(VISDAT=as.Date(VISDAT, "%d %m %Y")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
+                          mutate(datedif=today()-as.Date(`Date of onset`,"%d-%b-%Y"),`First Data Time`=as.Date(`First Data Time`,format="%d-%b-%Y %H:%M")),left_join(dateofvisit|>
+                                                                                                                                                                       dplyr::rename(VISDAT=`Visit date`),
+                                                                                                                                                                     in_completed1|>
+                                                                                                                                                                       dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>mutate(VISDAT=as.Date(VISDAT, "%Y-%m-%d")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
                           filter(EntryStatus!="Not Started")|>
                           select(2:3,18,23:26)|>
-                          mutate(`First Data Time`=as.Date(`First Data Time`,format="%d %m %Y %H:%M")),by=c("Subject","First Data Time"),relationship = "many-to-many")|>
+                          mutate(`First Data Time`=as.Date(`First Data Time`,format="%d-%m-%Y %H:%M")),by=c("Subject","First Data Time"),relationship = "many-to-many")|>
   arrange(Subject)|>
   distinct(Subject,`Unsolicited adverse event code`,.keep_all = TRUE)|>
-  mutate(`Date of onset`=as.Date(`Date of onset`,"%d %m %Y"),`Entered By`=case_when(`Adverse Event Preferred Term Code` %in%c(10040644,10040641,10040642,10061273,10022016,10043348,10062061,10039906)~"Chronic",TRUE~`Entered By`))|>
+  mutate(`Date of onset`=as.Date(`Date of onset`,"%d-%b-%Y"),`Entered By`=case_when(`Adverse Event Preferred Term Code` %in%c(10040644,10040641,10040642,10061273,10022016,10043348,10062061,10039906)~"Chronic",TRUE~`Entered By`))|>
   select(2:15,22,23,25,27,29,31,33,34,36,37,41)
 
 grade3<-unsolicited2|>
@@ -858,19 +876,19 @@ sumari<-left_join(get_open<-get_name|>
                                                     filter(datedif>7)|>
                                                     group_by(`Entered By`)|>
                                                     summarise("open>7days"=n()),
-                                                  left_join(unsolicited|>
-                                                              mutate(`First Data Time`=as.Date(`First Data Time`,format="%d %m %Y %H:%M"),
-                                                                     `Last Data Time`=as.Date(`Last Data Time`,format="%d %m %Y %H:%M"),
-                                                                     diffe_r=as.numeric(today()-`Last Data Time`)),
-                                                            left_join(dateofvisit|> dplyr::rename(VISDAT=`Visit date`),
-                                                                      in_completed1|>
-                                                                        dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>mutate(VISDAT=as.Date(VISDAT, "%d %m %Y")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
-                                                              filter(EntryStatus!="Not Started")|>
-                                                              select(2:3,18,23:26)|>
-                                                              mutate(`First Data Time`=as.Date(`First Data Time`,format="%Y-%m-%d")),by=c("Subject","First Data Time"),relationship = "many-to-many")|>
+                                                  asda<-left_join(unsolicited|>
+                                                                    mutate(`First Data Time`=as.Date(`First Data Time`,format="%d-%b-%Y %H:%M"),
+                                                                           `Last Data Time`=as.Date(`Last Data Time`,format="%d-%b-%Y %H:%M"),
+                                                                           diffe_r=as.numeric(today()-`Last Data Time`)),
+                                                                  left_join(dateofvisit|> dplyr::rename(VISDAT=`Visit date`),
+                                                                            in_completed1|>
+                                                                              dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>mutate(VISDAT=as.Date(VISDAT, "%Y-%m-%d")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
+                                                                    filter(EntryStatus!="Not Started")|>
+                                                                    select(2:3,18,23:26)|>
+                                                                    mutate(`First Data Time`=as.Date(`First Data Time`,format="%Y-%m-%d")),by=c("Subject","First Data Time"),relationship = "many-to-many")|>
                                                     arrange(Subject)|>
                                                     distinct(Subject,`Unsolicited adverse event code`,.keep_all = TRUE)|>
-                                                    mutate(`Date of onset`=as.Date(`Date of onset`,"%Y-%m-%d"),
+                                                    mutate(`Date of onset`=as.Date(`Date of onset`,"%d-%b-%Y"),
                                                            `Entered By`=case_when(`Adverse Event Preferred Term Code` %in%c(10040644,10040641,10040642,10061273,10022016,10043348,10062061)~"Chronic",
                                                                                   TRUE~`Entered By`))|>
                                                     filter(!is.na(`Date of resolution`)&diffe_r<=7)|>
@@ -882,9 +900,9 @@ sumari<-left_join(get_open<-get_name|>
 ###++++++++++++++++++ end adverse events ++++++++++++++##########
 
 ###+++++++++++ Malaria Cases ++++++++##########
-malaria_cases<- left_join(suppressWarnings(fread(paste0(here(),"/study data/Prior Or Concomitant Medications Listing.csv")))|>fill_blanks()|>
+malaria_cases<- left_join(medications<-suppressWarnings(fread(here("study data/Prior Or Concomitant Medications Listing.csv"),colClasses = c("text","numeric","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text")))|>fill_blanks()|>
                             dplyr::rename("Visit date"="First Data Time")|>
-                            mutate(`Visit date`=as.Date(`Visit date`, format="%d %m %Y %H:%M")),
+                            mutate(`Visit date`=as.Date(`Visit date`, format="%d-%b-%Y %H:%M")),
                           dateofvisit|>
                             select(2,3,7)|>dplyr::rename(timepoint=VISIT),by=c("Subject","Visit date"),relationship = "many-to-many")
 cases<-malaria_cases|>
@@ -941,8 +959,8 @@ newsumm1<-left_join(malcasecrfdbspos,updatedcases<-vacdata|>mutate(Subject=as.ch
                       select(2,3,5)|>
                       pivot_wider(id_cols=Subject,names_from = "VISIT",values_from = "Date of vaccination")|>
                       select(1,4,5,2,3),by="Subject",relationship = "many-to-many")|>
-  mutate("Dose 1"=as.numeric(as.Date(`Date of blood sample collection`,"%d %m %Y")-as.Date(`Dose 1`,"%d %m %Y")),"Dose 2"=as.numeric(as.Date(`Date of blood sample collection`,"%d %m %Y")-as.Date(`Dose 2`,"%d %m %Y")),
-         "Dose 3"=as.numeric(as.Date(`Date of blood sample collection`,"%d %m %Y")-as.Date(`Dose 3`,"%d %m %Y")),"Booster"=as.numeric(as.Date(`Date of blood sample collection`,"%d %m %Y")-as.Date(`Booster`,"%d %m %Y")))|>
+  mutate("Dose 1"=as.numeric(as.Date(`Date of blood sample collection`,"%d-%b-%Y")-as.Date(`Dose 1`,"%d %m %Y")),"Dose 2"=as.numeric(as.Date(`Date of blood sample collection`,"%d-%b-%Y")-as.Date(`Dose 2`,"%d %m %Y")),
+         "Dose 3"=as.numeric(as.Date(`Date of blood sample collection`,"%d-%b-%Y")-as.Date(`Dose 3`,"%d %m %Y")),"Booster"=as.numeric(as.Date(`Date of blood sample collection`,"%d-%b-%Y")-as.Date(`Booster`,"%d %m %Y")))|>
   rowwise()|>
   mutate(dosevisit=
            case_when(
@@ -975,6 +993,62 @@ newsumm2<-newsumm1|>
   flextable()|>hline()|>align(align = "center", part = "body")|>
   set_caption(caption = "Malaria Cases as per positive plasmodium species results; as per the case number")
 ###+++++++++ end Malaria cases ++++++++++++######
+
+###+ Medications ++++#####
+cleanmeds<-left_join(medications|>
+                       mutate(`Start date`=as.Date(`Start date`, "%d/%m/%Y"),
+                              `Stop date`=as.Date(`Stop date`, "%d/%m/%Y"),
+                              `Last Data Time`=as.Date(`Last Data Time`, "%d-%b-%Y %H:%M")),
+                     durta<-left_join(dateofvisit|>
+                                        dplyr::rename(VISDAT=`Visit date`),
+                                      in_completed1|>
+                                        dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>mutate(VISDAT=as.Date(VISDAT, "%Y-%m-%d")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
+                       filter(EntryStatus!="Not Started")|>
+                       select(2:3,18,23:26)|>
+                       mutate(`Visit date`=as.Date(`First Data Time`,format="%d-%m-%Y %H:%M")),
+                     by=c("Subject","Visit date"),relationship = "many-to-many")|>
+  arrange(Subject)|>
+  distinct(Subject,`Event code / Episode number`,`Generic Name / Active Ingredients`,.keep_all = TRUE)|>
+  select(2,21,22,5:11,17,20,26)|>
+  setnames(c("Subject","Visit","Date data entered","Indication","Episode number","Generic Name","Brand name","Start date","Ongoing","Stop date","Frequency","Last Data Time","Entered By"))|>
+  filter(!is.na(Indication)&!is.na(`Episode number`))|>
+  mutate("Entered By"=case_when(is.na(`Entered By`)~"Name missing",TRUE~`Entered By`))
+
+
+## Summarize meds as per closed and open
+summa1<-cleanmeds|>
+  mutate(closed=case_when(!is.na(`Stop date`)~"Closed", TRUE~"Open"))|>
+  group_by(closed)|>
+  summarize(count=n())|>
+  adorn_totals()|>flextable()|>autofit()
+## open meds summaries
+openau<-cleanmeds|>
+  filter(is.na(`Stop date`))|>
+  mutate(`other staff`=`Entered By`,`Entered By`=case_when(`Entered By` %in% c("Daudi Shume Munga","Boniface Shida Kabwere","Titus Tunje",
+                                                                               "Josphine A Mwangome","Kennedy Genya","Grace Dena","Phedys Magombe Bokoro")~"Other staff", TRUE~`Entered By`))
+
+## summary of open meds
+opensum1<-left_join(openau|>
+                      group_by(`Entered By`)|>
+                      summarize(open=n())|>ungroup(),
+                    openau|>
+                      mutate(diff3=as.numeric(today()-`Start date`))|>filter(diff3>14)|>
+                      group_by(`Entered By`)|>
+                      summarize("open>14days"=n())|>ungroup(), by="Entered By")|>
+  arrange(desc(open))|>
+  flextable()|>autofit()
+
+# get the names for each tabPanel
+josmed<-openau|>filter(`Entered By`=="Joseph Ochieng Weya")|>select(1:11)
+kevmed<-openau|>filter(`Entered By`=="Kevin Njogu")|>select(1:11)
+martmed<-openau|>filter(`Entered By`=="Martha Ndichu")|>select(1:11)
+mismed<-openau|>filter(`Entered By`=="Name missing")|>select(1:11)
+othermed<-openau|>filter(`Entered By`=="Other staff")|>select(1:11,14)
+sharmed<-openau|>filter(`Entered By`=="Sharon Nyaringa Omenda")|>select(1:11)
+sermed<-openau|>filter(`Entered By`=="Seriana Nyange")|>select(1:11)
+
+
+###+end meds ++++####
 
 ###++++++ Weekly Summary ++++++#####
 ### Visits in the last week
@@ -1050,120 +1124,135 @@ if(nrow(scnwkdayt)>0){
 
 ######Users
 user_base <- tibble::tibble(
-  user = c("cmuiruri", "somenda", "mhamaluba"),
-  password = c("cmuiruri", "somenda","mhamaluba"),
+  user = c("cmuiruri", "somenda","mhamaluba"),
+  password = c("password", "sharon","mainga"),
   permissions = c("admin", "standard","standard"),
-  name = c("Cmuiruri", "Somenda","Mhamaluba")
+  name = c("Muiruri", "Sharon","Mainga")
 )
-
 
 ###+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++###
 ui <- fluidPage(
   # add login panel UI function
   shinyauthr::loginUI(id = "login"),div(id="show-page-content",
-  navbarPage("VAC078 study report",
-                 tabPanel("Consort",plotOutput("consort"),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),
-                          downloadButton("downloadData1", "download"),br(),
-                          textOutput("consnarative"),
-                          strong(h4("Summary of active participants and their catchment area")),
-                          tableOutput("activepersite")
-                 ),
-                 tabPanel("Visit progress",
-                          tabsetPanel(
-                            tabPanel("Tabular",br(),uiOutput('schedulertablete')),
-                            tabPanel("Graphical",girafeOutput('schedulergraph')),
-                            tabPanel("Missed visits",DTOutput('misseds'))
-                          )),
-                 tabPanel("Weekly visits",
-                          tabsetPanel(
-                            tabPanel("Summary", br(),
-                                     if(nrow(scnpwkd)>0){
-                                       tableOutput('kable1')
-                                     }else{
-                                       textOutput('kable1one')
-                                     },br(),if(nrow(scnwkdayt)>0){
-                                       tableOutput('kable2')
-                                     }else{
-                                       textOutput('kable2one')
-                                     }),
-                            tabPanel("Due for visit",br(),DTOutput('LFUer')),
-                            tabPanel("Scheduled visits for the week",downloadButton("downloadDatavis", "download"),br(),DTOutput('scnwkdaytnews')))),
-                 tabPanel("Queries",
-                          tabsetPanel(
-                            tabPanel("Summary", tableOutput('queriestab'),
-                                     textOutput('querytxt1'),
-                                     tableOutput('queriestab2'),
-                                     p("The current query trends in order of the most common Open queries.")),
-                            tabPanel("Open queries",downloadButton("downloadDataqu", "download"),
-                                     DTOutput('openq')),
-                            tabPanel("Incomplete records",
-                                     DTOutput('incomprec')))),
-                 tabPanel("E-Sign off",
-                          tabsetPanel(
-                            tabPanel("eSource pending", textOutput('signtxt1'),br(),DTOutput('esourcesign')),
-                            tabPanel("ECRF pending", textOutput('signtxt2'),br(), DTOutput('ecrfsign')))),
-                 tabPanel("Visit deviations",
-                          tabsetPanel(
-                            tabPanel("Summary of deviations",
-                                     uiOutput("devflex")),
-                            tabPanel("Deviations pending upload", DTOutput('querypend')))),
-                 navbarMenu("Lab results",
-                            tabPanel("Summary",
-                                     uiOutput("resflex1"),br(),h3("Samples Collected in the previous week"),
-                                     tabsetPanel(
-                                       tabPanel("Plasmodium",
-                                                DTOutput('plasres')),
-                                       tabPanel("Haematology", DTOutput('haemres')),
-                                       tabPanel("Biochemistry",DTOutput('biores'))
-                                     )),
-                            tabPanel("Results pending entry on eSource",
-                                     tabsetPanel(
-                                       tabPanel("Plasmodium",
-                                                DTOutput('plasnores')),
-                                       tabPanel("Haematology",
-                                                DTOutput('haemnores')),
-                                       tabPanel("Biochemistry",
-                                                DTOutput('bionores'))
-                                     )),
-                            tabPanel("Out of range results", downloadButton("downloadDataoor", "download"),
-                                     DTOutput('hembioqry23'))),
-                 navbarMenu("Adverse Events",
-                            tabPanel("Summary of AEs",
-                                     tabsetPanel(
-                                       tabPanel('Local solicited',br(), uiOutput('locflex1'),br(), uiOutput('locflex2')),
-                                       tabPanel('Systemic solicited',br(), uiOutput('sysflex1'),br(), uiOutput('sysflex2')),
-                                       tabPanel('Unsolicited',br(), uiOutput('unsolflex1'),br(), uiOutput('unsolflex2')),
-                                       tabPanel('SAEs',br(),uiOutput('saeflex1'),br(), uiOutput('saeflex2'),br(),a(href="https://kemriwellcometrust-my.sharepoint.com/personal/somenda_kemri-wellcome_org/Documents/VAC078%20Study%20Coordination/VAC078%20Filing%20%26%20QC%20drive/Participant%20File%20Trackers/SAE%20reporting%20summary.xlsx?web=1", "For summary on required SAE submissions, follow this link👈"))
-                                     )),
-                            tabPanel("AEs open for +7days",h4("Last week AE closure summary"), uiOutput("sumari"),
-                                     tabsetPanel(
-                                       tabPanel('Kelvin',downloadButton("downloadData3", "download"), DTOutput('kelvina')),
-                                       tabPanel('Joseph',downloadButton("downloadData4", "download"), DTOutput('josepha')),
-                                       tabPanel('Martha',downloadButton("downloadData5", "download"), DTOutput('marthaa')),
-                                       tabPanel('Seriana',downloadButton("downloadData8", "download"), DTOutput('seriana')),
-                                       tabPanel('Chronic', downloadButton("downloadData6", "download"),DTOutput('chronica')),
-                                       tabPanel('Pending link with clinic visit',downloadButton("downloadData7", "download"), DTOutput('sharona')),
-                                       tabPanel('All Grade 3',downloadButton("downloadDatag3","download"), DTOutput('grade3'))
-                                     ))),
-                 tabPanel("Malaria Cases",
-                          tabsetPanel(
-                            tabPanel("Summary of Malaria cases",br(),uiOutput('maltab1'),br(),uiOutput('maltab2'),br(),uiOutput('maltab3')),
-                            tabPanel("Open malaria meds",br(),DTOutput('ongoinmal')))),
-                 tabPanel("End of Study",
-                          tabsetPanel(
-                            tabPanel('Required EOS forms', br(),uiOutput('sumaryreq'),br(),
-                                     downloadButton("downloadData", "download"),br(),
-                                     DTOutput('requiredEos')),
-                            tabPanel("Forms pending upload",
-                                     downloadButton("downloadData2", "download"), DTOutput('pending_completion'))
-                          ))#,
-                 # tabPanel("SAE's", imageOutput("saesa", width = "500px", height = "300px"))
-))|>shinyjs::hidden())
+                                        navbarPage("VAC078",
+                                                   tabPanel("Consort",plotOutput("consort"),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),
+                                                            downloadButton("downloadData1", "download"),br(),
+                                                            textOutput("consnarative"),
+                                                            strong(h4("Summary of active participants and their catchment area")),
+                                                            tableOutput("activepersite")
+                                                   ),
+                                                   tabPanel("Visit progress",
+                                                            tabsetPanel(
+                                                              tabPanel("Tabular",br(),uiOutput('schedulertablete')),
+                                                              tabPanel("Graphical",girafeOutput('schedulergraph')),
+                                                              tabPanel("Missed visits",DTOutput('misseds'))
+                                                            )),
+                                                   tabPanel("Weekly visits",
+                                                            tabsetPanel(
+                                                              tabPanel("Summary", br(),
+                                                                       if(nrow(scnpwkd)>0){
+                                                                         tableOutput('kable1')
+                                                                       }else{
+                                                                         textOutput('kable1one')
+                                                                       },br(),if(nrow(scnwkdayt)>0){
+                                                                         tableOutput('kable2')
+                                                                       }else{
+                                                                         textOutput('kable2one')
+                                                                       }),
+                                                              tabPanel("Due for visit",br(),DTOutput('LFUer')),
+                                                              tabPanel("Scheduled visits for the week",downloadButton("downloadDatavis", "download"),br(),DTOutput('scnwkdaytnews')))),
+                                                   tabPanel("Queries",
+                                                            tabsetPanel(
+                                                              tabPanel("Summary", tableOutput('queriestab'),
+                                                                       textOutput('querytxt1'),
+                                                                       tableOutput('queriestab2'),
+                                                                       p("The current query trends in order of the most common Open queries.")),
+                                                              tabPanel("Open queries",downloadButton("downloadDataqu", "download"),
+                                                                       DTOutput('openq')),
+                                                              tabPanel("Incomplete records",
+                                                                       DTOutput('incomprec')))),
+                                                   tabPanel("E-Sign off",
+                                                            tabsetPanel(
+                                                              tabPanel("eSource pending", textOutput('signtxt1'),br(),DTOutput('esourcesign')),
+                                                              tabPanel("ECRF pending", textOutput('signtxt2'),br(), DTOutput('ecrfsign')))),
+                                                   tabPanel("Visit deviations",
+                                                            tabsetPanel(
+                                                              tabPanel("Summary of deviations",
+                                                                       uiOutput("devflex")),
+                                                              tabPanel("Deviations pending upload", DTOutput('querypend')))),
+                                                   navbarMenu("Lab results",
+                                                              tabPanel("Summary",
+                                                                       uiOutput("resflex1"),br(),h3("Samples Collected in the previous week"),
+                                                                       tabsetPanel(
+                                                                         tabPanel("Plasmodium",
+                                                                                  DTOutput('plasres')),
+                                                                         tabPanel("Haematology", DTOutput('haemres')),
+                                                                         tabPanel("Biochemistry",DTOutput('biores'))
+                                                                       )),
+                                                              tabPanel("Results pending entry on eSource",
+                                                                       tabsetPanel(
+                                                                         tabPanel("Plasmodium",
+                                                                                  DTOutput('plasnores')),
+                                                                         tabPanel("Haematology",
+                                                                                  DTOutput('haemnores')),
+                                                                         tabPanel("Biochemistry",
+                                                                                  DTOutput('bionores'))
+                                                                       )),
+                                                              tabPanel("Out of range results", downloadButton("downloadDataoor", "download"),
+                                                                       DTOutput('hembioqry23')),
+                                                              tabPanel("KIDMS vs eSource", downloadButton("downloadkdmsdat", "download"),
+                                                                       DTOutput('entered_vbaya'))),
+                                                   navbarMenu("Adverse Events",
+                                                              tabPanel("Summary of AEs",
+                                                                       tabsetPanel(
+                                                                         tabPanel('Local solicited',br(), uiOutput('locflex1'),br(), uiOutput('locflex2')),
+                                                                         tabPanel('Systemic solicited',br(), uiOutput('sysflex1'),br(), uiOutput('sysflex2')),
+                                                                         tabPanel('Unsolicited',br(), uiOutput('unsolflex1'),br(), uiOutput('unsolflex2')),
+                                                                         tabPanel('SAEs',br(),uiOutput('saeflex1'),br(), uiOutput('saeflex2'),br(),a(href="https://kemriwellcometrust-my.sharepoint.com/personal/somenda_kemri-wellcome_org/Documents/VAC078%20Study%20Coordination/VAC078%20Filing%20%26%20QC%20drive/Participant%20File%20Trackers/SAE%20reporting%20summary.xlsx?web=1", "For summary on required SAE submissions, follow this link👈"))
+                                                                       )),
+                                                              tabPanel("AEs open for +7days",h4("Last week AE closure summary"), uiOutput("sumari"),
+                                                                       tabsetPanel(
+                                                                         tabPanel('Kelvin',downloadButton("downloadData3", "download"), DTOutput('kelvina')),
+                                                                         tabPanel('Joseph',downloadButton("downloadData4", "download"), DTOutput('josepha')),
+                                                                         tabPanel('Martha',downloadButton("downloadData5", "download"), DTOutput('marthaa')),
+                                                                         tabPanel('Seriana',downloadButton("downloadData8", "download"), DTOutput('seriana')),
+                                                                         tabPanel('Chronic', downloadButton("downloadData6", "download"),DTOutput('chronica')),
+                                                                         tabPanel('Pending link with clinic visit',downloadButton("downloadData7", "download"), DTOutput('sharona')),
+                                                                         tabPanel('All Grade 3',downloadButton("downloadDatag3","download"), DTOutput('grade3'))
+                                                                       ))),
+                                                   navbarMenu("Medicine",
+                                                              tabPanel("summary of Medications", uiOutput('summa1'),br(),uiOutput('opensum1')),
+                                                              tabPanel("Open meds",
+                                                                       tabsetPanel(
+                                                                         tabPanel('Joseph', DTOutput('josmed')),
+                                                                         tabPanel('Kelvin', DTOutput('kevmed')),
+                                                                         tabPanel('Martha', DTOutput('martmed')),
+                                                                         tabPanel('Sharon', DTOutput('sharmed')),
+                                                                         tabPanel('Seriana', DTOutput('sermed')),
+                                                                         tabPanel('Other staff', DTOutput('othermed')),
+                                                                         tabPanel('Missing', DTOutput('mismed'))
+                                                                       ))),
+                                                   tabPanel("Malaria Cases",
+                                                            tabsetPanel(
+                                                              tabPanel("Summary of Malaria cases",br(),uiOutput('maltab1'),br(),uiOutput('maltab2'),br(),uiOutput('maltab3')),
+                                                              tabPanel("Open malaria meds",downloadButton("downloadmaldata","download"),br(),DTOutput('ongoinmal')))),
+                                                   tabPanel("End of Study",
+                                                            tabsetPanel(
+                                                              tabPanel('Required EOS forms', br(),uiOutput('sumaryreq'),br(),
+                                                                       downloadButton("downloadData", "download"),br(),
+                                                                       DTOutput('requiredEos')),
+                                                              tabPanel("Forms pending upload",
+                                                                       downloadButton("downloadData2", "download"), DTOutput('pending_completion'))
+                                                            ))#,
+                                                   # tabPanel("SAE's", imageOutput("saesa", width = "500px", height = "300px"))    
+                                        ))|>shinyjs::hidden())
 server <- function(input, output){
+  
   shiny::observe({
     shiny::req(credentials()$user_auth)
     shinyjs::show(id="show-page-content")
   })
+  
   output$consort<-renderPlot({study_consort |>
       ggplot() +
       geom_consort() +
@@ -1275,6 +1364,12 @@ server <- function(input, output){
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$entered_vbaya<-renderDT(
+    entered_vbaya|>convert_to_factors()|>arrange(Subject,sampledate),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
   output$hembioqry23<-renderDT(
     hembioqry23|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
@@ -1297,6 +1392,52 @@ server <- function(input, output){
     g3summ1|>htmltools_value())
   output$saeflex2<-renderUI(
     g3summ2|>htmltools_value())
+  output$summa1<-renderUI(
+    summa1|>htmltools_value())
+  output$opensum1<-renderUI(
+    opensum1|>htmltools_value())
+  output$josmed<-renderDT(
+    josmed|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$kevmed<-renderDT(
+    kevmed|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$martmed<-renderDT(
+    martmed|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$mismed<-renderDT(
+    mismed|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$othermed<-renderDT(
+    othermed|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$sharmed<-renderDT(
+    sharmed|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$sermed<-renderDT(
+    sermed|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
   output$kelvina<-renderDT(
     kelvina|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
@@ -1367,6 +1508,22 @@ server <- function(input, output){
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$downloadkdmsdat <- downloadHandler(
+    filename = function() {
+      "Mismatched results.csv"
+    },
+    content = function(file) {
+      write.csv(entered_vbaya|>arrange(Subject), file, row.names = TRUE)
+    }
+  )
+  output$downloadmaldata <- downloadHandler(
+    filename = function() {
+      "ongoing malaria meds.csv"
+    },
+    content = function(file) {
+      write.csv(ongoinmal|>select(2:13)|>arrange(Subject), file, row.names = TRUE)
+    }
+  )
   output$kable1 <- function() {
     table4|>
       kable_styling(position = "center",full_width = FALSE)
@@ -1502,11 +1659,11 @@ server <- function(input, output){
                theme_consort(margin_h = 10, margin_v = 8.5),height = 9, width = 12, dpi=300)
     }
   )
-  # output$saesa<-renderImage({
-  #   filename<-normalizePath(file.path(here(), paste('SAE',input$saesa,".png",sep='')))
-  #   list(src=filename, width="278%",height="224%")
-  #   
-  # },deleteFile = FALSE)
+  output$saesa<-renderImage({
+    filename<-normalizePath(file.path(here(), paste('SAE',input$saesa,".png",sep='')))
+    list(src=filename, width="278%",height="224%")
+    
+  },deleteFile = FALSE)
   credentials <- shinyauthr::loginServer(
     id = "login",
     data = user_base,
