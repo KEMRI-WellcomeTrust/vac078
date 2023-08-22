@@ -1123,12 +1123,7 @@ if(nrow(scnwkdayt)>0){
 
 
 ######Users
-user_base <- tibble::tibble(
-  user = c("cmuiruri", "somenda","mhamaluba"),
-  password = c("password", "sharon","mainga"),
-  permissions = c("admin", "standard","standard"),
-  name = c("Muiruri", "Sharon","Mainga")
-)
+user_base <- as_tibble(suppressWarnings(fread(here("study data/users.csv"))))
 
 ###+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++###
 ui <- fluidPage(
