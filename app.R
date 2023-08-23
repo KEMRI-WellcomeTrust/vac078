@@ -260,7 +260,8 @@ scheduler$visitCode<-factor(scheduler$visitCode, levels = c("Day 14", "Day 28", 
                                                             "Day 292", "Day 348", "Day 404", "Day B0", 
                                                             "Day B14", "Day B28", "Day B84", "Day B140", 
                                                             "Day B168", "Day B224", "Day B280", "Day B336",
-                                                            "Day B365"))
+                                                            "Day B365/2B0","Day 2B14","Day 2B28","Day 2B180",
+                                                            "Day 3B0","Day 3B14","Day 3B28","Day 3B180","Day 3B365"))
 scheduler$windowOpen<-as.Date(scheduler$windowOpen, "%d %m %Y")
 scheduler$scheduledDate<-as.Date(scheduler$scheduledDate, "%d %m %Y")
 scheduler$rescheduledDate<-as.Date(scheduler$rescheduledDate, "%d %m %Y")
