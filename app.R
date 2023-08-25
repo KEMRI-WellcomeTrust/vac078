@@ -685,22 +685,22 @@ hembioqry23<-left_join(noresdat<-hemboirsltew|>
                                   Test=="Lymphocytes"&between(Age,12,59)&!between(Result,2.5,10.39)&is.na(Range)&is.na(Reason)~"Review Lymphocytes and/ or range",
                                   Test=="Lymphocytes"&between(Age,60,215)&!between(Result,1.5,4.09)&is.na(Range)&is.na(Reason)~"Review Lymphocytes and/ or range",
                                   TRUE~NA_character_),
-         neutrophilsqry=case_when(Test=="Neutrophils (%)"&between(Age,1,5)&!between(Result,9.1,35.1)&is.na(Range)&is.na(Reason)~"Review Neutrophils (%) and/ or range",
+         neutrophils_qry=case_when(Test=="Neutrophils (%)"&between(Age,1,5)&!between(Result,9.1,35.1)&is.na(Range)&is.na(Reason)~"Review Neutrophils (%) and/ or range",
                                   Test=="Neutrophils (%)"&between(Age,6,11)&!between(Result,10.2,38.5)&is.na(Range)&is.na(Reason)~"Review Neutrophils (%) and/ or range",
                                   Test=="Neutrophils (%)"&between(Age,12,59)&!between(Result,12.8,51.8)&is.na(Range)&is.na(Reason)~"Review Neutrophils (%) and/ or range",
                                   Test=="Neutrophils (%)"&between(Age,60,215)&!between(Result,24.4,60.8)&is.na(Range)&is.na(Reason)~"Review Neutrophils (%) and/ or range",
                                   TRUE~NA_character_),
-         lymphocytesqry=case_when(Test=="Lymphocytes (%)"&between(Age,1,5)&!between(Result,44.2,78.0)&is.na(Range)&is.na(Reason)~"Review Lymphocytes (%) and/ or range",
+         lymphocytes_qry=case_when(Test=="Lymphocytes (%)"&between(Age,1,5)&!between(Result,44.2,78.0)&is.na(Range)&is.na(Reason)~"Review Lymphocytes (%) and/ or range",
                                   Test=="Lymphocytes (%)"&between(Age,6,11)&!between(Result,44.2,77.6)&is.na(Range)&is.na(Reason)~"Review Lymphocytes (%) and/ or range",
                                   Test=="Lymphocytes (%)"&between(Age,12,59)&!between(Result,36.9,74.8)&is.na(Range)&is.na(Reason)~"Review Lymphocytes (%) and/ or range",
                                   Test=="Lymphocytes (%)"&between(Age,60,215)&!between(Result,26.4,65.5)&is.na(Range)&is.na(Reason)~"Review Lymphocytes (%) and/ or range",
                                   TRUE~NA_character_),
          significanceqry=case_when(!is.na(Range)&is.na(Significance)~"Complete Clinical significance",TRUE~NA_character_),
          codeqry=case_when(Significance=="Clinically Significant"&is.na(Code)~"Complete Event code",TRUE~NA_character_))|>
-  select(1:5,9:26)|>
-  filter(Visit!="Screening",!is.na(Monocytesqry)|!is.na(Eosinophilsqry)|!is.na(Plateletsqry)|!is.na(Creatinineqry)|!is.na(ALTqry)|!is.na(bilirubinqry)|!is.na(WBCqry)|!is.na(haemoglobinqry)|!is.na(haematocritqry)|!is.na(RBCqry)|!is.na(MCVqry)|!is.na(basophilsqry)|!is.na(neutrophilsqry)|!is.na(lymphocytesqry)|!is.na(significanceqry)|!is.na(codeqry))|>
-  mutate(`query text`=coalesce(Monocytesqry,Eosinophilsqry,Plateletsqry,Creatinineqry,ALTqry,bilirubinqry,WBCqry,haemoglobinqry,haematocritqry,RBCqry,MCVqry,basophilsqry,neutrophilsqry,lymphocytesqry,significanceqry,codeqry))|>
-  select(1:4,7,24,6)|>
+  select(1:5,9:28)|>
+  filter(Visit!="Screening",!is.na(Monocytesqry)|!is.na(Eosinophilsqry)|!is.na(Plateletsqry)|!is.na(Creatinineqry)|!is.na(ALTqry)|!is.na(bilirubinqry)|!is.na(WBCqry)|!is.na(haemoglobinqry)|!is.na(haematocritqry)|!is.na(RBCqry)|!is.na(MCVqry)|!is.na(basophilsqry)|!is.na(neutrophilsqry)|!is.na(lymphocytesqry)|!is.na(neutrophils_qry)|!is.na(lymphocytes_qry)|!is.na(significanceqry)|!is.na(codeqry))|>
+  mutate(`query text`=coalesce(Monocytesqry,Eosinophilsqry,Plateletsqry,Creatinineqry,ALTqry,bilirubinqry,WBCqry,haemoglobinqry,haematocritqry,RBCqry,MCVqry,basophilsqry,neutrophilsqry,lymphocytesqry,neutrophils_qry,lymphocytes_qry,significanceqry,codeqry))|>
+  select(1:4,7,26,6)|>
   arrange(Subject,sampledate,Visit)|>
   rename(`age at test(months)`=Age)
 
