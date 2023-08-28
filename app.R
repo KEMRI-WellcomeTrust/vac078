@@ -1,4 +1,4 @@
-pacman::p_load(tidyverse,shinyauthr,stringi,stringr,tinytex, ggiraph,finalfit, openxlsx,webshot, janitor, dplyr, table1, knitr, xlsx, here, psych, boot, ggconsort,readxl, lubridate, ggplot2,flextable, kableExtra, formattable, scales, data.table,writexl, scales,shinyWidgets, shiny,DT,shinythemes,install = T, update = getOption("pac_update"))
+pacman::p_load(tidyverse,shinyauthr,stringi,stringr,tinytex, Hmisc,ggiraph,finalfit, openxlsx,webshot, janitor, dplyr, table1, knitr, xlsx, here, psych, boot, ggconsort,readxl, lubridate, ggplot2,flextable, kableExtra, formattable, scales, data.table,writexl, scales,shinyWidgets, shiny,DT,shinythemes,install = T, update = getOption("pac_update"))
 
 ## work your data
 ###++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++####
@@ -271,7 +271,7 @@ scheduler$windowClose<-as.Date(scheduler$windowClose, "%d %m %Y")
 sumreacto<-scheduler|>
   distinct(screenID, .keep_all = TRUE)|>
   group_by(Site,group)|>
-  summarize(count=n(), .groups='keep')|>
+  dplyr::summarize(count=n(), .groups='keep')|>
   pivot_wider(names_from = group, values_from = count)|>
   adorn_totals(c("row","col"))|>
   flextable()|>hline()|>autofit()
@@ -286,7 +286,7 @@ actualer<- scheduler|>
 actual<-actualer|>
   select(screenID, visitCode)|>
   group_by(visitCode)|>
-  summarize('actual'=n(), .groups='keep')|>
+  dplyr::summarize('actual'=n(), .groups='keep')|>
   select(visitCode,'actual')
 
 
@@ -300,7 +300,7 @@ misseds<- scheduler|>
 missed<-misseds|>
   select(screenID, visitCode)|>
   group_by(visitCode)|>
-  summarize('Missed'=n(), .groups='keep')|>
+  dplyr::summarize('Missed'=n(), .groups='keep')|>
   select(visitCode,'Missed')
 
 
@@ -310,7 +310,7 @@ LFUer<- scheduler|>
 LFU<-LFUer|>
   select(screenID, visitCode)|>
   group_by(visitCode)|>
-  summarize('Due for visit'=n(), .groups='keep')|>
+  dplyr::summarize('Due for visit'=n(), .groups='keep')|>
   select(visitCode,'Due for visit')
 
 all_scheduleder<- scheduler|>
@@ -318,7 +318,7 @@ all_scheduleder<- scheduler|>
 all_scheduled<-all_scheduleder|>
   select(screenID, visitCode)|>
   group_by(visitCode)|>
-  summarize('scheduled'=n(), .groups='keep')|>
+  dplyr::summarize('scheduled'=n(), .groups='keep')|>
   select(visitCode,'scheduled')
 
 
@@ -1016,26 +1016,25 @@ cleanmeds<-left_join(medications|>
   mutate("Entered By"=case_when(is.na(`Entered By`)~"Name missing",TRUE~`Entered By`))
 
 
-## Summarize meds as per closed and open
+## summarize meds as per closed and open
 summa1<-cleanmeds|>
   mutate(closed=case_when(!is.na(`Stop date`)~"Closed", TRUE~"Open"))|>
   group_by(closed)|>
-  summarize(count=n())|>
+  dplyr::summarize(count=n())|>
   adorn_totals()|>flextable()|>autofit()
 ## open meds summaries
 openau<-cleanmeds|>
   filter(is.na(`Stop date`))|>
-  mutate(`other staff`=`Entered By`,`Entered By`=case_when(`Entered By` %in% c("Daudi Shume Munga","Boniface Shida Kabwere","Titus Tunje",
-                                                                               "Josphine A Mwangome","Kennedy Genya","Grace Dena","Phedys Magombe Bokoro")~"Other staff", TRUE~`Entered By`))
+  mutate(`other staff`=`Entered By`,`Entered By`=case_when(`Entered By` %nin% c("Joseph Ochieng Weya","Kevin Njogu","Martha Ndichu","Name missing","Sharon Nyaringa Omenda","Seriana Nyange")~"Other staff", TRUE~`Entered By`))
 
 ## summary of open meds
 opensum1<-left_join(openau|>
                       group_by(`Entered By`)|>
-                      summarize(open=n())|>ungroup(),
+                      dplyr::summarize(open=n())|>ungroup(),
                     openau|>
                       mutate(diff3=as.numeric(today()-`Start date`))|>filter(diff3>14)|>
                       group_by(`Entered By`)|>
-                      summarize("open>14days"=n())|>ungroup(), by="Entered By")|>
+                      dplyr::summarize("open>14days"=n())|>ungroup(), by="Entered By")|>
   arrange(desc(open))|>
   flextable()|>autofit()
 
@@ -1260,7 +1259,7 @@ server <- function(input, output){
     actpart<-fupdata|>
       filter(currentStatus=="On Active Follow up")|>
       group_by(Site,group)|>
-      summarize(count=n(),.groups = 'drop')|>
+      dplyr::summarize(count=n(),.groups = 'drop')|>
       pivot_wider(names_from = group,values_from = count)|>
       adorn_totals(c("row","col"))
   })
