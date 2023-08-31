@@ -1219,13 +1219,13 @@ ui <- fluidPage(
                                                               tabPanel("summary of Medications", uiOutput('summa1'),br(),uiOutput('opensum1')),
                                                               tabPanel("Open meds",
                                                                        tabsetPanel(
-                                                                         tabPanel('Joseph', DTOutput('josmed')),
-                                                                         tabPanel('Kelvin', DTOutput('kevmed')),
-                                                                         tabPanel('Martha', DTOutput('martmed')),
-                                                                         tabPanel('Sharon', DTOutput('sharmed')),
-                                                                         tabPanel('Seriana', DTOutput('sermed')),
-                                                                         tabPanel('Other staff', DTOutput('othermed')),
-                                                                         tabPanel('Missing', DTOutput('mismed'))
+                                                                         tabPanel('Joseph',downloadButton("downloadmed", "download"), DTOutput('josmed')),
+                                                                         tabPanel('Kelvin',downloadButton("downloadmed1", "download"), DTOutput('kevmed')),
+                                                                         tabPanel('Martha',downloadButton("downloadmed2", "download"), DTOutput('martmed')),
+                                                                         tabPanel('Sharon',downloadButton("downloadmed3", "download"), DTOutput('sharmed')),
+                                                                         tabPanel('Seriana',downloadButton("downloadmed4", "download"), DTOutput('sermed')),
+                                                                         tabPanel('Other staff',downloadButton("downloadmed5", "download"), DTOutput('othermed')),
+                                                                         tabPanel('Missing',downloadButton("downloadmed6", "download"), DTOutput('mismed'))
                                                                        ))),
                                                    tabPanel("Malaria Cases",
                                                             tabsetPanel(
@@ -1397,42 +1397,98 @@ server <- function(input, output){
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$downloadmed <- downloadHandler(
+    filename = function() {
+      "Joseph meds.csv"
+    },
+    content = function(file) {
+      write.csv(josmed|>arrange(Subject), file, row.names = TRUE)
+    }
+  )
   output$kevmed<-renderDT(
     kevmed|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$downloadmed1 <- downloadHandler(
+    filename = function() {
+      "Kelvin meds.csv"
+    },
+    content = function(file) {
+      write.csv(kevmed|>arrange(Subject), file, row.names = TRUE)
+    }
+  )
   output$martmed<-renderDT(
     martmed|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$downloadmed2 <- downloadHandler(
+    filename = function() {
+      "Martha meds.csv"
+    },
+    content = function(file) {
+      write.csv(martmed|>arrange(Subject), file, row.names = TRUE)
+    }
+  )
   output$mismed<-renderDT(
     mismed|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$downloadmed6 <- downloadHandler(
+    filename = function() {
+      "Name missing meds.csv"
+    },
+    content = function(file) {
+      write.csv(mismed|>arrange(Subject), file, row.names = TRUE)
+    }
+  )
   output$othermed<-renderDT(
     othermed|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$downloadmed5 <- downloadHandler(
+    filename = function() {
+      "Other staff meds.csv"
+    },
+    content = function(file) {
+      write.csv(othermed|>arrange(Subject), file, row.names = TRUE)
+    }
+  )
   output$sharmed<-renderDT(
     sharmed|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$downloadmed3 <- downloadHandler(
+    filename = function() {
+      "Sharon meds.csv"
+    },
+    content = function(file) {
+      write.csv(sharmed|>arrange(Subject), file, row.names = TRUE)
+    }
+  )
   output$sermed<-renderDT(
     sermed|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$downloadmed4 <- downloadHandler(
+    filename = function() {
+      "Seriana meds.csv"
+    },
+    content = function(file) {
+      write.csv(sermed|>arrange(Subject), file, row.names = TRUE)
+    }
+  )
   output$kelvina<-renderDT(
     kelvina|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
