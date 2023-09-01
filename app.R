@@ -751,7 +751,7 @@ grade3<-unsolicited2|>
 
 
 overduesssae<-unsolicited2|>
-  filter(Outcome!="Recovered / Resolved without sequelae"&Outcome!="Fatal")|>
+  filter(Outcome!="Recovered / Resolved without sequelae"&Outcome!="Fatal"&Outcome!="Lost to follow-up / Unknown")|>
   select(1,24,4,5,6,7,9,10,13,25)|>
   filter(!is.na(`Date of onset`))|>
   dplyr::rename(VISIT=VISIT.y)
