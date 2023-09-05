@@ -1290,7 +1290,7 @@ server <- function(input, output){
       pageLength = 100,
       autoWidth=TRUE))
   output$incomprec<-renderDT(
-    in_completed|>convert_to_factors(),
+    anti_join(in_completed,tibble::tibble("Subject Id"=c(785100021,785100152,785100163,785100167,785100203,785100304,785100313,785100382,785100383,785100435,785100450,785100499,785100541,785100548,785100551,785100185,785100201,785100503),VISITNAME=c("Unscheduled - 3","Unscheduled - 2","Unscheduled - 13","Dose 1 (Pre-vaccination)","Dose 1 (Pre-vaccination)","Dose 3 (Pre-vaccination)","Unscheduled - 16","Unscheduled - 19","Unscheduled - 4","Unscheduled - 9","Unscheduled - 7","Unscheduled - 3","Unscheduled - 3","Unscheduled - 6","Unscheduled - 2","Unscheduled - 5","Unscheduled - 9","Unscheduled - 14")))|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,
