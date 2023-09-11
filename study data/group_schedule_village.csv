@@ -15500,7 +15500,7 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100530,Day B224,10 08 2023,24 08 2023,,24 08 2023,7 09 2023,No,On Active Follow up,Group B,Junju
 785100604,Day B224,10 08 2023,24 08 2023,,24 08 2023,7 09 2023,No,On Active Follow up,Group B,Chasimba
 785100531,Day B224,10 08 2023,,,,7 09 2023,No,On Active Follow up,Group B,Junju
-785100595,Day B224,10 08 2023,24 08 2023,,,7 09 2023,No,On Active Follow up,Group B,Junju
+785100595,Day B224,10 08 2023,,,,7 09 2023,No,On Active Follow up,Group B,Junju
 785100518,Day B224,10 08 2023,24 08 2023,,24 08 2023,7 09 2023,No,On Active Follow up,Group B,Chasimba
 785100535,Day B224,10 08 2023,24 08 2023,,24 08 2023,7 09 2023,No,On Active Follow up,Group B,Pingilikani
 785100621,Day B224,10 08 2023,24 08 2023,,24 08 2023,7 09 2023,No,On Active Follow up,Group B,Junju
@@ -15622,7 +15622,7 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100609,Day B224,22 08 2023,5 09 2023,,6 09 2023,19 09 2023,No,On Active Follow up,Group B,Chasimba
 785100561,Day B224,22 08 2023,5 09 2023,,5 09 2023,19 09 2023,No,On Active Follow up,Group B,Junju
 785100632,Day B224,22 08 2023,5 09 2023,,6 09 2023,19 09 2023,No,On Active Follow up,Group B,Pingilikani
-785100636,Day B224,22 08 2023,5 09 2023,,,19 09 2023,No,On Active Follow up,Group B,Junju
+785100636,Day B224,22 08 2023,5 09 2023,,11 09 2023,19 09 2023,No,On Active Follow up,Group B,Junju
 785100520,Day B224,22 08 2023,5 09 2023,,6 09 2023,19 09 2023,No,On Active Follow up,Group B,Chasimba
 785100652,Day B224,22 08 2023,5 09 2023,,6 09 2023,19 09 2023,No,On Active Follow up,Group B,Junju
 785100581,Day B224,22 08 2023,5 09 2023,,5 09 2023,19 09 2023,No,On Active Follow up,Group B,Junju
@@ -15638,10 +15638,10 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100673,Day B224,22 08 2023,5 09 2023,,5 09 2023,19 09 2023,No,On Active Follow up,Group B,Chasimba
 785100674,Day B224,22 08 2023,5 09 2023,,,19 09 2023,No,On Active Follow up,Group B,Junju
 785100365,Day B224,22 08 2023,5 09 2023,,5 09 2023,19 09 2023,No,On Active Follow up,Group B,Pingilikani
-785100676,Day B224,22 08 2023,5 09 2023,,,19 09 2023,No,On Active Follow up,Group B,Chasimba
+785100676,Day B224,22 08 2023,5 09 2023,,6 09 2023,19 09 2023,No,On Active Follow up,Group B,Chasimba
 785100657,Day B224,22 08 2023,5 09 2023,,5 09 2023,19 09 2023,No,On Active Follow up,Group B,Junju
-785100656,Day B224,25 08 2023,8 09 2023,,,22 09 2023,No,On Active Follow up,Group B,Junju
-785100623,Day B224,25 08 2023,8 09 2023,,,22 09 2023,No,On Active Follow up,Group B,Junju
+785100656,Day B224,25 08 2023,8 09 2023,,8 09 2023,22 09 2023,No,On Active Follow up,Group B,Junju
+785100623,Day B224,25 08 2023,8 09 2023,,8 09 2023,22 09 2023,No,On Active Follow up,Group B,Junju
 785100232,Day B280,28 08 2023,11 09 2023,,,25 09 2023,No,On Active Follow up,Group A,Pingilikani
 785100230,Day B280,28 08 2023,11 09 2023,,,25 09 2023,No,On Active Follow up,Group A,Pingilikani
 785100228,Day B280,28 08 2023,11 09 2023,,,25 09 2023,No,On Active Follow up,Group A,Pingilikani
@@ -16054,7 +16054,7 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100494,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Chasimba
 785100604,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Chasimba
 785100200,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
-785100595,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Junju
+785100595,Day B280,5 10 2023,,,,2 11 2023,No,On Active Follow up,Group B,Junju
 785100599,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Pingilikani
 785100600,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Pingilikani
 785100195,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
@@ -16625,7 +16625,7 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100583,Day B336,29 11 2023,13 12 2023,,,27 12 2023,No,On Active Follow up,Group B,Junju
 785100593,Day B336,29 11 2023,13 12 2023,,,27 12 2023,No,On Active Follow up,Group B,Pingilikani
 785100569,Day B336,29 11 2023,13 12 2023,,,27 12 2023,No,On Active Follow up,Group B,Pingilikani
-785100595,Day B336,30 11 2023,14 12 2023,,,28 12 2023,No,On Active Follow up,Group B,Junju
+785100595,Day B336,30 11 2023,,,,28 12 2023,No,On Active Follow up,Group B,Junju
 785100512,Day B336,30 11 2023,14 12 2023,,,28 12 2023,No,On Active Follow up,Group B,Chasimba
 785100446,Day B336,30 11 2023,14 12 2023,,,28 12 2023,No,On Active Follow up,Group B,Junju
 785100500,Day B336,30 11 2023,14 12 2023,,,28 12 2023,No,On Active Follow up,Group B,Junju
@@ -17049,7 +17049,7 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100521,Day B365/2B0,12 01 2024,12 01 2024,,,16 02 2024,No,On Active Follow up,Group B,Chasimba
 785100535,Day B365/2B0,12 01 2024,12 01 2024,,,16 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100599,Day B365/2B0,12 01 2024,12 01 2024,,,16 02 2024,No,On Active Follow up,Group B,Pingilikani
-785100595,Day B365/2B0,12 01 2024,12 01 2024,,,16 02 2024,No,On Active Follow up,Group B,Junju
+785100595,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Junju
 785100610,Day B365/2B0,12 01 2024,12 01 2024,,,16 02 2024,No,On Active Follow up,Group B,Junju
 785100500,Day B365/2B0,12 01 2024,12 01 2024,,,16 02 2024,No,On Active Follow up,Group B,Junju
 785100518,Day B365/2B0,12 01 2024,12 01 2024,,,16 02 2024,No,On Active Follow up,Group B,Chasimba
