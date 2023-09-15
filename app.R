@@ -1133,8 +1133,10 @@ ui <- fluidPage(
                                                    tabPanel("Consort",plotOutput("consort"),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),
                                                             downloadButton("downloadData1", "download"),br(),
                                                             textOutput("consnarative"),
-                                                            strong(h4("Summary of active participants and their catchment area")),
-                                                            tableOutput("activepersite")
+                                                            strong(h4("1. Summary of active participants and their catchment area")),
+                                                            tableOutput("activepersite"),
+                                                            strong(h4("2. Summary of enrolled participants and their catchment area")),
+                                                            tableOutput("enrolpersite")
                                                    ),
                                                    tabPanel("Visit progress",
                                                             tabsetPanel(
@@ -1258,10 +1260,19 @@ server <- function(input, output){
   output$activepersite<-renderTable({
     actpart<-fupdata|>
       filter(currentStatus=="On Active Follow up")|>
-      group_by(Site,group)|>
-      dplyr::summarize(count=n(),.groups = 'drop')|>
-      pivot_wider(names_from = group,values_from = count)|>
-      adorn_totals(c("row","col"))
+      tabyl(Site,group)|>
+      adorn_totals(c("row","col"))|>
+      adorn_percentages("col") |>
+      adorn_pct_formatting(rounding = "half up", digits = 0) |>
+      adorn_ns()
+  })
+  output$enrolpersite<-renderTable({
+    enrpart<-fupdata|>
+      tabyl(Site,group)|>
+      adorn_totals(c("row","col"))|>
+      adorn_percentages("col") |>
+      adorn_pct_formatting(rounding = "half up", digits = 0) |>
+      adorn_ns()
   })
   
   output$schedulertablete<-renderUI(
