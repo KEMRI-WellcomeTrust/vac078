@@ -1,7 +1,7 @@
 ### Load required packages to connect to a MySQL DB
 pacman::p_load(DBI,readxl,here,tidyverse,dplyr,xlsx,install=TRUE, update = getOption("pac_update"))
 ### Update credentials to allow access to KIDMS DB
-username<-read.table("C:/Users/cmuiruri/Desktop/usernamesql.txt")
+username<-read.table("C:/Users/CMUIRURI/OneDrive - Kemri Wellcome Trust/Desktop/usernamesql.txt")
 mysqlconnection = dbConnect(RMySQL::MySQL(),
                             dbname=username[1,1],
                             host=username[2,1],
