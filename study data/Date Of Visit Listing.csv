@@ -10032,6 +10032,7 @@ Site ID,Subject,VISIT,Was this visit conducted?,Select reason why visit was not 
 51,785100021,B 336,Yes,,,26-Sep-2023,,Home,15:55,Parent,Yes,25-Oct-2023,09:00,,,,26-Sep-2023 12:59,
 51,785100022,B 336,Yes,,,29-Sep-2023,,Home,09:30,Parent,Yes,28-Oct-2023,08:00,,,,29-Sep-2023 06:49,
 51,785100026,B 336,Yes,,,29-Sep-2023,,Home,17:20,Care giver,Yes,28-Oct-2023,09:00,,,,29-Sep-2023 14:26,
+51,785100028,B 336,Yes,,,05-Oct-2023,,Home,09:50,Parent,Yes,03-Nov-2023,09:30,,,,05-Oct-2023 06:57,
 51,785100030,B 336,Yes,,,30-Sep-2023,,Home,10:51,Parent,Yes,28-Oct-2023,08:00,,,,30-Sep-2023 09:44,
 51,785100031,B 336,Yes,,,30-Sep-2023,,Home,11:33,Parent,Yes,28-Oct-2023,08:00,,,,30-Sep-2023 09:48,
 51,785100032,B 336,Yes,,,29-Sep-2023,,Home,17:10,Care giver,Yes,28-Oct-2023,09:00,,,,29-Sep-2023 14:13,
@@ -10047,8 +10048,14 @@ Site ID,Subject,VISIT,Was this visit conducted?,Select reason why visit was not 
 51,785100048,B 336,Yes,,,29-Sep-2023,,Home,17:50,Parent,Yes,28-Oct-2023,09:30,,,,29-Sep-2023 14:59,29-Sep-2023 15:00
 51,785100049,B 336,Yes,,,29-Sep-2023,,Home,18:10,Care giver,Yes,28-Oct-2023,09:00,,,,29-Sep-2023 15:13,
 51,785100051,B 336,Yes,,,03-Oct-2023,,Home,11:30,Parent,Yes,01-Nov-2023,08:30,,,,03-Oct-2023 09:50,
+51,785100052,B 336,Yes,,,04-Oct-2023,,Telephone,15:00,Parent,Yes,01-Nov-2023,09:00,,,,04-Oct-2023 12:12,
+51,785100053,B 336,Yes,,,04-Oct-2023,,Telephone,17:00,Parent,Yes,01-Nov-2023,09:30,,,,04-Oct-2023 14:11,
 51,785100058,B 336,Yes,,,03-Oct-2023,,Home,11:58,Parent,Yes,08-Nov-2023,08:30,,,,03-Oct-2023 09:53,
+51,785100060,B 336,Yes,,,05-Oct-2023,,Home,10:20,Parent,Yes,03-Nov-2023,09:30,,,,05-Oct-2023 07:26,
 51,785100061,B 336,Yes,,,03-Oct-2023,,Home,14:10,Parent,Yes,01-Nov-2023,09:00,,,,03-Oct-2023 11:12,
+51,785100062,B 336,Yes,,,05-Oct-2023,,Home,09:00,Parent,Yes,01-Nov-2023,09:00,,,,05-Oct-2023 06:08,
+51,785100063,B 336,Yes,,,05-Oct-2023,,Home,16:04,Parent,Yes,03-Nov-2023,08:30,,,,05-Oct-2023 13:47,
+51,785100076,B 336,Yes,,,05-Oct-2023,,Home,09:11,Parent,Yes,03-Nov-2023,08:00,,,,05-Oct-2023 06:10,
 51,785100001,Unscheduled - 1,Yes,,,05-Oct-2021,,,,,,,,Other,,,05-Oct-2021 19:41,27-Oct-2021 09:57
 51,785100002,Unscheduled - 1,Yes,,,04-Nov-2021,,,,,,,,Other,,,04-Nov-2021 08:38,14-Dec-2021 13:25
 51,785100003,Unscheduled - 1,Yes,,,11-Nov-2021,,,,,,,,Reassessment of eligibility,,3,15-Dec-2021 11:00,14-Feb-2022 12:21
@@ -10917,6 +10924,7 @@ Site ID,Subject,VISIT,Was this visit conducted?,Select reason why visit was not 
 51,785100435,Unscheduled - 10,Yes,,,10-Jul-2023,,,,,,,,Other,,,18-Jul-2023 11:25,
 51,785100436,Unscheduled - 10,Yes,,,26-Feb-2023,,,,,,,,Other,,,26-Feb-2023 07:12,
 51,785100437,Unscheduled - 10,Yes,,,23-Jun-2022,,,,,,,,Other,,,23-Jun-2022 07:42,
+51,785100439,Unscheduled - 10,Yes,,,05-Oct-2023,,,,,,,,Other,,,05-Oct-2023 10:21,
 51,785100441,Unscheduled - 10,Yes,,,04-Jun-2023,,,,,,,,Other,,,04-Jun-2023 09:50,
 51,785100443,Unscheduled - 10,Yes,,,19-Jul-2022,,,,,,,,Suspected Malaria,MLR-3,,19-Jul-2022 07:25,18-Nov-2022 09:59
 51,785100444,Unscheduled - 10,Yes,,,16-Nov-2022,,,,,,,,Other,,,16-Nov-2022 08:12,
@@ -11915,6 +11923,7 @@ Site ID,Subject,VISIT,Was this visit conducted?,Select reason why visit was not 
 51,785100317,Unscheduled - 13,Yes,,,07-Sep-2023,,,,,,,,Other,,,07-Sep-2023 07:28,
 51,785100322,Unscheduled - 13,Yes,,,26-Oct-2022,,,,,,,,Other,,,26-Oct-2022 08:49,
 51,785100324,Unscheduled - 13,Yes,,,14-Dec-2022,,,,,,,,Other,,,14-Dec-2022 11:28,
+51,785100325,Unscheduled - 13,Yes,,,04-Oct-2023,,,,,,,,Other,,,04-Oct-2023 08:30,
 51,785100326,Unscheduled - 13,Yes,,,15-Jun-2022,,,,,,,,Other,,,15-Jun-2022 08:19,
 51,785100327,Unscheduled - 13,Yes,,,12-Jul-2022,,,,,,,,Other,,,12-Jul-2022 16:56,
 51,785100328,Unscheduled - 13,Yes,,,15-Jan-2022,,,,,,,,Other,,,15-Jan-2022 06:28,
@@ -12800,6 +12809,7 @@ Site ID,Subject,VISIT,Was this visit conducted?,Select reason why visit was not 
 51,785100461,Unscheduled - 16,Yes,,,17-Feb-2023,,,,,,,,Other,,,17-Feb-2023 08:30,
 51,785100463,Unscheduled - 16,Yes,,,02-Jun-2023,,,,,,,,Other,,,02-Jun-2023 08:23,
 51,785100465,Unscheduled - 16,Yes,,,23-May-2023,,,,,,,,Other,,,23-May-2023 10:01,
+51,785100467,Unscheduled - 16,Yes,,,05-Oct-2023,,,,,,,,Other,,,05-Oct-2023 08:14,
 51,785100468,Unscheduled - 16,Yes,,,31-Mar-2022,,,,,,,,Other,,,31-Mar-2022 06:59,
 51,785100469,Unscheduled - 16,Yes,,,07-Nov-2022,,,,,,,,Other,,,10-Nov-2022 15:13,
 51,785100473,Unscheduled - 16,Yes,,,11-Feb-2023,,,,,,,,Suspected Malaria,MLR-9,,11-Feb-2023 07:28,04-May-2023 06:38
@@ -15012,6 +15022,7 @@ Site ID,Subject,VISIT,Was this visit conducted?,Select reason why visit was not 
 51,785100598,Unscheduled - 28,Yes,,,02-Aug-2023,,,,,,,,Other,,,02-Aug-2023 07:29,
 51,785100606,Unscheduled - 28,Yes,,,12-Jun-2023,,,,,,,,Other,,,12-Jun-2023 07:28,
 51,785100623,Unscheduled - 28,Yes,,,17-Jul-2022,,,,,,,,Other,,,17-Jul-2022 09:47,
+51,785100627,Unscheduled - 28,Yes,,,05-Oct-2023,,,,,,,,Other,,,05-Oct-2023 06:38,
 51,785100652,Unscheduled - 28,Yes,,,31-Aug-2023,,,,,,,,Other,,,31-Aug-2023 08:53,
 51,785100663,Unscheduled - 28,Yes,,,02-Nov-2022,,,,,,,,Other,,,03-Nov-2022 19:34,
 51,785100672,Unscheduled - 28,Yes,,,17-Sep-2023,,,,,,,,Other,,,17-Sep-2023 08:40,
@@ -15439,6 +15450,7 @@ Site ID,Subject,VISIT,Was this visit conducted?,Select reason why visit was not 
 51,785100430,Unscheduled - 3,Yes,,,15-Dec-2021,,,,,,,,Other,,,15-Dec-2021 13:01,15-Sep-2022 18:31
 51,785100431,Unscheduled - 3,Yes,,,16-Jan-2022,,,,,,,,Other,,,16-Jan-2022 08:11,
 51,785100432,Unscheduled - 3,Yes,,,10-Jan-2022,,,,,,,,Other,,,10-Jan-2022 08:55,
+51,785100433,Unscheduled - 3,Yes,,,04-Oct-2023,,,,,,,,Other,,,04-Oct-2023 08:46,
 51,785100435,Unscheduled - 3,Yes,,,13-Dec-2021,,,,,,,,Other,,,13-Dec-2021 07:12,
 51,785100436,Unscheduled - 3,Yes,,,27-Feb-2022,,,,,,,,Other,,,27-Feb-2022 16:49,
 51,785100437,Unscheduled - 3,Yes,,,03-Dec-2021,,,,,,,,Other,,,04-Dec-2021 07:04,04-Dec-2021 07:07
@@ -17162,6 +17174,7 @@ Site ID,Subject,VISIT,Was this visit conducted?,Select reason why visit was not 
 51,785100271,Unscheduled - 54,Yes,,,02-Oct-2023,,,,,,,,Suspected Malaria,MLR-2,,02-Oct-2023 07:08,03-Oct-2023 07:53
 51,785100386,Unscheduled - 54,Yes,,,25-Aug-2023,,,,,,,,Other,,,25-Aug-2023 10:42,
 51,785100386,Unscheduled - 55,Yes,,,13-Sep-2023,,,,,,,,Other,,,13-Sep-2023 08:33,
+51,785100386,Unscheduled - 56,Yes,,,04-Oct-2023,,,,,,,,Other,,,04-Oct-2023 08:08,
 51,785100001,Unscheduled - 6,Yes,,,09-Jun-2022,,,,,,,,Other,,,09-Jun-2022 11:28,21-Sep-2022 08:11
 51,785100002,Unscheduled - 6,Yes,,,03-Oct-2022,,,,,,,,Other,,,03-Oct-2022 07:46,15-Nov-2022 07:27
 51,785100003,Unscheduled - 6,Yes,,,14-Sep-2022,,,,,,,,Other,,,14-Sep-2022 12:05,28-Sep-2022 07:48
