@@ -15904,9 +15904,9 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100400,Day B280,29 09 2023,13 10 2023,,13 10 2023,27 10 2023,No,On Active Follow up,Group B,Pingilikani
 785100390,Day B280,29 09 2023,13 10 2023,,14 10 2023,27 10 2023,No,On Active Follow up,Group B,Junju
 785100141,Day B336,29 09 2023,13 10 2023,,13 10 2023,27 10 2023,No,On Active Follow up,Group A,Junju
-785100143,Day B336,29 09 2023,15 10 2023,,,27 10 2023,No,On Active Follow up,Group A,Junju
+785100143,Day B336,29 09 2023,15 10 2023,,16 10 2023,27 10 2023,No,On Active Follow up,Group A,Junju
 785100145,Day B336,29 09 2023,13 10 2023,,13 10 2023,27 10 2023,No,On Active Follow up,Group A,Junju
-785100147,Day B336,29 09 2023,15 10 2023,,,27 10 2023,No,On Active Follow up,Group A,Junju
+785100147,Day B336,29 09 2023,15 10 2023,,16 10 2023,27 10 2023,No,On Active Follow up,Group A,Junju
 785100533,Day B280,29 09 2023,13 10 2023,,13 10 2023,27 10 2023,No,On Active Follow up,Group B,Junju
 785100401,Day B280,29 09 2023,13 10 2023,,13 10 2023,27 10 2023,No,On Active Follow up,Group B,Junju
 785100359,Day B280,29 09 2023,13 10 2023,,15 10 2023,27 10 2023,No,On Active Follow up,Group B,Pingilikani
@@ -15923,7 +15923,7 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100003,Day B336,29 09 2023,13 10 2023,,13 10 2023,27 10 2023,No,On Active Follow up,Group A,Junju
 785100406,Day B280,29 09 2023,13 10 2023,,13 10 2023,27 10 2023,No,On Active Follow up,Group B,Junju
 785100375,Day B280,29 09 2023,13 10 2023,,13 10 2023,27 10 2023,No,On Active Follow up,Group B,Pingilikani
-785100120,Day B336,29 09 2023,13 10 2023,,,27 10 2023,No,On Active Follow up,Group A,Junju
+785100120,Day B336,29 09 2023,13 10 2023,,19 10 2023,27 10 2023,No,On Active Follow up,Group A,Junju
 785100369,Day B280,29 09 2023,13 10 2023,,15 10 2023,27 10 2023,No,On Active Follow up,Group B,Pingilikani
 785100371,Day B280,29 09 2023,13 10 2023,,13 10 2023,27 10 2023,No,On Active Follow up,Group B,Junju
 785100393,Day B280,29 09 2023,13 10 2023,,15 10 2023,27 10 2023,No,On Active Follow up,Group B,Junju
@@ -15934,184 +15934,184 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100338,Day B280,29 09 2023,13 10 2023,,13 10 2023,27 10 2023,No,On Active Follow up,Group B,Pingilikani
 785100397,Day B280,29 09 2023,13 10 2023,,15 10 2023,27 10 2023,No,On Active Follow up,Group B,Pingilikani
 785100064,Day B336,29 09 2023,13 10 2023,,13 10 2023,27 10 2023,No,On Active Follow up,Group A,Junju
-785100151,Day B336,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group A,Pingilikani
-785100119,Day B336,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group A,Junju
-785100555,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Junju
-785100165,Day B336,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group A,Pingilikani
-785100157,Day B336,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group A,Pingilikani
-785100155,Day B336,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group A,Junju
-785100148,Day B336,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group A,Pingilikani
-785100152,Day B336,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group A,Pingilikani
-785100136,Day B336,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group A,Junju
-785100137,Day B336,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group A,Junju
-785100149,Day B336,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group A,Pingilikani
-785100153,Day B336,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group A,Junju
-785100440,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Chasimba
-785100425,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Junju
-785100424,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Junju
-785100396,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Pingilikani
-785100426,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Chasimba
-785100447,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Chasimba
-785100427,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Junju
-785100448,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Junju
-785100428,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Chasimba
-785100417,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Junju
-785100454,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Junju
-785100468,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Chasimba
-785100449,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Chasimba
-785100429,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Junju
-785100384,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Pingilikani
-785100439,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Chasimba
-785100505,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Chasimba
-785100433,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Junju
-785100526,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Junju
-785100435,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Junju
-785100434,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Junju
-785100451,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Chasimba
-785100436,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Junju
-785100412,Day B280,2 10 2023,16 10 2023,,,30 10 2023,No,On Active Follow up,Group B,Junju
-785100443,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Junju
-785100437,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Pingilikani
-785100073,Day B336,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group A,Junju
-785100467,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Chasimba
-785100463,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Junju
-785100461,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Chasimba
-785100441,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Junju
-785100391,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Junju
-785100337,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Junju
-785100362,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Pingilikani
+785100151,Day B336,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group A,Pingilikani
+785100119,Day B336,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group A,Junju
+785100555,Day B280,2 10 2023,16 10 2023,,18 10 2023,30 10 2023,No,On Active Follow up,Group B,Junju
+785100165,Day B336,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group A,Pingilikani
+785100157,Day B336,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group A,Pingilikani
+785100155,Day B336,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group A,Junju
+785100148,Day B336,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group A,Pingilikani
+785100152,Day B336,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group A,Pingilikani
+785100136,Day B336,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group A,Junju
+785100137,Day B336,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group A,Junju
+785100149,Day B336,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group A,Pingilikani
+785100153,Day B336,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group A,Junju
+785100440,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Chasimba
+785100425,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Junju
+785100424,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Junju
+785100396,Day B280,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group B,Pingilikani
+785100426,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Chasimba
+785100447,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Chasimba
+785100427,Day B280,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group B,Junju
+785100448,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Junju
+785100428,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Chasimba
+785100417,Day B280,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group B,Junju
+785100454,Day B280,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group B,Junju
+785100468,Day B280,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group B,Chasimba
+785100449,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Chasimba
+785100429,Day B280,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group B,Junju
+785100384,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Pingilikani
+785100439,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Chasimba
+785100505,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Chasimba
+785100433,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Junju
+785100526,Day B280,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group B,Junju
+785100435,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Junju
+785100434,Day B280,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group B,Junju
+785100451,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Chasimba
+785100436,Day B280,2 10 2023,16 10 2023,,16 10 2023,30 10 2023,No,On Active Follow up,Group B,Junju
+785100412,Day B280,2 10 2023,16 10 2023,,17 10 2023,30 10 2023,No,On Active Follow up,Group B,Junju
+785100443,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Junju
+785100437,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Pingilikani
+785100073,Day B336,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group A,Junju
+785100467,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Chasimba
+785100463,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Junju
+785100461,Day B280,3 10 2023,17 10 2023,,19 10 2023,31 10 2023,No,On Active Follow up,Group B,Chasimba
+785100441,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Junju
+785100391,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Junju
+785100337,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Junju
+785100362,Day B280,3 10 2023,17 10 2023,,19 10 2023,31 10 2023,No,On Active Follow up,Group B,Pingilikani
 785100368,Day B280,3 10 2023,,,,31 10 2023,No,On Active Follow up,Group B,Junju
-785100144,Day B336,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group A,Pingilikani
-785100107,Day B336,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group A,Junju
-785100133,Day B336,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group A,Junju
+785100144,Day B336,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group A,Pingilikani
+785100107,Day B336,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group A,Junju
+785100133,Day B336,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group A,Junju
 785100159,Day B336,3 10 2023,,,,31 10 2023,No,On Active Follow up,Group A,Pingilikani
-785100385,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Junju
-785100411,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Junju
-785100387,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Junju
-785100418,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Pingilikani
-785100096,Day B336,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group A,Junju
-785100445,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Pingilikani
-785100404,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Junju
-785100444,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Junju
-785100420,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Junju
-785100088,Day B336,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group A,Junju
-785100458,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Chasimba
-785100416,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Pingilikani
-785100386,Day B280,3 10 2023,17 10 2023,,,31 10 2023,No,On Active Follow up,Group B,Junju
-785100456,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Chasimba
-785100457,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Junju
-785100459,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Junju
-785100185,Day B336,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100464,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Chasimba
-785100181,Day B336,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100177,Day B336,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100176,Day B336,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100471,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Chasimba
-785100175,Day B336,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100485,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Pingilikani
-785100166,Day B336,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group A,Junju
-785100164,Day B336,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100138,Day B336,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100179,Day B336,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group A,Junju
-785100569,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Pingilikani
+785100385,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Junju
+785100411,Day B280,3 10 2023,17 10 2023,,18 10 2023,31 10 2023,No,On Active Follow up,Group B,Junju
+785100387,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Junju
+785100418,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Pingilikani
+785100096,Day B336,3 10 2023,17 10 2023,,18 10 2023,31 10 2023,No,On Active Follow up,Group A,Junju
+785100445,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Pingilikani
+785100404,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Junju
+785100444,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Junju
+785100420,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Junju
+785100088,Day B336,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group A,Junju
+785100458,Day B280,3 10 2023,17 10 2023,,18 10 2023,31 10 2023,No,On Active Follow up,Group B,Chasimba
+785100416,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Pingilikani
+785100386,Day B280,3 10 2023,17 10 2023,,17 10 2023,31 10 2023,No,On Active Follow up,Group B,Junju
+785100456,Day B280,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group B,Chasimba
+785100457,Day B280,4 10 2023,18 10 2023,,19 10 2023,1 11 2023,No,On Active Follow up,Group B,Junju
+785100459,Day B280,4 10 2023,18 10 2023,,19 10 2023,1 11 2023,No,On Active Follow up,Group B,Junju
+785100185,Day B336,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100464,Day B280,4 10 2023,18 10 2023,,19 10 2023,1 11 2023,No,On Active Follow up,Group B,Chasimba
+785100181,Day B336,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100177,Day B336,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100176,Day B336,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100471,Day B280,4 10 2023,18 10 2023,,19 10 2023,1 11 2023,No,On Active Follow up,Group B,Chasimba
+785100175,Day B336,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100485,Day B280,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group B,Pingilikani
+785100166,Day B336,4 10 2023,18 10 2023,,21 10 2023,1 11 2023,No,On Active Follow up,Group A,Junju
+785100164,Day B336,4 10 2023,18 10 2023,,19 10 2023,1 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100138,Day B336,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100179,Day B336,4 10 2023,18 10 2023,,19 10 2023,1 11 2023,No,On Active Follow up,Group A,Junju
+785100569,Day B280,4 10 2023,18 10 2023,,19 10 2023,1 11 2023,No,On Active Follow up,Group B,Pingilikani
 785100118,Day B336,4 10 2023,,,,1 11 2023,No,On Active Follow up,Group A,Junju
-785100379,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Pingilikani
-785100381,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Pingilikani
-785100563,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Chasimba
-785100395,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Junju
-785100455,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Chasimba
-785100570,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Chasimba
-785100398,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Junju
-785100409,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Junju
-785100583,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Junju
-785100422,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Chasimba
-785100593,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Pingilikani
-785100430,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Pingilikani
-785100431,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Junju
-785100432,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Pingilikani
-785100438,Day B280,4 10 2023,18 10 2023,,,1 11 2023,No,On Active Follow up,Group B,Junju
-785100493,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Chasimba
-785100446,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Junju
-785100123,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
-785100518,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Chasimba
-785100124,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
-785100521,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Chasimba
-785100517,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Chasimba
-785100513,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Junju
-785100512,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Chasimba
-785100501,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Junju
-785100500,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Junju
-785100019,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
-785100383,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Pingilikani
-785100127,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
-785100522,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Chasimba
-785100492,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Chasimba
-785100103,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
-785100129,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
-785100484,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Chasimba
-785100128,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
-785100068,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
-785100494,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Chasimba
-785100604,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Chasimba
-785100200,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
+785100379,Day B280,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group B,Pingilikani
+785100381,Day B280,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group B,Pingilikani
+785100563,Day B280,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group B,Chasimba
+785100395,Day B280,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group B,Junju
+785100455,Day B280,4 10 2023,18 10 2023,,19 10 2023,1 11 2023,No,On Active Follow up,Group B,Chasimba
+785100570,Day B280,4 10 2023,18 10 2023,,19 10 2023,1 11 2023,No,On Active Follow up,Group B,Chasimba
+785100398,Day B280,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group B,Junju
+785100409,Day B280,4 10 2023,18 10 2023,,21 10 2023,1 11 2023,No,On Active Follow up,Group B,Junju
+785100583,Day B280,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group B,Junju
+785100422,Day B280,4 10 2023,18 10 2023,,19 10 2023,1 11 2023,No,On Active Follow up,Group B,Chasimba
+785100593,Day B280,4 10 2023,18 10 2023,,22 10 2023,1 11 2023,No,On Active Follow up,Group B,Pingilikani
+785100430,Day B280,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group B,Pingilikani
+785100431,Day B280,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group B,Junju
+785100432,Day B280,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group B,Pingilikani
+785100438,Day B280,4 10 2023,18 10 2023,,18 10 2023,1 11 2023,No,On Active Follow up,Group B,Junju
+785100493,Day B280,5 10 2023,19 10 2023,,22 10 2023,2 11 2023,No,On Active Follow up,Group B,Chasimba
+785100446,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Junju
+785100123,Day B336,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group A,Junju
+785100518,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Chasimba
+785100124,Day B336,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group A,Junju
+785100521,Day B280,5 10 2023,19 10 2023,,22 10 2023,2 11 2023,No,On Active Follow up,Group B,Chasimba
+785100517,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Chasimba
+785100513,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Junju
+785100512,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Chasimba
+785100501,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Junju
+785100500,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Junju
+785100019,Day B336,5 10 2023,19 10 2023,,21 10 2023,2 11 2023,No,On Active Follow up,Group A,Junju
+785100383,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Pingilikani
+785100127,Day B336,5 10 2023,19 10 2023,,21 10 2023,2 11 2023,No,On Active Follow up,Group A,Junju
+785100522,Day B280,5 10 2023,19 10 2023,,21 10 2023,2 11 2023,No,On Active Follow up,Group B,Chasimba
+785100492,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Chasimba
+785100103,Day B336,5 10 2023,19 10 2023,,20 10 2023,2 11 2023,No,On Active Follow up,Group A,Junju
+785100129,Day B336,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group A,Junju
+785100484,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Chasimba
+785100128,Day B336,5 10 2023,19 10 2023,,21 10 2023,2 11 2023,No,On Active Follow up,Group A,Junju
+785100068,Day B336,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group A,Junju
+785100494,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Chasimba
+785100604,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Chasimba
+785100200,Day B336,5 10 2023,19 10 2023,,21 10 2023,2 11 2023,No,On Active Follow up,Group A,Junju
 785100595,Day B280,5 10 2023,,,,2 11 2023,No,On Active Follow up,Group B,Junju
-785100599,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Pingilikani
-785100600,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Pingilikani
-785100195,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
-785100192,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
-785100610,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Junju
-785100619,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Junju
-785100620,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Junju
-785100621,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Junju
-785100187,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
-785100186,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
-785100182,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Junju
-785100172,Day B336,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100535,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Pingilikani
-785100530,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Junju
-785100532,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Junju
-785100523,Day B280,5 10 2023,19 10 2023,,,2 11 2023,No,On Active Follow up,Group B,Chasimba
+785100599,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Pingilikani
+785100600,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Pingilikani
+785100195,Day B336,5 10 2023,19 10 2023,,21 10 2023,2 11 2023,No,On Active Follow up,Group A,Junju
+785100192,Day B336,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group A,Junju
+785100610,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Junju
+785100619,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Junju
+785100620,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Junju
+785100621,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Junju
+785100187,Day B336,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group A,Junju
+785100186,Day B336,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group A,Junju
+785100182,Day B336,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group A,Junju
+785100172,Day B336,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100535,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Pingilikani
+785100530,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Junju
+785100532,Day B280,5 10 2023,19 10 2023,,19 10 2023,2 11 2023,No,On Active Follow up,Group B,Junju
+785100523,Day B280,5 10 2023,19 10 2023,,22 10 2023,2 11 2023,No,On Active Follow up,Group B,Chasimba
 785100531,Day B280,5 10 2023,,,,2 11 2023,No,On Active Follow up,Group B,Junju
-785100578,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
-785100579,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
-785100201,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100582,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
-785100524,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Chasimba
-785100573,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
-785100163,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100527,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
+785100578,Day B280,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
+785100579,Day B280,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
+785100201,Day B336,6 10 2023,20 10 2023,,21 10 2023,3 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100582,Day B280,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
+785100524,Day B280,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group B,Chasimba
+785100573,Day B280,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
+785100163,Day B336,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100527,Day B280,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
 785100601,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Chasimba
-785100214,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100214,Day B336,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group A,Pingilikani
 785100199,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Junju
 785100567,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Chasimba
 785100139,Day B280,6 10 2023,,,,3 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100327,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100211,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100372,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
-785100208,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100206,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100576,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
-785100565,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Chasimba
-785100575,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
+785100327,Day B280,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100211,Day B336,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100372,Day B280,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
+785100208,Day B336,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100206,Day B336,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100576,Day B280,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
+785100565,Day B280,6 10 2023,20 10 2023,,22 10 2023,3 11 2023,No,On Active Follow up,Group B,Chasimba
+785100575,Day B280,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
 785100568,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Chasimba
-785100204,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100572,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
-785100399,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
-785100403,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
+785100204,Day B336,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100572,Day B280,6 10 2023,20 10 2023,,21 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
+785100399,Day B280,6 10 2023,20 10 2023,,22 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
+785100403,Day B280,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
 785100198,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Junju
-785100564,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Pingilikani
-785100473,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
-785100450,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
-785100217,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Junju
-785100539,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
+785100564,Day B280,6 10 2023,20 10 2023,,22 10 2023,3 11 2023,No,On Active Follow up,Group B,Pingilikani
+785100473,Day B280,6 10 2023,20 10 2023,,21 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
+785100450,Day B280,6 10 2023,20 10 2023,,21 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
+785100217,Day B336,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group A,Junju
+785100539,Day B280,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
 785100167,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Junju
-785100221,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Junju
+785100221,Day B336,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group A,Junju
 785100188,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100216,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Junju
-785100506,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Junju
-785100540,Day B280,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group B,Chasimba
-785100156,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Pingilikani
-785100218,Day B336,6 10 2023,20 10 2023,,,3 11 2023,No,On Active Follow up,Group A,Junju
+785100216,Day B336,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group A,Junju
+785100506,Day B280,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group B,Junju
+785100540,Day B280,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group B,Chasimba
+785100156,Day B336,6 10 2023,20 10 2023,,21 10 2023,3 11 2023,No,On Active Follow up,Group A,Pingilikani
+785100218,Day B336,6 10 2023,20 10 2023,,20 10 2023,3 11 2023,No,On Active Follow up,Group A,Junju
 785100547,Day B280,11 10 2023,25 10 2023,,,8 11 2023,No,On Active Follow up,Group B,Pingilikani
 785100588,Day B280,11 10 2023,25 10 2023,,,8 11 2023,No,On Active Follow up,Group B,Chasimba
 785100566,Day B280,11 10 2023,25 10 2023,,,8 11 2023,No,On Active Follow up,Group B,Pingilikani
