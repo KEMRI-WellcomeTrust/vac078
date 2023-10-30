@@ -370,7 +370,7 @@ trends1<-left_join(queries_now|>
                      filter(status=="Open Query")|>dplyr::rename(Module=`Module Name`),dateofvisit|>
                      dplyr::rename("Subject ID"=Subject, Visit=VISIT)|>
                      select(2,3,7),by=c("Subject ID","Visit"),relationship = "many-to-many")|>
-  select(4,5,21,6,7,10,11)|>
+  select(4,5,21,6,7,14)|>
   mutate(`Visit date`=as.Date(`Visit date`, format="%Y-%m-%d"))|>left_join(dertas<-in_completed1|>select(2,6,7,10)|>
                                                                              dplyr::rename(`Subject ID`=`Subject Id`, Visit=VISITNAME, Module=FORMNAME),by=c("Subject ID","Visit","Module"),relationship = "many-to-one")#|>
 # distinct(`Subject ID`, VISIT,`Visit date`, Module,`Rule Description`,`Field Name`,`Query Text`,`Entered By`, .keep_all = TRUE)
