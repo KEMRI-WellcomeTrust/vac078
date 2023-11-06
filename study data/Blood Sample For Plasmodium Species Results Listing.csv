@@ -794,9 +794,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100288,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,06-Oct-2021 15:20,27-Oct-2021 07:51
 51,785100288,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,06-Oct-2021 15:20,27-Oct-2021 07:53
 51,785100288,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,06-Oct-2021 15:20,27-Oct-2021 07:54
+51,785100289,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,22-Feb-2022 06:55,
 51,785100289,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Feb-2022 06:56,22-Feb-2022 06:56
 51,785100289,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,22-Feb-2022 06:56,
-51,785100289,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,22-Feb-2022 06:55,
 51,785100290,Screening,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,304,00,No,,,No,,,No,,,No,,06-Oct-2021 12:29,03-Mar-2022 08:54
 51,785100290,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,06-Oct-2021 12:29,12-Oct-2021 18:21
 51,785100290,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,06-Oct-2021 12:29,
@@ -1295,9 +1295,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100472,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,30-Jun-2022 14:57,
 51,785100472,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,30-Jun-2022 14:57,01-Jul-2022 07:26
 51,785100472,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,30-Jun-2022 14:57,
-51,785100473,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Jan-2022 16:26,
 51,785100473,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,20-Jan-2022 16:26,20-Jan-2022 16:28
 51,785100473,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Jan-2022 16:26,
+51,785100473,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Jan-2022 16:26,
 51,785100474,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,30-Jun-2022 14:58,
 51,785100474,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,30-Jun-2022 14:58,
 51,785100474,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,30-Jun-2022 14:58,01-Jul-2022 07:28
@@ -1379,9 +1379,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100504,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,30-Jun-2022 15:41,
 51,785100504,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,30-Jun-2022 15:41,01-Jul-2022 07:11
 51,785100504,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,30-Jun-2022 15:41,
-51,785100505,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Jan-2022 16:27,
 51,785100505,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,20-Jan-2022 16:27,20-Jan-2022 16:28
 51,785100505,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Jan-2022 16:27,
+51,785100505,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Jan-2022 16:27,
 51,785100506,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,30-Jun-2022 15:43,
 51,785100506,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,30-Jun-2022 15:43,01-Jul-2022 07:00
 51,785100506,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,30-Jun-2022 15:43,
@@ -1457,8 +1457,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100531,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,05-Dec-2021 15:16,05-Dec-2021 15:19
 51,785100531,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,05-Dec-2021 15:16,20-Jan-2022 12:08
 51,785100531,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,05-Dec-2021 15:16,
-51,785100532,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,31-Mar-2022 07:54,
 51,785100532,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,31-Mar-2022 07:54,31-Mar-2022 08:08
+51,785100532,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,31-Mar-2022 07:54,
 51,785100532,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,31-Mar-2022 07:53,
 51,785100533,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,19-Mar-2022 07:34,19-Mar-2022 07:37
 51,785100533,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-Mar-2022 07:35,01-Jul-2022 09:18
@@ -1706,9 +1706,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100625,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Jan-2022 16:34,
 51,785100625,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,20-Jan-2022 16:34,20-Jan-2022 16:37
 51,785100625,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Jan-2022 16:34,
-51,785100626,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Mar-2022 17:42,
 51,785100626,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,29-Mar-2022 17:42,29-Mar-2022 17:46
 51,785100626,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,29-Mar-2022 17:43,
+51,785100626,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Mar-2022 17:42,
 51,785100627,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Mar-2022 18:36,
 51,785100627,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,29-Mar-2022 18:36,29-Mar-2022 18:37
 51,785100627,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,29-Mar-2022 18:37,
@@ -1722,11 +1722,11 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100630,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,30-Mar-2022 09:13,30-Mar-2022 09:14
 51,785100630,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,30-Mar-2022 09:14,
 51,785100631,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,23-Mar-2022 09:15,
-51,785100631,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,23-Mar-2022 09:19,
 51,785100631,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,23-Mar-2022 09:16,30-Mar-2022 10:50
-51,785100632,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,30-Mar-2022 12:40,30-Mar-2022 12:42
+51,785100631,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,23-Mar-2022 09:19,
 51,785100632,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,30-Mar-2022 12:41,
 51,785100632,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,30-Mar-2022 12:39,
+51,785100632,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,30-Mar-2022 12:40,30-Mar-2022 12:42
 51,785100633,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,01-Dec-2021 09:44,
 51,785100633,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,01-Dec-2021 09:44,20-Jan-2022 07:16
 51,785100633,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,01-Dec-2021 09:44,
@@ -1745,9 +1745,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100641,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,01-Jul-2022 08:01,
 51,785100641,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,01-Jul-2022 08:01,01-Jul-2022 09:53
 51,785100641,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,01-Jul-2022 08:01,
-51,785100643,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Jan-2022 16:48,
 51,785100643,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,20-Jan-2022 16:48,
 51,785100643,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Jan-2022 16:48,20-Jan-2022 16:50
+51,785100643,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Jan-2022 16:48,
 51,785100644,Screening,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,01-Jul-2022 08:02,
 51,785100644,Screening,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,01-Jul-2022 08:02,01-Jul-2022 09:55
 51,785100644,Screening,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,01-Jul-2022 08:02,
@@ -1865,9 +1865,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100010,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,21-Jun-2022 09:52,
 51,785100010,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,21-Jun-2022 09:53,04-Jul-2022 08:17
 51,785100010,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Jun-2022 09:53,
-51,785100011,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,24-Feb-2022 08:34,
 51,785100011,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,24-Feb-2022 08:35,15-Jun-2022 07:48
 51,785100011,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,24-Feb-2022 08:35,
+51,785100011,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,24-Feb-2022 08:34,
 51,785100012,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Dec-2021 06:13,
 51,785100012,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,20-Dec-2021 06:13,17-Jan-2022 07:54
 51,785100012,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Dec-2021 06:13,
@@ -1905,8 +1905,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100025,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 12:51,15-Jun-2022 08:06
 51,785100025,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 12:51,
 51,785100026,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 12:45,
-51,785100026,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 12:45,15-Jun-2022 08:10
 51,785100026,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 12:45,
+51,785100026,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 12:45,15-Jun-2022 08:10
 51,785100027,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Feb-2022 12:29,
 51,785100027,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,28-Feb-2022 12:29,15-Jun-2022 08:17
 51,785100027,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Feb-2022 12:29,
@@ -1967,9 +1967,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100048,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 12:46,
 51,785100048,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 12:46,15-Jun-2022 09:02
 51,785100048,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 12:46,
-51,785100049,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 12:47,
 51,785100049,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 12:47,15-Jun-2022 09:12
 51,785100049,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 12:47,
+51,785100049,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 12:47,
 51,785100050,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 12:07,28-Sep-2022 20:31
 51,785100050,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 12:07,28-Sep-2022 20:31
 51,785100050,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 12:07,28-Sep-2022 20:32
@@ -1991,9 +1991,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100057,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Dec-2021 06:57,
 51,785100057,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Dec-2021 06:57,
 51,785100057,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,20-Dec-2021 06:57,17-Jan-2022 08:38
-51,785100058,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,28-Feb-2022 06:36,
 51,785100058,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Feb-2022 06:36,28-Feb-2022 06:37
 51,785100058,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Feb-2022 06:36,
+51,785100058,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,28-Feb-2022 06:36,
 51,785100059,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Feb-2022 12:02,
 51,785100059,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,28-Feb-2022 12:02,15-Jun-2022 11:49
 51,785100059,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Feb-2022 12:02,
@@ -2060,9 +2060,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100080,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,12-Jul-2022 08:43,
 51,785100080,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,12-Jul-2022 08:43,20-Jul-2022 06:11
 51,785100080,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,12-Jul-2022 08:43,
+51,785100081,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 08:03,
 51,785100081,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 08:03,
 51,785100081,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 08:03,15-Jun-2022 12:13
-51,785100081,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 08:03,
 51,785100082,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 10:56,
 51,785100082,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 10:56,15-Jun-2022 12:11
 51,785100082,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 10:56,
@@ -2129,9 +2129,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100104,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-Jan-2022 08:45,
 51,785100104,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,19-Jan-2022 08:45,15-Jun-2022 11:58
 51,785100104,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-Jan-2022 08:45,
+51,785100105,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Feb-2022 12:23,
 51,785100105,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,28-Feb-2022 12:23,15-Jun-2022 11:55
 51,785100105,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Feb-2022 12:23,
-51,785100105,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Feb-2022 12:23,
 51,785100107,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-Jan-2022 08:22,
 51,785100107,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,19-Jan-2022 08:22,15-Jun-2022 13:11
 51,785100107,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-Jan-2022 08:23,
@@ -2261,9 +2261,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100157,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Feb-2022 12:31,
 51,785100157,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,28-Feb-2022 12:31,15-Jun-2022 12:19
 51,785100157,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Feb-2022 12:31,
-51,785100158,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,18-Jan-2022 17:25,
 51,785100158,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,18-Jan-2022 17:25,08-Feb-2022 09:46
 51,785100158,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,18-Jan-2022 17:25,
+51,785100158,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,18-Jan-2022 17:25,
 51,785100159,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,21-Dec-2021 07:37,
 51,785100159,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,21-Dec-2021 07:37,18-Jan-2022 17:24
 51,785100159,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Dec-2021 07:37,
@@ -2318,21 +2318,21 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100177,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 10:59,
 51,785100177,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 10:59,15-Jun-2022 12:04
 51,785100177,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 10:59,
-51,785100178,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 10:55,
 51,785100178,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 10:55,15-Jun-2022 12:03
 51,785100178,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 10:56,
+51,785100178,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 10:55,
 51,785100179,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 07:58,
 51,785100179,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 07:58,15-Jun-2022 12:02
 51,785100179,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 07:58,
 51,785100181,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 08:27,
 51,785100181,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 08:27,15-Jun-2022 12:01
 51,785100181,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 08:27,
+51,785100182,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 11:19,
 51,785100182,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 11:19,15-Jun-2022 12:00
 51,785100182,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 11:20,
-51,785100182,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 11:19,
+51,785100183,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 12:04,
 51,785100183,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 12:04,15-Jun-2022 11:58
 51,785100183,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 12:04,
-51,785100183,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 12:04,
 51,785100185,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 11:51,
 51,785100185,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 11:51,15-Jun-2022 11:57
 51,785100185,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 11:51,
@@ -2342,9 +2342,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100187,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 11:34,
 51,785100187,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 11:34,15-Jun-2022 11:26
 51,785100187,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 11:34,
+51,785100188,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 11:59,
 51,785100188,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 11:59,15-Jun-2022 11:23
 51,785100188,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 11:59,
-51,785100188,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 11:59,
 51,785100190,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 08:34,
 51,785100190,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 08:34,15-Jun-2022 11:22
 51,785100190,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 08:34,
@@ -2366,9 +2366,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100197,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,21-Jan-2022 05:53,
 51,785100197,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,21-Jan-2022 05:53,21-Jan-2022 08:21
 51,785100197,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Jan-2022 05:53,
+51,785100198,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 11:31,
 51,785100198,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 11:31,15-Jun-2022 11:14
 51,785100198,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 11:31,
-51,785100198,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 11:31,
 51,785100199,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 11:01,
 51,785100199,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 11:00,
 51,785100199,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 11:00,15-Jun-2022 11:11
@@ -2384,9 +2384,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100203,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 11:56,
 51,785100203,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 11:56,15-Jun-2022 11:08
 51,785100203,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 11:56,
-51,785100204,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 12:01,
 51,785100204,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 12:01,15-Jun-2022 11:07
 51,785100204,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 12:01,
+51,785100204,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 12:01,
 51,785100206,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 12:02,
 51,785100206,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 12:02,15-Jun-2022 11:05
 51,785100206,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 12:02,
@@ -2396,9 +2396,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100208,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,27-Aug-2022 11:03,
 51,785100208,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,27-Aug-2022 11:02,
 51,785100208,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,27-Aug-2022 11:02,15-Sep-2022 09:29
-51,785100209,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 09:52,
 51,785100209,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 09:52,15-Jun-2022 11:03
 51,785100209,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 09:52,
+51,785100209,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 09:52,
 51,785100210,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 11:32,
 51,785100210,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 11:32,15-Jun-2022 11:01
 51,785100210,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 11:32,
@@ -2417,9 +2417,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100215,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 11:58,
 51,785100215,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 11:58,15-Jun-2022 10:56
 51,785100215,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 11:58,
+51,785100216,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 11:18,
 51,785100216,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 11:17,
 51,785100216,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 11:17,15-Jun-2022 10:54
-51,785100216,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 11:18,
 51,785100217,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 11:18,
 51,785100217,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 11:19,15-Jun-2022 10:53
 51,785100217,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 11:19,
@@ -2456,18 +2456,18 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100229,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 08:23,
 51,785100229,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 08:23,15-Jun-2022 10:44
 51,785100229,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 08:23,
+51,785100230,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 07:49,
 51,785100230,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 07:50,15-Jun-2022 10:36
 51,785100230,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 07:50,
-51,785100230,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 07:49,
 51,785100231,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 08:04,
 51,785100231,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 08:04,15-Jun-2022 10:35
 51,785100231,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 08:04,
 51,785100232,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 07:52,
 51,785100232,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 07:52,15-Jun-2022 10:34
 51,785100232,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 07:53,
-51,785100233,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 08:21,
 51,785100233,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 08:21,15-Jun-2022 10:33
 51,785100233,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 08:22,
+51,785100233,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 08:21,
 51,785100234,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 09:41,15-Jun-2022 10:31
 51,785100234,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 09:41,
 51,785100234,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 09:40,
@@ -2504,15 +2504,15 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100249,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 09:34,15-Jun-2022 08:40
 51,785100249,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 09:34,
 51,785100249,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 09:34,
-51,785100250,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 06:47,
 51,785100250,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 06:47,15-Jun-2022 08:37
 51,785100250,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 06:47,
+51,785100250,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 06:47,
 51,785100251,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 09:50,15-Jun-2022 08:36
 51,785100251,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 09:50,
 51,785100251,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 09:50,
-51,785100252,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 09:33,
 51,785100252,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 09:33,
 51,785100252,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 09:33,22-Apr-2022 06:13
+51,785100252,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 09:33,
 51,785100253,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,24-Jan-2022 06:56,
 51,785100253,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,24-Jan-2022 06:56,22-Apr-2022 06:21
 51,785100253,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,24-Jan-2022 06:56,
@@ -2537,9 +2537,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100263,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 09:48,12-May-2022 07:00
 51,785100263,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 09:49,
 51,785100263,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 09:48,
-51,785100264,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 09:45,
 51,785100264,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 09:45,14-Jun-2022 06:24
 51,785100264,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 09:45,
+51,785100264,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 09:45,
 51,785100265,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jan-2022 09:47,12-May-2022 07:33
 51,785100265,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 09:47,
 51,785100265,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 09:47,
@@ -2609,9 +2609,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100290,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,21-Jan-2022 08:36,
 51,785100290,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,21-Jan-2022 08:36,19-May-2022 10:02
 51,785100290,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Jan-2022 08:36,
-51,785100291,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Jan-2022 11:24,
 51,785100291,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,20-Jan-2022 11:24,25-Apr-2022 09:58
 51,785100291,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Jan-2022 11:24,
+51,785100291,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Jan-2022 11:24,
 51,785100295,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,31-Jan-2022 05:57,
 51,785100295,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,31-Jan-2022 05:57,14-Jun-2022 07:06
 51,785100295,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,31-Jan-2022 05:57,
@@ -2696,9 +2696,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100326,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,21-Jan-2022 08:02,
 51,785100326,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,21-Jan-2022 08:02,13-Apr-2022 10:43
 51,785100326,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Jan-2022 08:02,
-51,785100327,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,09-Feb-2022 09:22,24-Aug-2022 06:49
 51,785100327,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,09-Feb-2022 09:23,15-Jun-2022 08:26
 51,785100327,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-Feb-2022 09:23,
+51,785100327,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,09-Feb-2022 09:22,24-Aug-2022 06:49
 51,785100328,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,21-Jan-2022 05:48,
 51,785100328,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,21-Jan-2022 05:48,15-Jun-2022 08:24
 51,785100328,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Jan-2022 05:48,
@@ -2711,15 +2711,15 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100331,Day 84,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,21-Jan-2022 07:38,
 51,785100331,Day 84,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,21-Jan-2022 07:38,20-Apr-2022 06:55
 51,785100331,Day 84,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Jan-2022 07:38,
+51,785100001,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Apr-2022 09:11,20-Sep-2022 09:27
 51,785100001,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,20-Apr-2022 09:11,20-Sep-2022 09:19
 51,785100001,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Apr-2022 09:11,20-Sep-2022 09:26
-51,785100001,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Apr-2022 09:11,20-Sep-2022 09:27
+51,785100002,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Apr-2022 09:12,20-Sep-2022 10:03
 51,785100002,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,20-Apr-2022 09:12,20-Sep-2022 10:00
 51,785100002,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Apr-2022 09:12,20-Sep-2022 10:01
-51,785100002,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Apr-2022 09:12,20-Sep-2022 10:03
 51,785100003,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Apr-2022 09:12,20-Sep-2022 11:36
-51,785100003,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,20-Apr-2022 09:12,20-Sep-2022 11:26
 51,785100003,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Apr-2022 09:12,20-Sep-2022 11:25
+51,785100003,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,20-Apr-2022 09:12,20-Sep-2022 11:26
 51,785100004,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-May-2022 07:24,23-Aug-2022 09:44
 51,785100004,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-May-2022 07:24,04-May-2022 07:27
 51,785100004,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,04-May-2022 07:24,04-May-2022 07:25
@@ -2738,15 +2738,15 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100011,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-May-2022 07:54,16-May-2022 07:23
 51,785100011,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,04-May-2022 07:54,
 51,785100011,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-May-2022 07:54,
+51,785100012,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Apr-2022 07:03,05-May-2022 11:41
 51,785100012,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Apr-2022 07:03,05-May-2022 11:37
 51,785100012,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,25-Apr-2022 07:03,05-May-2022 11:40
-51,785100012,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Apr-2022 07:03,05-May-2022 11:41
 51,785100013,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,05-May-2022 11:35,
 51,785100013,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,05-May-2022 11:35,15-Jun-2022 07:49
 51,785100013,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,05-May-2022 11:35,
+51,785100014,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,25-Apr-2022 07:57,05-May-2022 12:35
 51,785100014,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Apr-2022 07:58,05-May-2022 12:36
 51,785100014,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Apr-2022 07:57,05-May-2022 12:35
-51,785100014,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,25-Apr-2022 07:57,05-May-2022 12:35
 51,785100015,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Apr-2022 08:36,05-May-2022 12:08
 51,785100015,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,25-Apr-2022 08:36,
 51,785100015,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Apr-2022 08:36,05-May-2022 12:08
@@ -2763,8 +2763,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100020,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,05-May-2022 11:44,20-Sep-2022 12:45
 51,785100020,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,05-May-2022 11:44,20-Sep-2022 12:46
 51,785100021,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Apr-2022 09:15,
-51,785100021,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Apr-2022 09:15,05-May-2022 11:33
 51,785100021,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,25-Apr-2022 09:15,
+51,785100021,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Apr-2022 09:15,05-May-2022 11:33
 51,785100022,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,26-Apr-2022 08:51,10-May-2022 06:26
 51,785100022,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,26-Apr-2022 08:51,10-May-2022 06:26
 51,785100022,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,26-Apr-2022 08:51,10-May-2022 06:27
@@ -2792,9 +2792,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100032,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,26-Apr-2022 09:46,10-May-2022 05:53
 51,785100032,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,26-Apr-2022 09:46,10-May-2022 05:53
 51,785100032,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,26-Apr-2022 09:46,10-May-2022 05:54
-51,785100034,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,27-Apr-2022 07:49,09-May-2022 09:35
-51,785100034,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,27-Apr-2022 07:48,09-May-2022 09:34
 51,785100034,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,27-Apr-2022 07:49,09-May-2022 09:34
+51,785100034,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,27-Apr-2022 07:48,09-May-2022 09:34
+51,785100034,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,27-Apr-2022 07:49,09-May-2022 09:35
 51,785100035,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,05-May-2022 12:15,
 51,785100035,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,05-May-2022 12:15,15-Jun-2022 08:25
 51,785100035,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,05-May-2022 12:15,
@@ -2807,11 +2807,11 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100038,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,05-May-2022 12:05,
 51,785100038,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,05-May-2022 12:05,15-Jun-2022 08:35
 51,785100038,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,05-May-2022 12:05,
-51,785100039,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Apr-2022 07:20,05-May-2022 11:48
 51,785100039,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Apr-2022 07:20,05-May-2022 11:48
 51,785100039,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,25-Apr-2022 07:20,05-May-2022 11:48
-51,785100041,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Apr-2022 09:07,05-May-2022 12:18
+51,785100039,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Apr-2022 07:20,05-May-2022 11:48
 51,785100041,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Apr-2022 09:07,
+51,785100041,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Apr-2022 09:07,05-May-2022 12:18
 51,785100041,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,25-Apr-2022 09:07,15-Jun-2022 08:40
 51,785100042,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Apr-2022 08:18,05-May-2022 11:55
 51,785100042,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Apr-2022 08:18,18-May-2022 11:46
@@ -2819,8 +2819,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100043,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,26-Apr-2022 08:19,10-May-2022 06:19
 51,785100043,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,26-Apr-2022 08:19,15-Jun-2022 08:51
 51,785100043,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,26-Apr-2022 08:19,
-51,785100044,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,25-Apr-2022 08:44,
 51,785100044,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Apr-2022 08:44,05-May-2022 12:11
+51,785100044,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,25-Apr-2022 08:44,
 51,785100044,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Apr-2022 08:44,
 51,785100045,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,05-May-2022 12:14,
 51,785100045,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,05-May-2022 12:14,15-Jun-2022 08:55
@@ -2834,8 +2834,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100048,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Apr-2022 08:56,05-May-2022 12:17
 51,785100048,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Apr-2022 08:56,05-May-2022 12:16
 51,785100048,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,25-Apr-2022 08:56,05-May-2022 12:17
-51,785100049,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,25-Apr-2022 07:45,05-May-2022 11:51
 51,785100049,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Apr-2022 07:45,05-May-2022 11:51
+51,785100049,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,25-Apr-2022 07:45,05-May-2022 11:51
 51,785100049,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Apr-2022 07:45,05-May-2022 11:52
 51,785100050,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-May-2022 08:29,29-Sep-2022 06:04
 51,785100050,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,04-May-2022 08:29,29-Sep-2022 06:04
@@ -2843,15 +2843,15 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100051,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,26-Apr-2022 08:41,10-May-2022 06:21
 51,785100051,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,26-Apr-2022 08:41,10-May-2022 06:20
 51,785100051,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,26-Apr-2022 08:41,10-May-2022 06:21
+51,785100052,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,26-Apr-2022 07:45,10-May-2022 06:15
 51,785100052,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,26-Apr-2022 07:45,10-May-2022 06:16
 51,785100052,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,26-Apr-2022 07:45,10-May-2022 06:16
-51,785100052,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,26-Apr-2022 07:45,10-May-2022 06:15
 51,785100053,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,26-Apr-2022 07:59,10-May-2022 06:18
 51,785100053,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,26-Apr-2022 07:59,23-Jun-2022 07:00
 51,785100053,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,26-Apr-2022 07:59,
 51,785100054,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,27-Apr-2022 09:29,
-51,785100054,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,27-Apr-2022 09:29,09-May-2022 09:40
 51,785100054,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,27-Apr-2022 09:29,
+51,785100054,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,27-Apr-2022 09:29,09-May-2022 09:40
 51,785100055,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,27-Apr-2022 09:37,09-May-2022 09:38
 51,785100055,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,27-Apr-2022 09:37,
 51,785100055,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,27-Apr-2022 09:37,
@@ -2894,9 +2894,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100069,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,04-May-2022 08:28,
 51,785100069,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-May-2022 08:28,16-May-2022 07:34
 51,785100069,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-May-2022 08:28,
-51,785100070,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,26-May-2022 09:19,
 51,785100070,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,26-May-2022 09:18,24-Nov-2022 02:31
 51,785100070,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,26-May-2022 09:18,24-Nov-2022 02:30
+51,785100070,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,26-May-2022 09:19,
 51,785100071,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,04-May-2022 07:26,
 51,785100071,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-May-2022 07:26,16-May-2022 07:18
 51,785100071,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-May-2022 07:26,
@@ -2928,8 +2928,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100082,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,18-May-2022 07:36,
 51,785100082,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,18-May-2022 07:36,
 51,785100083,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-May-2022 07:13,
-51,785100083,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-May-2022 07:13,16-May-2022 07:18
 51,785100083,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,04-May-2022 07:13,
+51,785100083,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-May-2022 07:13,16-May-2022 07:18
 51,785100084,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,05-May-2022 08:29,
 51,785100084,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,05-May-2022 08:29,16-May-2022 12:15
 51,785100084,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,05-May-2022 08:29,
@@ -3311,9 +3311,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100233,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,18-May-2022 08:38,
 51,785100233,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,18-May-2022 08:38,06-Jun-2022 12:41
 51,785100233,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,18-May-2022 08:38,
+51,785100234,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,19-May-2022 10:34,
 51,785100234,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-May-2022 10:34,04-Jul-2022 07:57
 51,785100234,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-May-2022 10:34,
-51,785100234,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,19-May-2022 10:34,
 51,785100236,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,18-May-2022 07:22,
 51,785100236,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,18-May-2022 07:22,06-Jun-2022 12:26
 51,785100236,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,18-May-2022 07:22,
@@ -3359,9 +3359,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100254,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,23-May-2022 08:23,
 51,785100254,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,23-May-2022 08:23,06-Jun-2022 12:18
 51,785100254,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,23-May-2022 08:23,
-51,785100255,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,23-May-2022 08:06,06-Jun-2022 12:13
-51,785100255,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,23-May-2022 08:06,23-May-2022 08:07
 51,785100255,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,23-May-2022 08:06,23-May-2022 08:07
+51,785100255,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,23-May-2022 08:06,23-May-2022 08:07
+51,785100255,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,23-May-2022 08:06,06-Jun-2022 12:13
 51,785100256,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,23-May-2022 07:39,
 51,785100256,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,23-May-2022 07:39,06-Jun-2022 12:07
 51,785100256,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,23-May-2022 07:39,
@@ -3371,9 +3371,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100260,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,23-May-2022 06:57,
 51,785100260,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,23-May-2022 06:57,06-Jun-2022 11:47
 51,785100260,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,23-May-2022 06:57,
-51,785100262,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,23-May-2022 08:18,
 51,785100262,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,23-May-2022 08:18,
 51,785100262,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,23-May-2022 08:18,06-Jun-2022 12:18
+51,785100262,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,23-May-2022 08:18,
 51,785100263,Day 236,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,23-May-2022 07:13,
 51,785100263,Day 236,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,23-May-2022 07:13,06-Jun-2022 12:04
 51,785100263,Day 236,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,23-May-2022 07:13,
@@ -4622,21 +4622,21 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100083,Pre-Booster,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,04-Nov-2022 07:35,
 51,785100083,Pre-Booster,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-Nov-2022 07:35,10-Nov-2022 08:15
 51,785100083,Pre-Booster,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Nov-2022 07:35,
+51,785100084,Pre-Booster,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Nov-2022 07:44,
 51,785100084,Pre-Booster,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,04-Nov-2022 07:44,
 51,785100084,Pre-Booster,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-Nov-2022 07:44,10-Nov-2022 08:14
-51,785100084,Pre-Booster,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Nov-2022 07:44,
 51,785100086,Pre-Booster,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,09-Nov-2022 07:04,
 51,785100086,Pre-Booster,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,09-Nov-2022 07:04,15-Nov-2022 05:49
 51,785100086,Pre-Booster,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-Nov-2022 07:04,
+51,785100087,Pre-Booster,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Nov-2022 07:39,
 51,785100087,Pre-Booster,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,04-Nov-2022 07:39,
 51,785100087,Pre-Booster,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-Nov-2022 07:39,10-Nov-2022 08:13
-51,785100087,Pre-Booster,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Nov-2022 07:39,
 51,785100088,Pre-Booster,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,15-Nov-2022 08:20,
 51,785100088,Pre-Booster,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,15-Nov-2022 08:20,21-Nov-2022 06:48
 51,785100088,Pre-Booster,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,15-Nov-2022 08:20,
-51,785100089,Pre-Booster,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Nov-2022 07:51,
-51,785100089,Pre-Booster,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-Nov-2022 07:51,10-Nov-2022 08:16
 51,785100089,Pre-Booster,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,04-Nov-2022 07:51,
+51,785100089,Pre-Booster,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-Nov-2022 07:51,10-Nov-2022 08:16
+51,785100089,Pre-Booster,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Nov-2022 07:51,
 51,785100090,Pre-Booster,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,04-Nov-2022 09:14,09-Nov-2022 09:43
 51,785100090,Pre-Booster,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-Nov-2022 09:14,15-Nov-2022 05:45
 51,785100090,Pre-Booster,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Nov-2022 09:14,
@@ -7909,9 +7909,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100377,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,05-Jun-2023 09:52,
 51,785100377,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,05-Jun-2023 09:52,09-Jun-2023 08:48
 51,785100377,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,05-Jun-2023 09:52,
-51,785100379,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Jun-2023 07:19,07-Jul-2023 06:10
 51,785100379,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,29-Jun-2023 07:19,
 51,785100379,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,29-Jun-2023 07:19,
+51,785100379,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Jun-2023 07:19,07-Jul-2023 06:10
 51,785100380,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,23-Jun-2023 07:38,
 51,785100380,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,23-Jun-2023 07:38,
 51,785100380,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,23-Jun-2023 07:38,29-Jun-2023 11:50
@@ -8131,9 +8131,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100463,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,27-Jun-2023 09:18,04-Jul-2023 13:31
 51,785100463,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,27-Jun-2023 09:18,
 51,785100463,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,27-Jun-2023 09:18,
-51,785100464,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Jun-2023 09:00,07-Jul-2023 06:26
 51,785100464,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,29-Jun-2023 09:00,
 51,785100464,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,29-Jun-2023 09:00,
+51,785100464,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Jun-2023 09:00,07-Jul-2023 06:26
 51,785100465,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,03-Jul-2023 09:30,
 51,785100465,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,03-Jul-2023 09:30,05-Jul-2023 12:28
 51,785100465,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,03-Jul-2023 09:30,
@@ -8164,9 +8164,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100474,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,07-Jul-2023 08:38,
 51,785100474,B 168,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,5027,0,No,,,,,,,,,,,07-Jul-2023 08:38,13-Jul-2023 07:24
 51,785100474,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,07-Jul-2023 08:38,
+51,785100475,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Jun-2023 07:38,07-Jul-2023 07:03
 51,785100475,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,22-Jun-2023 07:38,
 51,785100475,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,22-Jun-2023 07:38,
-51,785100475,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Jun-2023 07:38,07-Jul-2023 07:03
 51,785100476,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,22-Jun-2023 08:23,
 51,785100476,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Jun-2023 08:23,07-Jul-2023 07:07
 51,785100476,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,22-Jun-2023 08:23,
@@ -8194,18 +8194,18 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100486,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,22-Jun-2023 07:18,
 51,785100486,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Jun-2023 07:18,07-Jul-2023 06:56
 51,785100486,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,22-Jun-2023 07:19,
-51,785100492,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Jun-2023 08:14,07-Jul-2023 06:24
 51,785100492,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,29-Jun-2023 08:14,
 51,785100492,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,29-Jun-2023 08:14,
+51,785100492,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Jun-2023 08:14,07-Jul-2023 06:24
+51,785100493,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Jun-2023 08:21,07-Jul-2023 06:19
 51,785100493,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,29-Jun-2023 08:21,
 51,785100493,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,29-Jun-2023 08:21,
-51,785100493,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Jun-2023 08:21,07-Jul-2023 06:19
 51,785100494,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,29-Jun-2023 08:24,
 51,785100494,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Jun-2023 08:24,07-Jul-2023 06:26
 51,785100494,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,29-Jun-2023 08:24,
-51,785100496,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Jun-2023 10:09,07-Jul-2023 07:24
 51,785100496,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,22-Jun-2023 10:09,
 51,785100496,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,22-Jun-2023 10:09,
+51,785100496,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Jun-2023 10:09,07-Jul-2023 07:24
 51,785100497,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,06-Jul-2023 08:49,
 51,785100497,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,06-Jul-2023 08:49,13-Jul-2023 07:15
 51,785100497,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,06-Jul-2023 08:49,
@@ -8260,9 +8260,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100520,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,11-Jul-2023 07:15,
 51,785100520,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Jul-2023 07:15,14-Jul-2023 12:15
 51,785100520,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Jul-2023 07:15,
+51,785100521,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,05-Jul-2023 09:31,11-Jul-2023 07:09
 51,785100521,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,05-Jul-2023 09:31,
 51,785100521,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,05-Jul-2023 09:32,
-51,785100521,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,05-Jul-2023 09:31,11-Jul-2023 07:09
 51,785100522,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,05-Jul-2023 09:43,
 51,785100522,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,05-Jul-2023 09:43,11-Jul-2023 07:12
 51,785100522,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,05-Jul-2023 09:43,
@@ -8410,9 +8410,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100579,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,06-Jul-2023 07:51,
 51,785100579,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,06-Jul-2023 07:51,13-Jul-2023 07:08
 51,785100579,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,06-Jul-2023 07:51,
+51,785100580,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,06-Jul-2023 08:40,13-Jul-2023 07:14
 51,785100580,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,06-Jul-2023 08:40,13-Jul-2023 07:14
 51,785100580,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,06-Jul-2023 08:41,
-51,785100580,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,06-Jul-2023 08:40,13-Jul-2023 07:14
 51,785100581,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,11-Jul-2023 09:50,
 51,785100581,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Jul-2023 09:50,18-Jul-2023 08:12
 51,785100581,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Jul-2023 09:50,
@@ -8567,9 +8567,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100648,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,11-Jul-2023 08:52,
 51,785100648,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Jul-2023 08:52,14-Jul-2023 12:28
 51,785100648,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Jul-2023 08:52,
-51,785100649,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Jul-2023 09:10,
 51,785100649,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,11-Jul-2023 09:09,
 51,785100649,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Jul-2023 09:09,18-Jul-2023 08:08
+51,785100649,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Jul-2023 09:10,
 51,785100650,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,11-Jul-2023 09:50,
 51,785100650,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Jul-2023 09:50,18-Jul-2023 08:00
 51,785100650,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Jul-2023 09:50,
@@ -8579,9 +8579,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100652,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,11-Jul-2023 09:33,
 51,785100652,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Jul-2023 09:33,18-Jul-2023 08:11
 51,785100652,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Jul-2023 09:33,
+51,785100655,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,07-Jul-2023 08:48,
 51,785100655,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,07-Jul-2023 08:48,13-Jul-2023 07:22
 51,785100655,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,07-Jul-2023 08:48,
-51,785100655,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,07-Jul-2023 08:48,
 51,785100656,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jul-2023 08:12,
 51,785100656,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jul-2023 08:12,19-Jul-2023 07:16
 51,785100656,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jul-2023 08:12,
@@ -8603,9 +8603,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100665,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,07-Jul-2023 07:54,
 51,785100665,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,07-Jul-2023 07:54,13-Jul-2023 07:18
 51,785100665,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,07-Jul-2023 07:55,
-51,785100666,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Jul-2023 08:28,18-Jul-2023 08:06
-51,785100666,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,11-Jul-2023 08:28,
 51,785100666,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Jul-2023 08:29,
+51,785100666,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,11-Jul-2023 08:28,
+51,785100666,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Jul-2023 08:28,18-Jul-2023 08:06
 51,785100667,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,11-Jul-2023 08:13,
 51,785100667,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Jul-2023 08:13,18-Jul-2023 08:06
 51,785100667,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Jul-2023 08:13,
@@ -8627,8 +8627,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100674,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,24-Jul-2023 08:43,
 51,785100674,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,24-Jul-2023 08:43,28-Jul-2023 07:01
 51,785100674,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,24-Jul-2023 08:43,
-51,785100676,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,12-Jul-2023 08:09,14-Jul-2023 12:17
 51,785100676,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,12-Jul-2023 08:09,14-Jul-2023 12:18
+51,785100676,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,12-Jul-2023 08:09,14-Jul-2023 12:17
 51,785100676,B 168,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,12-Jul-2023 08:10,14-Jul-2023 12:17
 51,785100678,B 168,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,11-Jul-2023 10:04,
 51,785100678,B 168,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Jul-2023 10:04,18-Jul-2023 08:01
@@ -9107,9 +9107,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100160,Malaria case report,MLR-1,28-Jun-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,10784,0,No,,,,,,,,,,,28-Jun-2023 09:53,28-Aug-2023 09:49
 51,785100160,Malaria case report,MLR-1,28-Jun-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Jun-2023 09:54,
 51,785100160,Malaria case report,MLR-1,28-Jun-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,28-Jun-2023 09:55,
-51,785100160,Malaria case report,MLR-1,25-Jun-2023,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Jun-2023 08:33,07-Jul-2023 06:38
 51,785100160,Malaria case report,MLR-1,25-Jun-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,25-Jun-2023 08:32,25-Jun-2023 08:34
 51,785100160,Malaria case report,MLR-1,25-Jun-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Jun-2023 08:33,25-Jun-2023 08:34
+51,785100160,Malaria case report,MLR-1,25-Jun-2023,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Jun-2023 08:33,07-Jul-2023 06:38
 51,785100170,Malaria case report,MLR-3,02-Jan-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,02-Jan-2023 12:19,
 51,785100170,Malaria case report,MLR-3,02-Jan-2023,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,02-Jan-2023 12:18,04-Jan-2023 11:30
 51,785100170,Malaria case report,MLR-2,03-Dec-2022,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,11-Dec-2022 16:15,04-Jul-2023 10:46
@@ -9350,9 +9350,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100249,Malaria case report,MLR-2,08-Oct-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,26406,0,No,,,,,,,,,,,09-Oct-2023 17:55,13-Oct-2023 08:08
 51,785100249,Malaria case report,MLR-2,08-Oct-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-Oct-2023 17:57,
 51,785100249,Malaria case report,MLR-2,08-Oct-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,09-Oct-2023 17:54,
-51,785100249,Malaria case report,MLR-3,01-Nov-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,02-Nov-2023 20:21,
 51,785100249,Malaria case report,MLR-3,01-Nov-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,02-Nov-2023 20:18,
-51,785100249,Malaria case report,MLR-3,01-Nov-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,,,,,,,,,,,,,,02-Nov-2023 20:19,
+51,785100249,Malaria case report,MLR-3,01-Nov-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,43560,8,No,,,,,,,,,,,02-Nov-2023 20:19,04-Nov-2023 08:25
+51,785100249,Malaria case report,MLR-3,01-Nov-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,02-Nov-2023 20:21,
 51,785100249,Malaria case report,MLR-1,13-Sep-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,10040,0,No,,,,,,,,,,,18-Sep-2023 09:41,19-Sep-2023 10:20
 51,785100249,Malaria case report,MLR-1,13-Sep-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,18-Sep-2023 09:41,18-Sep-2023 09:47
 51,785100249,Malaria case report,MLR-1,18-Sep-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,18-Sep-2023 09:45,
@@ -9384,9 +9384,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100259,Malaria case report,MLR-2,29-Jun-2022,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,29-Jun-2022 09:44,22-Jul-2022 09:16
 51,785100259,Malaria case report,MLR-2,29-Jun-2022,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,446000,0,No,,,,,,,,,,,29-Jun-2022 09:44,23-Feb-2023 16:31
 51,785100259,Malaria case report,MLR-2,29-Jun-2022,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,29-Jun-2022 09:44,
+51,785100259,Malaria case report,MLR-1,11-Jan-2022,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,770000,0,No,,,No,,,No,,,No,,11-Jan-2022 11:24,23-Feb-2023 16:30
 51,785100259,Malaria case report,MLR-1,11-Jan-2022,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,11-Jan-2022 11:24,16-Feb-2022 10:36
 51,785100259,Malaria case report,MLR-1,11-Jan-2022,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Jan-2022 11:24,27-Jan-2022 15:10
-51,785100259,Malaria case report,MLR-1,11-Jan-2022,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,770000,0,No,,,No,,,No,,,No,,11-Jan-2022 11:24,23-Feb-2023 16:30
 51,785100263,Malaria case report,MLR-7,22-Sep-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,26-Oct-2023 08:55,
 51,785100263,Malaria case report,MLR-7,22-Sep-2023,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,26-Oct-2023 08:56,
 51,785100263,Malaria case report,MLR-7,18-Sep-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,308000,0,No,,,,,,,,,,,19-Sep-2023 06:43,21-Sep-2023 06:39
@@ -9577,6 +9577,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100320,Malaria case report,MLR-1,25-Sep-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,26-Sep-2023 08:00,
 51,785100320,Malaria case report,MLR-1,25-Sep-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,5440,0,No,,,,,,,,,,,26-Sep-2023 08:00,02-Oct-2023 07:43
 51,785100320,Malaria case report,MLR-1,25-Sep-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,26-Sep-2023 08:00,26-Sep-2023 08:02
+51,785100320,Malaria case report,MLR-2,04-Nov-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,04-Nov-2023 08:17,
+51,785100320,Malaria case report,MLR-2,04-Nov-2023,Blood film for Plasmodium species,,,,,,,,,,,,,,,,04-Nov-2023 08:18,
+51,785100320,Malaria case report,MLR-2,04-Nov-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Nov-2023 08:18,
 51,785100320,Malaria case report,MLR-1,30-Sep-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,31-Oct-2023 15:41,
 51,785100320,Malaria case report,MLR-1,30-Sep-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,31-Oct-2023 15:40,
 51,785100320,Malaria case report,MLR-1,30-Sep-2023,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,31-Oct-2023 15:40,
@@ -9631,13 +9634,16 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100349,Malaria case report,MLR-2,17-Aug-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,17-Aug-2023 07:10,
 51,785100349,Malaria case report,MLR-2,20-Aug-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,20-Aug-2023 07:20,
 51,785100349,Malaria case report,MLR-2,20-Aug-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Aug-2023 07:21,
-51,785100349,Malaria case report,MLR-3,20-Aug-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Aug-2023 07:21,
-51,785100350,Malaria case report,MLR-4,07-Feb-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,07-Feb-2023 08:27,
-51,785100350,Malaria case report,MLR-4,07-Feb-2023,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,07-Feb-2023 08:26,10-Feb-2023 09:03
-51,785100350,Malaria case report,MLR-4,07-Feb-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,07-Feb-2023 08:27,
+51,785100349,Malaria case report,MLR-2,20-Aug-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Aug-2023 07:21,03-Nov-2023 11:04
+51,785100349,Malaria case report,MLR-3,02-Nov-2023,Blood film for Plasmodium species,,,,,,,,,,,,,,,,03-Nov-2023 11:07,
+51,785100349,Malaria case report,MLR-3,02-Nov-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,03-Nov-2023 11:08,
+51,785100349,Malaria case report,MLR-3,02-Nov-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,03-Nov-2023 11:06,
 51,785100350,Malaria case report,MLR-5,19-Jun-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,19-Jun-2023 07:19,
 51,785100350,Malaria case report,MLR-5,19-Jun-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,11156,0,No,,,,,,,,,,,19-Jun-2023 07:19,27-Jun-2023 07:07
 51,785100350,Malaria case report,MLR-5,19-Jun-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-Jun-2023 07:20,
+51,785100350,Malaria case report,MLR-4,07-Feb-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,07-Feb-2023 08:27,
+51,785100350,Malaria case report,MLR-4,07-Feb-2023,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,07-Feb-2023 08:26,10-Feb-2023 09:03
+51,785100350,Malaria case report,MLR-4,07-Feb-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,07-Feb-2023 08:27,
 51,785100350,Malaria case report,MLR-4,04-Feb-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,05-Feb-2023 08:55,07-Feb-2023 08:26
 51,785100350,Malaria case report,MLR-4,04-Feb-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,52000,0,No,,,,,,,,,,,05-Feb-2023 08:55,10-Feb-2023 09:05
 51,785100350,Malaria case report,MLR-4,04-Feb-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,05-Feb-2023 08:54,
@@ -9672,12 +9678,12 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100357,Malaria case report,MLR-1,19-Feb-2022,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,22-Feb-2022 17:04,
 51,785100357,Malaria case report,MLR-1,19-Feb-2022,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,22-Feb-2022 17:04,22-Feb-2022 17:08
 51,785100357,Malaria case report,MLR-1,19-Feb-2022,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Feb-2022 17:04,14-Sep-2022 12:33
-51,785100369,Malaria case report,MLR-1,29-Sep-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,29-Sep-2023 09:35,
-51,785100369,Malaria case report,MLR-1,29-Sep-2023,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Sep-2023 09:36,06-Oct-2023 06:09
-51,785100369,Malaria case report,MLR-1,29-Sep-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,29-Sep-2023 09:36,
 51,785100369,Malaria case report,MLR-1,25-Sep-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,26-Sep-2023 19:24,
 51,785100369,Malaria case report,MLR-1,25-Sep-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,68000,0,No,,,,,,,,,,,26-Sep-2023 19:24,02-Oct-2023 08:31
 51,785100369,Malaria case report,MLR-1,25-Sep-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,26-Sep-2023 19:24,26-Sep-2023 19:32
+51,785100369,Malaria case report,MLR-1,29-Sep-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,29-Sep-2023 09:35,
+51,785100369,Malaria case report,MLR-1,29-Sep-2023,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Sep-2023 09:36,06-Oct-2023 06:09
+51,785100369,Malaria case report,MLR-1,29-Sep-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,29-Sep-2023 09:36,
 51,785100371,Malaria case report,MLR-1,02-Sep-2023,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,02-Sep-2023 06:59,06-Sep-2023 06:02
 51,785100371,Malaria case report,MLR-1,02-Sep-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,02-Sep-2023 06:57,
 51,785100371,Malaria case report,MLR-1,30-Aug-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,31-Aug-2023 07:06,
@@ -9982,11 +9988,13 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100473,Malaria case report,MLR-4,27-Jul-2022,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,52000,0,No,,,,,,,,,,,27-Jul-2022 08:00,05-Oct-2023 09:44
 51,785100473,Malaria case report,MLR-6,12-Sep-2022,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,281000,0,No,,,,,,,,,,,14-Sep-2022 11:00,18-Sep-2022 07:52
 51,785100473,Malaria case report,MLR-4,29-Jul-2022,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Jul-2022 08:16,19-Aug-2022 07:22
+51,785100473,Malaria case report,MLR-3,21-Jan-2022,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Jan-2022 14:40,01-Feb-2022 11:36
+51,785100473,Malaria case report,MLR-3,21-Jan-2022,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,21-Jan-2022 14:39,01-Feb-2022 11:38
+51,785100473,Malaria case report,MLR-3,21-Jan-2022,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,248,0,No,,,No,,,No,,,No,,21-Jan-2022 14:39,03-Mar-2022 10:16
 51,785100473,Malaria case report,MLR-2,02-Jan-2022,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,15-Feb-2022 07:10,15-Feb-2022 08:09
 51,785100473,Malaria case report,MLR-2,02-Jan-2022,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,15-Feb-2022 07:10,
-51,785100473,Malaria case report,MLR-3,21-Jan-2022,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,248,0,No,,,No,,,No,,,No,,21-Jan-2022 14:39,03-Mar-2022 10:16
-51,785100473,Malaria case report,MLR-3,21-Jan-2022,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,21-Jan-2022 14:39,01-Feb-2022 11:38
-51,785100473,Malaria case report,MLR-3,21-Jan-2022,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Jan-2022 14:40,01-Feb-2022 11:36
+51,785100474,Malaria case report,MLR-1,07-Jul-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,08-Jul-2023 12:15,
+51,785100474,Malaria case report,MLR-1,07-Jul-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,08-Jul-2023 12:15,09-Jul-2023 08:48
 51,785100474,Malaria case report,MLR-1,13-Jul-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Jul-2023 14:03,
 51,785100474,Malaria case report,MLR-1,13-Jul-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jul-2023 14:03,
 51,785100474,Malaria case report,MLR-1,13-Jul-2023,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jul-2023 14:04,10-Aug-2023 11:32
@@ -9994,14 +10002,6 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100474,Malaria case report,MLR-1,09-Jul-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,09-Jul-2023 08:49,
 51,785100474,Malaria case report,MLR-1,09-Jul-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-Jul-2023 08:49,
 51,785100474,Malaria case report,MLR-1,09-Jul-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,6412,0,No,,,,,,,,,,,09-Jul-2023 08:50,13-Jul-2023 06:13
-51,785100474,Malaria case report,MLR-1,07-Jul-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,08-Jul-2023 12:15,
-51,785100474,Malaria case report,MLR-1,07-Jul-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,08-Jul-2023 12:15,09-Jul-2023 08:48
-51,785100481,Malaria case report,MLR-2,08-May-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,08-May-2023 10:05,
-51,785100481,Malaria case report,MLR-2,08-May-2023,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,08-May-2023 10:06,11-May-2023 11:15
-51,785100481,Malaria case report,MLR-2,08-May-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,08-May-2023 10:07,
-51,785100481,Malaria case report,MLR-2,02-May-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,03-May-2023 10:48,
-51,785100481,Malaria case report,MLR-2,02-May-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,130000,0,No,,,,,,,,,,,03-May-2023 10:49,09-May-2023 08:45
-51,785100481,Malaria case report,MLR-2,02-May-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,03-May-2023 10:51,
 51,785100481,Malaria case report,MLR-3,27-Jul-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,28-Jul-2023 09:50,
 51,785100481,Malaria case report,MLR-3,27-Jul-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,773500,0,No,,,,,,,,,,,28-Jul-2023 09:51,03-Aug-2023 07:37
 51,785100481,Malaria case report,MLR-3,27-Jul-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Jul-2023 09:51,
@@ -10010,6 +10010,15 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100481,Malaria case report,MLR-1,30-Jun-2022,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,30-Jun-2022 11:36,
 51,785100481,Malaria case report,MLR-1,05-Jul-2022,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,15-Sep-2022 17:24,
 51,785100481,Malaria case report,MLR-1,05-Jul-2022,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,15-Sep-2022 17:23,
+51,785100481,Malaria case report,MLR-2,08-May-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,08-May-2023 10:05,
+51,785100481,Malaria case report,MLR-2,08-May-2023,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,08-May-2023 10:06,11-May-2023 11:15
+51,785100481,Malaria case report,MLR-2,08-May-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,08-May-2023 10:07,
+51,785100481,Malaria case report,MLR-2,02-May-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,03-May-2023 10:48,
+51,785100481,Malaria case report,MLR-2,02-May-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,130000,0,No,,,,,,,,,,,03-May-2023 10:49,09-May-2023 08:45
+51,785100481,Malaria case report,MLR-2,02-May-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,03-May-2023 10:51,
+51,785100482,Malaria case report,MLR-4,01-Apr-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,03-Apr-2023 08:00,
+51,785100482,Malaria case report,MLR-4,01-Apr-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium malariae,,,,4372,0,No,,,,,,,,03-Apr-2023 08:04,17-Apr-2023 08:54
+51,785100482,Malaria case report,MLR-4,01-Apr-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,03-Apr-2023 08:06,
 51,785100482,Malaria case report,MLR-2,08-Sep-2022,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,08-Sep-2022 07:22,
 51,785100482,Malaria case report,MLR-2,08-Sep-2022,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,99000,0,No,,,,,,,,,,,08-Sep-2022 07:23,15-Sep-2022 09:06
 51,785100482,Malaria case report,MLR-2,08-Sep-2022,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,08-Sep-2022 07:23,
@@ -10023,9 +10032,6 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100482,Malaria case report,MLR-1,13-Jul-2022,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,13-Jul-2022 17:05,
 51,785100482,Malaria case report,MLR-3,04-Oct-2022,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,12-Oct-2022 09:09,
 51,785100482,Malaria case report,MLR-3,04-Oct-2022,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,12-Oct-2022 09:09,
-51,785100482,Malaria case report,MLR-4,01-Apr-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,03-Apr-2023 08:00,
-51,785100482,Malaria case report,MLR-4,01-Apr-2023,Blood film for Plasmodium species,Single species,Positive for Plasmodium malariae,,,,4372,0,No,,,,,,,,03-Apr-2023 08:04,17-Apr-2023 08:54
-51,785100482,Malaria case report,MLR-4,01-Apr-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,03-Apr-2023 08:06,
 51,785100485,Malaria case report,MLR-1,25-Sep-2022,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Sep-2022 15:29,26-Sep-2022 11:19
 51,785100485,Malaria case report,MLR-1,25-Sep-2022,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Sep-2022 15:29,25-Sep-2022 15:30
 51,785100485,Malaria case report,MLR-1,22-Sep-2022,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,22-Sep-2022 08:30,25-Sep-2022 15:25
@@ -10123,10 +10129,10 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100576,Malaria case report,MLR-1,29-Jun-2022,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,01-Jul-2022 08:37,20-Jul-2022 15:44
 51,785100583,Malaria case report,MLR-1,10-Jan-2022,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,326000,0,No,,,No,,,No,,,No,,10-Jan-2022 08:15,03-Mar-2022 11:03
 51,785100583,Malaria case report,MLR-1,10-Jan-2022,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,10-Jan-2022 08:16,01-Feb-2022 11:22
+51,785100583,Malaria case report,MLR-1,10-Jan-2022,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,10-Jan-2022 08:15,01-Feb-2022 11:17
 51,785100583,Malaria case report,MLR-2,27-Jan-2022,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,02-Feb-2022 07:39,
 51,785100583,Malaria case report,MLR-2,27-Jan-2022,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,302000,0,No,,,No,,,No,,,No,,02-Feb-2022 07:39,03-Mar-2022 10:04
 51,785100583,Malaria case report,MLR-2,27-Jan-2022,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,02-Feb-2022 07:40,
-51,785100583,Malaria case report,MLR-1,10-Jan-2022,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,10-Jan-2022 08:15,01-Feb-2022 11:17
 51,785100598,Malaria case report,MLR-1,09-Feb-2023,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,09-Feb-2023 07:41,
 51,785100598,Malaria case report,MLR-1,09-Feb-2023,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,09-Feb-2023 07:41,16-Feb-2023 08:00
 51,785100598,Malaria case report,MLR-1,09-Feb-2023,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-Feb-2023 07:42,
@@ -10423,9 +10429,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100077,Unscheduled - 1,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,04-Nov-2021 08:08,04-Nov-2021 08:09
 51,785100077,Unscheduled - 1,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-Nov-2021 08:08,09-Feb-2022 09:43
 51,785100077,Unscheduled - 1,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Nov-2021 08:08,04-Nov-2021 08:09
+51,785100079,Unscheduled - 1,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,30-Dec-2021 09:01,16-Feb-2022 08:34
 51,785100079,Unscheduled - 1,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,30-Dec-2021 09:01,16-Feb-2022 08:35
 51,785100079,Unscheduled - 1,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,30-Dec-2021 09:01,16-Feb-2022 08:37
-51,785100079,Unscheduled - 1,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,30-Dec-2021 09:01,16-Feb-2022 08:34
 51,785100080,Unscheduled - 1,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,21-Nov-2021 09:43,21-Nov-2021 09:43
 51,785100080,Unscheduled - 1,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,21-Nov-2021 09:43,05-Dec-2021 13:12
 51,785100080,Unscheduled - 1,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Nov-2021 09:43,21-Nov-2021 09:44
@@ -11423,9 +11429,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100665,Unscheduled - 1,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,24-Nov-2021 13:14,19-Jan-2022 08:43
 51,785100665,Unscheduled - 1,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,24-Nov-2021 13:14,19-Jan-2022 08:41
 51,785100665,Unscheduled - 1,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,24-Nov-2021 13:14,19-Jan-2022 08:41
+51,785100666,Unscheduled - 1,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-Feb-2022 08:17,
 51,785100666,Unscheduled - 1,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,09-Feb-2022 08:17,
 51,785100666,Unscheduled - 1,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,09-Feb-2022 08:17,15-Jul-2022 10:44
-51,785100666,Unscheduled - 1,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-Feb-2022 08:17,
 51,785100668,Unscheduled - 1,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,09-Dec-2021 08:31,
 51,785100668,Unscheduled - 1,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,09-Dec-2021 08:31,21-Dec-2021 07:23
 51,785100668,Unscheduled - 1,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-Dec-2021 08:31,
@@ -11648,9 +11654,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100367,Unscheduled - 10,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,17-Dec-2022 09:13,
 51,785100367,Unscheduled - 10,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,17-Dec-2022 09:13,21-Dec-2022 14:30
 51,785100367,Unscheduled - 10,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,17-Dec-2022 09:13,
+51,785100369,Unscheduled - 10,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,07-Jan-2022 07:57,10-Feb-2022 12:29
 51,785100369,Unscheduled - 10,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,07-Jan-2022 07:57,10-Feb-2022 12:28
 51,785100369,Unscheduled - 10,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,07-Jan-2022 07:57,10-Feb-2022 12:28
-51,785100369,Unscheduled - 10,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,07-Jan-2022 07:57,10-Feb-2022 12:29
 51,785100374,Unscheduled - 10,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,16-Mar-2022 09:14,
 51,785100374,Unscheduled - 10,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,16-Mar-2022 09:14,18-Mar-2022 08:59
 51,785100374,Unscheduled - 10,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,16-Mar-2022 09:15,
@@ -11669,9 +11675,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100399,Unscheduled - 10,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,21-May-2023 08:04,
 51,785100399,Unscheduled - 10,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,54960,0,No,,,,,,,,,,,21-May-2023 08:04,25-May-2023 07:40
 51,785100399,Unscheduled - 10,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-May-2023 08:04,
-51,785100405,Unscheduled - 10,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Feb-2022 07:51,24-Feb-2022 11:26
 51,785100405,Unscheduled - 10,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,22-Feb-2022 07:51,
 51,785100405,Unscheduled - 10,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,22-Feb-2022 07:51,24-Feb-2022 11:26
+51,785100405,Unscheduled - 10,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Feb-2022 07:51,24-Feb-2022 11:26
 51,785100416,Unscheduled - 10,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,25-Aug-2022 08:32,25-Aug-2022 08:33
 51,785100416,Unscheduled - 10,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Aug-2022 08:32,10-Nov-2022 09:51
 51,785100416,Unscheduled - 10,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Aug-2022 08:32,
@@ -12166,9 +12172,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100224,Unscheduled - 12,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,13-Oct-2022 09:51,
 51,785100224,Unscheduled - 12,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,235500,0,No,,,,,,,,,,,13-Oct-2022 09:51,13-Oct-2022 09:54
 51,785100224,Unscheduled - 12,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Oct-2022 09:51,
+51,785100234,Unscheduled - 12,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,10-Feb-2022 11:46,
 51,785100234,Unscheduled - 12,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,10-Feb-2022 11:46,14-Jul-2022 14:05
 51,785100234,Unscheduled - 12,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,10-Feb-2022 11:46,
-51,785100234,Unscheduled - 12,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,10-Feb-2022 11:46,
 51,785100248,Unscheduled - 12,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,02-Apr-2023 09:56,
 51,785100248,Unscheduled - 12,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,02-Apr-2023 09:56,04-Apr-2023 08:10
 51,785100248,Unscheduled - 12,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,02-Apr-2023 09:57,
@@ -12205,9 +12211,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100320,Unscheduled - 12,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,25-Sep-2023 07:31,03-Oct-2023 06:45
 51,785100320,Unscheduled - 12,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,5440,0,No,,,,,,,,,,,25-Sep-2023 07:31,03-Oct-2023 06:44
 51,785100320,Unscheduled - 12,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Sep-2023 07:31,03-Oct-2023 06:45
-51,785100337,Unscheduled - 12,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,10-Feb-2022 08:29,10-Feb-2022 08:29
 51,785100337,Unscheduled - 12,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,10-Feb-2022 08:29,15-Feb-2022 06:01
 51,785100337,Unscheduled - 12,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,10-Feb-2022 08:29,10-Feb-2022 08:30
+51,785100337,Unscheduled - 12,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,10-Feb-2022 08:29,10-Feb-2022 08:29
 51,785100345,Unscheduled - 12,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-Apr-2022 06:34,07-Apr-2022 08:03
 51,785100345,Unscheduled - 12,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Apr-2022 06:34,
 51,785100345,Unscheduled - 12,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,04-Apr-2022 06:33,
@@ -12685,8 +12691,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100361,Unscheduled - 14,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,27-Aug-2022 07:06,
 51,785100361,Unscheduled - 14,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,27-Aug-2022 07:06,16-Jun-2023 08:29
 51,785100361,Unscheduled - 14,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,27-Aug-2022 07:06,
-51,785100374,Unscheduled - 14,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,03-May-2022 10:36,
 51,785100374,Unscheduled - 14,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,03-May-2022 10:36,24-Aug-2022 07:17
+51,785100374,Unscheduled - 14,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,03-May-2022 10:36,
 51,785100374,Unscheduled - 14,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,03-May-2022 10:36,
 51,785100382,Unscheduled - 14,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,08-May-2022 09:21,
 51,785100382,Unscheduled - 14,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,08-May-2022 09:21,12-May-2022 11:39
@@ -12748,9 +12754,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100656,Unscheduled - 14,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,28-Oct-2022 11:12,
 51,785100656,Unscheduled - 14,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Oct-2022 11:12,07-Nov-2022 06:03
 51,785100656,Unscheduled - 14,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Oct-2022 11:12,
-51,785100663,Unscheduled - 14,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,06-Mar-2022 08:48,07-Mar-2022 06:18
 51,785100663,Unscheduled - 14,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,06-Mar-2022 08:47,07-Mar-2022 06:17
 51,785100663,Unscheduled - 14,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,06-Mar-2022 08:48,07-Mar-2022 06:17
+51,785100663,Unscheduled - 14,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,06-Mar-2022 08:48,07-Mar-2022 06:18
 51,785100004,Unscheduled - 15,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,01-Nov-2022 06:53,
 51,785100004,Unscheduled - 15,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,01-Nov-2022 06:53,19-Jan-2023 19:28
 51,785100004,Unscheduled - 15,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,01-Nov-2022 06:53,
@@ -13558,9 +13564,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100082,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,03-Jan-2022 11:38,
 51,785100082,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,03-Jan-2022 11:38,23-Aug-2022 12:49
 51,785100082,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,03-Jan-2022 11:38,
-51,785100084,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-Jan-2022 06:23,08-Feb-2022 09:44
 51,785100084,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,19-Jan-2022 06:23,19-Jan-2022 06:23
 51,785100084,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-Jan-2022 06:23,08-Feb-2022 09:44
+51,785100084,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-Jan-2022 06:23,08-Feb-2022 09:44
 51,785100086,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,12-Oct-2021 02:48,12-Oct-2021 02:49
 51,785100086,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,12-Oct-2021 02:49,28-Jan-2022 11:51
 51,785100086,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,12-Oct-2021 02:49,12-Oct-2021 02:49
@@ -14053,9 +14059,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100412,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,12-Dec-2021 08:57,17-Feb-2022 09:04
 51,785100412,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,12-Dec-2021 08:57,21-Dec-2021 06:30
 51,785100412,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,12-Dec-2021 08:57,17-Feb-2022 09:04
+51,785100416,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,09-Jan-2022 08:50,09-Jan-2022 08:51
 51,785100416,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,09-Jan-2022 08:50,17-Feb-2022 09:05
 51,785100416,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-Jan-2022 08:50,09-Jan-2022 08:51
-51,785100416,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,09-Jan-2022 08:50,09-Jan-2022 08:51
 51,785100418,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,20-Jun-2022 11:05,
 51,785100418,Unscheduled - 2,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,206000,0,No,,,,,,,,,,,20-Jun-2022 11:05,14-Sep-2022 13:47
 51,785100418,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Jun-2022 11:05,
@@ -14068,9 +14074,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100421,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,14-Nov-2021 08:37,
 51,785100421,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Nov-2021 08:37,10-Feb-2022 11:36
 51,785100421,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Nov-2021 08:37,14-Nov-2021 08:38
+51,785100422,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,18-Jan-2022 09:37,
 51,785100422,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,18-Jan-2022 09:37,01-Feb-2022 06:36
 51,785100422,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,18-Jan-2022 09:37,
-51,785100422,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,18-Jan-2022 09:37,
 51,785100423,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,21-Mar-2022 15:14,24-Mar-2022 12:38
 51,785100423,Unscheduled - 2,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,304,0,No,,,,,,,,,,,21-Mar-2022 15:15,05-Oct-2023 09:25
 51,785100423,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Mar-2022 15:15,05-Oct-2023 09:28
@@ -14146,18 +14152,18 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100474,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,27-Nov-2021 19:32,27-Nov-2021 19:33
 51,785100474,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,27-Nov-2021 19:32,19-Jan-2022 06:51
 51,785100474,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,27-Nov-2021 19:32,27-Nov-2021 19:33
+51,785100476,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,09-Jan-2022 11:45,09-Jan-2022 11:45
 51,785100476,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,09-Jan-2022 11:45,24-Aug-2022 08:18
 51,785100476,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-Jan-2022 11:45,09-Jan-2022 11:45
-51,785100476,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,09-Jan-2022 11:45,09-Jan-2022 11:45
 51,785100478,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,05-Jul-2022 16:32,
 51,785100478,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,05-Jul-2022 16:32,05-Jul-2022 16:34
 51,785100478,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,05-Jul-2022 16:32,
-51,785100481,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,19-Jan-2022 10:58,19-Jan-2022 11:01
 51,785100481,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-Jan-2022 10:58,08-Feb-2022 10:00
 51,785100481,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-Jan-2022 10:58,19-Jan-2022 11:01
+51,785100481,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,19-Jan-2022 10:58,19-Jan-2022 11:01
+51,785100482,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,28-Mar-2022 07:16,31-Mar-2022 12:36
 51,785100482,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Mar-2022 07:16,31-Mar-2022 12:37
 51,785100482,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Mar-2022 07:17,31-Mar-2022 12:38
-51,785100482,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,28-Mar-2022 07:16,31-Mar-2022 12:36
 51,785100483,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,08-Jan-2022 18:41,08-Jan-2022 18:41
 51,785100483,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,08-Jan-2022 18:41,15-Feb-2022 11:30
 51,785100483,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,08-Jan-2022 18:41,08-Jan-2022 18:41
@@ -14292,9 +14298,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100598,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,06-Jan-2022 11:09,
 51,785100598,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,06-Jan-2022 11:09,24-Aug-2022 09:00
 51,785100598,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,06-Jan-2022 11:09,
+51,785100599,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,13-Jan-2022 06:49,13-Jan-2022 06:49
 51,785100599,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 06:49,24-Aug-2022 09:04
 51,785100599,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 06:49,13-Jan-2022 06:49
-51,785100599,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,13-Jan-2022 06:49,13-Jan-2022 06:49
 51,785100600,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,01-Dec-2021 07:53,
 51,785100600,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,01-Dec-2021 07:53,24-Aug-2022 09:07
 51,785100600,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,01-Dec-2021 07:53,
@@ -14346,9 +14352,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100661,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,23-Mar-2022 08:04,31-Mar-2022 12:33
 51,785100661,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,23-Mar-2022 08:05,31-Mar-2022 12:34
 51,785100661,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,23-Mar-2022 08:06,31-Mar-2022 12:34
-51,785100666,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,16-Feb-2022 08:09,16-Feb-2022 08:09
 51,785100666,Unscheduled - 2,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,204000,0,No,,,No,,,No,,,No,,16-Feb-2022 08:09,16-Nov-2022 11:04
 51,785100666,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,16-Feb-2022 08:09,16-Feb-2022 08:09
+51,785100666,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,16-Feb-2022 08:09,16-Feb-2022 08:09
 51,785100668,Unscheduled - 2,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,01-Feb-2022 09:20,09-Feb-2022 11:52
 51,785100668,Unscheduled - 2,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,01-Feb-2022 09:20,09-Feb-2022 11:53
 51,785100668,Unscheduled - 2,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,01-Feb-2022 09:20,09-Feb-2022 11:53
@@ -14728,8 +14734,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100150,Unscheduled - 24,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,10-Jan-2023 10:57,14-Jan-2023 10:55
 51,785100150,Unscheduled - 24,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,10-Jan-2023 10:57,
 51,785100196,Unscheduled - 24,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,17-Nov-2022 09:59,21-Nov-2022 13:22
-51,785100196,Unscheduled - 24,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,17-Nov-2022 09:59,
 51,785100196,Unscheduled - 24,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,195500,0,No,0,0,No,0,0,No,0,0,No,,17-Nov-2022 09:59,21-Nov-2022 13:27
+51,785100196,Unscheduled - 24,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,17-Nov-2022 09:59,
 51,785100203,Unscheduled - 24,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,14-Aug-2023 10:09,
 51,785100203,Unscheduled - 24,,,Blood film for Plasmodium species,,,,,,,,,,,,,,,,14-Aug-2023 10:09,
 51,785100203,Unscheduled - 24,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Aug-2023 10:09,
@@ -14892,9 +14898,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100385,Unscheduled - 26,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,21-Dec-2022 09:23,
 51,785100385,Unscheduled - 26,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium malariae,,,,3024,0,No,,,,,,,,21-Dec-2022 09:23,10-Jan-2023 11:16
 51,785100385,Unscheduled - 26,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Dec-2022 09:23,
-51,785100598,Unscheduled - 26,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Jun-2023 10:30,07-Jul-2023 07:26
 51,785100598,Unscheduled - 26,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,22-Jun-2023 10:30,
 51,785100598,Unscheduled - 26,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,22-Jun-2023 10:30,
+51,785100598,Unscheduled - 26,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Jun-2023 10:30,07-Jul-2023 07:26
 51,785100022,Unscheduled - 27,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,04-May-2023 09:50,
 51,785100022,Unscheduled - 27,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-May-2023 09:50,09-May-2023 12:21
 51,785100022,Unscheduled - 27,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-May-2023 09:50,
@@ -14958,9 +14964,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100345,Unscheduled - 28,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,17-Jan-2023 09:00,
 51,785100345,Unscheduled - 28,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,17-Jan-2023 09:00,19-Jan-2023 18:17
 51,785100345,Unscheduled - 28,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,17-Jan-2023 09:00,
-51,785100361,Unscheduled - 28,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,12-Jun-2023 11:47,07-Jul-2023 08:23
 51,785100361,Unscheduled - 28,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,12-Jun-2023 11:47,
 51,785100361,Unscheduled - 28,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,12-Jun-2023 11:47,
+51,785100361,Unscheduled - 28,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,12-Jun-2023 11:47,07-Jul-2023 08:23
 51,785100365,Unscheduled - 28,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,24-Jan-2023 08:29,30-Jan-2023 11:51
 51,785100365,Unscheduled - 28,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,24-Jan-2023 08:29,
 51,785100365,Unscheduled - 28,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,24-Jan-2023 08:29,
@@ -15084,9 +15090,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100065,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,08-Nov-2021 11:10,
 51,785100065,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,08-Nov-2021 11:10,24-Aug-2022 10:40
 51,785100065,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,08-Nov-2021 11:10,17-Jan-2022 11:31
+51,785100069,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,04-Nov-2022 09:26,10-Nov-2022 08:23
 51,785100069,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-Nov-2022 09:26,10-Nov-2022 08:24
 51,785100069,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Nov-2022 09:27,10-Nov-2022 08:25
-51,785100069,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,04-Nov-2022 09:26,10-Nov-2022 08:23
 51,785100072,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,15-Dec-2021 06:05,
 51,785100072,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,15-Dec-2021 06:05,19-Jan-2022 09:36
 51,785100072,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,15-Dec-2021 06:05,
@@ -15144,9 +15150,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100127,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,01-Dec-2021 12:40,
 51,785100127,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,01-Dec-2021 12:40,24-Aug-2022 12:13
 51,785100127,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,01-Dec-2021 12:40,
-51,785100129,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 12:11,
 51,785100129,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,13-Jan-2022 12:11,14-Jul-2022 13:48
 51,785100129,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jan-2022 12:11,
+51,785100129,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jan-2022 12:11,
 51,785100133,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,04-Feb-2022 08:56,14-Feb-2022 13:52
 51,785100133,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-Feb-2022 08:56,14-Feb-2022 13:52
 51,785100133,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Feb-2022 08:56,14-Feb-2022 13:53
@@ -15159,9 +15165,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100140,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,30-Nov-2021 08:26,16-Feb-2022 11:34
 51,785100140,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,30-Nov-2021 08:26,16-Feb-2022 11:34
 51,785100140,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,30-Nov-2021 08:26,16-Feb-2022 11:35
-51,785100142,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-Jan-2022 04:29,08-Feb-2022 09:35
 51,785100142,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,19-Jan-2022 04:29,19-Jan-2022 04:29
 51,785100142,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-Jan-2022 04:29,19-Jan-2022 04:30
+51,785100142,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-Jan-2022 04:29,08-Feb-2022 09:35
 51,785100143,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,28-Jul-2022 10:23,
 51,785100143,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Jul-2022 10:23,23-Aug-2022 13:24
 51,785100143,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Jul-2022 10:24,
@@ -15180,9 +15186,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100153,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,25-Feb-2022 10:36,
 51,785100153,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Feb-2022 10:36,02-Mar-2022 08:14
 51,785100153,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Feb-2022 10:36,02-Mar-2022 08:14
-51,785100160,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,09-Feb-2022 08:01,
 51,785100160,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,09-Feb-2022 08:01,14-Jul-2022 19:23
 51,785100160,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-Feb-2022 08:01,
+51,785100160,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,09-Feb-2022 08:01,
 51,785100162,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,31-Jan-2022 09:04,09-Feb-2022 09:49
 51,785100162,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,31-Jan-2022 09:04,09-Feb-2022 09:48
 51,785100162,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,31-Jan-2022 09:04,09-Feb-2022 09:48
@@ -15228,9 +15234,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100193,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,10-Nov-2021 10:24,
 51,785100193,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,10-Nov-2021 10:24,23-Aug-2022 14:51
 51,785100193,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,10-Nov-2021 10:24,
-51,785100195,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,03-Feb-2022 11:51,15-Feb-2022 07:25
 51,785100195,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,03-Feb-2022 11:51,15-Feb-2022 07:24
 51,785100195,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,03-Feb-2022 11:51,15-Feb-2022 07:25
+51,785100195,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,03-Feb-2022 11:51,15-Feb-2022 07:25
 51,785100200,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,24-Feb-2022 09:53,28-Feb-2022 06:31
 51,785100200,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,24-Feb-2022 09:53,28-Feb-2022 06:31
 51,785100200,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,24-Feb-2022 09:53,28-Feb-2022 06:32
@@ -15261,8 +15267,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100215,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,12-Nov-2021 08:44,
 51,785100215,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,12-Nov-2021 08:44,24-Aug-2022 06:02
 51,785100215,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,12-Nov-2021 08:44,
-51,785100216,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Apr-2022 09:15,16-May-2022 11:38
 51,785100216,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,11-Apr-2022 09:15,
+51,785100216,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Apr-2022 09:15,16-May-2022 11:38
 51,785100216,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Apr-2022 09:15,
 51,785100221,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,20-Oct-2022 15:52,
 51,785100221,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Oct-2022 15:53,24-Oct-2022 16:22
@@ -15448,9 +15454,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100392,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,20-Mar-2022 08:21,
 51,785100392,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Mar-2022 08:21,28-Mar-2022 10:31
 51,785100392,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Mar-2022 08:21,
+51,785100400,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,10-Feb-2022 11:42,
 51,785100400,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,10-Feb-2022 11:43,23-Jul-2022 10:41
 51,785100400,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,10-Feb-2022 11:43,
-51,785100400,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,10-Feb-2022 11:42,
 51,785100401,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,20-Nov-2021 09:29,20-Nov-2021 09:29
 51,785100401,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Nov-2021 09:29,10-Feb-2022 10:08
 51,785100401,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Nov-2021 09:29,20-Nov-2021 09:29
@@ -15547,9 +15553,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100472,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,17-Jun-2022 06:54,23-Jun-2022 13:57
 51,785100472,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,17-Jun-2022 06:54,23-Jun-2022 13:57
 51,785100472,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,17-Jun-2022 06:54,23-Jun-2022 13:58
-51,785100473,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,02-Jan-2022 07:22,
 51,785100473,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,02-Jan-2022 07:22,13-Jan-2022 11:21
 51,785100473,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,02-Jan-2022 07:22,
+51,785100473,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,02-Jan-2022 07:22,
 51,785100476,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,19-Jan-2022 18:50,19-Jan-2022 18:50
 51,785100476,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-Jan-2022 18:50,08-Feb-2022 10:09
 51,785100476,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-Jan-2022 18:50,19-Jan-2022 18:51
@@ -15658,9 +15664,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100569,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,30-Dec-2021 10:09,
 51,785100569,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,30-Dec-2021 10:09,24-Aug-2022 08:55
 51,785100569,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,30-Dec-2021 10:09,
-51,785100572,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Feb-2022 16:24,03-Mar-2022 11:54
 51,785100572,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,28-Feb-2022 16:23,
 51,785100572,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Feb-2022 16:23,03-Mar-2022 11:54
+51,785100572,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Feb-2022 16:24,03-Mar-2022 11:54
 51,785100575,Unscheduled - 3,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,02-Apr-2022 08:32,12-Apr-2022 07:00
 51,785100575,Unscheduled - 3,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,02-Apr-2022 08:32,12-Apr-2022 07:01
 51,785100575,Unscheduled - 3,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,02-Apr-2022 08:33,12-Apr-2022 07:01
@@ -15914,8 +15920,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100013,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-Jan-2022 06:42,
 51,785100013,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,19-Jan-2022 06:42,13-Jul-2022 10:04
 51,785100013,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-Jan-2022 06:42,
-51,785100014,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,17-Feb-2022 06:47,
 51,785100014,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,17-Feb-2022 06:47,24-Aug-2022 10:09
+51,785100014,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,17-Feb-2022 06:47,
 51,785100014,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,17-Feb-2022 06:47,
 51,785100020,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,09-Mar-2022 07:26,28-Sep-2022 12:00
 51,785100020,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,09-Mar-2022 07:26,28-Sep-2022 12:02
@@ -15974,9 +15980,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100060,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Sep-2022 18:36,
 51,785100060,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Sep-2022 18:36,14-Sep-2022 18:37
 51,785100060,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,14-Sep-2022 18:36,
-51,785100063,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,24-Feb-2022 08:11,
 51,785100063,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,24-Feb-2022 08:12,28-Feb-2022 08:43
 51,785100063,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,24-Feb-2022 08:12,
+51,785100063,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,24-Feb-2022 08:11,
 51,785100064,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,30-Dec-2021 09:20,16-Feb-2022 08:18
 51,785100064,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,30-Dec-2021 09:20,16-Feb-2022 08:18
 51,785100064,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,30-Dec-2021 09:20,16-Feb-2022 08:18
@@ -16031,9 +16037,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100101,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,17-Oct-2021 08:35,
 51,785100101,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,17-Oct-2021 08:35,
 51,785100101,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,17-Oct-2021 08:35,24-Oct-2021 19:09
+51,785100102,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,25-May-2022 07:03,
 51,785100102,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-May-2022 07:03,31-May-2022 12:04
 51,785100102,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-May-2022 07:03,
-51,785100102,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,25-May-2022 07:03,
 51,785100105,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,26-Jan-2022 11:05,10-Feb-2022 05:51
 51,785100105,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,26-Jan-2022 11:06,10-Feb-2022 05:52
 51,785100105,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,26-Jan-2022 11:06,10-Feb-2022 05:52
@@ -16133,8 +16139,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100199,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,19-Nov-2022 09:58,
 51,785100199,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-Nov-2022 09:58,23-Nov-2022 11:18
 51,785100199,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-Nov-2022 09:58,19-Nov-2022 09:59
-51,785100200,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,26-Feb-2022 10:49,28-Feb-2022 06:22
 51,785100200,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,26-Feb-2022 10:49,28-Feb-2022 06:22
+51,785100200,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,26-Feb-2022 10:49,28-Feb-2022 06:22
 51,785100200,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,26-Feb-2022 10:49,28-Feb-2022 06:23
 51,785100203,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,20-Mar-2022 06:56,
 51,785100203,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Mar-2022 06:56,28-Mar-2022 10:24
@@ -16142,9 +16148,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100204,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,15-Sep-2022 09:27,
 51,785100204,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,15-Sep-2022 09:27,15-Sep-2022 09:28
 51,785100204,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,15-Sep-2022 09:27,
+51,785100206,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,17-Jan-2022 08:22,
 51,785100206,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,17-Jan-2022 08:22,09-Jun-2022 09:43
 51,785100206,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,17-Jan-2022 08:22,
-51,785100206,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,17-Jan-2022 08:22,
 51,785100213,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,10-Nov-2021 17:32,
 51,785100213,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,10-Nov-2021 17:32,10-Nov-2021 17:32
 51,785100213,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,10-Nov-2021 17:32,
@@ -16362,8 +16368,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100473,Unscheduled - 4,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,248,0,No,,,,,,,,,,,21-Jan-2022 07:53,28-Mar-2022 07:08
 51,785100473,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Jan-2022 07:53,
 51,785100474,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-Jan-2022 06:49,18-Feb-2022 09:13
-51,785100474,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,08-Jan-2022 08:01,08-Jan-2022 08:03
 51,785100474,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,08-Jan-2022 08:01,08-Jan-2022 08:03
+51,785100474,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,08-Jan-2022 08:01,08-Jan-2022 08:03
 51,785100479,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,02-Feb-2022 09:14,10-Feb-2022 05:45
 51,785100479,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,02-Feb-2022 09:14,10-Feb-2022 05:46
 51,785100479,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,02-Feb-2022 09:14,10-Feb-2022 05:47
@@ -16450,8 +16456,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100596,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,10-Oct-2022 07:21,
 51,785100596,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,10-Oct-2022 07:21,
 51,785100612,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,11-Mar-2022 10:34,23-Jul-2022 10:52
-51,785100612,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Mar-2022 10:34,11-Apr-2022 11:38
 51,785100612,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Mar-2022 10:34,
+51,785100612,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Mar-2022 10:34,11-Apr-2022 11:38
 51,785100613,Unscheduled - 4,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,04-Feb-2022 11:38,10-Feb-2022 08:15
 51,785100613,Unscheduled - 4,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,04-Feb-2022 11:38,10-Feb-2022 08:15
 51,785100613,Unscheduled - 4,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Feb-2022 11:38,10-Feb-2022 08:16
@@ -16659,9 +16665,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100126,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,10-Nov-2022 08:33,
 51,785100126,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,10-Nov-2022 08:33,18-Jan-2023 18:35
 51,785100126,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,10-Nov-2022 08:33,
-51,785100129,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,05-Jan-2022 06:20,
 51,785100129,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,05-Jan-2022 06:20,24-Aug-2022 12:17
 51,785100129,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,05-Jan-2022 06:20,
+51,785100129,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,05-Jan-2022 06:20,
 51,785100138,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,09-Dec-2021 07:07,21-Dec-2021 07:06
 51,785100138,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,09-Dec-2021 07:07,21-Dec-2021 07:06
 51,785100138,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-Dec-2021 07:07,
@@ -16671,9 +16677,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100145,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,05-Apr-2022 10:34,
 51,785100145,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,05-Apr-2022 10:35,23-Aug-2022 13:27
 51,785100145,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,05-Apr-2022 10:35,
+51,785100148,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,17-Feb-2022 12:02,23-Aug-2022 13:33
 51,785100148,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,17-Feb-2022 12:02,
 51,785100148,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,17-Feb-2022 12:03,
-51,785100148,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,17-Feb-2022 12:02,23-Aug-2022 13:33
 51,785100150,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,31-Jan-2022 07:48,09-Feb-2022 11:17
 51,785100150,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,31-Jan-2022 07:48,09-Feb-2022 11:18
 51,785100150,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,31-Jan-2022 07:48,09-Feb-2022 11:17
@@ -16701,9 +16707,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100182,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,15-Sep-2022 21:25,
 51,785100182,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,15-Sep-2022 21:25,22-Sep-2022 06:34
 51,785100182,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,15-Sep-2022 21:25,
-51,785100185,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Jul-2023 08:47,
 51,785100185,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,11-Jul-2023 08:46,
 51,785100185,Unscheduled - 5,,,Blood film for Plasmodium species,,,,,,,,,,,,,,,,11-Jul-2023 08:46,
+51,785100185,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Jul-2023 08:47,
 51,785100186,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,21-Nov-2022 07:21,21-Nov-2022 07:22
 51,785100186,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,21-Nov-2022 07:21,28-Nov-2022 11:37
 51,785100186,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Nov-2022 07:21,
@@ -16741,8 +16747,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100218,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,30-Aug-2022 09:14,09-Sep-2022 07:59
 51,785100218,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,30-Aug-2022 09:14,
 51,785100219,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,13-Apr-2022 08:08,16-May-2022 11:39
-51,785100219,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Apr-2022 08:08,16-May-2022 11:40
 51,785100219,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Apr-2022 08:08,16-May-2022 11:41
+51,785100219,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Apr-2022 08:08,16-May-2022 11:40
 51,785100221,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,08-Jan-2022 04:51,08-Jan-2022 04:51
 51,785100221,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,08-Jan-2022 04:51,24-Aug-2022 06:13
 51,785100221,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,08-Jan-2022 04:51,08-Jan-2022 04:52
@@ -16838,8 +16844,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100329,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,23-Nov-2021 13:45,
 51,785100329,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,23-Nov-2021 13:45,19-Apr-2022 09:51
 51,785100329,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,23-Nov-2021 13:45,
-51,785100339,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,10-Feb-2022 08:22,10-Feb-2022 11:18
 51,785100339,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,10-Feb-2022 08:22,10-Feb-2022 08:23
+51,785100339,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,10-Feb-2022 08:22,10-Feb-2022 11:18
 51,785100339,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,10-Feb-2022 08:22,10-Feb-2022 08:23
 51,785100346,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,28-Dec-2021 07:51,28-Dec-2021 07:51
 51,785100346,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Dec-2021 07:51,17-Feb-2022 08:19
@@ -16916,9 +16922,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100447,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,23-Dec-2021 07:51,
 51,785100447,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,23-Dec-2021 07:51,14-Jan-2022 11:42
 51,785100447,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,23-Dec-2021 07:51,
-51,785100448,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,24-Feb-2022 11:15,28-Feb-2022 09:45
 51,785100448,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,24-Feb-2022 11:15,28-Feb-2022 09:46
 51,785100448,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,24-Feb-2022 11:15,28-Feb-2022 09:46
+51,785100448,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,24-Feb-2022 11:15,28-Feb-2022 09:45
 51,785100449,Unscheduled - 5,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,23-Dec-2021 07:51,
 51,785100449,Unscheduled - 5,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,23-Dec-2021 07:51,17-Jan-2022 06:26
 51,785100449,Unscheduled - 5,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,23-Dec-2021 07:51,
@@ -17120,9 +17126,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100044,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,18-May-2023 09:04,
 51,785100044,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,18-May-2023 09:04,24-May-2023 07:57
 51,785100044,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,18-May-2023 09:04,
-51,785100046,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Feb-2022 09:08,16-Feb-2022 08:16
 51,785100046,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Feb-2022 09:08,16-Feb-2022 08:15
 51,785100046,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,14-Feb-2022 09:08,14-Feb-2022 09:09
+51,785100046,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Feb-2022 09:08,16-Feb-2022 08:16
 51,785100055,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,11-Nov-2021 06:03,
 51,785100055,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Nov-2021 06:03,05-Dec-2021 14:25
 51,785100055,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Nov-2021 06:03,
@@ -17150,9 +17156,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100079,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,27-Sep-2022 09:38,
 51,785100079,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,27-Sep-2022 09:38,03-Oct-2022 10:58
 51,785100079,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,27-Sep-2022 09:38,
+51,785100082,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-Mar-2022 11:02,
 51,785100082,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,09-Mar-2022 11:02,
 51,785100082,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,09-Mar-2022 11:02,18-Jul-2022 07:53
-51,785100082,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-Mar-2022 11:02,
 51,785100089,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,11-Jan-2022 11:14,11-Jan-2022 11:14
 51,785100089,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Jan-2022 11:14,15-Feb-2022 11:23
 51,785100089,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Jan-2022 11:14,11-Jan-2022 11:14
@@ -17171,9 +17177,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100104,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,15-Jul-2022 09:55,
 51,785100104,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,15-Jul-2022 09:55,29-Jul-2022 05:48
 51,785100104,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,15-Jul-2022 09:55,
+51,785100111,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,01-Aug-2023 07:37,
 51,785100111,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,01-Aug-2023 07:34,03-Aug-2023 12:30
 51,785100111,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,01-Aug-2023 07:34,
-51,785100111,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,01-Aug-2023 07:37,
 51,785100114,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,24-Jun-2022 06:51,
 51,785100114,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,24-Jun-2022 06:51,29-Jun-2022 06:00
 51,785100114,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,24-Jun-2022 06:51,
@@ -17255,9 +17261,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100221,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,16-Jun-2022 06:55,
 51,785100221,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,16-Jun-2022 06:55,23-Jun-2022 08:00
 51,785100221,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,16-Jun-2022 06:55,
-51,785100224,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,08-Feb-2022 13:37,
 51,785100224,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,08-Feb-2022 13:37,14-Jul-2022 07:27
 51,785100224,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,08-Feb-2022 13:37,
+51,785100224,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,08-Feb-2022 13:37,
 51,785100229,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,08-Sep-2022 08:13,09-Sep-2022 10:55
 51,785100229,Unscheduled - 6,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,199000,0,No,,,,,,,,,,,08-Sep-2022 08:13,16-Sep-2022 09:36
 51,785100229,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,08-Sep-2022 08:13,
@@ -17309,9 +17315,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100285,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,01-Feb-2022 10:55,08-Feb-2022 12:29
 51,785100285,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,01-Feb-2022 10:56,08-Feb-2022 12:30
 51,785100285,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,01-Feb-2022 10:56,08-Feb-2022 12:30
+51,785100287,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-Jan-2022 19:27,19-Jan-2022 19:28
 51,785100287,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,19-Jan-2022 19:27,19-Jan-2022 19:28
 51,785100287,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-Jan-2022 19:27,01-Feb-2022 06:25
-51,785100287,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-Jan-2022 19:27,19-Jan-2022 19:28
 51,785100288,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,26-Apr-2022 10:20,
 51,785100288,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,26-Apr-2022 10:20,09-May-2022 11:38
 51,785100288,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,26-Apr-2022 10:20,
@@ -17358,14 +17364,14 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100358,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,10-Dec-2022 12:59,21-Dec-2022 09:30
 51,785100358,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,10-Dec-2022 12:59,
 51,785100360,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Feb-2022 10:52,03-Mar-2022 11:08
-51,785100360,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Feb-2022 10:52,03-Mar-2022 11:09
 51,785100360,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,25-Feb-2022 10:52,03-Mar-2022 11:08
+51,785100360,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Feb-2022 10:52,03-Mar-2022 11:09
 51,785100369,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,06-Dec-2021 10:46,10-Feb-2022 12:32
 51,785100369,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,06-Dec-2021 10:46,19-Dec-2021 15:25
 51,785100369,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,06-Dec-2021 10:46,10-Feb-2022 12:32
-51,785100374,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,08-Feb-2022 08:51,
 51,785100374,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,08-Feb-2022 08:52,08-Feb-2022 08:52
 51,785100374,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,08-Feb-2022 08:52,
+51,785100374,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,08-Feb-2022 08:51,
 51,785100377,Unscheduled - 6,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,18400,0,No,,,,,,,,,,,15-Feb-2022 15:19,15-Sep-2022 09:00
 51,785100377,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,15-Feb-2022 15:19,
 51,785100377,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,15-Feb-2022 15:18,
@@ -17390,9 +17396,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100398,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,02-Nov-2022 12:09,
 51,785100398,Unscheduled - 6,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,26365,0,No,0,0,No,0,0,No,0,0,No,,02-Nov-2022 12:09,10-Nov-2022 08:08
 51,785100398,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,02-Nov-2022 12:09,
-51,785100402,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Apr-2022 09:01,
 51,785100402,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,21-Apr-2022 09:01,
 51,785100402,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,21-Apr-2022 09:01,05-May-2022 06:06
+51,785100402,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Apr-2022 09:01,
 51,785100412,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,06-Jul-2022 16:39,
 51,785100412,Unscheduled - 6,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,10180,0,No,0,0,No,0,0,No,0,0,No,,06-Jul-2022 16:39,18-Jul-2022 07:11
 51,785100412,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,06-Jul-2022 16:39,
@@ -17504,9 +17510,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100623,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,25-Jan-2022 10:30,
 51,785100623,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,25-Jan-2022 10:30,01-Feb-2022 06:04
 51,785100623,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,25-Jan-2022 10:30,
+51,785100631,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,22-Mar-2022 07:12,
 51,785100631,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,22-Mar-2022 07:12,
 51,785100631,Unscheduled - 6,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Mar-2022 07:12,14-Apr-2022 10:46
-51,785100631,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,22-Mar-2022 07:12,
 51,785100637,Unscheduled - 6,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,16-Jun-2022 08:31,23-Jun-2022 07:27
 51,785100637,Unscheduled - 6,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,3482,0,No,0,0,No,0,0,No,0,0,No,,16-Jun-2022 08:31,23-Jun-2022 07:30
 51,785100637,Unscheduled - 6,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,16-Jun-2022 08:31,23-Jun-2022 07:30
@@ -17705,8 +17711,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100213,Unscheduled - 7,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,13-Jun-2022 11:14,23-Jun-2022 07:20
 51,785100213,Unscheduled - 7,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Jun-2022 11:14,23-Jun-2022 07:21
 51,785100213,Unscheduled - 7,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Jun-2022 11:14,23-Jun-2022 07:21
-51,785100215,Unscheduled - 7,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Apr-2022 06:49,16-May-2022 11:37
 51,785100215,Unscheduled - 7,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-Apr-2022 06:49,
+51,785100215,Unscheduled - 7,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-Apr-2022 06:49,16-May-2022 11:37
 51,785100215,Unscheduled - 7,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,11-Apr-2022 06:49,
 51,785100223,Unscheduled - 7,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,14-Oct-2022 16:34,20-Oct-2022 10:41
 51,785100223,Unscheduled - 7,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Oct-2022 16:34,20-Oct-2022 10:41
@@ -17933,6 +17939,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100669,Unscheduled - 7,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,09-May-2022 07:09,
 51,785100669,Unscheduled - 7,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,09-May-2022 07:09,12-May-2022 08:40
 51,785100669,Unscheduled - 7,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,09-May-2022 07:09,
+51,785100676,Unscheduled - 7,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,04-Nov-2023 09:11,
+51,785100676,Unscheduled - 7,,,Blood film for Plasmodium species,,,,,,,,,,,,,,,,04-Nov-2023 09:12,
+51,785100676,Unscheduled - 7,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,04-Nov-2023 09:12,
 51,785100003,Unscheduled - 8,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,30-Sep-2022 09:43,15-Nov-2022 09:32
 51,785100003,Unscheduled - 8,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,30-Sep-2022 09:43,15-Nov-2022 09:32
 51,785100003,Unscheduled - 8,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,30-Sep-2022 09:43,15-Nov-2022 09:33
@@ -17984,9 +17993,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100058,Unscheduled - 8,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,30-Jan-2022 07:58,10-Feb-2022 08:30
 51,785100058,Unscheduled - 8,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,30-Jan-2022 07:58,10-Feb-2022 08:30
 51,785100058,Unscheduled - 8,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,30-Jan-2022 07:58,10-Feb-2022 08:30
+51,785100059,Unscheduled - 8,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,03-Mar-2022 11:18,
 51,785100059,Unscheduled - 8,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,03-Mar-2022 11:18,
 51,785100059,Unscheduled - 8,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,03-Mar-2022 11:18,03-Mar-2022 11:20
-51,785100059,Unscheduled - 8,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,03-Mar-2022 11:18,
 51,785100064,Unscheduled - 8,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,10-Jul-2022 08:00,16-Nov-2022 12:15
 51,785100064,Unscheduled - 8,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,134000,0,No,0,0,No,0,0,No,0,0,No,,10-Jul-2022 08:00,16-Nov-2022 12:15
 51,785100064,Unscheduled - 8,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,10-Jul-2022 08:01,16-Nov-2022 12:15
@@ -18045,9 +18054,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100177,Unscheduled - 8,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,06-May-2023 10:03,
 51,785100177,Unscheduled - 8,,,Blood film for Plasmodium species,Single species,Positive for Plasmodium falciparum,11834,0,No,,,No,,,No,,,No,,06-May-2023 10:03,12-May-2023 07:15
 51,785100177,Unscheduled - 8,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,06-May-2023 10:03,
-51,785100182,Unscheduled - 8,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,20-Apr-2022 07:26,
 51,785100182,Unscheduled - 8,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Apr-2022 07:26,
 51,785100182,Unscheduled - 8,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Apr-2022 07:26,05-May-2022 06:08
+51,785100182,Unscheduled - 8,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,20-Apr-2022 07:26,
 51,785100188,Unscheduled - 8,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,31-May-2023 07:09,
 51,785100188,Unscheduled - 8,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,31-May-2023 07:09,07-Jun-2023 13:00
 51,785100188,Unscheduled - 8,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,31-May-2023 07:09,
@@ -18284,9 +18293,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100668,Unscheduled - 8,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,29-Aug-2022 07:34,
 51,785100668,Unscheduled - 8,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Aug-2022 07:34,09-Sep-2022 08:36
 51,785100668,Unscheduled - 8,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,29-Aug-2022 07:34,
-51,785100672,Unscheduled - 8,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,17-May-2022 13:16,20-May-2022 10:34
 51,785100672,Unscheduled - 8,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,17-May-2022 13:16,20-May-2022 10:34
 51,785100672,Unscheduled - 8,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,17-May-2022 13:16,20-May-2022 10:33
+51,785100672,Unscheduled - 8,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,17-May-2022 13:16,20-May-2022 10:34
 51,785100001,Unscheduled - 9,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,22-Jul-2022 06:50,30-Sep-2022 06:57
 51,785100001,Unscheduled - 9,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,22-Jul-2022 06:50,30-Sep-2022 06:58
 51,785100001,Unscheduled - 9,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Jul-2022 06:50,30-Sep-2022 06:59
@@ -18470,9 +18479,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100305,Unscheduled - 9,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,11-May-2022 08:15,17-May-2022 05:59
 51,785100305,Unscheduled - 9,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,11-May-2022 08:15,17-May-2022 06:00
 51,785100305,Unscheduled - 9,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,11-May-2022 08:15,17-May-2022 06:00
-51,785100313,Unscheduled - 9,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,01-May-2022 16:21,
 51,785100313,Unscheduled - 9,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,01-May-2022 16:21,
 51,785100313,Unscheduled - 9,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,01-May-2022 16:21,24-Aug-2022 06:47
+51,785100313,Unscheduled - 9,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,01-May-2022 16:21,
 51,785100318,Unscheduled - 9,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,01-Aug-2023 08:28,
 51,785100318,Unscheduled - 9,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,01-Aug-2023 08:28,03-Aug-2023 12:30
 51,785100318,Unscheduled - 9,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,01-Aug-2023 08:28,
@@ -18503,8 +18512,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100373,Unscheduled - 9,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,02-Apr-2022 09:38,24-Aug-2022 07:14
 51,785100373,Unscheduled - 9,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,02-Apr-2022 09:38,07-Apr-2022 08:00
 51,785100373,Unscheduled - 9,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,02-Apr-2022 09:39,
-51,785100377,Unscheduled - 9,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,01-May-2022 10:07,24-Aug-2022 07:31
 51,785100377,Unscheduled - 9,,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,01-May-2022 10:07,
+51,785100377,Unscheduled - 9,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,01-May-2022 10:07,24-Aug-2022 07:31
 51,785100377,Unscheduled - 9,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,01-May-2022 10:07,
 51,785100381,Unscheduled - 9,,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,15-Mar-2022 08:58,21-Mar-2022 12:29
 51,785100381,Unscheduled - 9,,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,15-Mar-2022 08:58,21-Mar-2022 12:29
@@ -18632,8 +18641,8 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100066,Dose 2 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,15-Oct-2021 11:23,20-Oct-2021 11:50
 51,785100066,Dose 2 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Positive for Plasmodium falciparum,15-Oct-2021 11:23,19-Oct-2021 16:28
 51,785100066,Dose 2 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,15-Oct-2021 11:23,
-51,785100087,Dose 2 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,12-Jan-2022 15:27,
 51,785100087,Dose 2 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,12-Jan-2022 15:27,
+51,785100087,Dose 2 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,12-Jan-2022 15:27,
 51,785100087,Dose 2 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,12-Jan-2022 15:27,06-Sep-2022 15:08
 51,785100094,Dose 2 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,07-Oct-2021 09:00,20-Oct-2021 19:07
 51,785100094,Dose 2 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,07-Oct-2021 09:00,20-Oct-2021 19:06
@@ -18704,9 +18713,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100479,Dose 2 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,29-Nov-2021 09:12,
 51,785100479,Dose 2 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,29-Nov-2021 09:12,30-Jan-2022 10:39
 51,785100479,Dose 2 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,29-Nov-2021 09:13,
-51,785100544,Dose 2 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,08-Feb-2022 09:28,
 51,785100544,Dose 2 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,08-Feb-2022 09:29,24-Aug-2022 08:13
 51,785100544,Dose 2 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,08-Feb-2022 09:29,
+51,785100544,Dose 2 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,08-Feb-2022 09:28,
 51,785100571,Dose 2 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,12-Jan-2022 11:37,
 51,785100571,Dose 2 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,12-Jan-2022 11:37,24-Aug-2022 08:59
 51,785100571,Dose 2 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,12-Jan-2022 11:37,
@@ -19040,9 +19049,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100116,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Dec-2021 06:38,
 51,785100116,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,20-Dec-2021 06:38,20-Jan-2022 08:36
 51,785100116,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Dec-2021 06:38,
+51,785100117,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Feb-2022 11:21,
 51,785100117,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,28-Feb-2022 11:21,06-Sep-2022 15:14
 51,785100117,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Feb-2022 11:21,
-51,785100117,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Feb-2022 11:21,
 51,785100118,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,05-Dec-2021 15:06,
 51,785100118,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,05-Dec-2021 15:06,20-Jan-2022 08:34
 51,785100118,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,05-Dec-2021 15:06,
@@ -19427,9 +19436,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100263,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,12-May-2022 06:31,
 51,785100263,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,12-May-2022 06:31,12-May-2022 06:32
 51,785100263,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,12-May-2022 06:31,
-51,785100264,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Feb-2022 12:36,
 51,785100264,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,28-Feb-2022 12:36,12-May-2022 07:04
 51,785100264,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Feb-2022 12:36,
+51,785100264,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Feb-2022 12:36,
 51,785100265,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,28-Feb-2022 13:06,
 51,785100265,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,28-Feb-2022 13:06,12-May-2022 07:32
 51,785100265,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,28-Feb-2022 13:06,
@@ -19496,9 +19505,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100289,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,22-Feb-2022 14:06,
 51,785100289,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,22-Feb-2022 14:06,22-Feb-2022 14:10
 51,785100289,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,22-Feb-2022 14:06,
+51,785100290,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,19-May-2022 09:58,
 51,785100290,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-May-2022 09:58,19-May-2022 09:59
 51,785100290,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-May-2022 09:58,
-51,785100290,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,19-May-2022 09:58,
 51,785100291,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,21-Dec-2021 06:35,
 51,785100291,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,21-Dec-2021 06:35,17-Feb-2022 08:25
 51,785100291,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Dec-2021 06:35,
@@ -19508,9 +19517,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100295,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,24-Feb-2022 06:49,
 51,785100295,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,24-Feb-2022 06:49,16-Mar-2022 08:39
 51,785100295,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,24-Feb-2022 06:50,
+51,785100296,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,24-Feb-2022 08:31,
 51,785100296,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,24-Feb-2022 08:31,16-Mar-2022 09:08
 51,785100296,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,24-Feb-2022 08:31,
-51,785100296,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,24-Feb-2022 08:31,
 51,785100297,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,16-Mar-2022 09:43,
 51,785100297,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,16-Mar-2022 09:45,24-Aug-2022 06:21
 51,785100297,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,16-Mar-2022 09:46,
@@ -19556,9 +19565,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100312,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,19-Jan-2022 11:28,
 51,785100312,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Negative for Plasmodium falciparum,19-Jan-2022 11:28,17-Feb-2022 07:53
 51,785100312,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,19-Jan-2022 11:28,
+51,785100313,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 08:37,
 51,785100313,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,14-Jan-2022 08:37,
 51,785100313,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,14-Jan-2022 08:37,07-Sep-2022 13:01
-51,785100313,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,14-Jan-2022 08:37,
 51,785100314,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,17-Feb-2022 08:33,
 51,785100314,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,17-Feb-2022 08:34,31-Mar-2022 09:17
 51,785100314,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,17-Feb-2022 08:34,
@@ -19586,9 +19595,9 @@ Site ID,Subject,VISIT,Episode Number,Date of blood sample collection,Type of blo
 51,785100324,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,21-Dec-2021 06:48,17-Feb-2022 08:40
 51,785100324,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,21-Dec-2021 06:48,
 51,785100324,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,21-Dec-2021 06:48,
-51,785100325,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Apr-2022 10:09,
 51,785100325,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,13-Apr-2022 10:09,13-Apr-2022 10:10
 51,785100325,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,13-Apr-2022 10:09,
+51,785100325,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,13-Apr-2022 10:09,
 51,785100326,Dose 3 (Pre-vaccination),,,A P. falciparum rapid diagnosis test (RDT),,,,,,,,,,,,,,,Not Done,20-Jan-2022 15:58,
 51,785100326,Dose 3 (Pre-vaccination),,,Blood film for Plasmodium species,Negative for Plasmodium species,,,,,,,,,,,,,,,20-Jan-2022 15:58,20-Jan-2022 15:59
 51,785100326,Dose 3 (Pre-vaccination),,,Blood spot for parasite genotyping,,,,,,,,,,,,,,,,20-Jan-2022 15:58,
