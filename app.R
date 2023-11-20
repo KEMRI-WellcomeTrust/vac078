@@ -1146,13 +1146,14 @@ ui <- fluidPage(
                                                             )),
                                                    navbarMenu("Consenting",
                                                               tabPanel("Version 6.0",
-                                                                       uiOutput(""),br(),h3("Samples Collected in the previous week"),
+                                                                       uiOutput(""),br(),h3("Overall summary"),
                                                                        tabsetPanel(
                                                                          tabPanel("Consented", DTOutput('')),
                                                                          tabPanel("Declined Consent", DTOutput('')),
                                                                          tabPanel("Pending Consenting",DTOutput(''))
                                                                        )),
                                                               tabPanel("Version 7.0",
+                                                                       uiOutput(""),br(),h3("Overall summary"),
                                                                        tabsetPanel(
                                                                          tabPanel("Consented", DTOutput('')),
                                                                          tabPanel("Declined Consent", DTOutput('')),
