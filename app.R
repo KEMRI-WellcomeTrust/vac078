@@ -1144,6 +1144,20 @@ ui <- fluidPage(
                                                               tabPanel("Graphical",girafeOutput('schedulergraph')),
                                                               tabPanel("Missed visits",DTOutput('misseds'))
                                                             )),
+                                                   navbarMenu("Consenting",
+                                                              tabPanel("Version 6.0",
+                                                                       uiOutput(""),br(),h3("Samples Collected in the previous week"),
+                                                                       tabsetPanel(
+                                                                         tabPanel("Consented", DTOutput('')),
+                                                                         tabPanel("Declined Consent", DTOutput('')),
+                                                                         tabPanel("Pending Consenting",DTOutput(''))
+                                                                       )),
+                                                              tabPanel("Version 7.0",
+                                                                       tabsetPanel(
+                                                                         tabPanel("Consented", DTOutput('')),
+                                                                         tabPanel("Declined Consent", DTOutput('')),
+                                                                         tabPanel("Pending Consenting", DTOutput(''))
+                                                                       ))),
                                                    tabPanel("Weekly visits",
                                                             tabsetPanel(
                                                               tabPanel("Summary", br(),
