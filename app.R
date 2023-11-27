@@ -34,7 +34,7 @@ screenID <- left_join(left_join(
       select(1,4,5,2,3), by="Subject",relationship = "many-to-many"),
   # Follow up status dataset
   fupdata<- suppressWarnings(fread(here("study data/participants.csv")))|>fill_blanks()|>
-    select(screenId, group,currentStatus,Site)|>
+    select(screenId, group,currentStatus,Site,13:16)|>
     #mutate(screenId = as.character(screenId))|>
     dplyr::rename(Subject = "screenId"), by="Subject",relationship = "many-to-many"),
   # Get randomization number
@@ -221,7 +221,7 @@ requiredEos<-bind_rows(
                            vwithdrawae<-study_cohorts|>
                              cohort_pull(withdrawal_db)))|>
   mutate(time=case_when(is.na(Site)~"Before Enr",TRUE~"After Enr"))|>
-  select(2,34,25,35,36,38)|>
+  select(2,34,25,35,36,42)|>
   arrange(group,other,Subject)
 
 sumaryreq<-requiredEos|>
@@ -734,7 +734,7 @@ unsolicited2<-left_join(unsolicited_2|>
                           mutate(datedif=today()-as.Date(`Date of onset`,"%d-%b-%Y"),`First Data Time`=as.Date(`First Data Time`,format="%d-%b-%Y %H:%M")),left_join(dateofvisit|>
                                                                                                                                                                        dplyr::rename(VISDAT=`Visit date`),
                                                                                                                                                                      in_completed1|>
-                                                                                                                                                                       dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>mutate(VISDAT=as.Date(VISDAT, "%Y-%m-%d")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
+                                                                                                                                                                       dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>mutate(VISDAT=as.Date(VISDAT, "%Y-%m-%d"))|>filter(!VISIT%in%c("Day 14","Day 42","Day 70","Day 140","Day 196","Day 292","Day 348","Day 404","B 14","B 84","B 140","B 224","B 280","B 336")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
                           filter(EntryStatus!="Not Started")|>
                           select(2:3,18,23:26)|>
                           mutate(`First Data Time`=as.Date(`First Data Time`,format="%d-%m-%Y %H:%M")),by=c("Subject","First Data Time"),relationship = "many-to-many")|>
@@ -1003,7 +1003,7 @@ cleanmeds<-left_join(medications|>
                      durta<-left_join(dateofvisit|>
                                         dplyr::rename(VISDAT=`Visit date`),
                                       in_completed1|>
-                                        dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>mutate(VISDAT=as.Date(VISDAT, "%Y-%m-%d")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
+                                        dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>mutate(VISDAT=as.Date(VISDAT, "%Y-%m-%d"))|>filter(VISIT%nin%c("Day 14","Day 42","Day 70","Day 140","Day 196","Day 292","Day 348","Day 404","B 14","B 84","B 140","B 224","B 280","B 336")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
                        filter(EntryStatus!="Not Started")|>
                        select(2:3,18,23:26)|>
                        mutate(`Visit date`=as.Date(`First Data Time`,format="%d-%m-%Y %H:%M")),
@@ -1121,6 +1121,41 @@ if(nrow(scnwkdayt)>0){
 
 ###++++++ end weekly summary +++++####
 
+###++++++ reconsent summary +++++####
+
+fupdata2<-fupdata|>
+  filter(currentStatus=="On Active Follow up")|>
+  mutate(consentV6_0Accept=if_else(is.na(consentV6_0Accept), "Pending",consentV6_0Accept),
+         consentV7_0Accept=if_else(is.na(consentV7_0Accept), "Pending",consentV7_0Accept))
+
+###+Version 6.0
+v6.0_summ<-fupdata2|> group_by(consentV6_0Accept)|> summarise(count=n())
+cons<-fupdata2|>
+  filter(consentV6_0Accept=="Yes")|>
+  select(1,2,4:6)
+refs<-fupdata2|>
+  filter(consentV6_0Accept=="No")|>
+  select(1,2,4:6)
+pens<-fupdata2|>
+  filter(consentV6_0Accept=="Pending")|>
+  select(1:4)
+
+###+Version 7.0
+v7.0_summ<-fupdata2|> group_by(consentV7_0Accept)|> summarise(count=n())
+cons7<-fupdata2|>
+  filter(consentV6_0Accept=="Yes")|>
+  select(1,2,4,7,8)
+refs7<-fupdata2|>
+  filter(consentV6_0Accept=="No")|>
+  select(1,2,4,7,8)
+pens7<-fupdata2|>
+  filter(consentV6_0Accept=="Pending")|>
+  select(1:4)
+
+
+###++++++ end reconsent +++++###
+
+
 
 ######Users
 user_base <- as_tibble(suppressWarnings(fread(here("study data/users.csv"))))
@@ -1146,18 +1181,18 @@ ui <- fluidPage(
                                                             )),
                                                    navbarMenu("Consenting",
                                                               tabPanel("Version 6.0",
-                                                                       uiOutput(""),br(),h3("Overall summary"),
+                                                                       uiOutput("v6.0_summ"),br(),h3("Overall summary"),
                                                                        tabsetPanel(
-                                                                         tabPanel("Consented", DTOutput('')),
-                                                                         tabPanel("Declined Consent", DTOutput('')),
-                                                                         tabPanel("Pending Consenting",DTOutput(''))
+                                                                         tabPanel("Consented",downloadButton("downcons", "download"), DTOutput('cons')),
+                                                                         tabPanel("Declined Consent",downloadButton("downrefs", "download"), DTOutput('refs')),
+                                                                         tabPanel("Pending Consenting",downloadButton("downpens", "download"),DTOutput('pens'))
                                                                        )),
                                                               tabPanel("Version 7.0",
-                                                                       uiOutput(""),br(),h3("Overall summary"),
+                                                                       uiOutput("v7.0_summ"),br(),h3("Overall summary"),
                                                                        tabsetPanel(
-                                                                         tabPanel("Consented", DTOutput('')),
-                                                                         tabPanel("Declined Consent", DTOutput('')),
-                                                                         tabPanel("Pending Consenting", DTOutput(''))
+                                                                         tabPanel("Consented",downloadButton("downcons7", "download"), DTOutput('cons7')),
+                                                                         tabPanel("Declined Consent",downloadButton("downrefs7", "download"), DTOutput('refs7')),
+                                                                         tabPanel("Pending Consenting",downloadButton("downpens7", "download"), DTOutput('pens7'))
                                                                        ))),
                                                    tabPanel("Weekly visits",
                                                             tabsetPanel(
@@ -1172,7 +1207,8 @@ ui <- fluidPage(
                                                                          textOutput('kable2one')
                                                                        }),
                                                               tabPanel("Due for visit",br(),DTOutput('LFUer')),
-                                                              tabPanel("Scheduled visits for the week",downloadButton("downloadDatavis", "download"),br(),DTOutput('scnwkdaytnews')))),
+                                                              tabPanel("Scheduled visits for the week",downloadButton("downloadDatavis", "download"),br(),DTOutput('scnwkdaytnews')),
+                                                              tabPanel("Expected Immunology bloods for the week",br(),DTOutput('immunology')))),
                                                    tabPanel("Queries",
                                                             tabsetPanel(
                                                               tabPanel("Summary", tableOutput('queriestab'),
@@ -1192,7 +1228,7 @@ ui <- fluidPage(
                                                               tabPanel("Summary of deviations",
                                                                        uiOutput("devflex")),
                                                               tabPanel("Deviations pending upload", DTOutput('querypend')))),
-                                                   navbarMenu("Lab results",
+                                                   navbarMenu("Lab",
                                                               tabPanel("Summary",
                                                                        uiOutput("resflex1"),br(),h3("Samples Collected in the previous week"),
                                                                        tabsetPanel(
@@ -1300,6 +1336,98 @@ server <- function(input, output){
       theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1),legend.position = 'none')
     girafe(ggobj=interractive)
   })
+  output$v6.0_summ<-renderUI(
+    v6.0_summ|>flextable()|>autofit()|>htmltools_value())
+  output$cons<-renderDT(
+    cons|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 50,
+      autoWidth=TRUE))
+  output$refs<-renderDT(
+    refs|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 50,
+      autoWidth=TRUE))
+  output$pens<-renderDT(
+    pens|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 50,
+      autoWidth=TRUE))
+  
+  
+  output$downcons <- downloadHandler(
+    filename = function() {
+      "Version6 consented.csv"
+    },
+    content = function(file) {
+      write.csv(cons, file, row.names = TRUE)
+    }
+  )
+  output$downrefs <- downloadHandler(
+    filename = function() {
+      "Version6 Refusals.csv"
+    },
+    content = function(file) {
+      write.csv(refs, file, row.names = TRUE)
+    }
+  )
+  output$downpens <- downloadHandler(
+    filename = function() {
+      "Version6 Pending.csv"
+    },
+    content = function(file) {
+      write.csv(pens, file, row.names = TRUE)
+    }
+  )
+
+  output$v7.0_summ<-renderUI(
+    v7.0_summ|>flextable()|>autofit()|>htmltools_value())
+  output$cons7<-renderDT(
+    cons7|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 50,
+      autoWidth=TRUE))
+  output$refs7<-renderDT(
+    refs7|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 50,
+      autoWidth=TRUE))
+  output$pens7<-renderDT(
+    pens7|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 50,
+      autoWidth=TRUE))
+  output$downcons7 <- downloadHandler(
+    filename = function() {
+      "Version7 consented.csv"
+    },
+    content = function(file) {
+      write.csv(cons7, file, row.names = TRUE)
+    }
+  )
+  output$downrefs7 <- downloadHandler(
+    filename = function() {
+      "Version7 Refusals.csv"
+    },
+    content = function(file) {
+      write.csv(refs7, file, row.names = TRUE)
+    }
+  )
+  output$downpens7 <- downloadHandler(
+    filename = function() {
+      "Version7 Pending.csv"
+    },
+    content = function(file) {
+      write.csv(pens7, file, row.names = TRUE)
+    }
+  )
+  
   output$queriestab<-renderTable({
     queries
   })
@@ -1397,6 +1525,20 @@ server <- function(input, output){
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  
+  output$immunology<-renderDT(
+    scheduler|>mutate(targetDate=coalesce(rescheduledDate,scheduledDate),
+                      dayt=as.numeric(as.Date(targetDate)-today()))|>
+      filter(visitCode%in%c("Day B365/B1Y0","Day 2B28","Day 2B180","Day 3B0","Day 3B28","Day 3B180","Day 3B365"),
+             group=="Group A",
+             dayt<=8)|>
+      select(1,2,12,10,11),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE)
+  )
+  
   output$locflex1<-renderUI(
     lsae|>htmltools_value())
   output$sysflex1<-renderUI(
