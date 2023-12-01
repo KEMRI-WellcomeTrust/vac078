@@ -260,7 +260,7 @@ scheduler$visitCode<-factor(scheduler$visitCode, levels = c("Day 14", "Day 28", 
                                                             "Day 292", "Day 348", "Day 404", "Day B0", 
                                                             "Day B14", "Day B28", "Day B84", "Day B140", 
                                                             "Day B168", "Day B224", "Day B280", "Day B336",
-                                                            "Day B365/B1Y0","Day 2B14","Day 2B28","Day 2B180",
+                                                            "Day B365/B1Y0/2B0","Day 2B14","Day 2B28","Day 2B180",
                                                             "Day 3B0","Day 3B14","Day 3B28","Day 3B180","Day 3B365"))
 scheduler$windowOpen<-as.Date(scheduler$windowOpen, "%d %m %Y")
 scheduler$scheduledDate<-as.Date(scheduler$scheduledDate, "%d %m %Y")
@@ -1181,14 +1181,14 @@ ui <- fluidPage(
                                                             )),
                                                    navbarMenu("Consenting",
                                                               tabPanel("Version 6.0",
-                                                                       uiOutput("v6.0_summ"),br(),h3("Overall summary"),
+                                                                       h3("Overall summary"),br(),uiOutput("v6.0_summ"),br(),
                                                                        tabsetPanel(
                                                                          tabPanel("Consented",downloadButton("downcons", "download"), DTOutput('cons')),
                                                                          tabPanel("Declined Consent",downloadButton("downrefs", "download"), DTOutput('refs')),
                                                                          tabPanel("Pending Consenting",downloadButton("downpens", "download"),DTOutput('pens'))
                                                                        )),
                                                               tabPanel("Version 7.0",
-                                                                       uiOutput("v7.0_summ"),br(),h3("Overall summary"),
+                                                                       h3("Overall summary"),br(),uiOutput("v7.0_summ"),br(),
                                                                        tabsetPanel(
                                                                          tabPanel("Consented",downloadButton("downcons7", "download"), DTOutput('cons7')),
                                                                          tabPanel("Declined Consent",downloadButton("downrefs7", "download"), DTOutput('refs7')),
@@ -1529,10 +1529,12 @@ server <- function(input, output){
   output$immunology<-renderDT(
     scheduler|>mutate(targetDate=coalesce(rescheduledDate,scheduledDate),
                       dayt=as.numeric(as.Date(targetDate)-today()))|>
-      filter(visitCode%in%c("Day B365/B1Y0","Day 2B28","Day 2B180","Day 3B0","Day 3B28","Day 3B180","Day 3B365"),
+      filter(visitCode%in%c("Day B365/B1Y0/2B0","Day 2B28","Day 2B180","Day 3B0","Day 3B28","Day 3B180","Day 3B365"),
              group=="Group A",
-             dayt<=8)|>
-      select(1,2,12,10,11),
+             dayt<=8,
+             is.na(exactDate))|>
+      select(1,2,12,10,11)|>
+      arrange(targetDate,screenID),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,

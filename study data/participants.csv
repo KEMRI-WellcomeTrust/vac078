@@ -1,23 +1,23 @@
 screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentStatus,Site,DateConfirmed,VisitConfirmed,reason_for_termination,times_contacted,consentV6_0Accept,ReconsentDatev6,consentV7_0Accept,ReconsentDate
-785100001,27-Aug-21,27-Aug-21,TRUE,27-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100002,27-Aug-21,27-Aug-21,TRUE,27-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100001,27-Aug-21,27-Aug-21,TRUE,27-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
+785100002,27-Aug-21,27-Aug-21,TRUE,27-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
 785100003,27-Aug-21,27-Aug-21,TRUE,27-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100004,27-Aug-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100005,27-Aug-21,27-Aug-21,TRUE,27-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100007,28-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100008,28-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100005,27-Aug-21,27-Aug-21,TRUE,27-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
+785100007,28-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
+785100008,28-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
 785100009,28-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,Consent withdrawal,Junju,04-May-22,Day 196,Outside study area due to family conflicts.,2,,,,
-785100010,28-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100010,28-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
 785100011,31-Aug-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100012,30-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100012,30-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
 785100013,29-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100014,29-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100014,29-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
 785100015,29-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100017,29-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100017,29-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
 785100018,30-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100019,29-Aug-21,22-Sep-21,TRUE,22-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100020,30-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100021,30-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100020,30-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
+785100021,30-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
 785100022,30-Aug-21,31-Aug-21,TRUE,31-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100023,30-Aug-21,31-Aug-21,TRUE,31-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100025,30-Aug-21,31-Aug-21,TRUE,31-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
