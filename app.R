@@ -20,7 +20,8 @@ minpositive = function(x) min(x[x >= 0], na.rm = TRUE)
 #####
 # consortdataset 
 
-vacdata <- suppressWarnings(fread(here("study data/Study Vaccination Listing.csv")))|>fill_blanks()
+vacdata <- suppressWarnings(fread(here("study data/Study Vaccination Listing.csv")))|>
+  mutate(`Date of vaccination`=as.Date(`Date of vaccination`, "%d-%b-%Y"))|>fill_blanks()
 screenID <- left_join(left_join(
   left_join(
     # Screening dataset
@@ -31,7 +32,7 @@ screenID <- left_join(left_join(
     newfupdata<-vacdata|>
       select(2,3)|>
       pivot_wider(names_from = "VISIT", values_from = "VISIT")|>
-      select(1,4,5,2,3), by="Subject",relationship = "many-to-many"),
+      select(1,4,6,2,3,5), by="Subject",relationship = "many-to-many"),
   # Follow up status dataset
   fupdata<- suppressWarnings(fread(here("study data/participants.csv")))|>fill_blanks()|>
     select(screenId, group,currentStatus,Site,13:16)|>
@@ -84,6 +85,9 @@ study_cohorts <- screenID |>
     vacc4 = screened |> filter(`Booster` == "Booster"),
     vac4grpA = vacc4 |> filter(Subject <= 785100331),
     vac4grpB = vacc4 |> filter(Subject > 785100331),
+    vacc5 = screened %>% filter(`2B0 Vaccination` == "2B0 Vaccination"),
+    vac5grpA = vacc5 %>% filter(Subject <= 785100331),
+    vac5grpB = vacc5 %>% filter(Subject > 785100331),
     rand_no_enr = anti_join(Randomized, vacc1, by = "Subject"),
     on_active_fu = screened|> filter(currentStatus == "On Active Follow up"),
     activeA = on_active_fu |> filter(Subject <= 785100331),
@@ -98,7 +102,17 @@ study_cohorts <- screenID |>
     saedeath = screened|> filter(currentStatus == "SAE resulting to death"),
     withdrawal_db = rbind(consent_withdrawal,blood_volume,vacerror,pi_discretion,saedeath),
     withdrawalA = withdrawal_db |> filter(Subject <= 785100331),
-    withdrawalB = withdrawal_db |> filter(Subject > 785100331)
+    withdrawalB = withdrawal_db |> filter(Subject > 785100331),
+    consentv6_yes = screened|>filter(consentV6_0Accept=="Yes"),
+    v6A = consentv6_yes %>% filter(Subject <= 785100331),
+    v6B = consentv6_yes %>% filter(Subject > 785100331),
+    consentv6_no = screened|>filter(consentV6_0Accept=="No"),
+    consentv6_yet = screened|>filter(is.na(consentV6_0Accept)& currentStatus=="On Active Follow up"),
+    consentv7_yes = screened|>filter(consentV7_0Accept=="Yes"),
+    v7A = consentv7_yes %>% filter(Subject <= 785100331),
+    v7B = consentv7_yes %>% filter(Subject > 785100331),
+    consentv7_no = screened|>filter(consentV7_0Accept=="No"),
+    consentv7_yet = screened|>filter(is.na(consentV7_0Accept) & currentStatus=="On Active Follow up")
   )|>
   cohort_label(
     screened = "screened",
@@ -128,6 +142,9 @@ study_cohorts <- screenID |>
     vacc2 = "Received Vacc2",
     vacc3 = "Received Vacc3",
     vacc4 = "Received Booster",
+    vacc5 = "Received 2nd Booster",
+    vac5grpA = "2B0 Group A",
+    vac5grpB = "2B0 Group B",
     rand_no_enr = "Randomized but not enrolled",
     on_active_fu = "On follow up",
     activeA = "Group A active",
@@ -142,7 +159,17 @@ study_cohorts <- screenID |>
     blood_volume = "Issues with Blood volume",
     vacerror = "Dosing error termination",
     ltfup = "Loss to follow up",
-    saedeath = "SAE resulting to death"
+    saedeath = "SAE resulting to death",
+    consentv6_yes = "Consent V6 Accept",
+    v6A = "V6 Group A",
+    v6B = "V6 Group B",
+    consentv6_no = "Consent V6 Decline",
+    consentv6_yet = "Consent V6 Pending",
+    consentv7_yes = "Consent V7 Accept",
+    v7A = "V7 Group A",
+    v7B = "V7 Group B",
+    consentv7_no = "Consent V7 Decline",
+    consentv7_yet = "Consent V7 Pending"
   )######## Get the list of the summaries obtained #########
 #summary(study_cohorts)
 ########################## use ggplot2 to generate the consort diagram #############
@@ -171,7 +198,10 @@ study_consort <- study_cohorts |>
   . {cohort_count_adorn(study_cohorts, vac3grpB)}<br> 
   <b>{cohort_count_adorn(study_cohorts, vacc4)}</b><br>
   . {cohort_count_adorn(study_cohorts, vac4grpA)}<br> 
-  . {cohort_count_adorn(study_cohorts, vac4grpB)}'))|>
+  . {cohort_count_adorn(study_cohorts, vac4grpB)}<br> 
+  <b>{cohort_count_adorn(study_cohorts, vacc5)}</b><br>
+  . {cohort_count_adorn(study_cohorts, vac5grpA)}<br> 
+  . {cohort_count_adorn(study_cohorts, vac5grpB)}'))|>
   consort_box_add("vacc1", 0, 54, glue::glue(
     '{cohort_count_adorn(study_cohorts, vacc1)}<br>
   {cohort_count_adorn(study_cohorts, on_active_fu)}<br>
@@ -195,6 +225,15 @@ study_consort <- study_cohorts |>
   <b>{cohort_count_adorn(study_cohorts, ltfup)}</b><br> 
   . {cohort_count_adorn(study_cohorts, ltfA)}<br> 
   . {cohort_count_adorn(study_cohorts, ltfB)}'))|>
+  consort_box_add("reconsent", -2, 42, glue::glue(
+    '<b>{cohort_count_adorn(study_cohorts, consentv7_yes)}</b><br>
+  .{cohort_count_adorn(study_cohorts, v7A)}<br>
+  .{cohort_count_adorn(study_cohorts, v7B)}<br>
+    {cohort_count_adorn(study_cohorts, consentv7_no)}<br> 
+    {cohort_count_adorn(study_cohorts, consentv7_yet)}<br>
+    <b>{cohort_count_adorn(study_cohorts, consentv6_yes)}</b><br>
+  .{cohort_count_adorn(study_cohorts, v6A)}<br>
+  .{cohort_count_adorn(study_cohorts, v6B)}'))|>
   consort_box_add("rand_no_enr", 20, 56, cohort_count_adorn(study_cohorts, rand_no_enr))|>
   consort_line_add(start_x = -50 , start_y =44 , end_x =50 ,end_y =44 )|>
   consort_arrow_add(
@@ -205,8 +244,8 @@ study_consort <- study_cohorts |>
   consort_arrow_add("full", "bottom", "Randomized", "top")|>
   consort_arrow_add(start_x = -50 , start_y =44 , end = "enr", end_side = "top")|>
   consort_arrow_add(start_x = 50 , start_y =44 , end = "on_active_fu",end_side = "top")|>
+  consort_arrow_add(start_x = -2 , start_y =44 , end = "reconsent",end_side = "top")|>
   consort_arrow_add("Randomized", "bottom", "vacc1", "top")##### Adds an arrow
-
 
 ### End of study
 requiredEos<-bind_rows(
@@ -221,7 +260,7 @@ requiredEos<-bind_rows(
                            vwithdrawae<-study_cohorts|>
                              cohort_pull(withdrawal_db)))|>
   mutate(time=case_when(is.na(Site)~"Before Enr",TRUE~"After Enr"))|>
-  select(2,34,25,35,36,42)|>
+  select(2,34,25,35,36,43)|>
   arrange(group,other,Subject)
 
 sumaryreq<-requiredEos|>
@@ -259,8 +298,8 @@ scheduler$visitCode<-factor(scheduler$visitCode, levels = c("Day 14", "Day 28", 
                                                             "Day 84", "Day 140", "Day 196", "Day 236", 
                                                             "Day 292", "Day 348", "Day 404", "Day B0", 
                                                             "Day B14", "Day B28", "Day B84", "Day B140", 
-                                                            "Day B168", "Day B224", "Day B280", "Day B336",
-                                                            "Day B365/B1Y0/2B0","Day 2B14","Day 2B28","Day 2B180",
+                                                            "Day B168", "Day B224", "Day B280", "Day B336","Reconsent",
+                                                            "Day B365/2B0","Day 2B14","Day 2B28","Day 2B180",
                                                             "Day 3B0","Day 3B14","Day 3B28","Day 3B180","Day 3B365"))
 scheduler$windowOpen<-as.Date(scheduler$windowOpen, "%d %m %Y")
 scheduler$scheduledDate<-as.Date(scheduler$scheduledDate, "%d %m %Y")
@@ -356,11 +395,12 @@ queries<-queries_now|>
 
 
 
-in_completed1<- suppressWarnings(fread(here("study data/Visit Completed v_s SDV_2.csv"),colClasses = c("text","numeric","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text")))|>fill_blanks()|>
+in_completed1<- suppressWarnings(fread(here("study data/Visit Completed v_s SDV_2.csv"),
+                                       colClasses = c("text","numeric","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text")))|>fill_blanks()|>
   # mutate(VISDAT=as.Date(VISDAT,"%d %m %Y"),
   #        `Entered Date-Time`=as.Date(`Entered Date-Time`, "%d %m %Y %H:%M"))
   mutate(VISDAT=as.Date(VISDAT,"%d %b %y"),
-         `Entered Date-Time`=as.Date(`Entered Date-Time`, "%d %m %Y %H:%M"))
+         `Entered Date-Time`=as.Date(`Entered Date-Time`,"%d %b %y" ))#"%d %m %Y %H:%M"
 in_completed<-in_completed1|>
   dplyr::rename(status="EntryStatus")|>
   filter(status == "Incomplete")|>
@@ -429,6 +469,8 @@ data_nataka <- data_natakaga|>
       visitCode == "B 168" ~ "Day B168",
       visitCode == "B 224" ~ "Day B224",
       visitCode == "B 280" ~ "Day B280",
+      visitCode == "B 336" ~ "Day B336",
+      visitCode == "B1Y 0" ~ "Day B365/2B0",
       TRUE ~ visitCode
     ),screenID=as.numeric(screenID)
   )
@@ -438,7 +480,7 @@ summary_of <- data_nataka |>
   group_by(visitCode) |>
   summarise(eSource=n()) |>
   arrange(factor(visitCode, levels = c("Day 14", "Day 28", "Day 42", "Day 56", "Day 70", "Day 84", "Day 140"
-                                       ,"Day 196","Day 236","Day 292","Day 348","Day 404","Day B0","Day B14","Day B28","Day B84","Day B140","Day B168","Day B224","Day B280")))
+                                       ,"Day 196","Day 236","Day 292","Day 348","Day 404","Day B0","Day B14","Day B28","Day B84","Day B140","Day B168","Day B224","Day B280", "Day B336", "Day B365/2B0")))
 
 
 combined_l_e <- left_join(summary_of, summary_vis_out, by = "visitCode",relationship = "many-to-many")|>
@@ -614,7 +656,8 @@ distinkt<-entered_vbaya|>
 hembioqry23<-left_join(noresdat<-hemboirsltew|>
                          select(-c(1,4,5,7,16))|>
                          mutate(`First Data Time`=as.Date(`First Data Time`, "%d-%b-%Y %H:%M")),dobnew<-fread(here("study data/Demographics Listing.csv"))|>fill_blanks()|>
-                         select(2,4)|>mutate(Subject=as.character(Subject),`Date of Birth`=as.Date(`Date of Birth`, "%d %m %Y")), by="Subject")|>
+                         select(2,4)|>mutate(Subject=as.character(Subject),`Date of Birth`=as.Date(`Date of Birth`, "%d %m %Y")), by="Subject",relationship =
+                         "many-to-many")|>
   mutate(ageinmonths=interval(`Date of Birth`,`First Data Time`)%/% months(1))|>
   distinct(Subject,VISIT,`Test name`, .keep_all = TRUE)|>
   select(-c(6,7,12))|>
@@ -721,11 +764,11 @@ unsolicited<-suppressWarnings(fread(paste0(here(),"/study data/Unsolicited Adver
 
 localae2<-localae[!is.na(localae$`Date of onset`),]
 overduelsae<-localae2|>
-  mutate(datedif=today()-as.Date(`Date of onset`,"%d %m %Y"))|>
+  mutate(datedif=today()-as.Date(`Date of onset`,"%d-%b-%Y"))|>
   filter(Outcome=="Recovering / Resolving")
 solicited2<-solicited[!is.na(solicited$`Date of onset`),]
 overduessae<-solicited2|>
-  mutate(datedif=today()-as.Date(`Date of onset`,"%d %m %Y"))|>
+  mutate(datedif=today()-as.Date(`Date of onset`,"%d-%b-%Y"))|>
   filter(Outcome=="Recovering / Resolving")
 unsolicited_2<-unsolicited[!is.na(unsolicited$`Date of onset`),]
 ## Get name of clinician logging AE
@@ -920,16 +963,18 @@ ongoinmal<-cases|>
 withvacdate1<-left_join(mal_cases,updatedcases<-vacdata|>
                           select(2,3,5)|>
                           pivot_wider(id_cols=Subject,names_from = "VISIT",values_from = "Date of vaccination")|>
-                          select(1,4,5,2,3),by="Subject",relationship = "many-to-many")|>
+                          select(1,4,6,2,3,5),by="Subject",relationship = "many-to-many")|>
   mutate("Dose 1"=as.numeric(`Visit date`-as.Date(`Dose 1`,"%d %m %Y")),"Dose 2"=as.numeric(`Visit date`-as.Date(`Dose 2`,"%d %m %Y")),
-         "Dose 3"=as.numeric(`Visit date`-as.Date(`Dose 3`,"%d %m %Y")),"Booster"=as.numeric(`Visit date`-as.Date(`Booster`,"%d %m %Y")))|>
+         "Dose 3"=as.numeric(`Visit date`-as.Date(`Dose 3`,"%d %m %Y")),"Booster"=as.numeric(`Visit date`-as.Date(`Booster`,"%d %m %Y")),
+         "2B0"=as.numeric(`Visit date`-as.Date(`2B0 Vaccination`,"%d %m %Y")))|>
   rowwise()|>
   mutate(dosevisit=
            case_when(
-             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`))==`Dose 1`~"Dose 1",
-             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`))==`Dose 2`~"Dose 2",
-             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`))==`Dose 3`~"Dose 3",
-             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`))==`Booster`~"Booster"))
+             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Dose 1`~"Dose 1",
+             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Dose 2`~"Dose 2",
+             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Dose 3`~"Dose 3",
+             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Booster`~"Booster",
+             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Booster`~"2B0"))
 
 plasmod1<- suppressWarnings(fread(paste0(here(),"/study data/Blood Sample For Plasmodium Species Results Listing.csv"),
                                   colClasses = c("text","text","text","text","date",
@@ -959,16 +1004,18 @@ withvacdate<-withvacdate1|>
 newsumm1<-left_join(malcasecrfdbspos,updatedcases<-vacdata|>mutate(Subject=as.character(Subject))|>
                       select(2,3,5)|>
                       pivot_wider(id_cols=Subject,names_from = "VISIT",values_from = "Date of vaccination")|>
-                      select(1,4,5,2,3),by="Subject",relationship = "many-to-many")|>
+                      select(1,4,6,2,3,5),by="Subject",relationship = "many-to-many")|>
   mutate("Dose 1"=as.numeric(as.Date(`Date of blood sample collection`,"%d-%b-%Y")-as.Date(`Dose 1`,"%d %m %Y")),"Dose 2"=as.numeric(as.Date(`Date of blood sample collection`,"%d-%b-%Y")-as.Date(`Dose 2`,"%d %m %Y")),
-         "Dose 3"=as.numeric(as.Date(`Date of blood sample collection`,"%d-%b-%Y")-as.Date(`Dose 3`,"%d %m %Y")),"Booster"=as.numeric(as.Date(`Date of blood sample collection`,"%d-%b-%Y")-as.Date(`Booster`,"%d %m %Y")))|>
+         "Dose 3"=as.numeric(as.Date(`Date of blood sample collection`,"%d-%b-%Y")-as.Date(`Dose 3`,"%d %m %Y")),"Booster"=as.numeric(as.Date(`Date of blood sample collection`,"%d-%b-%Y")-as.Date(`Booster`,"%d %m %Y")),
+         "2B0"=as.numeric(as.Date(`Date of blood sample collection`,"%d-%b-%Y")-as.Date(`2B0 Vaccination`,"%d %m %Y")))|>
   rowwise()|>
   mutate(dosevisit=
            case_when(
-             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`))==`Dose 1`~"Dose 1",
-             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`))==`Dose 2`~"Dose 2",
-             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`))==`Dose 3`~"Dose 3",
-             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`))==`Booster`~"Booster"))|>
+             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Dose 1`~"Dose 1",
+             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Dose 2`~"Dose 2",
+             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Dose 3`~"Dose 3",
+             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Booster`~"Booster",
+             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Booster`~"2B0"))|>
   arrange(Subject,`Date of blood sample collection`)|>
   group_by(Subject)|>
   mutate(case_number2=paste0("MLR-",row_number()))|>ungroup()|>
@@ -1165,7 +1212,7 @@ ui <- fluidPage(
   # add login panel UI function
   shinyauthr::loginUI(id = "login"),div(id="show-page-content",
                                         navbarPage("VAC078",
-                                                   tabPanel("Consort",plotOutput("consort"),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),
+                                                   tabPanel("Consort",plotOutput("consort"),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),br(),
                                                             downloadButton("downloadData1", "download"),br(),
                                                             textOutput("consnarative"),
                                                             strong(h4("1. Summary of active participants and their catchment area")),
@@ -1304,7 +1351,7 @@ server <- function(input, output){
   output$consort<-renderPlot({study_consort |>
       ggplot() +
       geom_consort() +
-      theme_consort(margin_h = 12, margin_v = 8.5)}, height = 600, width = 650 )
+      theme_consort(margin_h = 8, margin_v = 11)}, height = 670, width = 650 )
   output$consnarative<-renderText({
     paste0("This summary is at ",format(Sys.time(), "%B %d, %Y"))
   })
@@ -1444,7 +1491,7 @@ server <- function(input, output){
       pageLength = 100,
       autoWidth=TRUE))
   output$incomprec<-renderDT(
-    anti_join(in_completed,tibble::tibble("Subject Id"=c(785100021,785100152,785100163,785100167,785100203,785100304,785100313,785100382,785100383,785100435,785100450,785100499,785100541,785100548,785100551,785100185,785100201,785100503),VISITNAME=c("Unscheduled - 3","Unscheduled - 2","Unscheduled - 13","Dose 1 (Pre-vaccination)","Dose 1 (Pre-vaccination)","Dose 3 (Pre-vaccination)","Unscheduled - 16","Unscheduled - 19","Unscheduled - 4","Unscheduled - 9","Unscheduled - 7","Unscheduled - 3","Unscheduled - 3","Unscheduled - 6","Unscheduled - 2","Unscheduled - 5","Unscheduled - 9","Unscheduled - 14")))|>convert_to_factors(),
+    anti_join(in_completed,tibble::tibble("Subject Id"=c(785100021,785100152,785100163,785100167,785100203,785100304,785100313,785100382,785100383,785100435,785100450,785100499,785100541,785100548,785100551,785100185,785100201,785100503),VISITNAME=c("Unscheduled - 3","Unscheduled - 2","Unscheduled - 13","Dose 1 (Pre-vaccination)","Dose 1 (Pre-vaccination)","Dose 3 (Pre-vaccination)","Unscheduled - 16","Unscheduled - 19","Unscheduled - 4","Unscheduled - 9","Unscheduled - 7","Unscheduled - 3","Unscheduled - 3","Unscheduled - 6","Unscheduled - 2","Unscheduled - 5","Unscheduled - 9","Unscheduled - 14")),by=c("Subject Id","VISITNAME"))|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,
