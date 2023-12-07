@@ -640,7 +640,7 @@ results_tab<-as.data.frame(rbind(
   adorn_totals(c("col"))|>
   flextable()|>vline()|>hline()|>vline_left()|>autofit()
 allsamp<-left_join(hemboirsltew|>
-                     filter(is.na(`Reason for No Result`))|>mutate(Subject=as.numeric(Subject)),bloodcoll|>select(1,2,4,6)|>rename(VISIT=Visit)|>mutate(`sampledate`=coalesce(hemdate,biodate)),by=c("Subject","VISIT"))|>
+                     filter(is.na(`Reason for No Result`))|>mutate(Subject=as.numeric(Subject)),bloodcoll|>select(1,2,4,6)|>rename(VISIT=Visit)|>mutate(`sampledate`=coalesce(hemdate,biodate)),by=c("Subject","VISIT"),relationship = "many-to-many")|>
   filter(!is.na(`sampledate`))|>
   select(2,3,19,6,8)|>
   setnames(c("Subject","VISIT","sampledate","Test","Result"))
@@ -1351,7 +1351,7 @@ server <- function(input, output){
   output$consort<-renderPlot({study_consort |>
       ggplot() +
       geom_consort() +
-      theme_consort(margin_h = 8, margin_v = 11)}, height = 670, width = 650 )
+      theme_consort(margin_h = 8, margin_v = 11)}, height = 670, width = 680 )
   output$consnarative<-renderText({
     paste0("This summary is at ",format(Sys.time(), "%B %d, %Y"))
   })
