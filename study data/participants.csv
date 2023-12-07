@@ -8,7 +8,7 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100008,28-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
 785100009,28-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,Consent withdrawal,Junju,04-May-22,Day 196,Outside study area due to family conflicts.,2,,,,
 785100010,28-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
-785100011,31-Aug-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100011,31-Aug-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
 785100012,30-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
 785100013,29-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100014,29-Aug-21,30-Aug-21,TRUE,30-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,30 11 2023,Yes,30 11 2023
@@ -23,15 +23,15 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100025,30-Aug-21,31-Aug-21,TRUE,31-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100026,30-Aug-21,31-Aug-21,TRUE,31-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100027,30-Aug-21,15-Sep-21,TRUE,15-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100028,30-Aug-21,31-Aug-21,TRUE,31-Aug-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100028,30-Aug-21,31-Aug-21,TRUE,31-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
 785100030,30-Aug-21,31-Aug-21,TRUE,31-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,1 12 2023,Yes,1 12 2023
 785100031,30-Aug-21,31-Aug-21,TRUE,31-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,1 12 2023,Yes,1 12 2023
 785100032,30-Aug-21,31-Aug-21,TRUE,31-Aug-21,Group A,On Active Follow up,Junju,,,,,Yes,1 12 2023,Yes,1 12 2023
 785100034,31-Aug-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100035,31-Aug-21,01-Sep-21,TRUE,01-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100035,31-Aug-21,01-Sep-21,TRUE,01-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
 785100036,31-Aug-21,01-Sep-21,TRUE,01-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,1 12 2023,Yes,1 12 2023
 785100037,31-Aug-21,01-Sep-21,TRUE,01-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,1 12 2023,Yes,1 12 2023
-785100038,31-Aug-21,01-Sep-21,TRUE,01-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100038,31-Aug-21,01-Sep-21,TRUE,01-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,6 12 2023,Yes,6 12 2023
 785100039,31-Aug-21,01-Sep-21,TRUE,01-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,1 12 2023,Yes,1 12 2023
 785100040,31-Aug-21,01-Sep-21,TRUE,01-Sep-21,Group A,Consent withdrawal,Junju,04-May-22,Day 196,Mother remarried to Likoni which is outside the study area,2,,,,
 785100041,31-Aug-21,01-Sep-21,TRUE,01-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,1 12 2023,Yes,1 12 2023
@@ -42,50 +42,50 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100046,31-Aug-21,01-Sep-21,TRUE,01-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,1 12 2023,Yes,1 12 2023
 785100047,31-Aug-21,01-Sep-21,TRUE,01-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,1 12 2023,Yes,1 12 2023
 785100048,31-Aug-21,01-Sep-21,TRUE,01-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,1 12 2023,Yes,1 12 2023
-785100049,31-Aug-21,01-Sep-21,TRUE,01-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100050,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100051,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100052,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100053,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100054,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100055,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100049,31-Aug-21,01-Sep-21,TRUE,01-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,1 12 2023,Yes,1 12 2023
+785100050,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
+785100051,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
+785100052,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
+785100053,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
+785100054,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
+785100055,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
 785100057,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100058,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100058,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,6 12 2023,Yes,6 12 2023
 785100059,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100060,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100061,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100062,02-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100063,02-Sep-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100060,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
+785100061,01-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
+785100062,02-Sep-21,02-Sep-21,TRUE,02-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
+785100063,02-Sep-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
 785100064,01-Sep-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100065,01-Sep-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100066,02-Sep-21,10-Sep-21,TRUE,10-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100067,03-Sep-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100068,14-Sep-21,17-Sep-21,TRUE,17-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100069,02-Sep-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100070,02-Sep-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100070,02-Sep-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
 785100071,02-Sep-21,07-Sep-21,TRUE,07-Sep-21,Group A,Loss to follow up,Junju,12-Dec-22,Day 404,Mother outside study area shows reluctance to continue with the study,9,,,,
 785100072,02-Sep-21,10-Sep-21,TRUE,10-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100073,02-Sep-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100074,02-Sep-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100075,04-Sep-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100076,04-Sep-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100076,04-Sep-21,07-Sep-21,TRUE,07-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
 785100077,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,Blood volume Issues,Junju,27-Jan-22,Day 84,Due to blood volume,,,,,
 785100078,06-Sep-21,09-Sep-21,TRUE,09-Sep-21,Group A,Loss to follow up,Junju,25-Aug-22,Day 236,"Mum had gave birth out of wedlock used to live within study area but now suspected to be married at Majengo ,no family member knows where about since she left with the participant and has been unreachable",,,,,
 785100079,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100080,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100081,06-Sep-21,30-Sep-21,TRUE,30-Sep-21,Group A,Blood volume Issues,Junju,27-Apr-22,Day 140,Blood issues,,,,,
 785100082,01-Sep-21,24-Sep-21,TRUE,24-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100083,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100084,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100083,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
+785100084,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
 785100086,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100087,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100087,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
 785100088,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100089,02-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100089,02-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
 785100090,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100091,06-Sep-21,15-Sep-21,TRUE,15-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100092,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100092,06-Sep-21,08-Sep-21,TRUE,08-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
 785100093,07-Sep-21,09-Sep-21,TRUE,09-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
-785100094,07-Sep-21,09-Sep-21,TRUE,09-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
+785100094,07-Sep-21,09-Sep-21,TRUE,09-Sep-21,Group A,On Active Follow up,Junju,,,,,Yes,5 12 2023,Yes,5 12 2023
 785100095,08-Sep-21,10-Sep-21,TRUE,10-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100096,07-Sep-21,09-Sep-21,TRUE,09-Sep-21,Group A,On Active Follow up,Junju,,,,,,,,
 785100097,07-Sep-21,09-Sep-21,TRUE,09-Sep-21,Group A,Consent withdrawal,Junju,21-Oct-22,Day 348,Parent said that she will no longer come back to the study area due to a family conflict which was unsolved,7,,,,
