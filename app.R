@@ -1190,17 +1190,39 @@ pens<-fupdata2|>
 ###+Version 7.0
 v7.0_summ<-fupdata2|> group_by(consentV7_0Accept)|> summarise(count=n())
 cons7<-fupdata2|>
-  filter(consentV6_0Accept=="Yes")|>
+  filter(consentV7_0Accept=="Yes")|>
   select(1,2,4,7,8)
 refs7<-fupdata2|>
-  filter(consentV6_0Accept=="No")|>
+  filter(consentV7_0Accept=="No")|>
   select(1,2,4,7,8)
 pens7<-fupdata2|>
-  filter(consentV6_0Accept=="Pending")|>
+  filter(consentV7_0Accept=="Pending")|>
   select(1:4)
 
 
 ###++++++ end reconsent +++++###
+
+
+###+ Dosing summary +###
+
+dose_sum<- suppressWarnings(fread(here("study data/Dosing Summary.csv"),colClasses = c("text","numeric","text","text","numeric","date","text")))|>fill_blanks()
+
+dsum1<-left_join(dose_sum|>
+  mutate(VISIT= factor(VISIT, levels = c("Dose 1","Dose 2","Dose 3","Booster","Booster 2")))|>
+  group_by(VISIT)|>
+  summarise(Dosed = n()),
+
+vacdata|>
+  mutate(VISIT = if_else(VISIT=="2B0 Vaccination","Booster 2", VISIT),
+         VISIT= factor(VISIT, levels = c("Dose 1","Dose 2","Dose 3","Booster","Booster 2")))|>
+  group_by(VISIT)|>
+  summarise(Vaccinated = n()))
+
+notvax<- anti_join(dose_sum|>rename(Subject="Participant Id")|>mutate(VISIT= factor(VISIT, levels = c("Dose 1","Dose 2","Dose 3","Booster","Booster 2"))),derf<-vacdata|>
+                     mutate(VISIT = case_when(VISIT=="2B0 Vaccination"~"Booster 2",TRUE ~ VISIT),
+                            VISIT= factor(VISIT, levels = c("Dose 1","Dose 2","Dose 3","Booster","Booster 2"))), by=c("Subject", "VISIT"))
+
+###+
 
 
 
