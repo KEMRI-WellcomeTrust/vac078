@@ -17,6 +17,15 @@ fill_blanks<- function(data){
 
 minpositive = function(x) min(x[x >= 0], na.rm = TRUE)
 
+## replce micro symbol
+replace_symbol_in_column <- function(data, column_name, symbol, replacement = "") {
+  data %>%
+    mutate(across(
+      .cols = all_of(column_name),
+      .fns = ~ str_replace(., fixed(symbol), replacement)
+    ))
+}
+
 #####
 # consortdataset 
 
@@ -382,7 +391,7 @@ scheduler12<-scheduler|>
   mutate(status=factor(status, levels = c("Scheduled","Actual","Due visit","Missed")))
 
 ####====================QUERIES and incomplete records=====================================####
-queries_nowe<-suppressWarnings(fread(paste0(here(),"/study data/QueryReports.csv")))|>fill_blanks()|>as.data.frame()
+queries_nowe<-suppressWarnings(fread(paste0(here(),"/study data/QueryReports.csv")))|>fill_blanks()|>as.data.frame()|>replace_symbol_in_column(column_name = "Query Text",symbol = "�", replacement = "_")
 queries_now<-queries_nowe|>
   dplyr::rename(type="Query Type",
                 status="Query Status")
@@ -412,8 +421,8 @@ trends1<-left_join(queries_now|>
                      select(2,3,7),by=c("Subject ID","Visit"),relationship = "many-to-many")|>
   select(4,5,21,6,7,14)|>
   mutate(`Visit date`=as.Date(`Visit date`, format="%Y-%m-%d"))|>left_join(dertas<-in_completed1|>select(2,6,7,10)|>
-                                                                             dplyr::rename(`Subject ID`=`Subject Id`, Visit=VISITNAME, Module=FORMNAME),by=c("Subject ID","Visit","Module"),relationship = "many-to-one")#|>
-# distinct(`Subject ID`, VISIT,`Visit date`, Module,`Rule Description`,`Field Name`,`Query Text`,`Entered By`, .keep_all = TRUE)
+                                                                             dplyr::rename(`Subject ID`=`Subject Id`, Visit=VISITNAME, Module=FORMNAME),by=c("Subject ID","Visit","Module"),relationship = "many-to-one")|>
+ distinct(`Subject ID`, Visit,`Visit date`, Module,`Field Name`,`Query Text`,`Entered By`, .keep_all = TRUE)#|>select(!`Query Text`)
 
 
 trends<-trends1|>
@@ -543,8 +552,9 @@ bioex3<-extract3|>
 
 ### Plasmodium results
 malrslt<- suppressWarnings(fread(here("study data/Blood Sample For Plasmodium Species Results Listing.csv")))|>fill_blanks()|>
+  setnames(c("Site ID","Subject","Visit","Episode Number","Date of blood sample collection","dbsrslt","result","Plasmodium species","count_trophozoites_falciparum","count_game_falciparum","Schizonts for Plasmodium falciparum","count_trophozoites_malariae","count_game_malariae","Schizonts for Plasmodium malariae","count_trophozoites_ovale","count_game_ovale","Schizonts for Plasmodium ovale","count_trophozoites_vivax","count_game_vivax","Schizonts for Plasmodium vivax","Result of RDT","First Data Time","Last Data Time"
+  ))|>
   select(2,3,6,7,9,10,12,13,15,16,18,19)|>
-  setNames(c("Subject","Visit","dbsrslt","result","count_trophozoites_falciparum","count_game_falciparum","count_trophozoites_malariae","count_game_malariae","count_trophozoites_ovale","count_game_ovale","count_trophozoites_vivax","count_game_vivax"))|>
   filter(dbsrslt=="Blood film for Plasmodium species")
 ### Hematology and Biochem
 hemboirsltew<- suppressWarnings(fread(here("study data/Haematology And Biochemistry Listing.csv"),
@@ -978,7 +988,9 @@ withvacdate1<-left_join(mal_cases,updatedcases<-vacdata|>
 
 plasmod1<- suppressWarnings(fread(paste0(here(),"/study data/Blood Sample For Plasmodium Species Results Listing.csv"),
                                   colClasses = c("text","text","text","text","date",
-                                                 "text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","date","date")))|>fill_blanks()
+                                                 "text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","text","date","date")))|>fill_blanks()|>
+  setnames(c("Site ID","Subject","VISIT","Episode Number","Date of blood sample collection","Type of blood sample collection","Result of blood film for Plasmodium species","Plasmodium species","count_trophozoites_falciparum","count_game_falciparum","Schizonts for Plasmodium falciparum","count_trophozoites_malariae","count_game_malariae","Schizonts for Plasmodium malariae","count_trophozoites_ovale","count_game_ovale","Schizonts for Plasmodium ovale","count_trophozoites_vivax","count_game_vivax","Schizonts for Plasmodium vivax","Result of RDT","First Data Time","Last Data Time"
+  ))
 
 malcasecrfdbspos<-plasmod1|>
   filter(VISIT=="Malaria case report",`Type of blood sample collection`=="Blood film for Plasmodium species",!is.na(`Result of blood film for Plasmodium species`) & `Result of blood film for Plasmodium species`!="Negative for Plasmodium species")|>
@@ -1216,7 +1228,7 @@ vacdata|>
   mutate(VISIT = if_else(VISIT=="2B0 Vaccination","Booster 2", VISIT),
          VISIT= factor(VISIT, levels = c("Dose 1","Dose 2","Dose 3","Booster","Booster 2")))|>
   group_by(VISIT)|>
-  summarise(Vaccinated = n()))
+  summarise(Vaccinated = n()), by="VISIT")
 
 notvax<- anti_join(dose_sum|>rename(Subject="Participant Id")|>mutate(VISIT= factor(VISIT, levels = c("Dose 1","Dose 2","Dose 3","Booster","Booster 2"))),derf<-vacdata|>
                      mutate(VISIT = case_when(VISIT=="2B0 Vaccination"~"Booster 2",TRUE ~ VISIT),
