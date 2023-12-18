@@ -26,22 +26,22 @@ Site ID,Subject,VISIT,Protocol completion or discontinuation date,Reason for com
 51,785100366,Subject summary,18-Oct-2021,Other,,,,,Excluded before randomization,,,,No,No,,No,,09-Jun-2023 09:15,
 51,785100240,Subject summary,15-Jul-2022,Consent withdrawal,,,,,,,,,Yes,Yes,Yes,Yes,Yes,10-Jan-2023 09:04,28-Jul-2023 06:48
 51,785100410,Subject summary,30-Jun-2022,Death,,30-Jun-2022,Details available in events description on safety log. Verbal autopsy conducted on 24 August 2022.,,,,,,Yes,Yes,Yes,No,,10-Jan-2023 10:06,23-Jul-2023 06:18
-51,785100442,Subject summary,26-Oct-2021,Other,,,,,Excluded before randomization,,,,No,No,,No,,09-Jun-2023 09:25,
-51,785100460,Subject summary,26-Oct-2021,Other,,,,,Exclusion before randomization,,,,No,Yes,No,No,,09-Jun-2023 11:47,
-51,785100487,Subject summary,27-Oct-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,09-Jun-2023 11:49,09-Jun-2023 11:51
-51,785100488,Subject summary,27-Oct-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,09-Jun-2023 11:52,
+51,785100442,Subject summary,27-Oct-2021,Other,,,,,Excluded before randomization,,,,No,No,,No,,09-Jun-2023 09:25,13-Dec-2023 08:40
+51,785100460,Subject summary,28-Oct-2021,Other,,,,,Exclusion before randomization,,,,No,Yes,No,No,,09-Jun-2023 11:47,13-Dec-2023 08:41
+51,785100487,Subject summary,29-Oct-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,09-Jun-2023 11:49,13-Dec-2023 08:42
+51,785100488,Subject summary,29-Oct-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,09-Jun-2023 11:52,13-Dec-2023 08:44
 51,785100489,Subject summary,18-Dec-2022,Lost to follow-up,,,,,,,,,Yes,Yes,Yes,No,,09-Jun-2023 11:54,
 51,785100664,Subject summary,10-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 11:54,12-Jul-2023 10:01
 51,785100659,Subject summary,07-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 11:56,
 51,785100654,Subject summary,06-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 11:57,
 51,785100640,Subject summary,10-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 12:00,12-Jul-2023 09:51
-51,785100639,Subject summary,05-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 12:07,
-51,785100615,Subject summary,04-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 12:09,
+51,785100639,Subject summary,06-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 12:07,13-Dec-2023 08:45
+51,785100615,Subject summary,08-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 12:09,13-Dec-2023 08:50
 51,785100242,Subject summary,09-Nov-2022,Lost to follow-up,,,,,,,,,Yes,Yes,Yes,No,,10-Jan-2023 09:06,19-Feb-2023 08:46
 51,785100336,Subject summary,03-Oct-2022,Consent withdrawal,,,,,,,,,Yes,Yes,Yes,Yes,Yes,10-Jan-2023 09:34,03-Feb-2023 08:38
 51,785100347,Subject summary,14-Oct-2021,Other,,,,,Exclusion before randomization,,,,No,No,,No,,09-Jun-2023 09:13,
 51,785100382,Subject summary,11-Feb-2023,Consent withdrawal,,,,,,,,,Yes,Yes,Yes,No,,09-Jun-2023 09:19,
-51,785100602,Subject summary,02-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 12:12,
+51,785100602,Subject summary,04-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 12:12,13-Dec-2023 08:57
 51,785100597,Subject summary,02-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 12:14,
 51,785100537,Subject summary,29-Oct-2021,Other,,,,,Excluded before randomization,,,,No,No,,No,,13-Jun-2023 12:23,
 51,785100536,Subject summary,29-Oct-2021,Other,,,,,Excluded before randomization,,,,No,No,,No,,13-Jun-2023 12:25,
@@ -50,7 +50,7 @@ Site ID,Subject,VISIT,Protocol completion or discontinuation date,Reason for com
 51,785100335,Subject summary,12-Jan-2022,Consent withdrawal,,,,,,,,,Yes,Yes,Yes,Yes,Yes,03-Mar-2022 07:45,
 51,785100290,Subject summary,05-Aug-2022,Consent withdrawal,,,,,,,,,Yes,Yes,Yes,Yes,Yes,10-Jan-2023 09:07,17-Jun-2023 02:30
 51,785100118,Subject summary,06-Jan-2023,Other,,,,,blood volume issues,,,,Yes,Yes,Yes,No,,09-Jun-2023 08:43,14-Jun-2023 12:09
-51,785100591,Subject summary,03-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 12:15,13-Jul-2023 06:17
+51,785100591,Subject summary,08-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 12:15,13-Dec-2023 08:59
 51,785100421,Subject summary,24-Jan-2022,Consent withdrawal,,,,,,,,,Yes,Yes,Yes,Yes,Yes,03-Mar-2022 07:52,
 51,785100577,Subject summary,02-Dec-2021,Consent withdrawal,,,,,,,,,Yes,Yes,Yes,Yes,Yes,03-Mar-2022 07:56,
 51,785100332,Subject summary,13-Oct-2021,Other,,,,,Randomized but not vaccinated,,,,Yes,Yes,Yes,No,,04-Mar-2022 09:16,
@@ -113,7 +113,7 @@ Site ID,Subject,VISIT,Protocol completion or discontinuation date,Reason for com
 51,785100056,Subject summary,15-Oct-2021,Other,,,,,Completion of enrolement in group A,,,,Yes,Yes,Yes,Yes,Yes,09-Dec-2021 10:00,27-Oct-2022 10:34
 51,785100006,Subject summary,15-Oct-2021,Other,,,,,Completion of enrollment for group A participants,,,,Not applicable,Yes,Yes,No,,09-Dec-2021 10:01,14-Sep-2023 13:30
 51,785100194,Subject summary,03-Nov-2021,Other,,,,,Completion of enrolement to group A,,,,Yes,Yes,Yes,Yes,Yes,09-Dec-2021 10:01,23-Oct-2022 16:35
-51,785100315,Subject summary,08-Oct-2021,Other,,,,,Excluded before randomization,,,,No,No,,No,,09-Jun-2023 09:05,
+51,785100315,Subject summary,12-Oct-2021,Other,,,,,Excluded before randomization,,,,No,No,,No,,09-Jun-2023 09:05,13-Dec-2023 09:01
 51,785100671,Subject summary,09-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 11:53,
 51,785100309,Subject summary,07-Oct-2021,Other,,,,,Excluded before randomization.,,,,No,No,,No,,09-Jun-2023 08:59,12-Jul-2023 11:31
 51,785100415,Subject summary,25-Oct-2021,Other,,,,,Excluded before randomization,,,,No,No,,No,,09-Jun-2023 09:23,

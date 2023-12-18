@@ -72,6 +72,7 @@ Site ID,Subject,VISIT,Did the subject experience any systemic solicited adverse 
 51,785100201,Logs,No,,,,,,,,,,,,,,,,,,,,27-Feb-2022 17:13,
 51,785100143,Logs,No,,,,,,,,,,,,,,,,,,,,28-Feb-2022 17:02,19-Mar-2022 14:44
 51,785100144,Logs,No,,,,,,,,,,,,,,,,,,,,28-Feb-2022 17:08,19-Mar-2022 19:12
+51,785100148,Logs,Yes,Booster 2,S-2,Fever,38.5,16-Dec-2023,Yes,,Grade 2,Probable,Dose not changed,Yes,Recovering / Resolving,No,,,,,,,16-Dec-2023 09:56,16-Dec-2023 10:01
 51,785100027,Logs,Yes,Booster 2,S-2,Fever,39.0,11-Dec-2023,Yes,,Grade 2,Possible,Dose not changed,Yes,Recovering / Resolving,No,,,,,,,11-Dec-2023 12:57,13-Dec-2023 13:26
 51,785100010,Logs,Yes,Booster 2,S-2,Fever,37.6,07-Dec-2023,Yes,,Grade 1,Probable,Dose not changed,No,Recovering / Resolving,No,,,,,,,07-Dec-2023 07:27,07-Dec-2023 07:29
 51,785100115,Logs,Yes,Booster 2,S-3,Fever,38.7,14-Dec-2023,Yes,,Grade 2,Possible,Not Applicable,Yes,Recovering / Resolving,No,,,,,,,14-Dec-2023 09:07,
@@ -254,6 +255,8 @@ Site ID,Subject,VISIT,Did the subject experience any systemic solicited adverse 
 51,785100324,Logs,Yes,3,S-2,Fever,38.4,11-Dec-2021,No,11-Dec-2021,Grade 2,Probable,Dose not changed,Yes,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2021 08:56,13-Jan-2022 14:46
 51,785100117,Logs,Yes,3,S-1,Fever,38.6,09-Dec-2021,No,10-Dec-2021,Grade 2,Possible,Dose not changed,Yes,Recovered / Resolved without sequelae,No,,,,,,,09-Dec-2021 10:54,17-Jan-2022 14:55
 51,785100330,Logs,Yes,3,S-1,Fever,37.6,15-Dec-2021,No,16-Dec-2021,Grade 1,Unlikely,Dose not changed,No,Recovered / Resolved without sequelae,No,,,,,,,15-Dec-2021 08:46,27-Jan-2022 16:17
+51,785100182,Logs,Yes,Booster 2,S-2,Fever,38.2,16-Dec-2023,Yes,,Grade 2,Probable,Dose not changed,Yes,Recovering / Resolving,No,,,,,,,16-Dec-2023 08:02,16-Dec-2023 08:08
+51,785100157,Logs,Yes,Booster 2,S-3,Fever,38.0,15-Dec-2023,Yes,,Grade 1,Possible,Dose not changed,No,Recovering / Resolving,No,,,,,,,15-Dec-2023 11:45,
 51,785100062,Logs,No,,,,,,,,,,,,,,,,,,,,07-Mar-2022 07:58,
 51,785100078,Logs,No,,,,,,,,,,,,,,,,,,,,07-Mar-2022 08:46,
 51,785100081,Logs,No,,,,,,,,,,,,,,,,,,,,07-Mar-2022 08:52,
@@ -411,3 +414,4 @@ Site ID,Subject,VISIT,Did the subject experience any systemic solicited adverse 
 51,785100111,Logs,No,,,,,,,,,,,,,,,,,,,,23-Feb-2022 09:39,17-Mar-2022 12:46
 51,785100308,Logs,No,,,,,,,,,,,,,,,,,,,,23-Feb-2022 17:25,14-Aug-2022 15:01
 51,785100323,Logs,Yes,2,S-1,Fever,39.0,11-Nov-2021,No,12-Nov-2021,Grade 2,Definite,Dose not changed,Yes,Recovered / Resolved without sequelae,No,,,,,,,11-Nov-2021 13:16,18-Feb-2022 08:41
+51,785100011,Logs,Yes,Booster 2,S-1,Fever,38.4,16-Dec-2023,Yes,,Grade 2,Possible,Dose not changed,Yes,Recovering / Resolving,No,,,,,,,17-Dec-2023 07:31,17-Dec-2023 07:37

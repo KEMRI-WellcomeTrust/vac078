@@ -974,7 +974,7 @@ withvacdate1<-left_join(mal_cases,updatedcases<-vacdata|>
              minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Dose 2`~"Dose 2",
              minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Dose 3`~"Dose 3",
              minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Booster`~"Booster",
-             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Booster`~"2B0"))
+             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`2B0`~"2B0"))
 
 plasmod1<- suppressWarnings(fread(paste0(here(),"/study data/Blood Sample For Plasmodium Species Results Listing.csv"),
                                   colClasses = c("text","text","text","text","date",
@@ -1015,7 +1015,7 @@ newsumm1<-left_join(malcasecrfdbspos,updatedcases<-vacdata|>mutate(Subject=as.ch
              minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Dose 2`~"Dose 2",
              minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Dose 3`~"Dose 3",
              minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Booster`~"Booster",
-             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`Booster`~"2B0"))|>
+             minpositive(c(`Dose 1`,`Dose 2`,`Dose 3`,`Booster`,`2B0`))==`2B0`~"2B0"))|>
   arrange(Subject,`Date of blood sample collection`)|>
   group_by(Subject)|>
   mutate(case_number2=paste0("MLR-",row_number()))|>ungroup()|>
