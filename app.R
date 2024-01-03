@@ -1337,7 +1337,7 @@ ui <- fluidPage(
                                                                          tabPanel('Local solicited',br(), uiOutput('locflex1'),br(), uiOutput('locflex2')),
                                                                          tabPanel('Systemic solicited',br(), uiOutput('sysflex1'),br(), uiOutput('sysflex2')),
                                                                          tabPanel('Unsolicited',br(), uiOutput('unsolflex1'),br(), uiOutput('unsolflex2')),
-                                                                         tabPanel('SAEs',br(),uiOutput('saeflex1'),br(), uiOutput('saeflex2'),br(),a(href="https://kemriwellcometrust-my.sharepoint.com/personal/somenda_kemri-wellcome_org/Documents/VAC078%20Study%20Coordination/VAC078%20Filing%20%26%20QC%20drive/Participant%20File%20Trackers/SAE%20reporting%20summary.xlsx?web=1", "For summary on required SAE submissions, follow this link👈"))
+                                                                         tabPanel('SAEs',br(),uiOutput('saeflex1'),br(), uiOutput('saeflex2'),br(),a(href="https://kemriwellcometrust-my.sharepoint.com/personal/somenda_kemri-wellcome_org/Documents/VAC078%20Study%20Coordination/VAC078%20Filing%20%26%20QC%20drive/Participant%20File%20Trackers/SAE%20reporting%20summary.xlsx?web=1", target = "_blank", rel="noopener noreferrer","For summary on required SAE submissions, follow this link👈"))
                                                                        )),
                                                               tabPanel("AEs open for +7days",h4("Last week AE closure summary"), uiOutput("sumari"),
                                                                        tabsetPanel(
@@ -1385,7 +1385,7 @@ server <- function(input, output){
   output$consort<-renderPlot({study_consort |>
       ggplot() +
       geom_consort() +
-      theme_consort(margin_h = 8, margin_v = 11)}, height = 670, width = 680 )
+      theme_consort(margin_h = 8, margin_v = 11)}, height = 670, width = 700 )
   output$consnarative<-renderText({
     paste0("This summary is at ",format(Sys.time(), "%B %d, %Y"))
   })
@@ -1610,7 +1610,7 @@ server <- function(input, output){
   output$immunology<-renderDT(
     scheduler|>mutate(targetDate=coalesce(rescheduledDate,scheduledDate),
                       dayt=as.numeric(as.Date(targetDate)-today()))|>
-      filter(visitCode%in%c("Day B365/B1Y0/2B0","Day 2B28","Day 2B180","Day 3B0","Day 3B28","Day 3B180","Day 3B365"),
+      filter(visitCode%in%c("Day B365/2B0","Day 2B28","Day 2B180","Day 3B0","Day 3B28","Day 3B180","Day 3B365"),
              group=="Group A",
              dayt<=8,
              is.na(exactDate))|>
