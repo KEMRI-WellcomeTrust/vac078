@@ -30,7 +30,7 @@ Site ID,Subject,VISIT,Did the subject experience any local solicited adverse eve
 51,785100116,Logs,No,,,,,,,,,,,,,,,,,,,10-Mar-2022 07:46,17-Mar-2022 20:09
 51,785100279,Logs,No,,,,,,,,,,,,,,,,,,,20-Mar-2022 08:06,
 51,785100218,Logs,No,,,,,,,,,,,,,,,,,,,07-Mar-2022 11:59,
-51,785100115,Logs,Yes,Booster 2,L-2,Injection site swelling,20,13-Dec-2023,Yes,,Grade 2,Not Applicable,No,Recovering / Resolving,No,,,,,,,14-Dec-2023 09:02,14-Dec-2023 09:03
+51,785100115,Logs,Yes,Booster 2,L-2,Injection site swelling,20,13-Dec-2023,Yes,,Grade 2,Not Applicable,No,Recovering / Resolving,No,,,,,,,14-Dec-2023 09:02,03-Jan-2024 17:13
 51,785100069,Logs,Yes,Booster 1,L-1,Injection site pain,,04-Nov-2022,No,05-Nov-2022,Grade 1,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,04-Nov-2022 09:22,26-Nov-2023 12:24
 51,785100069,Logs,Yes,Booster 1,L-2,Injection site swelling,35,04-Nov-2022,No,07-Nov-2022,Grade 3,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,04-Nov-2022 09:23,26-Nov-2023 12:25
 51,785100001,Logs,No,,,,,,,,,,,,,,,,,,,11-Feb-2022 15:02,26-Sep-2022 14:16
@@ -42,7 +42,7 @@ Site ID,Subject,VISIT,Did the subject experience any local solicited adverse eve
 51,785100307,Logs,No,,,,,,,,,,,,,,,,,,,23-Feb-2022 16:54,
 51,785100112,Logs,No,,,,,,,,,,,,,,,,,,,23-Feb-2022 09:41,17-Mar-2022 18:02
 51,785100308,Logs,No,,,,,,,,,,,,,,,,,,,23-Feb-2022 17:25,
-51,785100115,Logs,Yes,Booster 2,L-1,Injection site pain,,13-Dec-2023,Yes,,Grade 1,Not Applicable,No,Recovering / Resolving,No,,,,,,,24-Feb-2022 06:57,14-Dec-2023 08:59
+51,785100115,Logs,Yes,Booster 2,L-1,Injection site pain,,13-Dec-2023,Yes,,Grade 1,Dose not changed,No,Recovering / Resolving,No,,,,,,,24-Feb-2022 06:57,03-Jan-2024 17:12
 51,785100027,Logs,No,,,,,,,,,,,,,,,,,,,21-Feb-2022 07:55,
 51,785100118,Logs,No,,,,,,,,,,,,,,,,,,,25-Feb-2022 06:22,17-Mar-2022 21:26
 51,785100108,Logs,No,,,,,,,,,,,,,,,,,,,10-Mar-2022 07:17,17-Mar-2022 09:38
@@ -61,7 +61,7 @@ Site ID,Subject,VISIT,Did the subject experience any local solicited adverse eve
 51,785100160,Logs,Yes,Booster 1,L-2,Injection site swelling,30,09-Dec-2022,No,10-Dec-2022,Grade 3,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,09-Dec-2022 10:56,26-Nov-2023 12:14
 51,785100019,Logs,Yes,Booster 1,L-1,Injection site pain,,18-Nov-2022,No,19-Nov-2022,Grade 1,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,10-Dec-2022 08:54,26-Nov-2023 12:07
 51,785100186,Logs,Yes,Booster 1,L-1,Injection site pain,,18-Nov-2022,No,19-Nov-2022,Grade 2,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2022 10:30,07-Dec-2023 14:01
-51,785100188,Logs,Yes,Booster 1,L-1,Injection site redness / discolouration,10,19-Nov-2022,No,20-Nov-2022,Grade 2,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2022 10:36,07-Dec-2023 14:03
+51,785100188,Logs,Yes,Booster 1,L-1,Injection site redness / discolouration,10,19-Nov-2022,No,20-Nov-2022,Grade 2,Dose not changed,No,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2022 10:36,04-Jan-2024 18:35
 51,785100223,Logs,Yes,Booster 1,L-1,Injection site swelling,20,06-Dec-2022,No,08-Dec-2022,Grade 2,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2022 11:29,26-Nov-2023 12:01
 51,785100223,Logs,Yes,Booster 1,L-2,Injection site pain,,06-Dec-2022,No,07-Dec-2022,Grade 2,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2022 11:29,26-Nov-2023 12:02
 51,785100234,Logs,Yes,Booster 1,L-1,Injection site pain,,06-Dec-2022,No,08-Dec-2022,Grade 1,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2022 11:37,26-Nov-2023 11:58

@@ -419,11 +419,10 @@ trends1<-left_join(queries_now|>
                      filter(status=="Open Query")|>dplyr::rename(Module=`Module Name`),dateofvisit|>
                      dplyr::rename("Subject ID"=Subject, Visit=VISIT)|>
                      select(2,3,7),by=c("Subject ID","Visit"),relationship = "many-to-many")|>
-  select(4,5,21,6,7,14)|>
+  select(4,5,21,6,7,14,8)|>
   mutate(`Visit date`=as.Date(`Visit date`, format="%Y-%m-%d"))|>left_join(dertas<-in_completed1|>select(2,6,7,10)|>
                                                                              dplyr::rename(`Subject ID`=`Subject Id`, Visit=VISITNAME, Module=FORMNAME),by=c("Subject ID","Visit","Module"),relationship = "many-to-one")|>
- distinct(`Subject ID`, Visit,`Visit date`, Module,`Field Name`,`Query Text`,`Entered By`, .keep_all = TRUE)#|>select(!`Query Text`)
-
+ distinct(`Subject ID`, Visit,`Visit date`, Module,`Field Name`,`Query Text`,`Entered By`, `Query ID`, .keep_all = TRUE)|>select(-`Query ID`)
 
 trends<-trends1|>
   group_by(Module)|>
@@ -1385,7 +1384,7 @@ server <- function(input, output){
   output$consort<-renderPlot({study_consort |>
       ggplot() +
       geom_consort() +
-      theme_consort(margin_h = 8, margin_v = 11)}, height = 670, width = 700 )
+      theme_consort(margin_h = 8, margin_v = 11)}, height = 670, width = 715 )
   output$consnarative<-renderText({
     paste0("This summary is at ",format(Sys.time(), "%B %d, %Y"))
   })
