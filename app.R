@@ -105,6 +105,7 @@ study_cohorts <- screenID |>
     consent_withdrawal = screened|> filter(currentStatus == "Consent withdrawal"),
     blood_volume = screened|> filter(currentStatus == "Blood volume Issues"),
     vacerror = screened|> filter(currentStatus == "Terminated due to dosing error"),
+    fupfin = screened%>% filter(currentStatus == "Completed follow up"),
     ltfup = screened|> filter(currentStatus == "Loss to follow up"),
     ltfA = ltfup |> filter(Subject <= 785100331),
     ltfB = ltfup |> filter(Subject > 785100331),
@@ -167,6 +168,7 @@ study_cohorts <- screenID |>
     consent_withdrawal = "Known Consent withdrawals",
     blood_volume = "Issues with Blood volume",
     vacerror = "Dosing error termination",
+    fupfin = "Completed Follow up",
     ltfup = "Loss to follow up",
     saedeath = "SAE resulting to death",
     consentv6_yes = "Consent V6 Accept",
@@ -214,6 +216,7 @@ study_consort <- study_cohorts |>
   consort_box_add("vacc1", 0, 54, glue::glue(
     '{cohort_count_adorn(study_cohorts, vacc1)}<br>
   {cohort_count_adorn(study_cohorts, on_active_fu)}<br>
+  {cohort_count_adorn(study_cohorts, fupfin)}<br>
   {cohort_count_adorn(study_cohorts, ltfup)}<br>
   {cohort_count_adorn(study_cohorts, withdrawal_db)}<br> 
   . {cohort_count_adorn(study_cohorts, consent_withdrawal)}<br> 
@@ -658,7 +661,7 @@ allsamp<-left_join(hemboirsltew|>
 # kidms data import into my environment
 mydata<-suppressWarnings(fread(here("study data/kidmsresults.csv")))|>select(-1)
 
-entered_vbaya<-anti_join(allsamp,mydata|>mutate(Subject=as.numeric(Subject),sampledate=as.Date(sampledate),Result=as.numeric(Result)), by=c("Subject","sampledate","Test","Result"))
+entered_vbaya<-anti_join(allsamp|>mutate(Result=as.numeric(Result)),mydata|>mutate(Subject=as.numeric(Subject),sampledate=as.Date(sampledate),Result=as.numeric(Result)), by=c("Subject","sampledate","Test","Result"))
 distinkt<-entered_vbaya|>
   distinct(Subject,VISIT)|>arrange(Subject)
 
@@ -1385,7 +1388,7 @@ server <- function(input, output){
   output$consort<-renderPlot({study_consort |>
       ggplot() +
       geom_consort() +
-      theme_consort(margin_h = 8, margin_v = 11)}, height = 670, width = 715 )
+      theme_consort(margin_h = 8, margin_v = 11)}, height = 700, width = 715 )
   output$consnarative<-renderText({
     paste0("This summary is at ",format(Sys.time(), "%B %d, %Y"))
   })

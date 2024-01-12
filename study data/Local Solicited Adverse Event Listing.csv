@@ -13,12 +13,12 @@ Site ID,Subject,VISIT,Did the subject experience any local solicited adverse eve
 51,785100101,Logs,Yes,Booster 1,L-1,Injection site redness / discolouration,2,10-Nov-2022,No,10-Nov-2022,Grade 1,Dose not changed,No,Recovered / Resolved without sequelae,No,,,,,,,10-Nov-2022 06:52,13-Dec-2023 11:09
 51,785100098,Logs,Yes,Booster 1,L-3,Injection site pain,,10-Nov-2022,No,10-Nov-2022,Grade 1,Dose not changed,No,Recovered / Resolved without sequelae,No,,,,,,,10-Nov-2022 09:20,13-Dec-2023 10:57
 51,785100027,Logs,Yes,Booster 1,L-1,Injection site swelling,40,11-Nov-2022,No,13-Nov-2022,Grade 3,Dose not changed,Yes,Recovered / Resolved without sequelae,No,,,,,,,11-Nov-2022 10:54,13-Dec-2023 11:05
-51,785100187,Logs,Yes,Booster 1,L-1,Injection site pain,,18-Nov-2022,No,19-Nov-2022,Grade 2,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,18-Nov-2022 11:10,26-Nov-2023 12:21
+51,785100187,Logs,Yes,Booster 1,L-1,Injection site pain,,18-Nov-2022,No,19-Nov-2022,Grade 2,Dose not changed,No,Recovered / Resolved without sequelae,No,,,,,,,18-Nov-2022 11:10,10-Jan-2024 17:58
 51,785100027,Logs,Yes,Booster 1,L-2,Injection site pain,,11-Nov-2022,No,12-Nov-2022,Grade 1,Dose not changed,No,Recovered / Resolved without sequelae,No,,,,,,,11-Nov-2022 10:57,13-Dec-2023 11:03
 51,785100088,Logs,Yes,Booster 1,L-1,Injection site swelling,30,16-Nov-2022,No,19-Nov-2022,Grade 3,Dose not changed,No,Recovered / Resolved without sequelae,No,,,,,,,16-Nov-2022 07:04,05-Jan-2024 12:16
 51,785100088,Logs,Yes,Booster 1,L-2,Injection site pain,,16-Nov-2022,No,17-Nov-2022,Grade 1,Dose not changed,No,Recovered / Resolved without sequelae,No,,,,,,,16-Nov-2022 07:04,05-Jan-2024 12:25
 51,785100124,Logs,Yes,Booster 1,L-1,Injection site redness / discolouration,2,17-Nov-2022,No,18-Nov-2022,Grade 1,Dose not changed,No,Recovered / Resolved without sequelae,No,,,,,,,18-Nov-2022 09:59,08-Jan-2024 04:01
-51,785100187,Logs,Yes,Booster 1,L-3,Injection site swelling,50,18-Nov-2022,No,20-Nov-2022,Grade 3,Not Applicable,Yes,Recovered / Resolved without sequelae,No,,,,,,,18-Nov-2022 11:11,26-Nov-2023 12:22
+51,785100187,Logs,Yes,Booster 1,L-3,Injection site swelling,50,18-Nov-2022,No,20-Nov-2022,Grade 3,Dose not changed,Yes,Recovered / Resolved without sequelae,No,,,,,,,18-Nov-2022 11:11,10-Jan-2024 17:59
 51,785100215,Logs,Yes,Booster 1,L-1,Injection site pain,,06-Dec-2022,No,07-Dec-2022,Grade 1,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,06-Dec-2022 09:00,26-Nov-2023 12:17
 51,785100215,Logs,Yes,Booster 1,L-2,Injection site redness / discolouration,1,06-Dec-2022,No,07-Dec-2022,Grade 1,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,06-Dec-2022 09:02,26-Nov-2023 12:17
 51,785100160,Logs,Yes,Booster 1,L-1,Injection site pain,,09-Dec-2022,No,10-Dec-2022,Grade 1,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,09-Dec-2022 10:55,26-Nov-2023 12:09
@@ -55,15 +55,15 @@ Site ID,Subject,VISIT,Did the subject experience any local solicited adverse eve
 51,785100304,Logs,No,,,,,,,,,,,,,,,,,,,22-Feb-2022 17:54,
 51,785100007,Logs,No,,,,,,,,,,,,,,,,,,,11-Feb-2022 15:31,
 51,785100133,Logs,No,,,,,,,,,,,,,,,,,,,17-Feb-2022 10:33,19-Mar-2022 08:35
-51,785100187,Logs,Yes,Booster 1,L-2,Injection site redness / discolouration,15,18-Nov-2022,No,19-Nov-2022,Grade 2,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,18-Nov-2022 11:11,26-Nov-2023 12:21
+51,785100187,Logs,Yes,Booster 1,L-2,Injection site redness / discolouration,15,18-Nov-2022,No,19-Nov-2022,Grade 2,Dose not changed,No,Recovered / Resolved without sequelae,No,,,,,,,18-Nov-2022 11:11,10-Jan-2024 17:58
 51,785100215,Logs,Yes,Booster 1,L-3,Injection site swelling,50,06-Dec-2022,No,09-Dec-2022,Grade 3,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,06-Dec-2022 09:02,26-Nov-2023 12:18
 51,785100273,Logs,Yes,Booster 1,L-2,Injection site pain,,09-Dec-2022,No,10-Dec-2022,Grade 1,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,09-Dec-2022 07:28,26-Nov-2023 12:15
 51,785100160,Logs,Yes,Booster 1,L-2,Injection site swelling,30,09-Dec-2022,No,10-Dec-2022,Grade 3,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,09-Dec-2022 10:56,26-Nov-2023 12:14
 51,785100019,Logs,Yes,Booster 1,L-1,Injection site pain,,18-Nov-2022,No,19-Nov-2022,Grade 1,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,10-Dec-2022 08:54,26-Nov-2023 12:07
 51,785100186,Logs,Yes,Booster 1,L-1,Injection site pain,,18-Nov-2022,No,19-Nov-2022,Grade 2,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2022 10:30,07-Dec-2023 14:01
 51,785100188,Logs,Yes,Booster 1,L-1,Injection site redness / discolouration,10,19-Nov-2022,No,20-Nov-2022,Grade 2,Dose not changed,No,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2022 10:36,04-Jan-2024 18:35
-51,785100223,Logs,Yes,Booster 1,L-1,Injection site swelling,20,06-Dec-2022,No,08-Dec-2022,Grade 2,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2022 11:29,26-Nov-2023 12:01
-51,785100223,Logs,Yes,Booster 1,L-2,Injection site pain,,06-Dec-2022,No,07-Dec-2022,Grade 2,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2022 11:29,26-Nov-2023 12:02
+51,785100223,Logs,Yes,Booster 1,L-1,Injection site swelling,20,06-Dec-2022,No,08-Dec-2022,Grade 2,Dose not changed,No,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2022 11:29,11-Jan-2024 09:19
+51,785100223,Logs,Yes,Booster 1,L-2,Injection site pain,,06-Dec-2022,No,07-Dec-2022,Grade 2,Dose not changed,No,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2022 11:29,11-Jan-2024 09:21
 51,785100234,Logs,Yes,Booster 1,L-1,Injection site pain,,06-Dec-2022,No,08-Dec-2022,Grade 1,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2022 11:37,26-Nov-2023 11:58
 51,785100234,Logs,Yes,Booster 1,L-3,Injection site swelling,25,06-Dec-2022,No,08-Dec-2022,Grade 3,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,11-Dec-2022 11:39,26-Nov-2023 11:59
 51,785100269,Logs,Yes,Booster 1,L-1,Injection site swelling,30,15-Dec-2022,No,17-Dec-2022,Grade 3,Not Applicable,No,Recovered / Resolved without sequelae,No,,,,,,,19-Dec-2022 12:11,26-Nov-2023 11:54

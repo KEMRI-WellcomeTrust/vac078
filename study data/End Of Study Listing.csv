@@ -86,6 +86,9 @@ Site ID,Subject,VISIT,Protocol completion or discontinuation date,Reason for com
 51,785100480,Subject summary,03-Nov-2021,Other,,,,,Randomized but not vaccinated,,,,Yes,Yes,Yes,No,,04-Mar-2022 09:18,17-Oct-2022 14:44
 51,785100618,Subject summary,04-Nov-2021,Consent withdrawal,,,,,,,,,Not applicable,Yes,Yes,No,,28-Mar-2022 22:18,
 51,785100624,Subject summary,08-Nov-2021,Other,,,,,Closure of enrolment ,,,,Not applicable,Yes,Yes,No,,29-Mar-2022 16:54,02-Feb-2023 09:17
+51,785100152,Subject summary,09-Jan-2024,Other,,,,,Not continuing with study extension,,,,Yes,Yes,Yes,No,,09-Jan-2024 10:59,
+51,785100251,Subject summary,10-Jan-2024,Other,,,,,Not continuing with study extension,,,,Yes,Yes,Yes,No,,10-Jan-2024 08:25,
+51,785100595,Subject summary,08-Sep-2023,Lost to follow-up,,,,,,,,,Yes,Yes,Yes,No,,10-Jan-2024 09:11,
 51,785100511,Subject summary,27-Jan-2023,Consent withdrawal,,,,,,,,,Yes,Yes,Yes,No,,04-Feb-2023 08:43,15-Mar-2023 10:02
 51,785100139,Subject summary,18-May-2023,Death,,18-May-2023,Not Applicable ,,,,,,Yes,Yes,Yes,No,,09-Jun-2023 08:46,26-Jul-2023 14:19
 51,785100414,Subject summary,25-Oct-2021,Other,,,,,Excluded before randomization,,,,No,No,,No,,09-Jun-2023 09:22,
@@ -121,6 +124,9 @@ Site ID,Subject,VISIT,Protocol completion or discontinuation date,Reason for com
 51,785100519,Subject summary,29-Oct-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,09-Jun-2023 12:09,
 51,785100531,Subject summary,26-Mar-2023,Lost to follow-up,,,,,,,,,Yes,Yes,Yes,No,,09-Jun-2023 12:11,
 51,785100642,Subject summary,05-Nov-2021,Other,,,,,Excluded before randomization,,,,No,Yes,No,No,,13-Jun-2023 11:59,
+51,785100151,Subject summary,09-Jan-2024,Other,,,,,Not continuing with study extension,,,,Yes,Yes,Yes,No,,09-Jan-2024 10:43,09-Jan-2024 11:00
+51,785100168,Subject summary,10-Jan-2024,Other,,,,,Not continuing with study extension,,,,Yes,Yes,Yes,No,,10-Jan-2024 09:06,
+51,785100674,Subject summary,01-Nov-2023,Lost to follow-up,,,,,,,,,Yes,Yes,Yes,No,,10-Jan-2024 09:13,
 51,785100413,Subject summary,07-Jan-2022,Sponsors decision,,,,,,,Sponsor decided to withdraw participant after misdosing error occurred,,Yes,Yes,Yes,Yes,Yes,03-Mar-2022 07:50,
 51,785100538,Subject summary,03-Jan-2022,Consent withdrawal,,,,,,,,,Yes,Yes,Yes,Yes,Yes,03-Mar-2022 07:54,
 51,785100495,Subject summary,30-Oct-2021,Other,,,,,Randomized but not vaccinated,,,,Yes,Yes,Yes,No,,04-Mar-2022 09:21,
