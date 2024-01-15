@@ -269,10 +269,12 @@ requiredEos<-bind_rows(
     mutate(currentStatus="Randomized not enrolled"),
   truendofstudy<-bind_rows(losttofup<-study_cohorts|>
                              cohort_pull(ltfup),
+                           completefup<-study_cohorts|>
+                             cohort_pull(fupfin),
                            vwithdrawae<-study_cohorts|>
                              cohort_pull(withdrawal_db)))|>
   mutate(time=case_when(is.na(Site)~"Before Enr",TRUE~"After Enr"))|>
-  select(2,34,25,35,36,43)|>
+  select(2,35,25,36,37,43)|>
   arrange(group,other,Subject)
 
 sumaryreq<-requiredEos|>
