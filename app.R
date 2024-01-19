@@ -769,11 +769,11 @@ hembioqry23<-left_join(noresdat<-hemboirsltew|>
 localae<-suppressWarnings(fread(paste0(here(),"/study data/Local Solicited Adverse Event Listing.csv")))|>fill_blanks()|>
   filter(!is.na(Outcome))|>
   dplyr::rename(post_dose="Local solicited adverse event observed post dose")|>
-  mutate(post_dose=factor(post_dose, levels = c(1,2,3,"Booster"), labels = c("Dose 1","Dose 2","Dose 3","Booster")))
+  mutate(post_dose=factor(post_dose, levels = c(1,2,3,"Booster 1", "Booster 2"), labels = c("Dose 1","Dose 2","Dose 3","Booster 1", "Booster 2")))
 solicited<-suppressWarnings(fread(paste0(here(),"/study data/Systemic Solicited Adverse Event Listing.csv")))|>fill_blanks()|>
   filter(!is.na(Outcome))|>
   dplyr::rename(post_dose="Systemic solicited adverse event observed post dose")|>
-  mutate(post_dose=factor(post_dose, levels = c(1,2,3,"Booster"), labels = c("Dose 1","Dose 2","Dose 3","Booster")))
+  mutate(post_dose=factor(post_dose, levels = c(1,2,3,"Booster 1", "Booster 2"), labels = c("Dose 1","Dose 2","Dose 3","Booster 1", "Booster 2")))
 unsolicited<-suppressWarnings(fread(paste0(here(),"/study data/Unsolicited Adverse Event Listing.csv")))|>fill_blanks()|>
   filter(!is.na(Outcome))
 
@@ -787,6 +787,14 @@ overduessae<-solicited2|>
   filter(Outcome=="Recovering / Resolving")
 unsolicited_2<-unsolicited[!is.na(unsolicited$`Date of onset`),]
 ## Get name of clinician logging AE
+
+opensol<-bind_rows(localae|>
+  filter(is.na(`Date of resolution`))|>
+  select(2,3,5,7,10,11)|>mutate(VISIT = "Local Solicited")|> rename(`Adverse Event term` = `Local solicited adverse event term`),
+
+solicited|>
+  filter(is.na(`Date of resolution`))|>
+  select(2,3,5,7,10,11)|>mutate(VISIT = "Systemic Solicited")|> rename(`Adverse Event term` = `Systemic solicited adverse event term`))
 
 unsolicited2<-left_join(unsolicited_2|>
                           mutate(datedif=today()-as.Date(`Date of onset`,"%d-%b-%Y"),`First Data Time`=as.Date(`First Data Time`,format="%d-%b-%Y %H:%M")),left_join(dateofvisit|>
@@ -1352,6 +1360,7 @@ ui <- fluidPage(
                                                                          tabPanel('Seriana',downloadButton("downloadData8", "download"), DTOutput('seriana')),
                                                                          tabPanel('Chronic', downloadButton("downloadData6", "download"),DTOutput('chronica')),
                                                                          tabPanel('Pending link with clinic visit',downloadButton("downloadData7", "download"), DTOutput('sharona')),
+                                                                         tabPanel('Open solicited',DTOutput('opensol')),
                                                                          tabPanel('All Grade 3',downloadButton("downloadDatag3","download"), DTOutput('grade3'))
                                                                        ))),
                                                    navbarMenu("Medicine",
@@ -1777,6 +1786,12 @@ server <- function(input, output){
       autoWidth=TRUE))
   output$chronica<-renderDT(
     chronica|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$opensol<-renderDT(
+    opensol|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,
