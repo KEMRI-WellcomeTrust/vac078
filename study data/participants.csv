@@ -317,22 +317,22 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100351,14-Oct-21,19-Oct-21,TRUE,19-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
 785100352,15-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,18 01 2024
 785100353,17-Oct-21,25-Oct-21,TRUE,25-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,18 01 2024
-785100354,17-Oct-21,19-Oct-21,TRUE,19-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100354,17-Oct-21,19-Oct-21,TRUE,19-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,19 01 2024
 785100355,17-Oct-21,19-Oct-21,TRUE,19-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,18 01 2024
-785100356,18-Oct-21,19-Oct-21,TRUE,19-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100356,18-Oct-21,19-Oct-21,TRUE,19-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,19 01 2024
 785100357,18-Oct-21,21-Oct-21,TRUE,21-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,18 01 2024
-785100358,18-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
+785100358,18-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,19 01 2024
 785100359,18-Oct-21,19-Oct-21,TRUE,19-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,18 01 2024
-785100360,18-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
+785100360,18-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,19 01 2024
 785100361,18-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,18 01 2024
 785100362,18-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,18 01 2024
 785100363,18-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,17 01 2024
 785100364,18-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,17 01 2024
-785100365,18-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
+785100365,18-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,19 01 2024
 785100367,18-Oct-21,19-Oct-21,TRUE,19-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,17 01 2024
 785100368,18-Oct-21,27-Oct-21,TRUE,27-Oct-21,Group B,Loss to follow up,Junju,01-Feb-23,Day 404,Parents moved to an unknown place and are unreachab;e via phone call.,9,,,,
-785100369,18-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
-785100371,18-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100369,18-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,19 01 2024
+785100371,18-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,19 01 2024
 785100372,19-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100373,19-Oct-21,21-Oct-21,TRUE,21-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,18 01 2024
 785100374,19-Oct-21,21-Oct-21,TRUE,21-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
@@ -340,9 +340,9 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100376,19-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,17 01 2024
 785100377,19-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,17 01 2024
 785100378,19-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,Consent withdrawal,Junju,23-Nov-21,Day 14,Doesn't see the importance of being in the study,,,,,
-785100379,19-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
-785100380,19-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100381,19-Oct-21,25-Oct-21,TRUE,25-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
+785100379,19-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,19 01 2024
+785100380,19-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,19 01 2024
+785100381,19-Oct-21,25-Oct-21,TRUE,25-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,19 01 2024
 785100382,19-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,Consent withdrawal,Pingilikani,11-Feb-23,Day B28,The father withdrew consent due to family Conflicts which led to separation of the parents.,,,,,
 785100383,19-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
 785100384,19-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
@@ -351,7 +351,7 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100387,19-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100388,20-Oct-21,27-Oct-21,TRUE,27-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100389,20-Oct-21,27-Oct-21,TRUE,27-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100390,20-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100390,20-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,19 01 2024
 785100391,20-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100392,20-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100393,21-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
