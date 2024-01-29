@@ -1333,7 +1333,7 @@ ui <- fluidPage(
                                                                        )),
                                                               tabPanel("Results pending entry on eSource",
                                                                        tabsetPanel(
-                                                                         tabPanel("Plasmodium",
+                                                                         tabPanel("Plasmodium",downloadButton("downloadplasres", "download"),
                                                                                   DTOutput('plasnores')),
                                                                          tabPanel("Haematology",
                                                                                   DTOutput('haemnores')),
@@ -1596,6 +1596,14 @@ server <- function(input, output){
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$downloadplasres <- downloadHandler(
+    filename = function() {
+      "Pending Malaria.csv"
+    },
+    content = function(file) {
+      write.csv(notentereddbo|>select(1,2,7,8), file, row.names = TRUE)
+    }
+  )
   output$haemnores<-renderDT(
     notenteredhemo|>select(1:4)|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),

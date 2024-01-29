@@ -349,8 +349,8 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100385,19-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,24 01 2024
 785100386,19-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,24 01 2024
 785100387,19-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,24 01 2024
-785100388,20-Oct-21,27-Oct-21,TRUE,27-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100389,20-Oct-21,27-Oct-21,TRUE,27-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100388,20-Oct-21,27-Oct-21,TRUE,27-Oct-21,Group B,Completed follow up,Junju,26-Jan-24,,Did not consent for study extension.,,,,No,26 01 2024
+785100389,20-Oct-21,27-Oct-21,TRUE,27-Oct-21,Group B,Completed follow up,Junju,26-Jan-24,,Did not consent for study extension.,,,,No,26 01 2024
 785100390,20-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,19 01 2024
 785100391,20-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,22 01 2024
 785100392,20-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,22 01 2024
@@ -399,7 +399,7 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100438,26-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,25 01 2024
 785100439,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,25 01 2024
 785100440,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,25 01 2024
-785100441,25-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100441,25-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,26 01 2024
 785100443,26-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100444,26-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100445,26-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
@@ -407,15 +407,15 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100447,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100448,26-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,25 01 2024
 785100449,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100450,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100450,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,26 01 2024
 785100451,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100453,26-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
-785100454,26-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100454,26-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,26 01 2024
 785100455,26-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100456,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100457,26-Oct-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100457,26-Oct-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,26 01 2024
 785100458,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100459,26-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100459,26-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,26 01 2024
 785100461,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100462,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100463,27-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,

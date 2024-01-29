@@ -3412,8 +3412,11 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100251,B 365,,,,,,,,,,,,Yes,10-Jan-2024,,,,Yes,10-Jan-2024,11:58,10,,,10-Jan-2024 08:21,12-Jan-2024 18:08
 51,785100265,B 365,,,,,,,,,,,,Yes,11-Jan-2024,,,,Yes,11-Jan-2024,13:31,10,,,11-Jan-2024 10:25,11-Jan-2024 10:53
 51,785100308,B 365,,,,,,,,,,,,Yes,17-Jan-2024,,,,Yes,17-Jan-2024,11:27,10,,,17-Jan-2024 08:34,17-Jan-2024 19:12
+51,785100388,B 365,,,,,,,,,,,,Yes,26-Jan-2024,,,,NA,,,,,,26-Jan-2024 09:50,27-Jan-2024 07:41
+51,785100389,B 365,,,,,,,,,,,,Yes,26-Jan-2024,,,,NA,,,,,,26-Jan-2024 10:02,26-Jan-2024 12:47
 51,785100004,Malaria case report,No,,,,,No,,,,,,Yes,05-Oct-2021,,,,,,,,,,05-Oct-2021 10:31,31-Jan-2022 17:00
 51,785100007,Malaria case report,No,,,,,No,,,,,,Yes,,,,,,,,,,,27-Apr-2022 09:46,11-May-2022 11:10
+51,785100012,Malaria case report,Yes,26-Jan-2024,,,,No,,,,,,Yes,,,,,,,,,,,27-Jan-2024 10:37,
 51,785100013,Malaria case report,Yes,11-Jan-2024,,,,No,,,,,,Yes,,,,,,,,,,,20-Sep-2022 11:49,12-Jan-2024 13:04
 51,785100014,Malaria case report,Yes,17-Dec-2023,,,,No,,,,,,Yes,,,,,,,,,,,18-Dec-2023 16:15,
 51,785100015,Malaria case report,Yes,06-Nov-2022,,,,No,,,,,,Yes,,,,,,,,,,,06-Nov-2022 08:13,15-Jun-2023 14:09
@@ -3442,6 +3445,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100070,Malaria case report,Yes,22-Nov-2022,,,,No,,,,,,Yes,,,,,,,,,,,22-Nov-2022 09:26,23-Jun-2023 12:01
 51,785100072,Malaria case report,Yes,18-Jan-2024,,,,No,,,,,,Yes,,,,,,,,,,,18-Jan-2024 11:08,
 51,785100073,Malaria case report,Yes,07-Dec-2021,,,,Yes,07-Dec-2021,,,,,Yes,,,,,,,,,,,17-Feb-2022 07:09,15-Jun-2022 11:57
+51,785100079,Malaria case report,Yes,26-Jan-2024,,,,No,,,,,,Yes,,,,,,,,,,,27-Jan-2024 10:53,27-Jan-2024 10:53
 51,785100082,Malaria case report,No,,,,,No,,,,,,Yes,,,,,,,,,,,03-Mar-2022 06:40,15-Jun-2022 13:43
 51,785100083,Malaria case report,Yes,02-Dec-2021,,,,Yes,02-Dec-2021,,,,,Yes,02-Dec-2021,,,,,,,,,,04-Dec-2021 07:20,23-Jun-2023 12:27
 51,785100084,Malaria case report,Yes,02-Feb-2023,,,,No,,,,,,Yes,,,,,,,,,,,02-Feb-2023 08:48,23-Jun-2023 12:44
@@ -3464,6 +3468,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100120,Malaria case report,No,,,,,No,,,,,,Yes,,,,,,,,,,,10-May-2022 11:24,27-Jul-2023 10:43
 51,785100121,Malaria case report,Yes,29-Oct-2022,,,,No,,,,,,Yes,,,,,,,,,,,29-Oct-2022 09:31,
 51,785100122,Malaria case report,Yes,05-Sep-2022,,,,No,,,,,,Yes,,,,,,,,,,,05-Sep-2022 07:36,22-Sep-2022 08:56
+51,785100126,Malaria case report,Yes,26-Jan-2024,,,,No,,,,,,Yes,,,,,,,,,,,27-Jan-2024 10:10,
 51,785100129,Malaria case report,Yes,11-Jan-2024,,,,No,,,,,,Yes,,,,,,,,,,,12-Jan-2024 10:03,
 51,785100133,Malaria case report,No,,,,,No,,,,,,Yes,10-Nov-2021,,,,,,,,,,10-Nov-2021 10:29,
 51,785100134,Malaria case report,Yes,09-Oct-2022,,,,No,,,,,,Yes,,,,,,,,,,,09-Oct-2022 08:54,27-Jul-2023 13:21
@@ -5272,6 +5277,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100455,Unscheduled - 12,No,,,,,No,,,,,,No,,,,,,,,,,,12-Apr-2022 06:49,
 51,785100456,Unscheduled - 12,No,,,,,No,,,,,,No,,,,,,,,,,,20-Apr-2022 10:06,
 51,785100458,Unscheduled - 12,No,,,,,No,,,,,,No,,,,,,,,,,,10-Nov-2023 16:08,
+51,785100459,Unscheduled - 12,No,,,,,No,,,,,,No,,,,,,,,,,,26-Jan-2024 08:46,
 51,785100461,Unscheduled - 12,No,,,,,No,,,,,,No,,,,,,,,,,,05-Dec-2022 07:50,
 51,785100462,Unscheduled - 12,No,,,,,No,,,,,,No,,,,,,,,,,,05-May-2023 08:18,
 51,785100463,Unscheduled - 12,No,,,,,No,,,,,,No,,,,,,,,,,,20-Sep-2022 08:28,
@@ -5364,6 +5370,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100663,Unscheduled - 12,No,,,,,No,,,,,,No,,,,,,,,,,,19-Feb-2022 06:52,
 51,785100665,Unscheduled - 12,Yes,07-Jan-2023,,,,No,,,,,,Yes,07-Jan-2023,,,,,,,,,,07-Jan-2023 08:08,
 51,785100666,Unscheduled - 12,No,,,,,No,,,,,,No,,,,,,,,,,,03-Jul-2023 07:28,
+51,785100667,Unscheduled - 12,No,,,,,No,,,,,,No,,,,,,,,,,,26-Jan-2024 08:37,
 51,785100668,Unscheduled - 12,No,,,,,No,,,,,,No,,,,,,,,,,,18-Apr-2023 10:00,
 51,785100669,Unscheduled - 12,No,,,,,No,,,,,,No,,,,,,,,,,,25-Sep-2022 14:00,
 51,785100670,Unscheduled - 12,No,,,,,No,,,,,,No,,,,,,,,,,,30-Sep-2022 10:20,
@@ -5380,6 +5387,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100014,Unscheduled - 13,Yes,02-Dec-2022,,,,No,,,,,,Yes,02-Dec-2022,,,,,,,,,,02-Dec-2022 11:46,
 51,785100015,Unscheduled - 13,No,,,,,No,,,,,,No,,,,,,,,,,,30-Sep-2023 09:24,
 51,785100017,Unscheduled - 13,No,,,,,No,,,,,,No,,,,,,,,,,,20-Jun-2022 09:40,
+51,785100018,Unscheduled - 13,No,,,,,No,,,,,,No,,,,,,,,,,,26-Jan-2024 08:55,
 51,785100019,Unscheduled - 13,No,,,,,No,,,,,,No,,,,,,,,,,,11-Oct-2022 10:01,
 51,785100020,Unscheduled - 13,No,,,,,No,,,,,,No,,,,,,,,,,,01-Jan-2024 10:40,
 51,785100021,Unscheduled - 13,No,,,,,No,,,,,,No,,,,,,,,,,,30-Apr-2022 10:16,
@@ -6046,7 +6054,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100028,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,06-Mar-2023 08:05,
 51,785100031,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,26-Jun-2023 09:15,
 51,785100035,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,13-Jan-2023 08:53,
-51,785100036,Unscheduled - 15,Yes,22-Jan-2024,,,,No,,,,,,Yes,22-Jan-2024,,,,,,,,,,22-Jan-2024 12:19,
+51,785100036,Unscheduled - 15,Yes,22-Jan-2024,,,,No,,,,,,Yes,22-Jan-2024,,,,,,,,,,22-Jan-2024 12:19,28-Jan-2024 14:22
 51,785100038,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,08-Feb-2023 07:29,
 51,785100041,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,18-Dec-2023 20:03,
 51,785100042,Unscheduled - 15,Yes,06-Dec-2023,,,,No,,,,,,Yes,06-Dec-2023,,,,,,,,,,13-Dec-2023 19:55,11-Jan-2024 13:16
@@ -6058,6 +6066,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100058,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,22-Oct-2022 08:29,
 51,785100059,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,13-Jul-2022 08:37,
 51,785100060,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,07-Jun-2023 09:47,
+51,785100061,Unscheduled - 15,Yes,28-Jan-2024,,,,No,,,,,,Yes,28-Jan-2024,,,,,,,,,,28-Jan-2024 08:59,28-Jan-2024 09:01
 51,785100063,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,03-Oct-2022 08:46,
 51,785100064,Unscheduled - 15,Yes,30-Jun-2023,,,,No,,,,,,Yes,30-Jun-2023,,,,,,,,,,30-Jun-2023 11:32,30-Jun-2023 11:40
 51,785100065,Unscheduled - 15,Yes,13-Jun-2022,,,,No,,,,,,Yes,13-Jun-2022,,,,,,,,,,13-Jun-2022 07:45,
@@ -6245,6 +6254,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100454,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,27-Dec-2022 15:30,
 51,785100455,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,03-May-2022 13:12,
 51,785100456,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,04-Jun-2022 09:36,
+51,785100458,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,27-Jan-2024 09:48,
 51,785100461,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,03-Feb-2023 03:33,
 51,785100462,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,24-Nov-2023 07:58,
 51,785100463,Unscheduled - 15,No,,,,,No,,,,,,No,,,,,,,,,,,05-Dec-2022 10:47,
@@ -6593,6 +6603,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100023,Unscheduled - 17,Yes,21-Oct-2022,,,,No,,,,,,Yes,21-Oct-2022,,,,,,,,,,21-Oct-2022 10:10,
 51,785100025,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,21-Feb-2023 09:32,
 51,785100027,Unscheduled - 17,Yes,20-Oct-2022,,,,No,,,,,,Yes,20-Oct-2022,,,,,,,,,,20-Oct-2022 16:06,
+51,785100028,Unscheduled - 17,Yes,28-Jan-2024,,,,No,,,,,,Yes,28-Jan-2024,,,,,,,,,,28-Jan-2024 08:31,
 51,785100031,Unscheduled - 17,Yes,07-Dec-2023,,,,No,,,,,,Yes,07-Dec-2023,,,,,,,,,,07-Dec-2023 08:44,
 51,785100035,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,20-Aug-2023 07:31,
 51,785100038,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,02-Apr-2023 07:21,
@@ -6611,6 +6622,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100072,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,29-Sep-2022 07:31,
 51,785100074,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,28-Jul-2022 09:41,
 51,785100075,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,08-Mar-2022 07:46,
+51,785100080,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,26-Jan-2024 10:04,
 51,785100082,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,17-May-2023 17:29,
 51,785100088,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,21-Oct-2022 21:45,
 51,785100089,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,12-Apr-2022 11:10,
@@ -6772,6 +6784,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100467,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,10-Nov-2023 18:36,
 51,785100468,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,13-Apr-2022 09:12,
 51,785100469,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,25-Nov-2022 02:43,
+51,785100470,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,27-Jan-2024 15:14,
 51,785100473,Unscheduled - 17,Yes,20-Jan-2023,,,,No,,,,,,Yes,20-Jan-2023,,,,,,,,,,20-Jan-2023 11:47,
 51,785100474,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,22-Jul-2023 09:02,
 51,785100475,Unscheduled - 17,No,,,,,No,,,,,,No,,,,,,,,,,,18-Oct-2023 07:12,
@@ -6834,6 +6847,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100027,Unscheduled - 18,Yes,26-Oct-2022,,,,No,,,,,,Yes,26-Oct-2022,,,,,,,,,,26-Oct-2022 08:13,
 51,785100035,Unscheduled - 18,No,,,,,No,,,,,,No,,,,,,,,,,,15-Sep-2023 07:57,
 51,785100038,Unscheduled - 18,No,,,,,No,,,,,,No,,,,,,,,,,,22-May-2023 12:18,
+51,785100043,Unscheduled - 18,Yes,28-Jan-2024,,,,No,,,,,,Yes,28-Jan-2024,,,,,,,,,,28-Jan-2024 08:47,
 51,785100045,Unscheduled - 18,No,,,,,No,,,,,,No,,,,,,,,,,,13-Mar-2023 07:50,
 51,785100046,Unscheduled - 18,No,,,,,No,,,,,,No,,,,,,,,,,,06-Oct-2022 08:10,
 51,785100058,Unscheduled - 18,No,,,,,No,,,,,,No,,,,,,,,,,,26-Oct-2022 12:29,
@@ -6987,6 +7001,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100447,Unscheduled - 18,No,,,,,No,,,,,,Yes,13-Mar-2022,,,,,,,,,,14-Mar-2022 07:13,
 51,785100448,Unscheduled - 18,No,,,,,No,,,,,,No,,,,,,,,,,,29-Dec-2023 11:02,
 51,785100449,Unscheduled - 18,No,,,,,No,,,,,,No,,,,,,,,,,,07-Mar-2022 16:16,
+51,785100450,Unscheduled - 18,No,,,,,No,,,,,,No,,,,,,,,,,,26-Jan-2024 12:04,
 51,785100454,Unscheduled - 18,No,,,,,No,,,,,,No,,,,,,,,,,,17-May-2023 11:18,
 51,785100455,Unscheduled - 18,Yes,29-May-2022,,,,No,,,,,,Yes,29-May-2022,,,,,,,,,,29-May-2022 10:47,
 51,785100456,Unscheduled - 18,No,,,,,No,,,,,,No,,,,,,,,,,,13-Oct-2022 07:43,
@@ -7109,6 +7124,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100233,Unscheduled - 19,No,,,,,No,,,,,,No,,,,,,,,,,,26-Jul-2023 10:59,
 51,785100234,Unscheduled - 19,No,,,,,No,,,,,,No,,,,,,,,,,,15-Mar-2022 19:59,
 51,785100237,Unscheduled - 19,No,,,,,No,,,,,,No,,,,,,,,,,,17-Feb-2023 07:44,
+51,785100245,Unscheduled - 19,No,,,,,No,,,,,,No,,,,,,,,,,,28-Jan-2024 15:47,
 51,785100247,Unscheduled - 19,No,,,,,No,,,,,,No,,,,,,,,,,,15-Mar-2023 07:09,
 51,785100249,Unscheduled - 19,No,,,,,No,,,,,,No,,,,,,,,,,,19-Feb-2023 07:09,
 51,785100251,Unscheduled - 19,Yes,15-May-2023,,,,No,,,,,,Yes,15-May-2023,,,,,,,,,,15-May-2023 20:12,
@@ -7154,6 +7170,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100349,Unscheduled - 19,No,,,,,No,,,,,,No,,,,,,,,,,,08-Jan-2023 09:37,
 51,785100352,Unscheduled - 19,No,,,,,No,,,,,,No,,,,,,,,,,,08-May-2023 09:14,
 51,785100353,Unscheduled - 19,No,,,,,No,,,,,,No,,,,,,,,,,,17-Aug-2023 07:37,
+51,785100355,Unscheduled - 19,No,,,,,No,,,,,,No,,,,,,,,,,,26-Jan-2024 09:02,
 51,785100359,Unscheduled - 19,Yes,26-Mar-2022,,,,No,,,,,,Yes,26-Mar-2022,,,,,,,,,,26-Mar-2022 09:42,
 51,785100360,Unscheduled - 19,No,,,,,No,,,,,,No,,,,,,,,,,,01-Nov-2022 08:04,
 51,785100361,Unscheduled - 19,No,,,,,No,,,,,,No,,,,,,,,,,,14-Feb-2023 16:16,
@@ -8714,6 +8731,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100672,Unscheduled - 25,No,,,,,No,,,,,,No,,,,,,,,,,,26-May-2023 06:52,
 51,785100674,Unscheduled - 25,No,,,,,No,,,,,,No,,,,,,,,,,,06-Nov-2022 08:16,
 51,785100007,Unscheduled - 26,No,,,,,No,,,,,,No,,,,,,,,,,,22-May-2023 08:46,
+51,785100013,Unscheduled - 26,Yes,28-Jan-2024,,,,No,,,,,,Yes,28-Jan-2024,,,,,,,,,,28-Jan-2024 10:08,
 51,785100017,Unscheduled - 26,No,,,,,No,,,,,,No,,,,,,,,,,,25-Sep-2023 07:14,
 51,785100021,Unscheduled - 26,No,,,,,No,,,,,,No,,,,,,,,,,,10-Nov-2023 09:02,
 51,785100022,Unscheduled - 26,No,,,,,No,,,,,,No,,,,,,,,,,,05-Apr-2023 09:18,
@@ -8841,6 +8859,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100091,Unscheduled - 27,No,,,,,No,,,,,,No,,,,,,,,,,,03-May-2023 09:18,
 51,785100122,Unscheduled - 27,Yes,18-Dec-2023,,,,No,,,,,,Yes,18-Dec-2023,,,,,,,,,,18-Dec-2023 07:38,
 51,785100127,Unscheduled - 27,Yes,06-Nov-2023,,,,No,,,,,,Yes,06-Nov-2023,,,,,,,,,,06-Nov-2023 06:59,
+51,785100129,Unscheduled - 27,No,,,,,No,,,,,,No,,,,,,,,,,,27-Jan-2024 16:24,
 51,785100134,Unscheduled - 27,No,,,,,No,,,,,,No,,,,,,,,,,,30-Aug-2022 10:13,
 51,785100135,Unscheduled - 27,No,,,,,No,,,,,,No,,,,,,,,,,,04-Aug-2023 09:37,
 51,785100142,Unscheduled - 27,No,,,,,No,,,,,,No,,,,,,,,,,,12-Dec-2023 15:39,
@@ -8931,6 +8950,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100122,Unscheduled - 28,No,,,,,No,,,,,,No,,,,,,,,,,,08-Jan-2024 11:12,
 51,785100134,Unscheduled - 28,Yes,09-Oct-2022,,,,No,,,,,,Yes,09-Oct-2022,,,,,,,,,,09-Oct-2022 09:03,27-Jul-2023 13:23
 51,785100142,Unscheduled - 28,Yes,26-Dec-2023,,,,No,,,,,,Yes,26-Dec-2023,,,,,,,,,,26-Dec-2023 10:57,03-Jan-2024 11:04
+51,785100144,Unscheduled - 28,No,,,,,No,,,,,,No,,,,,,,,,,,27-Jan-2024 13:35,
 51,785100150,Unscheduled - 28,No,,,,,No,,,,,,No,,,,,,,,,,,14-Mar-2023 11:17,
 51,785100161,Unscheduled - 28,No,,,,,No,,,,,,No,,,,,,,,,,,17-Aug-2023 10:46,
 51,785100165,Unscheduled - 28,Yes,07-Jan-2023,,,,No,,,,,,Yes,07-Jan-2023,,,,,,,,,,07-Jan-2023 07:46,
@@ -9024,6 +9044,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100272,Unscheduled - 29,No,,,,,No,,,,,,No,,,,,,,,,,,20-Oct-2022 18:57,
 51,785100276,Unscheduled - 29,No,,,,,No,,,,,,No,,,,,,,,,,,03-Dec-2023 09:19,
 51,785100282,Unscheduled - 29,No,,,,,No,,,,,,No,,,,,,,,,,,21-May-2022 09:29,
+51,785100289,Unscheduled - 29,No,,,,,No,,,,,,No,,,,,,,,,,,28-Jan-2024 09:48,
 51,785100328,Unscheduled - 29,No,,,,,No,,,,,,No,,,,,,,,,,,29-Sep-2022 10:04,
 51,785100337,Unscheduled - 29,No,,,,,No,,,,,,No,,,,,,,,,,,14-Dec-2022 07:50,
 51,785100339,Unscheduled - 29,No,,,,,No,,,,,,No,,,,,,,,,,,14-Aug-2023 07:49,
@@ -9713,6 +9734,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100282,Unscheduled - 31,No,,,,,No,,,,,,No,,,,,,,,,,,24-Apr-2022 06:16,
 51,785100328,Unscheduled - 31,No,,,,,No,,,,,,No,,,,,,,,,,,20-Nov-2022 15:14,
 51,785100337,Unscheduled - 31,No,,,,,No,,,,,,Yes,10-Jan-2023,,,,,,,,,,10-Jan-2023 07:42,20-Jan-2023 15:44
+51,785100339,Unscheduled - 31,No,,,,,No,,,,,,No,,,,,,,,,,,27-Jan-2024 16:37,
 51,785100345,Unscheduled - 31,No,,,,,No,,,,,,No,,,,,,,,,,,04-Apr-2023 07:14,
 51,785100359,Unscheduled - 31,No,,,,,No,,,,,,No,,,,,,,,,,,24-Jul-2022 06:21,
 51,785100360,Unscheduled - 31,No,,,,,No,,,,,,No,,,,,,,,,,,13-Oct-2023 07:36,
@@ -9880,6 +9902,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100623,Unscheduled - 34,No,,,,,No,,,,,,No,,,,,,,,,,,24-Dec-2022 08:25,
 51,785100663,Unscheduled - 34,No,,,,,No,,,,,,No,,,,,,,,,,,26-Apr-2023 09:46,
 51,785100674,Unscheduled - 34,No,,,,,No,,,,,,No,,,,,,,,,,,07-May-2023 19:04,
+51,785100074,Unscheduled - 35,No,,,,,No,,,,,,No,,,,,,,,,,,26-Jan-2024 09:36,
 51,785100075,Unscheduled - 35,No,,,,,No,,,,,,No,,,,,,,,,,,10-May-2023 08:13,16-May-2023 07:35
 51,785100089,Unscheduled - 35,No,,,,,No,,,,,,No,,,,,,,,,,,27-Oct-2022 11:10,
 51,785100091,Unscheduled - 35,No,,,,,No,,,,,,No,,,,,,,,,,,07-Nov-2023 08:02,
@@ -9901,6 +9924,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100359,Unscheduled - 35,No,,,,,No,,,,,,No,,,,,,,,,,,22-Oct-2022 10:18,
 51,785100365,Unscheduled - 35,No,,,,,No,,,,,,No,,,,,,,,,,,26-Aug-2023 08:07,
 51,785100380,Unscheduled - 35,No,,,,,No,,,,,,No,,,,,,,,,,,07-Mar-2023 07:47,
+51,785100383,Unscheduled - 35,No,,,,,No,,,,,,No,,,,,,,,,,,28-Jan-2024 15:25,
 51,785100384,Unscheduled - 35,No,,,,,No,,,,,,No,,,,,,,,,,,19-Nov-2023 08:43,
 51,785100385,Unscheduled - 35,No,,,,,No,,,,,,No,,,,,,,,,,,21-Jun-2023 10:10,
 51,785100386,Unscheduled - 35,No,,,,,No,,,,,,No,,,,,,,,,,,17-Nov-2022 05:59,
@@ -9970,6 +9994,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100359,Unscheduled - 37,No,,,,,No,,,,,,No,,,,,,,,,,,20-Nov-2022 13:39,
 51,785100365,Unscheduled - 37,Yes,26-Dec-2023,,,,No,,,,,,Yes,24-Dec-2023,,,,,,,,,,24-Dec-2023 09:22,13-Jan-2024 19:18
 51,785100380,Unscheduled - 37,No,,,,,No,,,,,,No,,,,,,,,,,,28-Mar-2023 10:27,
+51,785100384,Unscheduled - 37,No,,,,,No,,,,,,No,,,,,,,,,,,27-Jan-2024 13:15,
 51,785100385,Unscheduled - 37,No,,,,,No,,,,,,No,,,,,,,,,,,16-Aug-2023 08:13,
 51,785100386,Unscheduled - 37,No,,,,,No,,,,,,No,,,,,,,,,,,19-Nov-2022 09:01,
 51,785100387,Unscheduled - 37,No,,,,,No,,,,,,No,,,,,,,,,,,15-Nov-2022 07:30,
@@ -10021,6 +10046,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100091,Unscheduled - 39,Yes,18-Jan-2024,,,,No,,,,,,Yes,18-Jan-2024,,,,,,,,,,18-Jan-2024 10:33,
 51,785100134,Unscheduled - 39,Yes,16-Jun-2023,,,,No,,,,,,Yes,16-Jun-2023,,,,,,,,,,17-Jun-2023 11:26,17-Jun-2023 11:26
 51,785100165,Unscheduled - 39,No,,,,,No,,,,,,No,,,,,,,,,,,04-Dec-2023 07:10,
+51,785100196,Unscheduled - 39,Yes,27-Jan-2024,,,,No,,,,,,Yes,27-Jan-2024,,,,,,,,,,27-Jan-2024 15:56,27-Jan-2024 15:58
 51,785100234,Unscheduled - 39,No,,,,,No,,,,,,No,,,,,,,,,,,04-Nov-2022 03:43,
 51,785100254,Unscheduled - 39,No,,,,,No,,,,,,No,,,,,,,,,,,27-Nov-2023 09:06,
 51,785100255,Unscheduled - 39,No,,,,,No,,,,,,No,,,,,,,,,,,13-Nov-2023 07:49,
@@ -10037,8 +10063,10 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100380,Unscheduled - 39,No,,,,,No,,,,,,No,,,,,,,,,,,21-Jun-2023 10:00,
 51,785100386,Unscheduled - 39,No,,,,,No,,,,,,No,,,,,,,,,,,27-Nov-2022 07:09,
 51,785100387,Unscheduled - 39,No,,,,,No,,,,,,No,,,,,,,,,,,19-Nov-2022 09:11,
+51,785100396,Unscheduled - 39,No,,,,,No,,,,,,No,,,,,,,,,,,28-Jan-2024 14:58,
 51,785100447,Unscheduled - 39,No,,,,,No,,,,,,No,,,,,,,,,,,03-Jan-2023 07:47,
 51,785100449,Unscheduled - 39,No,,,,,No,,,,,,No,,,,,,,,,,,30-Sep-2022 03:09,
+51,785100549,Unscheduled - 39,No,,,,,No,,,,,,No,,,,,,,,,,,27-Jan-2024 15:41,
 51,785100557,Unscheduled - 39,No,,,,,No,,,,,,No,,,,,,,,,,,14-Jun-2023 07:53,
 51,785100623,Unscheduled - 39,No,,,,,No,,,,,,No,,,,,,,,,,,17-Apr-2023 16:24,
 51,785100663,Unscheduled - 39,Yes,11-Oct-2023,,,,No,,,,,,Yes,11-Oct-2023,,,,,,,,,,11-Oct-2023 08:29,
@@ -11289,6 +11317,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100557,Unscheduled - 53,No,,,,,No,,,,,,No,,,,,,,,,,,06-Jan-2024 14:07,
 51,785100234,Unscheduled - 54,No,,,,,No,,,,,,No,,,,,,,,,,,12-Dec-2023 17:04,
 51,785100271,Unscheduled - 54,Yes,02-Oct-2023,,,,No,,,,,,Yes,02-Oct-2023,,,,,,,,,,02-Oct-2023 07:10,
+51,785100272,Unscheduled - 54,No,,,,,No,,,,,,No,,,,,,,,,,,27-Jan-2024 14:34,
 51,785100386,Unscheduled - 54,Yes,25-Aug-2023,,,,No,,,,,,No,,,,,,,,,,,25-Aug-2023 10:50,29-Aug-2023 08:50
 51,785100387,Unscheduled - 54,No,,,,,No,,,,,,No,,,,,,,,,,,05-Nov-2023 07:44,
 51,785100557,Unscheduled - 54,Yes,08-Jan-2024,,,,No,,,,,,Yes,08-Jan-2024,,,,,,,,,,08-Jan-2024 09:38,
@@ -11300,6 +11329,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100386,Unscheduled - 57,No,,,,,No,,,,,,No,,,,,,,,,,,05-Nov-2023 07:56,
 51,785100271,Unscheduled - 58,No,,,,,No,,,,,,No,,,,,,,,,,,27-Nov-2023 08:03,
 51,785100386,Unscheduled - 58,No,,,,,No,,,,,,No,,,,,,,,,,,23-Nov-2023 07:14,
+51,785100271,Unscheduled - 59,Yes,27-Jan-2024,,,,No,,,,,,Yes,27-Jan-2024,,,,,,,,,,27-Jan-2024 13:58,28-Jan-2024 10:24
 51,785100001,Unscheduled - 6,No,,,,,No,,,,,,No,,,,,,,,,,,09-Jun-2022 11:32,21-Sep-2022 08:19
 51,785100002,Unscheduled - 6,No,,,,,No,,,,,,No,,,,,,,,,,,03-Oct-2022 07:56,15-Nov-2022 07:31
 51,785100003,Unscheduled - 6,No,,,,,No,,,,,,No,,,,,,,,,,,14-Sep-2022 12:19,28-Sep-2022 07:48
@@ -12214,6 +12244,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100547,Unscheduled - 7,Yes,11-Feb-2022,,,,No,,,,,,Yes,11-Feb-2022,,,,,,,,,,12-Feb-2022 11:05,
 51,785100548,Unscheduled - 7,No,,,,,No,,,,,,Yes,02-Jun-2022,,,,,,,,,,02-Jun-2022 07:29,
 51,785100549,Unscheduled - 7,No,,,,,No,,,,,,No,,,,,,,,,,,14-Apr-2022 10:00,
+51,785100551,Unscheduled - 7,No,,,,,No,,,,,,No,,,,,,,,,,,28-Jan-2024 14:36,
 51,785100552,Unscheduled - 7,No,,,,,No,,,,,,No,,,,,,,,,,,19-Oct-2022 08:53,
 51,785100553,Unscheduled - 7,No,,,,,No,,,,,,No,,,,,,,,,,,14-Jul-2023 15:54,
 51,785100555,Unscheduled - 7,No,,,,,No,,,,,,No,,,,,,,,,,,29-Aug-2022 08:34,
@@ -12770,6 +12801,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100008,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,26-May-2022 06:51,
 51,785100010,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,29-May-2023 07:45,
 51,785100011,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,22-May-2023 10:40,
+51,785100012,Unscheduled - 9,Yes,26-Jan-2024,,,,No,,,,,,Yes,26-Jan-2024,,,,,,,,,,26-Jan-2024 15:57,
 51,785100013,Unscheduled - 9,No,,,,,No,,,,,,Yes,16-Jul-2022,,,,,,,,,,16-Jul-2022 09:20,
 51,785100014,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,25-Jul-2022 07:55,
 51,785100015,Unscheduled - 9,Yes,29-Mar-2023,,,,No,,,,,,Yes,29-Mar-2023,,,,,,,,,,29-Mar-2023 08:58,
@@ -12824,6 +12856,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100075,Unscheduled - 9,Yes,10-Dec-2021,,,,No,,,,,,Yes,10-Dec-2021,,,,,,,,,,11-Dec-2021 12:30,
 51,785100076,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,23-May-2023 07:21,
 51,785100078,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,07-Sep-2022 08:19,
+51,785100079,Unscheduled - 9,Yes,26-Jan-2024,,,,No,,,,,,Yes,26-Jan-2024,,,,,,,,,,26-Jan-2024 09:47,27-Jan-2024 11:08
 51,785100080,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,08-Sep-2022 07:06,
 51,785100082,Unscheduled - 9,Yes,29-Jul-2022,,,,No,,,,,,Yes,29-Jul-2022,,,,,,,,,,29-Jul-2022 07:09,
 51,785100083,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,28-Aug-2023 07:16,
@@ -12843,6 +12876,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100104,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,22-Sep-2023 08:33,
 51,785100105,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,08-Sep-2022 07:17,
 51,785100110,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,14-Jul-2023 06:45,
+51,785100111,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,26-Jan-2024 08:16,
 51,785100114,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,30-Nov-2022 08:40,
 51,785100115,Unscheduled - 9,Yes,12-Jul-2022,,,,No,,,,,,Yes,12-Jul-2022,,,,,,,,,,12-Jul-2022 09:23,
 51,785100116,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,09-Mar-2023 08:02,
@@ -12853,6 +12887,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100122,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,07-Apr-2022 08:55,
 51,785100123,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,23-Nov-2022 09:47,
 51,785100124,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,17-Jun-2022 08:19,
+51,785100126,Unscheduled - 9,Yes,26-Jan-2024,,,,No,,,,,,Yes,26-Jan-2024,,,,,,,,,,26-Jan-2024 15:37,27-Jan-2024 10:25
 51,785100127,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,15-Jun-2022 10:09,
 51,785100128,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,15-Jun-2022 10:12,
 51,785100129,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,08-Mar-2022 18:01,
@@ -13118,6 +13153,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100515,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,29-Jun-2022 08:37,
 51,785100516,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,17-Sep-2022 07:37,
 51,785100518,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,10-Jun-2023 08:24,
+51,785100520,Unscheduled - 9,Yes,28-Jan-2024,,,,No,,,,,,Yes,28-Jan-2024,,,,,,,,,,28-Jan-2024 08:16,
 51,785100521,Unscheduled - 9,No,,,,,No,,,,,,No,,,,,,,,,,,25-Oct-2023 07:31,
 51,785100524,Unscheduled - 9,Yes,27-Aug-2022,,,,No,,,,,,Yes,27-Aug-2022,,,,,,,,,,27-Aug-2022 09:26,
 51,785100525,Unscheduled - 9,Yes,13-Jul-2022,,,,No,,,,,,Yes,13-Jul-2022,,,,,,,,,,13-Jul-2022 08:07,
@@ -13470,6 +13506,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100352,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,22-Jan-2024,13:28,,,NA,,,,,,22-Jan-2024 10:11,23-Jan-2024 08:54
 51,785100353,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,19-Jan-2024,13:00,,,NA,,,,,,19-Jan-2024 09:45,21-Jan-2024 03:37
 51,785100354,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,22-Jan-2024,14:39,,,NA,,,,,,22-Jan-2024 11:10,23-Jan-2024 07:34
+51,785100355,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,12:12,,,NA,,,,,,26-Jan-2024 09:03,27-Jan-2024 07:37
 51,785100356,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,22-Jan-2024,12:50,,,NA,,,,,,22-Jan-2024 09:37,23-Jan-2024 08:50
 51,785100357,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,19-Jan-2024,,,,NA,,,,,,19-Jan-2024 11:05,
 51,785100358,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,22-Jan-2024,,,,NA,,,,,,22-Jan-2024 12:01,
@@ -13479,11 +13516,13 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100362,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,22-Jan-2024,14:45,,,NA,,,,,,22-Jan-2024 11:16,23-Jan-2024 08:13
 51,785100363,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,16-Jan-2024,13:17,,,NA,,,,,,19-Jan-2024 10:09,21-Jan-2024 03:40
 51,785100364,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,19-Jan-2024,12:43,,,NA,,,,,,19-Jan-2024 08:14,21-Jan-2024 03:33
+51,785100365,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,14:55,,,NA,,,,,,26-Jan-2024 11:41,27-Jan-2024 07:24
 51,785100367,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,19-Jan-2024,,,,NA,,,,,,19-Jan-2024 11:05,
 51,785100369,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,22-Jan-2024,,,,NA,,,,,,22-Jan-2024 10:50,
 51,785100371,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,22-Jan-2024,12:14,,,NA,,,,,,22-Jan-2024 09:03,23-Jan-2024 08:48
 51,785100372,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,23-Jan-2024,11:20,,,NA,,,,,,24-Jan-2024 08:16,24-Jan-2024 09:45
 51,785100373,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,22-Jan-2024,14:49,,,NA,,,,,,22-Jan-2024 11:41,23-Jan-2024 08:17
+51,785100374,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,14:50,,,NA,,,,,,26-Jan-2024 11:36,27-Jan-2024 07:28
 51,785100375,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,19-Jan-2024,12:37,,,NA,,,,,,19-Jan-2024 09:24,21-Jan-2024 03:31
 51,785100376,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,19-Jan-2024,,,,NA,,,,,,19-Jan-2024 09:11,
 51,785100377,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,19-Jan-2024,,,,NA,,,,,,19-Jan-2024 08:59,
@@ -13501,18 +13540,37 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100394,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,19-Jan-2024,,,,NA,,,,,,19-Jan-2024 10:31,19-Jan-2024 10:33
 51,785100395,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,11:15,,,NA,,,,,,25-Jan-2024 08:10,25-Jan-2024 09:39
 51,785100396,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,,,,NA,,,,,,25-Jan-2024 10:59,
+51,785100397,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,,,,NA,,,,,,26-Jan-2024 10:53,
 51,785100399,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,,,,NA,,,,,,25-Jan-2024 10:07,
 51,785100401,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,12:04,,,NA,,,,,,25-Jan-2024 08:58,25-Jan-2024 09:43
 51,785100402,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,10:34,,,NA,,,,,,25-Jan-2024 07:17,25-Jan-2024 09:26
-51,785100403,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,,,,NA,,,,,,25-Jan-2024 08:58,
+51,785100403,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,12:00,,,NA,,,,,,25-Jan-2024 08:58,26-Jan-2024 12:43
 51,785100404,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,10:28,,,NA,,,,,,25-Jan-2024 07:14,25-Jan-2024 09:25
 51,785100405,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,,,,NA,,,,,,25-Jan-2024 09:14,
 51,785100406,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,,,,NA,,,,,,25-Jan-2024 10:16,
 51,785100407,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,11:38,,,NA,,,,,,25-Jan-2024 08:29,25-Jan-2024 09:41
 51,785100409,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,,,,NA,,,,,,25-Jan-2024 10:33,
+51,785100411,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,12:07,,,NA,,,,,,26-Jan-2024 09:00,27-Jan-2024 07:36
 51,785100412,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,,,,NA,,,,,,25-Jan-2024 10:19,
+51,785100416,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,13:27,,,NA,,,,,,26-Jan-2024 10:13,26-Jan-2024 12:49
 51,785100417,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,,,,NA,,,,,,25-Jan-2024 09:34,
+51,785100418,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,14:21,,,NA,,,,,,26-Jan-2024 11:08,27-Jan-2024 07:16
+51,785100419,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,13:35,,,NA,,,,,,26-Jan-2024 10:10,26-Jan-2024 12:51
+51,785100420,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,14:15,,,NA,,,,,,26-Jan-2024 11:11,26-Jan-2024 12:57
 51,785100425,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,25-Jan-2024,11:30,,,NA,,,,,,25-Jan-2024 08:29,25-Jan-2024 09:40
+51,785100427,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,13:48,,,NA,,,,,,26-Jan-2024 10:32,26-Jan-2024 12:54
+51,785100429,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,13:45,,,NA,,,,,,26-Jan-2024 10:42,26-Jan-2024 12:53
+51,785100430,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,13:54,,,NA,,,,,,26-Jan-2024 10:38,26-Jan-2024 12:55
+51,785100432,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,14:32,,,NA,,,,,,26-Jan-2024 11:30,27-Jan-2024 07:19
+51,785100433,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,11:50,,,NA,,,,,,26-Jan-2024 08:31,27-Jan-2024 07:34
+51,785100436,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,11:00,,,NA,,,,,,26-Jan-2024 07:56,27-Jan-2024 07:32
+51,785100437,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,13:30,,,NA,,,,,,26-Jan-2024 10:23,26-Jan-2024 12:50
+51,785100438,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,12:20,,,NA,,,,,,26-Jan-2024 09:12,27-Jan-2024 07:38
+51,785100439,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,12:23,,,NA,,,,,,26-Jan-2024 09:18,27-Jan-2024 07:40
+51,785100443,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,15:11,,,NA,,,,,,26-Jan-2024 11:58,27-Jan-2024 07:25
+51,785100444,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,,,,NA,,,,,,26-Jan-2024 10:52,
+51,785100445,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,15:15,,,NA,,,,,,26-Jan-2024 12:11,27-Jan-2024 07:30
+51,785100448,2B0 Pre-vaccination,NA,,,,,NA,,,,,,Yes,26-Jan-2024,11:53,,,NA,,,,,,26-Jan-2024 08:39,27-Jan-2024 07:34
 51,785100001,2B 28,Yes,05-Jan-2024,13:15,,,Yes,05-Jan-2024,13:15,,,,Yes,05-Jan-2024,13:15,,,Yes,05-Jan-2024,13:15,10,,,05-Jan-2024 09:16,07-Jan-2024 14:51
 51,785100002,2B 28,Yes,05-Jan-2024,13:02,,,Yes,05-Jan-2024,13:02,,,,Yes,05-Jan-2024,13:02,,,Yes,05-Jan-2024,13:02,10,,,05-Jan-2024 08:45,07-Jan-2024 15:36
 51,785100003,2B 28,Yes,10-Jan-2024,13:16,,,Yes,10-Jan-2024,13:16,,,,Yes,10-Jan-2024,13:16,,,Yes,10-Jan-2024,13:16,10,,,10-Jan-2024 10:04,15-Jan-2024 07:48
@@ -13543,12 +13601,12 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100038,2B 28,Yes,10-Jan-2024,12:25,,,Yes,10-Jan-2024,12:25,,,,Yes,10-Jan-2024,12:25,,,Yes,10-Jan-2024,12:25,10,,,10-Jan-2024 08:35,14-Jan-2024 18:00
 51,785100039,2B 28,Yes,05-Jan-2024,13:11,,,Yes,05-Jan-2024,13:11,,,,Yes,05-Jan-2024,13:11,,,Yes,05-Jan-2024,13:11,10,,,05-Jan-2024 08:52,07-Jan-2024 05:54
 51,785100041,2B 28,Yes,05-Jan-2024,13:06,,,Yes,05-Jan-2024,13:06,,,,Yes,05-Jan-2024,13:06,,,Yes,05-Jan-2024,13:06,10,,,05-Jan-2024 09:10,07-Jan-2024 17:11
-51,785100042,2B 28,Yes,08-Jan-2024,,,,Yes,08-Jan-2024,,,,,Yes,08-Jan-2024,,,,Yes,08-Jan-2024,,,,,08-Jan-2024 07:44,
+51,785100042,2B 28,Yes,08-Jan-2024,14:30,,,Yes,08-Jan-2024,14:30,,,,Yes,08-Jan-2024,14:30,,,Yes,08-Jan-2024,14:30,10,,,08-Jan-2024 07:44,28-Jan-2024 18:46
 51,785100043,2B 28,Yes,10-Jan-2024,13:00,,,Yes,10-Jan-2024,13:00,,,,Yes,10-Jan-2024,13:00,,,Yes,10-Jan-2024,13:00,10,,,10-Jan-2024 09:41,15-Jan-2024 07:15
 51,785100044,2B 28,Yes,05-Jan-2024,13:29,,,Yes,05-Jan-2024,13:29,,,,Yes,05-Jan-2024,13:29,,,Yes,05-Jan-2024,13:29,10,,,05-Jan-2024 09:31,07-Jan-2024 15:14
 51,785100045,2B 28,Yes,05-Jan-2024,13:36,,,Yes,05-Jan-2024,13:36,,,,Yes,05-Jan-2024,13:36,,,Yes,05-Jan-2024,13:36,10,,,05-Jan-2024 10:19,06-Jan-2024 18:28
 51,785100046,2B 28,Yes,05-Jan-2024,12:58,,,Yes,05-Jan-2024,12:58,,,,Yes,05-Jan-2024,12:58,,,Yes,05-Jan-2024,12:58,10,,,05-Jan-2024 08:37,07-Jan-2024 16:55
-51,785100047,2B 28,Yes,05-Jan-2024,,,,Yes,05-Jan-2024,,,,,Yes,05-Jan-2024,,,,Yes,05-Jan-2024,,,,,05-Jan-2024 07:37,
+51,785100047,2B 28,Yes,05-Jan-2024,12:35,,,Yes,05-Jan-2024,12:35,,,,Yes,05-Jan-2024,12:35,,,Yes,05-Jan-2024,12:35,10,,,05-Jan-2024 07:37,28-Jan-2024 18:55
 51,785100048,2B 28,Yes,05-Jan-2024,13:34,,,Yes,05-Jan-2024,13:34,,,,Yes,05-Jan-2024,13:34,,,Yes,05-Jan-2024,13:34,10,,,05-Jan-2024 09:47,06-Jan-2024 18:07
 51,785100049,2B 28,Yes,05-Jan-2024,12:33,,,Yes,05-Jan-2024,12:33,,,,Yes,05-Jan-2024,12:33,,,Yes,05-Jan-2024,12:33,10,,,05-Jan-2024 07:22,06-Jan-2024 13:26
 51,785100050,2B 28,Yes,08-Jan-2024,12:50,,,Yes,08-Jan-2024,12:50,,,,Yes,08-Jan-2024,12:50,,,Yes,08-Jan-2024,12:50,10,,,08-Jan-2024 07:54,08-Jan-2024 18:10
@@ -13561,7 +13619,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100059,2B 28,Yes,09-Jan-2024,12:40,,,Yes,09-Jan-2024,12:40,,,,Yes,09-Jan-2024,12:40,,,Yes,09-Jan-2024,12:40,10,,,09-Jan-2024 07:53,09-Jan-2024 17:46
 51,785100060,2B 28,Yes,10-Jan-2024,13:12,,,Yes,10-Jan-2024,13:12,,,,Yes,10-Jan-2024,13:12,,,Yes,10-Jan-2024,13:12,10,,,10-Jan-2024 09:54,15-Jan-2024 07:42
 51,785100061,2B 28,Yes,04-Jan-2024,14:35,,,Yes,04-Jan-2024,14:35,,,,Yes,04-Jan-2024,14:35,,,Yes,04-Jan-2024,14:35,10,,,04-Jan-2024 11:51,05-Jan-2024 09:43
-51,785100062,2B 28,Yes,08-Jan-2024,,,,Yes,08-Jan-2024,,,,,Yes,08-Jan-2024,,,,Yes,08-Jan-2024,,,,,08-Jan-2024 08:09,
+51,785100062,2B 28,Yes,08-Jan-2024,14:35,,,Yes,08-Jan-2024,14:35,,,,Yes,08-Jan-2024,14:35,,,Yes,08-Jan-2024,14:35,10,,,08-Jan-2024 08:09,28-Jan-2024 19:03
 51,785100063,2B 28,Yes,05-Jan-2024,12:47,,,Yes,05-Jan-2024,12:47,,,,Yes,05-Jan-2024,12:47,,,Yes,05-Jan-2024,12:44,10,,,05-Jan-2024 08:17,07-Jan-2024 15:20
 51,785100064,2B 28,Yes,08-Jan-2024,13:16,,,Yes,08-Jan-2024,13:16,,,,Yes,08-Jan-2024,13:16,,,Yes,08-Jan-2024,13:16,10,,,08-Jan-2024 09:34,08-Jan-2024 15:09
 51,785100067,2B 28,Yes,08-Jan-2024,13:01,,,Yes,08-Jan-2024,13:01,,,,Yes,08-Jan-2024,13:01,,,Yes,08-Jan-2024,13:01,10,,,08-Jan-2024 08:18,09-Jan-2024 04:24
@@ -13625,6 +13683,7 @@ Site ID,Subject,VISIT,Was blood sample collected for Haematology?,Date of blood 
 51,785100156,2B 28,Yes,19-Jan-2024,10:50,,,Yes,19-Jan-2024,10:50,,,,Yes,19-Jan-2024,10:50,,,Yes,19-Jan-2024,10:50,10,,,19-Jan-2024 07:09,21-Jan-2024 04:11
 51,785100157,2B 28,Yes,18-Jan-2024,11:52,,,Yes,18-Jan-2024,11:52,,,,Yes,18-Jan-2024,11:52,,,Yes,18-Jan-2024,11:52,10,,,18-Jan-2024 07:34,18-Jan-2024 10:08
 51,785100161,2B 28,Yes,23-Jan-2024,14:55,,,Yes,23-Jan-2024,14:55,,,,Yes,23-Jan-2024,14:55,,,Yes,23-Jan-2024,14:55,10,,,23-Jan-2024 08:30,24-Jan-2024 03:54
+51,785100163,2B 28,Yes,26-Jan-2024,,,,Yes,26-Jan-2024,,,,,Yes,26-Jan-2024,,,,Yes,26-Jan-2024,,,,,26-Jan-2024 08:24,
 51,785100165,2B 28,Yes,22-Jan-2024,14:21,,,Yes,22-Jan-2024,14:21,,,,Yes,22-Jan-2024,14:21,,,Yes,22-Jan-2024,14:21,10,,,22-Jan-2024 11:03,23-Jan-2024 07:44
 51,785100166,2B 28,Yes,12-Jan-2024,13:06,,,Yes,12-Jan-2024,13:06,,,,Yes,12-Jan-2024,13:06,,,Yes,12-Jan-2024,13:06,10,,,12-Jan-2024 08:21,15-Jan-2024 08:19
 51,785100167,2B 28,Yes,22-Jan-2024,14:30,,,Yes,22-Jan-2024,14:30,,,,Yes,22-Jan-2024,14:30,,,Yes,22-Jan-2024,14:30,10,,,22-Jan-2024 09:48,23-Jan-2024 07:41
