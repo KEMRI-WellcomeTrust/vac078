@@ -1261,10 +1261,10 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100384,Reconsent,,22 01 2024,,23 01 2024,,No,On Active Follow up,Group B,Pingilikani
 785100530,Reconsent,,2 02 2024,,,,No,On Active Follow up,Group B,Junju
 785100531,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
-785100532,Reconsent,,2 02 2024,,,,No,On Active Follow up,Group B,Junju
-785100533,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Junju
-785100534,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Junju
-785100535,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Pingilikani
+785100532,Reconsent,,2 02 2024,,30 01 2024,,No,On Active Follow up,Group B,Junju
+785100533,Reconsent,,1 02 2024,,30 01 2024,,No,On Active Follow up,Group B,Junju
+785100534,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Junju
+785100535,Reconsent,,1 02 2024,,1 02 2024,,No,On Active Follow up,Group B,Pingilikani
 785100539,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
 785100540,Reconsent,,,,,,No,On Active Follow up,Group B,Chasimba
 785100541,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
@@ -1273,7 +1273,7 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100545,Reconsent,,,,,,No,On Active Follow up,Group B,Chasimba
 785100565,Reconsent,,2 02 2024,,,,No,On Active Follow up,Group B,Chasimba
 785100556,Reconsent,,,,,,No,On Active Follow up,Group B,Pingilikani
-785100600,Reconsent,,,,,,No,On Active Follow up,Group B,Pingilikani
+785100600,Reconsent,,,,30 01 2024,,No,On Active Follow up,Group B,Pingilikani
 785100562,Reconsent,,,,,,No,On Active Follow up,Group B,Chasimba
 785100561,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
 785100560,Reconsent,,,,,,No,On Active Follow up,Group B,Pingilikani
@@ -1283,7 +1283,7 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100548,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
 785100555,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Junju
 785100554,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
-785100553,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Junju
+785100553,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Junju
 785100552,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
 785100551,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
 785100564,Reconsent,,2 02 2024,,,,No,On Active Follow up,Group B,Pingilikani
@@ -1323,12 +1323,12 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100527,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
 785100601,Reconsent,,,,,,No,On Active Follow up,Group B,Chasimba
 785100603,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
-785100604,Reconsent,,,,,,No,On Active Follow up,Group B,Chasimba
+785100604,Reconsent,,,,30 01 2024,,No,On Active Follow up,Group B,Chasimba
 785100606,Reconsent,,,,,,No,On Active Follow up,Group B,Chasimba
 785100607,Reconsent,,,,,,No,On Active Follow up,Group B,Chasimba
 785100608,Reconsent,,,,,,No,On Active Follow up,Group B,Chasimba
 785100609,Reconsent,,,,,,No,On Active Follow up,Group B,Chasimba
-785100610,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
+785100610,Reconsent,,,,30 01 2024,,No,On Active Follow up,Group B,Junju
 785100611,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
 785100612,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
 785100613,Reconsent,,,,,,No,On Active Follow up,Group B,Pingilikani
@@ -1348,7 +1348,7 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100623,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
 785100622,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
 785100621,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
-785100599,Reconsent,,,,,,No,On Active Follow up,Group B,Pingilikani
+785100599,Reconsent,,,,30 01 2024,,No,On Active Follow up,Group B,Pingilikani
 785100629,Reconsent,,,,,,No,On Active Follow up,Group B,Chasimba
 785100438,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Junju
 785100424,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Junju
@@ -1363,22 +1363,22 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100433,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Junju
 785100434,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Junju
 785100435,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Junju
-785100529,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Junju
+785100529,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Junju
 785100437,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Pingilikani
 785100419,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Junju
 785100439,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Chasimba
 785100440,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Chasimba
 785100441,Reconsent,,25 01 2024,,26 01 2024,,No,On Active Follow up,Group B,Junju
-785100443,Reconsent,,25 01 2024,,,,No,On Active Follow up,Group B,Junju
-785100444,Reconsent,,25 01 2024,,,,No,On Active Follow up,Group B,Junju
-785100445,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Pingilikani
-785100446,Reconsent,,29 01 2024,,,,No,On Active Follow up,Group B,Junju
-785100447,Reconsent,,29 01 2024,,,,No,On Active Follow up,Group B,Chasimba
+785100443,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Junju
+785100444,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Junju
+785100445,Reconsent,,30 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Pingilikani
+785100446,Reconsent,,29 01 2024,,29 01 2024,,No,On Active Follow up,Group B,Junju
+785100447,Reconsent,,29 01 2024,,29 01 2024,,No,On Active Follow up,Group B,Chasimba
 785100448,Reconsent,,26 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Junju
-785100449,Reconsent,,29 01 2024,,,,No,On Active Follow up,Group B,Chasimba
+785100449,Reconsent,,29 01 2024,,29 01 2024,,No,On Active Follow up,Group B,Chasimba
 785100450,Reconsent,,26 01 2024,,26 01 2024,,No,On Active Follow up,Group B,Junju
-785100451,Reconsent,,29 01 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100453,Reconsent,,29 01 2024,,,,No,On Active Follow up,Group B,Pingilikani
+785100451,Reconsent,,29 01 2024,,29 01 2024,,No,On Active Follow up,Group B,Chasimba
+785100453,Reconsent,,29 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Pingilikani
 785100436,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Junju
 785100401,Reconsent,,23 01 2024,,24 01 2024,,No,On Active Follow up,Group B,Junju
 785100086,Reconsent,,7 12 2023,,7 12 2023,,No,On Active Follow up,Group A,Junju
@@ -1388,15 +1388,15 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100390,Reconsent,,,,19 01 2024,,No,On Active Follow up,Group B,Junju
 785100391,Reconsent,,22 01 2024,,22 01 2024,,No,On Active Follow up,Group B,Junju
 785100392,Reconsent,,22 01 2024,,22 01 2024,,No,On Active Follow up,Group B,Junju
-785100393,Reconsent,,29 01 2024,,,,No,On Active Follow up,Group B,Junju
+785100393,Reconsent,,29 01 2024,,29 01 2024,,No,On Active Follow up,Group B,Junju
 785100394,Reconsent,,15 01 2024,,17 01 2024,,No,On Active Follow up,Group B,Junju
 785100395,Reconsent,,23 01 2024,,24 01 2024,,No,On Active Follow up,Group B,Junju
-785100396,Reconsent,,25 01 2024,,,,No,On Active Follow up,Group B,Pingilikani
+785100396,Reconsent,,25 01 2024,,23 01 2024,,No,On Active Follow up,Group B,Pingilikani
 785100397,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Pingilikani
-785100398,Reconsent,,29 01 2024,,,,No,On Active Follow up,Group B,Junju
+785100398,Reconsent,,29 01 2024,,1 02 2024,,No,On Active Follow up,Group B,Junju
 785100422,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Chasimba
 785100407,Reconsent,,24 01 2024,,24 01 2024,,No,On Active Follow up,Group B,Junju
-785100456,Reconsent,,29 01 2024,,,,No,On Active Follow up,Group B,Chasimba
+785100456,Reconsent,,29 01 2024,,29 01 2024,,No,On Active Follow up,Group B,Chasimba
 785100418,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Pingilikani
 785100417,Reconsent,,24 01 2024,,24 01 2024,,No,On Active Follow up,Group B,Junju
 785100416,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Pingilikani
@@ -1413,22 +1413,22 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100411,Reconsent,,25 01 2024,,25 01 2024,,No,On Active Follow up,Group B,Junju
 785100512,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Chasimba
 785100454,Reconsent,,26 01 2024,,26 01 2024,,No,On Active Follow up,Group B,Junju
-785100494,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100496,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Pingilikani
+785100494,Reconsent,,1 02 2024,,1 02 2024,,No,On Active Follow up,Group B,Chasimba
+785100496,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Pingilikani
 785100497,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
-785100499,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Junju
+785100499,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Junju
 785100500,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Junju
 785100501,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Junju
-785100502,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Pingilikani
-785100503,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Chasimba
+785100502,Reconsent,,30 01 2024,,1 02 2024,,No,On Active Follow up,Group B,Pingilikani
+785100503,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Chasimba
 785100505,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100506,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
-785100508,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Junju
+785100506,Reconsent,,,,30 01 2024,,No,On Active Follow up,Group B,Junju
+785100508,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Junju
 785100509,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Junju
-785100492,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Chasimba
+785100492,Reconsent,,1 02 2024,,1 02 2024,,No,On Active Follow up,Group B,Chasimba
 785100518,Reconsent,,2 02 2024,,,,No,On Active Follow up,Group B,Chasimba
 785100526,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Junju
-785100525,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Pingilikani
+785100525,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Pingilikani
 785100524,Reconsent,,,,,,No,On Active Follow up,Group B,Chasimba
 785100523,Reconsent,,2 02 2024,,,,No,On Active Follow up,Group B,Chasimba
 785100522,Reconsent,,2 02 2024,,,,No,On Active Follow up,Group B,Chasimba
@@ -1436,43 +1436,43 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100520,Reconsent,,,,,,No,On Active Follow up,Group B,Chasimba
 785100511,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
 785100517,Reconsent,,2 02 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100516,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100515,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100514,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Junju
+785100516,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Chasimba
+785100515,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Chasimba
+785100514,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Junju
 785100513,Reconsent,,2 02 2024,,,,No,On Active Follow up,Group B,Junju
 785100489,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
 785100521,Reconsent,,2 02 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100472,Reconsent,,29 01 2024,,,,No,On Active Follow up,Group B,Junju
+785100472,Reconsent,,29 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Junju
 785100385,Reconsent,,23 01 2024,,24 01 2024,,No,On Active Follow up,Group B,Junju
 785100457,Reconsent,,26 01 2024,,26 01 2024,,No,On Active Follow up,Group B,Junju
-785100458,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Chasimba
+785100458,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Chasimba
 785100459,Reconsent,,26 01 2024,,26 01 2024,,No,On Active Follow up,Group B,Junju
-785100461,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100462,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100463,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Junju
-785100464,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Chasimba
+785100461,Reconsent,,30 01 2024,,29 01 2024,,No,On Active Follow up,Group B,Chasimba
+785100462,Reconsent,,1 02 2024,,1 02 2024,,No,On Active Follow up,Group B,Chasimba
+785100463,Reconsent,,1 02 2024,,1 02 2024,,No,On Active Follow up,Group B,Junju
+785100464,Reconsent,,1 02 2024,,1 02 2024,,No,On Active Follow up,Group B,Chasimba
 785100465,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
 785100466,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
-785100467,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100468,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100469,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Pingilikani
-785100493,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Chasimba
+785100467,Reconsent,,1 02 2024,,1 02 2024,,No,On Active Follow up,Group B,Chasimba
+785100468,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Chasimba
+785100469,Reconsent,,1 02 2024,,1 02 2024,,No,On Active Follow up,Group B,Pingilikani
+785100493,Reconsent,,1 02 2024,,1 02 2024,,No,On Active Follow up,Group B,Chasimba
 785100478,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
-785100486,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Pingilikani
+785100486,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Pingilikani
 785100485,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Pingilikani
 785100484,Reconsent,,,,,,No,On Active Follow up,Group B,Chasimba
-785100483,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Junju
-785100482,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Pingilikani
-785100470,Reconsent,,29 01 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100479,Reconsent,,29 01 2024,,,,No,On Active Follow up,Group B,Chasimba
+785100483,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Junju
+785100482,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Pingilikani
+785100470,Reconsent,,29 01 2024,,29 01 2024,,No,On Active Follow up,Group B,Chasimba
+785100479,Reconsent,,29 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Chasimba
 785100471,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100477,Reconsent,,29 01 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100476,Reconsent,,1 02 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100475,Reconsent,,29 01 2024,,,,No,On Active Follow up,Group B,Chasimba
+785100477,Reconsent,,29 01 2024,,29 01 2024,,No,On Active Follow up,Group B,Chasimba
+785100476,Reconsent,,1 02 2024,,29 01 2024,,No,On Active Follow up,Group B,Chasimba
+785100475,Reconsent,,29 01 2024,,29 01 2024,,No,On Active Follow up,Group B,Chasimba
 785100474,Reconsent,,,,,,No,On Active Follow up,Group B,Junju
 785100473,Reconsent,,2 02 2024,,,,No,On Active Follow up,Group B,Junju
-785100455,Reconsent,,29 01 2024,,,,No,On Active Follow up,Group B,Chasimba
-785100481,Reconsent,,30 01 2024,,,,No,On Active Follow up,Group B,Pingilikani
+785100455,Reconsent,,29 01 2024,,29 01 2024,,No,On Active Follow up,Group B,Chasimba
+785100481,Reconsent,,30 01 2024,,30 01 2024,,No,On Active Follow up,Group B,Pingilikani
 785100382,Day 3B365,,,,,,No,On Active Follow up,Group B,Pingilikani
 785100365,Day 3B365,,,,,,No,On Active Follow up,Group B,Pingilikani
 785100367,Day 3B365,,,,,,No,On Active Follow up,Group B,Junju
@@ -16363,7 +16363,7 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100376,Day B365/2B0,16 12 2023,19 01 2024,,19 01 2024,20 01 2024,No,On Active Follow up,Group B,Pingilikani
 785100373,Day B365/2B0,16 12 2023,22 01 2024,,22 01 2024,20 01 2024,No,On Active Follow up,Group B,Pingilikani
 785100394,Day B365/2B0,16 12 2023,19 01 2024,,19 01 2024,20 01 2024,No,On Active Follow up,Group B,Junju
-785100351,Day B365/2B0,16 12 2023,29 01 2024,,,20 01 2024,No,On Active Follow up,Group B,Pingilikani
+785100351,Day B365/2B0,16 12 2023,30 01 2024,,30 01 2024,20 01 2024,No,On Active Follow up,Group B,Pingilikani
 785100296,Day B365/2B0,16 12 2023,12 01 2024,,12 01 2024,20 01 2024,No,On Active Follow up,Group A,Junju
 785100298,Day B365/2B0,16 12 2023,9 01 2024,,9 01 2024,20 01 2024,No,On Active Follow up,Group A,Pingilikani
 785100325,Day B365/2B0,16 12 2023,17 01 2024,,17 01 2024,20 01 2024,No,On Active Follow up,Group A,Pingilikani
@@ -16382,7 +16382,7 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100101,Day 2B14,18 12 2023,25 12 2023,,25 12 2023,1 01 2024,No,On Active Follow up,Group A,Junju
 785100105,Day 2B14,18 12 2023,25 12 2023,,25 12 2023,1 01 2024,No,On Active Follow up,Group A,Junju
 785100011,Day 2B14,18 12 2023,25 12 2023,,25 12 2023,1 01 2024,No,On Active Follow up,Group A,Junju
-785100466,Day B336,19 12 2023,2 01 2024,,,16 01 2024,No,On Active Follow up,Group B,Junju
+785100466,Day B336,19 12 2023,2 01 2024,,16 01 2024,16 01 2024,No,On Active Follow up,Group B,Junju
 785100141,Day 2B14,20 12 2023,27 12 2023,,27 12 2023,3 01 2024,No,On Active Follow up,Group A,Junju
 785100038,Day 2B14,20 12 2023,27 12 2023,,27 12 2023,3 01 2024,No,On Active Follow up,Group A,Junju
 785100073,Day 2B14,20 12 2023,27 12 2023,,27 12 2023,3 01 2024,No,On Active Follow up,Group A,Junju
@@ -16595,37 +16595,37 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100128,Day 2B28,5 01 2024,12 01 2024,,18 01 2024,19 01 2024,No,On Active Follow up,Group A,Junju
 785100127,Day 2B28,5 01 2024,12 01 2024,,18 01 2024,19 01 2024,No,On Active Follow up,Group A,Junju
 785100156,Day 2B28,5 01 2024,12 01 2024,19 01 2024,19 01 2024,19 01 2024,No,On Active Follow up,Group A,Pingilikani
-785100514,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Junju
-785100525,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Pingilikani
-785100482,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Pingilikani
-785100508,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Junju
-785100516,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Chasimba
-785100483,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Junju
+785100514,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Junju
+785100525,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Pingilikani
+785100482,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Pingilikani
+785100508,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Junju
+785100516,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Chasimba
+785100483,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Junju
 785100510,Day B365/2B0,5 01 2024,,,,9 02 2024,No,On Active Follow up,Group B,Junju
-785100486,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Pingilikani
-785100499,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Junju
-785100496,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Pingilikani
-785100502,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Pingilikani
-785100515,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Chasimba
-785100476,Day B365/2B0,5 01 2024,,,,9 02 2024,No,On Active Follow up,Group B,Chasimba
+785100486,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Pingilikani
+785100499,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Junju
+785100496,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Pingilikani
+785100502,Day B365/2B0,5 01 2024,,,,9 02 2024,No,On Active Follow up,Group B,Pingilikani
+785100515,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Chasimba
+785100476,Day B365/2B0,5 01 2024,30 01 2024,,30 01 2024,9 02 2024,No,On Active Follow up,Group B,Chasimba
 785100462,Day B365/2B0,5 01 2024,,,,9 02 2024,No,On Active Follow up,Group B,Chasimba
 785100469,Day B365/2B0,5 01 2024,,,,9 02 2024,No,On Active Follow up,Group B,Pingilikani
-785100470,Day B365/2B0,5 01 2024,30 01 2024,,,9 02 2024,No,On Active Follow up,Group B,Chasimba
-785100472,Day B365/2B0,5 01 2024,30 01 2024,,,9 02 2024,No,On Active Follow up,Group B,Junju
+785100470,Day B365/2B0,5 01 2024,5 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Chasimba
+785100472,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Junju
 785100419,Day B365/2B0,5 01 2024,26 01 2024,,26 01 2024,9 02 2024,No,On Active Follow up,Group B,Junju
-785100475,Day B365/2B0,5 01 2024,30 01 2024,,,9 02 2024,No,On Active Follow up,Group B,Chasimba
-785100529,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Junju
-785100534,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Junju
+785100475,Day B365/2B0,5 01 2024,30 01 2024,,30 01 2024,9 02 2024,No,On Active Follow up,Group B,Chasimba
+785100529,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Junju
+785100534,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Junju
 785100528,Day B365/2B0,5 01 2024,,,,9 02 2024,No,On Active Follow up,Group B,Pingilikani
-785100477,Day B365/2B0,5 01 2024,30 01 2024,,,9 02 2024,No,On Active Follow up,Group B,Chasimba
-785100479,Day B365/2B0,5 01 2024,30 01 2024,,,9 02 2024,No,On Active Follow up,Group B,Chasimba
-785100553,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Junju
-785100503,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Chasimba
-785100481,Day B365/2B0,5 01 2024,1 02 2024,,,9 02 2024,No,On Active Follow up,Group B,Pingilikani
+785100477,Day B365/2B0,5 01 2024,30 01 2024,,30 01 2024,9 02 2024,No,On Active Follow up,Group B,Chasimba
+785100479,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Chasimba
+785100553,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Junju
+785100503,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Chasimba
+785100481,Day B365/2B0,5 01 2024,1 02 2024,,1 02 2024,9 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100352,Day B365/2B0,6 01 2024,22 01 2024,,22 01 2024,10 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100406,Day B365/2B0,6 01 2024,25 01 2024,,25 01 2024,10 02 2024,No,On Active Follow up,Group B,Junju
 785100405,Day B365/2B0,6 01 2024,25 01 2024,,25 01 2024,10 02 2024,No,On Active Follow up,Group B,Junju
-785100400,Day B365/2B0,6 01 2024,29 01 2024,,,10 02 2024,No,On Active Follow up,Group B,Pingilikani
+785100400,Day B365/2B0,6 01 2024,29 01 2024,,29 01 2024,10 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100407,Day B365/2B0,6 01 2024,25 01 2024,,25 01 2024,10 02 2024,No,On Active Follow up,Group B,Junju
 785100382,Day B365/2B0,6 01 2024,,,,10 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100533,Day B365/2B0,6 01 2024,,,,10 02 2024,No,On Active Follow up,Group B,Junju
@@ -16639,7 +16639,7 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100380,Day B365/2B0,6 01 2024,22 01 2024,,22 01 2024,10 02 2024,No,On Active Follow up,Group B,Junju
 785100369,Day B365/2B0,6 01 2024,22 01 2024,,22 01 2024,10 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100353,Day B365/2B0,6 01 2024,19 01 2024,,19 01 2024,10 02 2024,No,On Active Follow up,Group B,Junju
-785100393,Day B365/2B0,6 01 2024,30 01 2024,,,10 02 2024,No,On Active Follow up,Group B,Junju
+785100393,Day B365/2B0,6 01 2024,1 02 2024,,1 02 2024,10 02 2024,No,On Active Follow up,Group B,Junju
 785100397,Day B365/2B0,6 01 2024,26 01 2024,,26 01 2024,10 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100389,Day B365/2B0,6 01 2024,24 01 2024,,26 01 2024,10 02 2024,No,On Active Follow up,Group B,Junju
 785100390,Day B365/2B0,6 01 2024,22 01 2024,,22 01 2024,10 02 2024,No,On Active Follow up,Group B,Junju
@@ -16680,36 +16680,36 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100217,Day 2B28,9 01 2024,16 01 2024,23 01 2024,23 01 2024,23 01 2024,No,On Active Follow up,Group A,Junju
 785100216,Day 2B28,9 01 2024,16 01 2024,23 01 2024,23 01 2024,23 01 2024,No,On Active Follow up,Group A,Junju
 785100140,Day 2B28,9 01 2024,16 01 2024,23 01 2024,23 01 2024,23 01 2024,No,On Active Follow up,Group A,Pingilikani
-785100451,Day B365/2B0,9 01 2024,30 01 2024,,,13 02 2024,No,On Active Follow up,Group B,Chasimba
-785100449,Day B365/2B0,9 01 2024,30 01 2024,,,13 02 2024,No,On Active Follow up,Group B,Chasimba
-785100435,Day B365/2B0,9 01 2024,29 01 2024,,,13 02 2024,No,On Active Follow up,Group B,Junju
+785100451,Day B365/2B0,9 01 2024,30 01 2024,,30 01 2024,13 02 2024,No,On Active Follow up,Group B,Chasimba
+785100449,Day B365/2B0,9 01 2024,30 01 2024,,30 01 2024,13 02 2024,No,On Active Follow up,Group B,Chasimba
+785100435,Day B365/2B0,9 01 2024,29 01 2024,,29 01 2024,13 02 2024,No,On Active Follow up,Group B,Junju
 785100436,Day B365/2B0,9 01 2024,26 01 2024,,26 01 2024,13 02 2024,No,On Active Follow up,Group B,Junju
-785100468,Day B365/2B0,9 01 2024,1 02 2024,,,13 02 2024,No,On Active Follow up,Group B,Chasimba
-785100440,Day B365/2B0,9 01 2024,29 01 2024,,,13 02 2024,No,On Active Follow up,Group B,Chasimba
-785100447,Day B365/2B0,9 01 2024,30 01 2024,,,13 02 2024,No,On Active Follow up,Group B,Chasimba
-785100434,Day B365/2B0,9 01 2024,29 01 2024,,,13 02 2024,No,On Active Follow up,Group B,Junju
+785100468,Day B365/2B0,9 01 2024,1 02 2024,,1 02 2024,13 02 2024,No,On Active Follow up,Group B,Chasimba
+785100440,Day B365/2B0,9 01 2024,29 01 2024,,29 01 2024,13 02 2024,No,On Active Follow up,Group B,Chasimba
+785100447,Day B365/2B0,9 01 2024,5 02 2024,,,13 02 2024,No,On Active Follow up,Group B,Chasimba
+785100434,Day B365/2B0,9 01 2024,29 01 2024,,29 01 2024,13 02 2024,No,On Active Follow up,Group B,Junju
 785100448,Day B365/2B0,9 01 2024,26 01 2024,,26 01 2024,13 02 2024,No,On Active Follow up,Group B,Junju
 785100439,Day B365/2B0,9 01 2024,26 01 2024,,26 01 2024,13 02 2024,No,On Active Follow up,Group B,Chasimba
 785100555,Day B365/2B0,9 01 2024,,,,13 02 2024,No,On Active Follow up,Group B,Junju
 785100526,Day B365/2B0,9 01 2024,,,,13 02 2024,No,On Active Follow up,Group B,Junju
-785100454,Day B365/2B0,9 01 2024,29 01 2024,,,13 02 2024,No,On Active Follow up,Group B,Junju
+785100454,Day B365/2B0,9 01 2024,29 01 2024,,29 01 2024,13 02 2024,No,On Active Follow up,Group B,Junju
 785100384,Day B365/2B0,9 01 2024,25 01 2024,,25 01 2024,13 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100412,Day B365/2B0,9 01 2024,25 01 2024,,25 01 2024,13 02 2024,No,On Active Follow up,Group B,Junju
 785100429,Day B365/2B0,9 01 2024,26 01 2024,,26 01 2024,13 02 2024,No,On Active Follow up,Group B,Junju
 785100396,Day B365/2B0,9 01 2024,25 01 2024,,25 01 2024,13 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100433,Day B365/2B0,9 01 2024,26 01 2024,,26 01 2024,13 02 2024,No,On Active Follow up,Group B,Junju
 785100417,Day B365/2B0,9 01 2024,25 01 2024,,25 01 2024,13 02 2024,No,On Active Follow up,Group B,Junju
-785100424,Day B365/2B0,9 01 2024,29 01 2024,,,13 02 2024,No,On Active Follow up,Group B,Junju
+785100424,Day B365/2B0,9 01 2024,29 01 2024,,29 01 2024,13 02 2024,No,On Active Follow up,Group B,Junju
 785100425,Day B365/2B0,9 01 2024,25 01 2024,,25 01 2024,13 02 2024,No,On Active Follow up,Group B,Junju
-785100426,Day B365/2B0,9 01 2024,30 01 2024,,,13 02 2024,No,On Active Follow up,Group B,Chasimba
+785100426,Day B365/2B0,9 01 2024,,,,13 02 2024,No,On Active Follow up,Group B,Chasimba
 785100427,Day B365/2B0,9 01 2024,26 01 2024,,26 01 2024,13 02 2024,No,On Active Follow up,Group B,Junju
-785100505,Day B365/2B0,9 01 2024,,,,13 02 2024,No,On Active Follow up,Group B,Chasimba
-785100428,Day B365/2B0,9 01 2024,30 01 2024,,,13 02 2024,No,On Active Follow up,Group B,Chasimba
-785100458,Day B365/2B0,10 01 2024,1 02 2024,,,14 02 2024,No,On Active Follow up,Group B,Chasimba
-785100461,Day B365/2B0,10 01 2024,1 02 2024,,,14 02 2024,No,On Active Follow up,Group B,Chasimba
+785100505,Day B365/2B0,9 01 2024,1 02 2024,,1 02 2024,13 02 2024,No,On Active Follow up,Group B,Chasimba
+785100428,Day B365/2B0,9 01 2024,,,,13 02 2024,No,On Active Follow up,Group B,Chasimba
+785100458,Day B365/2B0,10 01 2024,1 02 2024,,1 02 2024,14 02 2024,No,On Active Follow up,Group B,Chasimba
+785100461,Day B365/2B0,10 01 2024,30 01 2024,,30 01 2024,14 02 2024,No,On Active Follow up,Group B,Chasimba
 785100467,Day B365/2B0,10 01 2024,,,,14 02 2024,No,On Active Follow up,Group B,Chasimba
 785100463,Day B365/2B0,10 01 2024,,,,14 02 2024,No,On Active Follow up,Group B,Junju
-785100441,Day B365/2B0,10 01 2024,29 01 2024,,,14 02 2024,No,On Active Follow up,Group B,Junju
+785100441,Day B365/2B0,10 01 2024,29 01 2024,,29 01 2024,14 02 2024,No,On Active Follow up,Group B,Junju
 785100416,Day B365/2B0,10 01 2024,26 01 2024,,26 01 2024,14 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100418,Day B365/2B0,10 01 2024,26 01 2024,,26 01 2024,14 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100420,Day B365/2B0,10 01 2024,26 01 2024,,26 01 2024,14 02 2024,No,On Active Follow up,Group B,Junju
@@ -16748,38 +16748,38 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100209,Day 2B14,11 01 2024,18 01 2024,,18 01 2024,25 01 2024,No,On Active Follow up,Group A,Pingilikani
 785100219,Day 2B14,11 01 2024,18 01 2024,,18 01 2024,25 01 2024,No,On Active Follow up,Group A,Pingilikani
 785100395,Day B365/2B0,11 01 2024,25 01 2024,,25 01 2024,15 02 2024,No,On Active Follow up,Group B,Junju
-785100455,Day B365/2B0,11 01 2024,30 01 2024,,,15 02 2024,No,On Active Follow up,Group B,Chasimba
+785100455,Day B365/2B0,11 01 2024,30 01 2024,,30 01 2024,15 02 2024,No,On Active Follow up,Group B,Chasimba
 785100569,Day B365/2B0,11 01 2024,,,,15 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100409,Day B365/2B0,11 01 2024,25 01 2024,,25 01 2024,15 02 2024,No,On Active Follow up,Group B,Junju
 785100570,Day B365/2B0,11 01 2024,,,,15 02 2024,No,On Active Follow up,Group B,Chasimba
 785100563,Day B365/2B0,11 01 2024,,,,15 02 2024,No,On Active Follow up,Group B,Chasimba
-785100398,Day B365/2B0,11 01 2024,30 01 2024,,,15 02 2024,No,On Active Follow up,Group B,Junju
+785100398,Day B365/2B0,11 01 2024,,,,15 02 2024,No,On Active Follow up,Group B,Junju
 785100381,Day B365/2B0,11 01 2024,22 01 2024,,22 01 2024,15 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100593,Day B365/2B0,11 01 2024,,,,15 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100379,Day B365/2B0,11 01 2024,22 01 2024,,22 01 2024,15 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100583,Day B365/2B0,11 01 2024,,,,15 02 2024,No,On Active Follow up,Group B,Junju
-785100431,Day B365/2B0,11 01 2024,29 01 2024,,,15 02 2024,No,On Active Follow up,Group B,Junju
+785100431,Day B365/2B0,11 01 2024,29 01 2024,,29 01 2024,15 02 2024,No,On Active Follow up,Group B,Junju
 785100438,Day B365/2B0,11 01 2024,26 01 2024,,26 01 2024,15 02 2024,No,On Active Follow up,Group B,Junju
 785100471,Day B365/2B0,11 01 2024,,,,15 02 2024,No,On Active Follow up,Group B,Chasimba
 785100464,Day B365/2B0,11 01 2024,,,,15 02 2024,No,On Active Follow up,Group B,Chasimba
 785100485,Day B365/2B0,11 01 2024,,,,15 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100432,Day B365/2B0,11 01 2024,26 01 2024,,26 01 2024,15 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100430,Day B365/2B0,11 01 2024,26 01 2024,,26 01 2024,15 02 2024,No,On Active Follow up,Group B,Pingilikani
-785100457,Day B365/2B0,11 01 2024,29 01 2024,,,15 02 2024,No,On Active Follow up,Group B,Junju
-785100456,Day B365/2B0,11 01 2024,30 01 2024,,,15 02 2024,No,On Active Follow up,Group B,Chasimba
-785100422,Day B365/2B0,11 01 2024,29 01 2024,,,15 02 2024,No,On Active Follow up,Group B,Chasimba
-785100459,Day B365/2B0,11 01 2024,29 01 2024,,,15 02 2024,No,On Active Follow up,Group B,Junju
+785100457,Day B365/2B0,11 01 2024,29 01 2024,,29 01 2024,15 02 2024,No,On Active Follow up,Group B,Junju
+785100456,Day B365/2B0,11 01 2024,30 01 2024,,30 01 2024,15 02 2024,No,On Active Follow up,Group B,Chasimba
+785100422,Day B365/2B0,11 01 2024,29 01 2024,,29 01 2024,15 02 2024,No,On Active Follow up,Group B,Chasimba
+785100459,Day B365/2B0,11 01 2024,29 01 2024,,29 01 2024,15 02 2024,No,On Active Follow up,Group B,Junju
 785100517,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Chasimba
 785100535,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100621,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Junju
 785100530,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Junju
 785100620,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Junju
-785100532,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Junju
+785100532,Day B365/2B0,12 01 2024,1 02 2024,,1 02 2024,16 02 2024,No,On Active Follow up,Group B,Junju
 785100531,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Junju
 785100523,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Chasimba
 785100522,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Chasimba
 785100521,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Chasimba
-785100446,Day B365/2B0,12 01 2024,30 01 2024,,,16 02 2024,No,On Active Follow up,Group B,Junju
+785100446,Day B365/2B0,12 01 2024,30 01 2024,,30 01 2024,16 02 2024,No,On Active Follow up,Group B,Junju
 785100501,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Junju
 785100518,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Chasimba
 785100619,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Junju
@@ -16791,11 +16791,11 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100600,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100599,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100595,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Junju
-785100610,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Junju
+785100610,Day B365/2B0,12 01 2024,1 02 2024,,1 02 2024,16 02 2024,No,On Active Follow up,Group B,Junju
 785100512,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Chasimba
 785100383,Day B365/2B0,12 01 2024,24 01 2024,,24 01 2024,16 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100513,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Junju
-785100604,Day B365/2B0,12 01 2024,,,,16 02 2024,No,On Active Follow up,Group B,Chasimba
+785100604,Day B365/2B0,12 01 2024,1 02 2024,,1 02 2024,16 02 2024,No,On Active Follow up,Group B,Chasimba
 785100139,Day B365/2B0,13 01 2024,,,,17 02 2024,No,On Active Follow up,Group A,Pingilikani
 785100564,Day B365/2B0,13 01 2024,,,,17 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100567,Day B365/2B0,13 01 2024,,,,17 02 2024,No,On Active Follow up,Group B,Chasimba
@@ -16812,9 +16812,9 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100372,Day B365/2B0,13 01 2024,24 01 2024,,24 01 2024,17 02 2024,No,On Active Follow up,Group B,Junju
 785100565,Day B365/2B0,13 01 2024,,,,17 02 2024,No,On Active Follow up,Group B,Chasimba
 785100403,Day B365/2B0,13 01 2024,25 01 2024,,25 01 2024,17 02 2024,No,On Active Follow up,Group B,Junju
-785100450,Day B365/2B0,13 01 2024,29 01 2024,,,17 02 2024,No,On Active Follow up,Group B,Junju
+785100450,Day B365/2B0,13 01 2024,29 01 2024,,29 01 2024,17 02 2024,No,On Active Follow up,Group B,Junju
 785100399,Day B365/2B0,13 01 2024,25 01 2024,,25 01 2024,17 02 2024,No,On Active Follow up,Group B,Junju
-785100506,Day B365/2B0,13 01 2024,,,,17 02 2024,No,On Active Follow up,Group B,Junju
+785100506,Day B365/2B0,13 01 2024,1 02 2024,,1 02 2024,17 02 2024,No,On Active Follow up,Group B,Junju
 785100473,Day B365/2B0,13 01 2024,,,,17 02 2024,No,On Active Follow up,Group B,Junju
 785100524,Day B365/2B0,13 01 2024,,,,17 02 2024,No,On Active Follow up,Group B,Chasimba
 785100527,Day B365/2B0,13 01 2024,,,,17 02 2024,No,On Active Follow up,Group B,Junju
@@ -16902,7 +16902,7 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100612,Day B365/2B0,19 01 2024,,,,23 02 2024,No,On Active Follow up,Group B,Junju
 785100614,Day B365/2B0,19 01 2024,,,,23 02 2024,No,On Active Follow up,Group B,Chasimba
 785100617,Day B365/2B0,19 01 2024,,,,23 02 2024,No,On Active Follow up,Group B,Chasimba
-785100453,Day B365/2B0,19 01 2024,30 01 2024,,,23 02 2024,No,On Active Follow up,Group B,Pingilikani
+785100453,Day B365/2B0,19 01 2024,1 02 2024,,1 02 2024,23 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100628,Day B365/2B0,19 01 2024,,,,23 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100625,Day B365/2B0,19 01 2024,,,,23 02 2024,No,On Active Follow up,Group B,Pingilikani
 785100635,Day B365/2B0,19 01 2024,,,,23 02 2024,No,On Active Follow up,Group B,Chasimba
@@ -16944,21 +16944,21 @@ screenID,visitCode,windowOpen,scheduledDate,rescheduledDate,exactDate,windowClos
 785100661,Day B365/2B0,20 01 2024,,,,24 02 2024,No,On Active Follow up,Group B,Chasimba
 785100658,Day B365/2B0,20 01 2024,,,,24 02 2024,No,On Active Follow up,Group B,Junju
 785100474,Day B365/2B0,20 01 2024,,,,24 02 2024,No,On Active Follow up,Group B,Junju
-785100305,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Pingilikani
-785100325,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Pingilikani
-785100301,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Junju
-785100272,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Pingilikani
+785100305,Day 2B14,24 01 2024,31 01 2024,,1 02 2024,7 02 2024,No,On Active Follow up,Group A,Pingilikani
+785100325,Day 2B14,24 01 2024,31 01 2024,,1 02 2024,7 02 2024,No,On Active Follow up,Group A,Pingilikani
+785100301,Day 2B14,24 01 2024,31 01 2024,,1 02 2024,7 02 2024,No,On Active Follow up,Group A,Junju
+785100272,Day 2B14,24 01 2024,31 01 2024,,1 02 2024,7 02 2024,No,On Active Follow up,Group A,Pingilikani
 785100247,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Pingilikani
-785100348,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group B,Junju
-785100271,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Pingilikani
-785100270,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Pingilikani
-785100297,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Junju
+785100348,Day 2B14,24 01 2024,31 01 2024,,1 02 2024,7 02 2024,No,On Active Follow up,Group B,Junju
+785100271,Day 2B14,24 01 2024,31 01 2024,,1 02 2024,7 02 2024,No,On Active Follow up,Group A,Pingilikani
+785100270,Day 2B14,24 01 2024,31 01 2024,,1 02 2024,7 02 2024,No,On Active Follow up,Group A,Pingilikani
+785100297,Day 2B14,24 01 2024,31 01 2024,,1 02 2024,7 02 2024,No,On Active Follow up,Group A,Junju
 785100275,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Junju
 785100278,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Pingilikani
 785100279,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Pingilikani
 785100280,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Pingilikani
-785100282,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Pingilikani
-785100289,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Pingilikani
+785100282,Day 2B14,24 01 2024,31 01 2024,,1 02 2024,7 02 2024,No,On Active Follow up,Group A,Pingilikani
+785100289,Day 2B14,24 01 2024,31 01 2024,,1 02 2024,7 02 2024,No,On Active Follow up,Group A,Pingilikani
 785100291,Day 2B14,24 01 2024,31 01 2024,,,7 02 2024,No,On Active Follow up,Group A,Junju
 785100662,Day B365/2B0,24 01 2024,,,,28 02 2024,No,On Active Follow up,Group B,Chasimba
 785100678,Day B365/2B0,24 01 2024,,,,28 02 2024,No,On Active Follow up,Group B,Junju

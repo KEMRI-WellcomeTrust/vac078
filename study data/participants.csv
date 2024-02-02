@@ -354,12 +354,12 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100390,20-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,19 01 2024
 785100391,20-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,22 01 2024
 785100392,20-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,22 01 2024
-785100393,21-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100393,21-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,29 01 2024
 785100394,21-Oct-21,22-Oct-21,TRUE,22-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,17 01 2024
 785100395,22-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,24 01 2024
-785100396,22-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
+785100396,22-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,23 01 2024
 785100397,22-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,25 01 2024
-785100398,02-Nov-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100398,02-Nov-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,1 02 2024
 785100399,22-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,24 01 2024
 785100400,22-Oct-21,26-Oct-21,TRUE,26-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,25 01 2024
 785100401,22-Oct-21,27-Oct-21,TRUE,27-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,24 01 2024
@@ -400,71 +400,71 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100439,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,25 01 2024
 785100440,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,25 01 2024
 785100441,25-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,26 01 2024
-785100443,26-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100444,26-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100445,26-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
-785100446,26-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100447,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
+785100443,26-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,25 01 2024
+785100444,26-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,25 01 2024
+785100445,26-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,25 01 2024
+785100446,26-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,29 01 2024
+785100447,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,29 01 2024
 785100448,26-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,25 01 2024
-785100449,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
+785100449,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,29 01 2024
 785100450,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,26 01 2024
-785100451,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100453,26-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
+785100451,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,29 01 2024
+785100453,26-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,30 01 2024
 785100454,26-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,26 01 2024
-785100455,26-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100456,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
+785100455,26-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,29 01 2024
+785100456,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,29 01 2024
 785100457,26-Oct-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,26 01 2024
-785100458,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
+785100458,26-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,30 01 2024
 785100459,26-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,26 01 2024
-785100461,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100462,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100463,27-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100464,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
+785100461,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,29 01 2024
+785100462,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,1 02 2024
+785100463,27-Oct-21,28-Oct-21,TRUE,28-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,1 02 2024
+785100464,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,1 02 2024
 785100465,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100466,27-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100467,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100468,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100469,27-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
-785100470,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
+785100467,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,1 02 2024
+785100468,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,30 01 2024
+785100469,27-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,1 02 2024
+785100470,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,29 01 2024
 785100471,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100472,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100472,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,30 01 2024
 785100473,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100474,27-Oct-21,07-Nov-21,TRUE,07-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100475,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,Silent refusal mum moved out of study area unreachable via phone and no one knows where abouts,,,,,
-785100476,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100477,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
+785100475,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,Silent refusal mum moved out of study area unreachable via phone and no one knows where abouts,,,,Yes,29 01 2024
+785100476,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,29 01 2024
+785100477,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,29 01 2024
 785100478,27-Oct-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100479,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100481,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
-785100482,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
-785100483,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100479,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,30 01 2024
+785100481,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,30 01 2024
+785100482,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,30 01 2024
+785100483,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,30 01 2024
 785100484,27-Oct-21,06-Nov-21,TRUE,06-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100485,27-Oct-21,29-Oct-21,TRUE,29-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
-785100486,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
+785100486,27-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,30 01 2024
 785100489,27-Oct-21,08-Nov-21,TRUE,08-Nov-21,Group B,Loss to follow up,Junju,18-Dec-22,Day 348,Parents separated: Unresponsive to follow ups made by fieldworkers,9,,,,
-785100492,28-Oct-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100493,28-Oct-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100494,28-Oct-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100496,28-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
+785100492,28-Oct-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,1 02 2024
+785100493,28-Oct-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,1 02 2024
+785100494,28-Oct-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,1 02 2024
+785100496,28-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,30 01 2024
 785100497,28-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100498,28-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,Loss to follow up,Junju,31-Jan-22,Day 42,Mum moved away she is untraceable,,,,,
-785100499,28-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100499,28-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,30 01 2024
 785100500,28-Oct-21,04-Nov-21,TRUE,04-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100501,28-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100502,28-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
-785100503,28-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
+785100502,28-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,1 02 2024
+785100503,28-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,30 01 2024
 785100505,28-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100506,28-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100506,28-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,30 01 2024
 785100507,28-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,Consent withdrawal,Junju,31-Jan-22,Day 70,called once and confirmed date of withdrawal: Relocated to Kitale,1,,,,
-785100508,28-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100508,28-Oct-21,30-Oct-21,TRUE,30-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,30 01 2024
 785100509,28-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100510,28-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,Consent withdrawal,Junju,27-Jan-23,Day B0,Father to participant decided not to continue in the study and withdrew consent,,,,,
 785100511,28-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,Consent withdrawal,Junju,27-Jan-23,Day B0,Father to participant decided not to continue in the study and withdrew consent,,,,,
 785100512,28-Oct-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100513,28-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100514,28-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100515,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100516,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,,
+785100514,28-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,30 01 2024
+785100515,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,30 01 2024
+785100516,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,30 01 2024
 785100517,29-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100518,29-Oct-21,04-Nov-21,TRUE,04-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100520,29-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
@@ -472,17 +472,17 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100522,29-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100523,29-Oct-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100524,29-Oct-21,08-Nov-21,TRUE,08-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100525,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
+785100525,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,30 01 2024
 785100526,29-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100527,29-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100528,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,Loss to follow up,Pingilikani,23-Mar-23,Day B0,He relocated to Nairobi and will not be available within the study area.,8,,,,
-785100529,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100529,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,30 01 2024
 785100530,29-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100531,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,Loss to follow up,Junju,26-Mar-23,Day B0,,,,,,
-785100532,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100533,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100534,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100535,29-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
+785100532,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,30 01 2024
+785100533,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,30 01 2024
+785100534,29-Oct-21,31-Oct-21,TRUE,31-Oct-21,Group B,On Active Follow up,Junju,,,,,,,Yes,30 01 2024
+785100535,29-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,1 02 2024
 785100538,29-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,Consent withdrawal,Junju,03-Jan-22,Day 42,Refused to show up for third dose: Tired with KEMRI issues,,,,,
 785100539,29-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100540,30-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
@@ -496,7 +496,7 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100550,30-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,Consent withdrawal,Pingilikani,31-Jan-22,Day 70,called once and confirmed date of withdrawal: Relocated to Nairobi,1,,,,
 785100551,30-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100552,30-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100553,30-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100553,30-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,30 01 2024
 785100554,30-Oct-21,02-Nov-21,TRUE,02-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100555,31-Oct-21,01-Nov-21,TRUE,01-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100556,31-Oct-21,03-Nov-21,TRUE,03-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
@@ -540,16 +540,16 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100595,02-Nov-21,05-Nov-21,TRUE,05-Nov-21,Group B,Loss to follow up,Junju,08-Sep-23,Day B168,Participant unreachable by phone and physical visit.,8,,,,
 785100596,02-Nov-21,06-Nov-21,TRUE,06-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100598,02-Nov-21,05-Nov-21,TRUE,05-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100599,02-Nov-21,06-Nov-21,TRUE,06-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
-785100600,02-Nov-21,07-Nov-21,TRUE,07-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
+785100599,02-Nov-21,06-Nov-21,TRUE,06-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,30 01 2024
+785100600,02-Nov-21,07-Nov-21,TRUE,07-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,30 01 2024
 785100601,02-Nov-21,05-Nov-21,TRUE,05-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100603,02-Nov-21,08-Nov-21,TRUE,08-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
-785100604,03-Nov-21,06-Nov-21,TRUE,06-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
+785100604,03-Nov-21,06-Nov-21,TRUE,06-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,30 01 2024
 785100606,03-Nov-21,09-Nov-21,TRUE,09-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100607,03-Nov-21,09-Nov-21,TRUE,09-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100608,03-Nov-21,05-Nov-21,TRUE,05-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
 785100609,03-Nov-21,09-Nov-21,TRUE,09-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100610,03-Nov-21,06-Nov-21,TRUE,06-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100610,03-Nov-21,06-Nov-21,TRUE,06-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,30 01 2024
 785100611,03-Nov-21,09-Nov-21,TRUE,09-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100612,03-Nov-21,07-Nov-21,TRUE,07-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100613,03-Nov-21,06-Nov-21,TRUE,06-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,,

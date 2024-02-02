@@ -1315,8 +1315,8 @@ ui <- fluidPage(
                                                                        DTOutput('incomprec')))),
                                                    tabPanel("E-Sign off",
                                                             tabsetPanel(
-                                                              tabPanel("eSource pending", textOutput('signtxt1'),br(),DTOutput('esourcesign')),
-                                                              tabPanel("ECRF pending", textOutput('signtxt2'),br(), DTOutput('ecrfsign')))),
+                                                              tabPanel("eSource pending", textOutput('signtxt1'),br(),downloadButton("downloadsinof", "download"),br(),DTOutput('esourcesign')),
+                                                              tabPanel("ECRF pending", textOutput('signtxt2'),br(),downloadButton("downloadsinofe", "download"),br(), DTOutput('ecrfsign')))),
                                                    tabPanel("Visit deviations",
                                                             tabsetPanel(
                                                               tabPanel("Summary of deviations",
@@ -1556,12 +1556,28 @@ server <- function(input, output){
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$downloadsinof <- downloadHandler(
+    filename = function() {
+      "Pending Sign offs.csv"
+    },
+    content = function(file) {
+      write.csv(esarce, file, row.names = TRUE)
+    }
+  )
   output$ecrfsign<-renderDT(
     ecfe|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$downloadsinofe <- downloadHandler(
+    filename = function() {
+      "Pending Sign offs ecrf.csv"
+    },
+    content = function(file) {
+      write.csv(ecfe, file, row.names = TRUE)
+    }
+  )
   output$devflex<-renderUI(
     yf|>autofit()|>htmltools_value())
   output$querypend<-renderDT(
