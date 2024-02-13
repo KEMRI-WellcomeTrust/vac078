@@ -1330,14 +1330,14 @@ ui <- fluidPage(
                                                                                   DTOutput('plasres')),
                                                                          tabPanel("Haematology", DTOutput('haemres')),
                                                                          tabPanel("Biochemistry",DTOutput('biores'))
-                                                                       )),
+                                                                       )), 
                                                               tabPanel("Results pending entry on eSource",
                                                                        tabsetPanel(
                                                                          tabPanel("Plasmodium",downloadButton("downloadplasres", "download"),
                                                                                   DTOutput('plasnores')),
-                                                                         tabPanel("Haematology",
+                                                                         tabPanel("Haematology",downloadButton("downloadhaemres", "download"),
                                                                                   DTOutput('haemnores')),
-                                                                         tabPanel("Biochemistry",
+                                                                         tabPanel("Biochemistry",downloadButton("downloadbiores", "download"),
                                                                                   DTOutput('bionores'))
                                                                        )),
                                                               tabPanel("Out of range results", downloadButton("downloadDataoor", "download"),
@@ -1626,12 +1626,28 @@ server <- function(input, output){
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$downloadhaemres <- downloadHandler(
+    filename = function() {
+      "Pending Haematology.csv"
+    },
+    content = function(file) {
+      write.csv(notenteredhemo|>select(1:4), file, row.names = TRUE)
+    }
+  )
   output$bionores<-renderDT(
     notenteredbioo|>select(1,2,5,6)|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$downloadbiores <- downloadHandler(
+    filename = function() {
+      "Pending Biochemistry.csv"
+    },
+    content = function(file) {
+      write.csv(notenteredbioo|>select(1,2,5,6), file, row.names = TRUE)
+    }
+  )
   output$entered_vbaya<-renderDT(
     entered_vbaya|>convert_to_factors()|>arrange(Subject,sampledate),
     filter = list(position="top",clear=TRUE),
