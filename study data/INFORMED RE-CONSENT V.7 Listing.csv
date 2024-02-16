@@ -51,7 +51,7 @@ Site ID,Subject,VISIT,Did the parent/legal guardian of the participant has been 
 51,785100208,Logs,Yes,15-Dec-2023,11:20,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,15-Dec-2023 08:35,09-Jan-2024 06:58
 51,785100201,Logs,Yes,15-Dec-2023,11:45,Yes,Yes,Yes,Yes,Yes,15-Dec-2023,11:47,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,15-Dec-2023 09:10,09-Jan-2024 06:55
 51,785100140,Logs,Yes,15-Dec-2023,12:09,Yes,Yes,Yes,Yes,Yes,15-Dec-2023,12:11,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,15-Dec-2023 09:17,08-Jan-2024 17:47
-51,785100181,Logs,Yes,15-Dec-2023,12:46,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,15-Dec-2023 10:30,09-Jan-2024 06:28
+51,785100181,Logs,Yes,15-Dec-2023,12:46,Yes,Yes,Yes,Yes,Yes,15-Dec-2023,12:48,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,15-Dec-2023 10:30,15-Feb-2024 10:31
 51,785100200,Logs,Yes,15-Dec-2023,13:20,Yes,Yes,Yes,Yes,Yes,15-Dec-2023,13:22,Kiswahili,,Addendum v1.1 dated 7 July  2023,Version 7.0,15-Dec-2023 10:42,09-Jan-2024 06:53
 51,785100215,Logs,Yes,18-Dec-2023,09:30,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,18-Dec-2023 09:00,09-Jan-2024 08:09
 51,785100199,Logs,Yes,18-Dec-2023,09:50,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,18-Dec-2023 09:02,09-Jan-2024 06:50
@@ -219,6 +219,11 @@ Site ID,Subject,VISIT,Did the parent/legal guardian of the participant has been 
 51,785100207,Logs,Yes,19-Dec-2023,09:34,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,19-Dec-2023 08:24,09-Jan-2024 06:58
 51,785100248,Logs,Yes,19-Dec-2023,11:22,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,19-Dec-2023 09:49,09-Jan-2024 07:30
 51,785100015,Logs,Yes,19-Dec-2023,12:28,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,19-Dec-2023 10:16,08-Jan-2024 13:43
+51,785100561,Logs,Yes,14-Feb-2024,10:18,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,14-Feb-2024 09:57,
+51,785100558,Logs,Yes,14-Feb-2024,10:55,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,14-Feb-2024 10:04,
+51,785100559,Logs,Yes,14-Feb-2024,10:48,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,14-Feb-2024 10:06,
+51,785100497,Logs,Yes,14-Feb-2024,11:25,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,14-Feb-2024 10:07,
+51,785100478,Logs,Yes,14-Feb-2024,11:55,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,14-Feb-2024 10:10,
 51,785100523,Logs,Yes,05-Feb-2024,11:15,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum version1.1 dated 07 July 2023,Version 7.0,05-Feb-2024 10:33,05-Feb-2024 10:35
 51,785100555,Logs,Yes,05-Feb-2024,11:48,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum version 1.1 dated 07 July 2023,Version 7.0,05-Feb-2024 10:45,
 51,785100518,Logs,Yes,05-Feb-2024,12:47,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum version 1.1 dated 07 July 2023,Version 7.0,05-Feb-2024 11:20,
@@ -244,6 +249,13 @@ Site ID,Subject,VISIT,Did the parent/legal guardian of the participant has been 
 51,785100632,Logs,Yes,08-Feb-2024,14:12,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,08-Feb-2024 11:21,08-Feb-2024 11:33
 51,785100574,Logs,Yes,09-Feb-2024,09:47,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,09-Feb-2024 08:57,
 51,785100601,Logs,Yes,07-Feb-2024,11:20,Yes,Yes,Yes,Yes,Yes,07-Feb-2024,11:22,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,07-Feb-2024 09:38,
+51,785100571,Logs,Yes,12-Feb-2024,09:45,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,12-Feb-2024 08:20,
+51,785100540,Logs,Yes,12-Feb-2024,10:23,Yes,Yes,Yes,Yes,Yes,12-Feb-2024,10:25,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,12-Feb-2024 09:11,
+51,785100524,Logs,Yes,12-Feb-2024,10:55,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07Jul 2023,Version 7.0,12-Feb-2024 09:17,
+51,785100539,Logs,Yes,13-Feb-2024,09:10,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,13-Feb-2024 13:56,
+51,785100560,Logs,Yes,13-Feb-2024,09:50,Yes,Yes,Yes,Yes,Yes,13-Feb-2024,09:52,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,13-Feb-2024 13:59,
+51,785100556,Logs,Yes,14-Feb-2024,09:45,Yes,Yes,Yes,Yes,Yes,14-Feb-2024,09:47,Kiswahili,,Addendum 1.1 dated 7 July 2023,Version 7.0,14-Feb-2024 07:44,14-Feb-2024 07:45
+51,785100587,Logs,Yes,14-Feb-2024,10:45,Yes,Yes,Yes,Yes,Yes,14-Feb-2024,10:47,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,14-Feb-2024 08:12,
 51,785100589,Logs,Yes,07-Feb-2024,13:35,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,07-Feb-2024 10:47,
 51,785100578,Logs,Yes,07-Feb-2024,13:10,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,07-Feb-2024 10:47,
 51,785100484,Logs,Yes,06-Feb-2024,09:58,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,1Addendum v1.1 dated 7 July 2023,Version 7.0,08-Feb-2024 07:23,
@@ -251,6 +263,29 @@ Site ID,Subject,VISIT,Did the parent/legal guardian of the participant has been 
 51,785100629,Logs,Yes,08-Feb-2024,10:19,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,08-Feb-2024 08:32,
 51,785100627,Logs,Yes,08-Feb-2024,10:03,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,08-Feb-2024 08:36,
 51,785100471,Logs,Yes,02-Feb-2024,12:30,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,08-Feb-2024 08:51,
+51,785100543,Logs,Yes,12-Feb-2024,09:36,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,12-Feb-2024 08:29,
+51,785100544,Logs,Yes,12-Feb-2024,09:49,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 07 Jul 2023,Version 7.0,12-Feb-2024 08:32,
+51,785100527,Logs,Yes,12-Feb-2024,12:20,Yes,Yes,Yes,Yes,Yes,12-Feb-2024,12:21,Kiswahili,,addendum 1.1 dated 07Jul 2023,Version 7.0,12-Feb-2024 09:30,
+51,785100583,Logs,Yes,12-Feb-2024,13:50,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07Jul 2023,Version 7.0,12-Feb-2024 11:00,
+51,785100426,Logs,Yes,13-Feb-2024,11:20,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,13-Feb-2024 14:01,
+51,785100547,Logs,Yes,14-Feb-2024,10:18,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum ,Version 7.0,14-Feb-2024 07:58,
+51,785100588,Logs,Yes,14-Feb-2024,11:20,No,Yes,Yes,Yes,Yes,14-Feb-2024,11:22,Kiswahili,,Addendum 1.1 dated 7 Jul. 2023.,Version 7.0,14-Feb-2024 08:28,
+51,785100549,Logs,Yes,14-Feb-2024,11:30,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,14-Feb-2024 08:36,
+51,785100628,Logs,Yes,14-Feb-2024,11:47,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,14-Feb-2024 08:50,
+51,785100466,Logs,Yes,14-Feb-2024,11:47,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum version 1.1 dated 07 July 2023,Version 7.0,14-Feb-2024 09:07,
+51,785100566,Logs,Yes,14-Feb-2024,12:13,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,14-Feb-2024 09:19,
+51,785100630,Logs,Yes,14-Feb-2024,12:14,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,14-Feb-2024 09:35,
+51,785100631,Logs,Yes,14-Feb-2024,12:20,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,14-Feb-2024 09:37,
+51,785100474,Logs,Yes,14-Feb-2024,12:20,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum version 1.1 dated 07 July 2023,Version 7.0,14-Feb-2024 09:41,
+51,785100626,Logs,Yes,14-Feb-2024,12:40,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,14-Feb-2024 09:47,
+51,785100548,Logs,Yes,14-Feb-2024,09:26,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,14-Feb-2024 09:53,
+51,785100636,Logs,Yes,14-Feb-2024,09:40,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum version 1.1 dated 07 July 2023,Version 7.0,14-Feb-2024 09:53,14-Feb-2024 09:57
+51,785100428,Logs,Yes,13-Feb-2024,11:40,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,13-Feb-2024 14:03,
+51,785100622,Logs,Yes,14-Feb-2024,12:37,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum version 1.1 dated 07 July 2023,Version 7.0,14-Feb-2024 10:04,
+51,785100552,Logs,Yes,14-Feb-2024,12:25,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,14-Feb-2024 10:15,
+51,785100541,Logs,Yes,14-Feb-2024,10:33,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum version 1.1 dated 07 July 2023,Version 7.0,14-Feb-2024 10:33,
+51,785100554,Logs,Yes,14-Feb-2024,12:45,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,14-Feb-2024 10:37,
+51,785100551,Logs,Yes,14-Feb-2024,09:50,Yes,Yes,Yes,Yes,Yes,14-Feb-2024,09:51,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,14-Feb-2024 09:56,
 51,785100160,Logs,Yes,03-Jan-2024,09:50,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,03-Jan-2024 07:36,25-Jan-2024 06:51
 51,785100219,Logs,Yes,03-Jan-2024,10:14,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,03-Jan-2024 07:44,09-Jan-2024 07:04
 51,785100256,Logs,Yes,03-Jan-2024,10:40,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,03-Jan-2024 08:09,09-Jan-2024 07:37
@@ -346,6 +381,19 @@ Site ID,Subject,VISIT,Did the parent/legal guardian of the participant has been 
 51,785100450,Logs,Yes,26-Jan-2024,10:40,Yes,Yes,Yes,Yes,Yes,26-Jan-2024,10:42,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,26-Jan-2024 08:58,26-Jan-2024 09:00
 51,785100444,Logs,Yes,25-Jan-2024,12:52,Yes,Yes,Yes,Yes,Yes,25-Jan-2024,12:54,Kiswahili,,Addendum 1.1 dated 07Jul2023,Version 7.0,26-Jan-2024 10:30,
 51,785100445,Logs,Yes,25-Jan-2024,13:30,Yes,Yes,Yes,Yes,Yes,25-Jan-2024,13:32,Kiswahili,,Addendum 1.1 dated 07Jul 2023,Version 7.0,26-Jan-2024 11:34,
+51,785100678,Logs,Yes,15-Feb-2024,09:40,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum version 1.1 dated 07 July 2023,Version 7.0,15-Feb-2024 07:34,
+51,785100649,Logs,Yes,15-Feb-2024,09:25,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07Jul 2023,Version 7.0,15-Feb-2024 07:34,
+51,785100652,Logs,Yes,15-Feb-2024,09:48,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,15-Feb-2024 07:45,
+51,785100617,Logs,Yes,15-Feb-2024,09:56,Yes,Yes,Yes,Yes,Yes,15-Feb-2024,09:58,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,15-Feb-2024 07:59,
+51,785100635,Logs,Yes,15-Feb-2024,10:21,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,15-Feb-2024 08:13,15-Feb-2024 08:15
+51,785100645,Logs,Yes,15-Feb-2024,10:57,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul2023,Version 7.0,15-Feb-2024 08:14,
+51,785100662,Logs,Yes,15-Feb-2024,10:45,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,15-Feb-2024 08:29,
+51,785100656,Logs,Yes,15-Feb-2024,11:26,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,15-Feb-2024 08:31,
+51,785100673,Logs,Yes,15-Feb-2024,11:10,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,15-Feb-2024 08:40,
+51,785100545,Logs,Yes,15-Feb-2024,11:34,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023,Version 7.0,15-Feb-2024 08:49,
+51,785100644,Logs,Yes,15-Feb-2024,12:16,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,15-Feb-2024 09:25,
+51,785100641,Logs,Yes,15-Feb-2024,12:39,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07Jul 2023,Version 7.0,15-Feb-2024 10:01,
+51,785100666,Logs,Yes,15-Feb-2024,13:08,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,15-Feb-2024 10:29,
 51,785100434,Logs,Yes,25-Jan-2024,10:51,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,25-Jan-2024 08:46,
 51,785100435,Logs,Yes,25-Jan-2024,12:40,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1dated 7 July 2023.,Version 7.0,25-Jan-2024 10:32,25-Jan-2024 11:02
 51,785100397,Logs,Yes,25-Jan-2024,15:08,Yes,Yes,Yes,Yes,Yes,25-Jan-2024,15:09,Kiswahili,,Addendum version 1.1 dated 07 July 2023,Version 7.0,25-Jan-2024 12:34,
@@ -446,6 +494,9 @@ Site ID,Subject,VISIT,Did the parent/legal guardian of the participant has been 
 51,785100300,Logs,Yes,09-Jan-2024,11:40,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 07 Jul 2023,Version 7.0,09-Jan-2024 08:51,
 51,785100278,Logs,Yes,09-Jan-2024,13:17,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 07 Jul 2023,Version 7.0,09-Jan-2024 10:30,
 51,785100310,Logs,Yes,10-Jan-2024,09:40,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023,Version 7.0,10-Jan-2024 07:56,
+51,785100562,Logs,Yes,15-Feb-2024,09:32,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1dated 7 July 2023.,Version 7.0,15-Feb-2024 07:46,
+51,785100637,Logs,Yes,15-Feb-2024,12:25,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,15-Feb-2024 09:28,
+51,785100663,Logs,Yes,15-Feb-2024,12:52,Yes,Yes,Yes,Yes,Yes,15-Feb-2024,12:54,Kiswahili,,Addendum 1.1 dated 7 July 2023.,Version 7.0,15-Feb-2024 10:14,
 51,785100203,Logs,Yes,04-Jan-2024,11:32,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023,Version 7.0,04-Jan-2024 09:37,09-Jan-2024 06:55
 51,785100135,Logs,No,05-Jan-2024,09:59,No,No,No,No,Not required (in case of literate parent),,,Kiswahili,,Addendum  v1.1 dated 7 Jul 2023,Version 7.0,05-Jan-2024 07:07,08-Jan-2024 17:36
 51,785100303,Logs,Yes,05-Jan-2024,09:30,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023.,Version 7.0,05-Jan-2024 08:14,09-Jan-2024 07:50
@@ -453,6 +504,7 @@ Site ID,Subject,VISIT,Did the parent/legal guardian of the participant has been 
 51,785100299,Logs,Yes,08-Jan-2024,09:49,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 07Jul 2023,Version 7.0,08-Jan-2024 08:40,09-Jan-2024 07:49
 51,785100287,Logs,Yes,08-Jan-2024,10:24,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 07Jul 2023,Version 7.0,08-Jan-2024 09:24,09-Jan-2024 07:46
 51,785100168,Logs,No,10-Jan-2024,11:46,No,No,No,No,No,,,Kiswahili,,Addendum 1.1 dated 07 Jul 2023,Version 7.0,10-Jan-2024 08:50,
+51,785100668,Logs,Yes,15-Feb-2024,11:52,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07Jul 2023,Version 7.0,15-Feb-2024 09:03,
 51,785100276,Logs,Yes,05-Jan-2024,10:50,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 Jul 2023,Version 7.0,05-Jan-2024 08:03,09-Jan-2024 07:44
 51,785100169,Logs,Yes,05-Jan-2024,10:18,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023.,Version 7.0,05-Jan-2024 08:41,09-Jan-2024 06:17
 51,785100273,Logs,Yes,05-Jan-2024,11:40,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 Jul 2023,Version 7.0,05-Jan-2024 08:57,09-Jan-2024 07:44
@@ -462,10 +514,15 @@ Site ID,Subject,VISIT,Did the parent/legal guardian of the participant has been 
 51,785100259,Logs,Yes,09-Jan-2024,10:08,Yes,Yes,Yes,Yes,Yes,09-Jan-2024,10:13,Kiswahili,,Addendum 1.1 dated 07 Jul 2023,Version 7.0,09-Jan-2024 08:28,
 51,785100251,Logs,No,10-Jan-2024,10:35,No,No,No,No,No,,,Kiswahili,,Addendum 1.1 dated 07 Jul 2023,Version 7.0,10-Jan-2024 07:44,
 51,785100193,Logs,Yes,10-Jan-2024,10:55,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July  2023,Version 7.0,10-Jan-2024 08:53,
+51,785100655,Logs,Yes,15-Feb-2024,11:20,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,15-Feb-2024 08:24,
 51,785100288,Logs,Yes,05-Jan-2024,11:22,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7Jul 2023,Version 7.0,05-Jan-2024 08:43,09-Jan-2024 07:47
 51,785100265,Logs,No,10-Jan-2024,12:20,No,No,No,No,No,,,Kiswahili,,Addendum 1.1 dated 07 Jul 2023,Version 7.0,10-Jan-2024 09:27,
+51,785100665,Logs,Yes,15-Feb-2024,13:22,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,15-Feb-2024 10:31,
 51,785100291,Logs,Yes,05-Jan-2024,10:43,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum v1.1 dated 7 July 2023.,Version 7.0,05-Jan-2024 08:53,09-Jan-2024 07:47
 51,785100266,Logs,Yes,09-Jan-2024,09:32,Yes,Yes,Yes,Yes,Yes,09-Jan-2024,09:35,Kiswahili,,Addendum v1.1 dated 07 Jul 2023,Version 7.0,09-Jan-2024 07:47,09-Jan-2024 08:09
 51,785100269,Logs,Yes,09-Jan-2024,10:20,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 7 July 2023,Version 7.0,09-Jan-2024 08:12,
 51,785100274,Logs,Yes,09-Jan-2024,10:24,Yes,Yes,Yes,Yes,Yes,09-Jan-2024,10:25,Kiswahili,,Addendum 1.1 dated 07 Jul 2023,Version 7.0,09-Jan-2024 08:36,
 51,785100151,Logs,No,09-Jan-2024,12:41,No,No,No,No,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 dated 07 Jul 2023,Version 7.0,09-Jan-2024 09:46,23-Jan-2024 06:41
+51,785100657,Logs,Yes,15-Feb-2024,10:29,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,addendum 1.1 dated 07 Jul 2023,Version 7.0,15-Feb-2024 08:10,
+51,785100676,Logs,Yes,15-Feb-2024,11:58,Yes,Yes,Yes,Yes,Not required (in case of literate parent),,,Kiswahili,,Addendum 1.1 July 2023.,Version 7.0,15-Feb-2024 09:03,
+51,785100658,Logs,Yes,15-Feb-2024,13:12,Yes,Yes,Yes,Yes,Yes,15-Feb-2024,13:14,Kiswahili,,Addendum version 1.1 dated 07 July 2023,Version 7.0,15-Feb-2024 10:20,
