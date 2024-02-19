@@ -1533,7 +1533,7 @@ server <- function(input, output){
     trends
   })
   output$openq<-renderDT(
-    trends1|>mutate_at(vars(`Field Name`, `Query Text`), ~gsub("[[:punct:]]", " ", .))|>convert_to_factors(),
+    trends1|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,

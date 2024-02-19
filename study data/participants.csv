@@ -568,7 +568,7 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100630,05-Nov-21,09-Nov-21,TRUE,09-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,14 02 2024
 785100631,05-Nov-21,08-Nov-21,TRUE,08-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,14 02 2024
 785100632,05-Nov-21,09-Nov-21,TRUE,09-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,8 02 2024
-785100633,05-Nov-21,08-Nov-21,TRUE,08-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
+785100633,05-Nov-21,08-Nov-21,TRUE,08-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,12 02 2024
 785100635,05-Nov-21,09-Nov-21,TRUE,09-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,15 02 2024
 785100636,05-Nov-21,07-Nov-21,TRUE,07-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,14 02 2024
 785100637,05-Nov-21,11-Nov-21,TRUE,11-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,15 02 2024
@@ -579,7 +579,7 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100645,06-Nov-21,08-Nov-21,TRUE,08-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,15 02 2024
 785100646,06-Nov-21,08-Nov-21,TRUE,08-Nov-21,Group B,Loss to follow up,Junju,19-Dec-22,Day 348,Mother to participant travelled to an undiclosed location,7,,,,
 785100647,06-Nov-21,08-Nov-21,TRUE,08-Nov-21,Group B,Consent withdrawal,Junju,07-Dec-21,Day 14,"After receiving first dose; Mum separated with her husband left with the participant out of study area, no communication and the husband not willing to cooperate on findin the participant.",,,,,
-785100648,06-Nov-21,09-Nov-21,TRUE,09-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
+785100648,06-Nov-21,09-Nov-21,TRUE,09-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,15 02 2024
 785100649,06-Nov-21,08-Nov-21,TRUE,08-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,15 02 2024
 785100650,06-Nov-21,08-Nov-21,TRUE,08-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
 785100651,06-Nov-21,08-Nov-21,TRUE,08-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
@@ -595,9 +595,9 @@ screenId,consentDate,enrollmentDate,randomized,dateVac1Received,group,currentSta
 785100666,08-Nov-21,10-Nov-21,TRUE,10-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,15 02 2024
 785100667,08-Nov-21,10-Nov-21,TRUE,10-Nov-21,Group B,On Active Follow up,Junju,,,,,,,,
 785100668,08-Nov-21,09-Nov-21,TRUE,09-Nov-21,Group B,On Active Follow up,Junju,,,,,,,Yes,15 02 2024
-785100669,08-Nov-21,10-Nov-21,TRUE,10-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,,
-785100670,09-Nov-21,10-Nov-21,TRUE,10-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
-785100672,09-Nov-21,11-Nov-21,TRUE,11-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,,
+785100669,08-Nov-21,10-Nov-21,TRUE,10-Nov-21,Group B,On Active Follow up,Pingilikani,,,,,,,Yes,15 02 2024
+785100670,09-Nov-21,10-Nov-21,TRUE,10-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,15 02 2024
+785100672,09-Nov-21,11-Nov-21,TRUE,11-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,15 02 2024
 785100673,09-Nov-21,11-Nov-21,TRUE,11-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,15 02 2024
 785100674,09-Nov-21,11-Nov-21,TRUE,11-Nov-21,Group B,Loss to follow up,Junju,01-Nov-23,Day B224,Unreachable at home and via phone call,9,,,,
 785100676,09-Nov-21,11-Nov-21,TRUE,11-Nov-21,Group B,On Active Follow up,Chasimba,,,,,,,Yes,15 02 2024
