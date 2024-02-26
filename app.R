@@ -414,8 +414,8 @@ in_completed1<- suppressWarnings(fread(here("study data/Visit Completed v_s SDV_
 #                                        colClasses = c("text","numeric","text","date","text","text","text","date","text","text","text","text","text","text","text","text","text","text","text","text","text","text")))|>fill_blanks()|>
   # mutate(VISDAT=as.Date(VISDAT,"%d %m %Y"),
   #        `Entered Date-Time`=as.Date(`Entered Date-Time`, "%d %m %Y %H:%M"))
-  mutate(VISDAT=as.Date(VISDAT,"%d-%b-%Y"),
-         `Entered Date-Time`=as.Date(`Entered Date-Time`,"%d-%b-%y" ))#"%d %m %Y %H:%M"
+  mutate(VISDAT=as.Date(VISDAT,"%Y %m %d"),
+         `Entered Date-Time`=as.Date(`Entered Date-Time`,"%Y %m %d" ))#"%d %m %Y %H:%M"
 in_completed<-in_completed1|>
   dplyr::rename(status="EntryStatus")|>
   filter(status == "Incomplete")|>
@@ -797,10 +797,11 @@ solicited|>
   select(2,3,5,7,10,11)|>mutate(VISIT = "Systemic Solicited")|> rename(`Adverse Event term` = `Systemic solicited adverse event term`))
 
 unsolicited2<-left_join(unsolicited_2|>
-                          mutate(datedif=today()-as.Date(`Date of onset`,"%d-%b-%Y"),`First Data Time`=as.Date(`First Data Time`,format="%d-%b-%Y %H:%M")),left_join(dateofvisit|>
-                                                                                                                                                                       dplyr::rename(VISDAT=`Visit date`),
-                                                                                                                                                                     in_completed1|>
-                                                                                                                                                                       dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>mutate(VISDAT=as.Date(VISDAT, "%Y-%m-%d"))|>filter(!VISIT%in%c("Day 14","Day 42","Day 70","Day 140","Day 196","Day 292","Day 348","Day 404","B 14","B 84","B 140","B 224","B 280","B 336")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
+                          mutate(datedif=today()-as.Date(`Date of onset`,"%d-%b-%Y"),`First Data Time`=as.Date(`First Data Time`,format="%d-%b-%Y %H:%M")),
+                        left_join(dateofvisit|>
+                                    dplyr::rename(VISDAT=`Visit date`),
+                                  in_completed1|>
+                                    dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>mutate(VISDAT=as.Date(VISDAT, "%Y-%m-%d"))|>filter(!VISIT%in%c("Day 14","Day 42","Day 70","Day 140","Day 196","Day 292","Day 348","Day 404","B 14","B 84","B 140","B 224","B 280","B 336")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
                           filter(EntryStatus!="Not Started")|>
                           select(2:3,18,23:26)|>
                           mutate(`First Data Time`=as.Date(`First Data Time`,format="%d-%m-%Y %H:%M")),by=c("Subject","First Data Time"),relationship = "many-to-many")|>
