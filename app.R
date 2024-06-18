@@ -1,4 +1,4 @@
-pacman::p_load(tidyverse,shinyauthr,stringi,stringr,tinytex, Hmisc,ggiraph,finalfit, openxlsx,webshot, janitor, dplyr, table1, knitr, xlsx, here, psych, boot, ggconsort,readxl, lubridate, ggplot2,flextable, kableExtra, formattable, scales, data.table,writexl, scales,shinyWidgets, shiny,DT,shinythemes,install = T, update = getOption("pac_update"))
+pacman::p_load(tidyverse,shinyauthr,stringi,stringr,tinytex, Hmisc,ggiraph,finalfit, openxlsx,webshot, Hmisc, janitor, dplyr, table1, knitr, xlsx, here, psych, boot, ggconsort,readxl, lubridate, ggplot2,flextable, kableExtra, formattable, scales, data.table,writexl, scales,shinyWidgets, shiny,DT,shinythemes,install = T, update = getOption("pac_update"))
 
 ## work your data
 ###++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++####
@@ -35,7 +35,8 @@ screenID <- left_join(left_join(
   left_join(
     # Screening dataset
     screenIoD<-screenD<-suppressWarnings(fread(here("study data/Eligibility Assessment Listing.csv")))|>fill_blanks()|>
-      setNames(c("Site ID","Subject","VISIT","Date eligibility assessed","Does subject meet all inclusion criteria?","age_eligible","sign_consent","comply_protocol","residence_remain","Does subject meet any exclusion criteria?","prev_mal_vac","other_mal_study","allergy","anaphylaxis","congenital_def","anemia","blood_trans","immunoglobulin","malnourished","chronic_illnes","hiv_3_4","vac_1mo","other_trial","disorder","other","Describe","Does the Subject meet all eligibility criteria?","First Data Time","Last Data Time")),
+      setNames(c("Site ID","Subject","VISIT","Date eligibility assessed","Does subject meet all inclusion criteria?","age_eligible","sign_consent","comply_protocol","residence_remain","Does subject meet any exclusion criteria?","prev_mal_vac","other_mal_study","allergy","anaphylaxis","congenital_def","anemia","blood_trans","immunoglobulin","malnourished","chronic_illnes","hiv_3_4","vac_1mo","other_trial","disorder","other","Describe","Does the Subject meet all eligibility criteria?","First Data Time","Last Data Time"))|>
+      filter(Subject%nin%c("785100205", "785100333", "785100334")),
     ##filter_per_vac
     # Vaccinations dataset
     newfupdata<-vacdata|>
@@ -49,7 +50,7 @@ screenID <- left_join(left_join(
     dplyr::rename(Subject = "screenId"), by="Subject",relationship = "many-to-many"),
   # Get randomization number
   rnddata<- suppressWarnings(fread(here("study data/Visit Completed v_s SDV.csv")))|>fill_blanks()|>
-    filter(VISITNAME=="Screening")|>
+    filter(VISITNAME=="Screening", `Subject Id`%nin%c("785100205", "785100333", "785100334"))|>
     distinct(`Subject Id`, .keep_all = TRUE)|>
     select(2,3)|>
     setnames(c("Subject","Rand"))|>
@@ -279,7 +280,7 @@ requiredEos<-bind_rows(
 
 sumaryreq<-requiredEos|>
   group_by(currentStatus,time)|>
-  summarise(freq=n(), .groups = 'drop')|>
+  dplyr::summarize(freq=n(), .groups = 'drop')|>
   pivot_wider(names_from = time,values_from = freq)|>
   arrange(`Before Enr`,desc(`After Enr`))|>
   adorn_totals(c('row','col'))|>
@@ -402,7 +403,7 @@ queries_now<-queries_nowe|>
                 status="Query Status")
 queries<-queries_now|>
   group_by(status, type)|>
-  summarise(count=n(), .groups = 'drop')|>
+  dplyr::summarize(count=n(), .groups = 'drop')|>
   pivot_wider(names_from=type, values_from=count)|>
   arrange(factor(status, levels = c('Resolved', 'Data Deleted', 'CDM Override', 'Answered', 'Open Query')))|>
   adorn_totals(c("row","col"))
@@ -415,7 +416,9 @@ in_completed1<- suppressWarnings(fread(here("study data/Visit Completed v_s SDV_
   # mutate(VISDAT=as.Date(VISDAT,"%d %m %Y"),
   #        `Entered Date-Time`=as.Date(`Entered Date-Time`, "%d %m %Y %H:%M"))
   mutate(VISDAT=as.Date(VISDAT,"%Y %m %d"),
-         `Entered Date-Time`=as.Date(`Entered Date-Time`,"%Y %m %d" ))#"%d %m %Y %H:%M"
+         `Entered Date-Time`=as.Date(`Entered Date-Time`,"%Y %m %d" ))
+# mutate(VISDAT=as.Date(VISDAT,"%d-%b-%y"),
+#        `Entered Date-Time`=as.Date(`Entered Date-Time`,"%d-%b-%y" ))
 in_completed<-in_completed1|>
   dplyr::rename(status="EntryStatus")|>
   filter(status == "Incomplete")|>
@@ -426,13 +429,16 @@ trends1<-left_join(queries_now|>
                      dplyr::rename("Subject ID"=Subject, Visit=VISIT)|>
                      select(2,3,7),by=c("Subject ID","Visit"),relationship = "many-to-many")|>
   select(4,5,21,6,7,14,8)|>
-  mutate(`Visit date`=as.Date(`Visit date`, format="%Y-%m-%d"))|>left_join(dertas<-in_completed1|>select(2,6,7,10)|>
+  mutate(`Visit date`=as.Date(`Visit date`, format="%Y-%m-%d"),
+         `Field Name` = gsub("[μ<>°?]", "",`Field Name`),
+         `Query Text` = gsub("[μ<>°?]", "",`Query Text`))|>left_join(dertas<-in_completed1|>select(2,6,7,10)|>
                                                                              dplyr::rename(`Subject ID`=`Subject Id`, Visit=VISITNAME, Module=FORMNAME),by=c("Subject ID","Visit","Module"),relationship = "many-to-one")|>
- distinct(`Subject ID`, Visit,`Visit date`, Module,`Field Name`,`Query Text`,`Entered By`, `Query ID`, .keep_all = TRUE)|>select(-`Query ID`)
+ distinct(`Subject ID`, Visit,`Visit date`, Module,`Field Name`,`Query Text`,`Entered By`, `Query ID`, .keep_all = TRUE)|>select(-`Query ID`)|>
+  mutate(`Entered By` = case_when(is.na(`Entered By`) ~ "Pending Entry", TRUE ~ `Entered By`))
 
 trends<-trends1|>
   group_by(Module)|>
-  summarise(count=n())|>
+  dplyr::summarize(count=n())|>
   arrange(desc(count))
 
 ###+++++++++++++++++++++++++++++++++++++++++++++++++++++++++####
@@ -440,8 +446,7 @@ trends<-trends1|>
 ###+ 1. esource
 esarce<-in_completed1|>
   select(2,5:8,11,14)|>
-  filter(`EntryStatus`!="Not Started",`eSource - Investigator Sign Off Status`=="Pending")|>
-  mutate(VISDAT=as.Date(VISDAT, format="%d-%b-%Y"))
+  filter(`EntryStatus`!="Not Started",`eSource - Investigator Sign Off Status`=="Pending")
 
 ###+ 2. ECRF
 ecfe<-esarce|>
@@ -456,7 +461,7 @@ visit_out_win <- scheduler |>
   filter(exactDate-windowClose>0)
 summary_vis_out<- visit_out_win|>
   group_by(visitCode)|>
-  summarise(local=n())|>
+  dplyr::summarize(local=n())|>
   adorn_totals()
 
 data_natakaga<- queries_nowe |>
@@ -485,6 +490,9 @@ data_nataka <- data_natakaga|>
       visitCode == "B 280" ~ "Day B280",
       visitCode == "B 336" ~ "Day B336",
       visitCode == "B1Y 0" ~ "Day B365/2B0",
+      visitCode == "B 365" ~ "Day B365/2B0",
+      visitCode == "2B 28" ~ "Day 2B28",
+      visitCode == "2B 180" ~ "Day 2B180",
       TRUE ~ visitCode
     ),screenID=as.numeric(screenID)
   )
@@ -492,9 +500,9 @@ data_nataka <- data_natakaga|>
 
 summary_of <- data_nataka |>
   group_by(visitCode) |>
-  summarise(eSource=n()) |>
+  dplyr::summarize(eSource=n()) |>
   arrange(factor(visitCode, levels = c("Day 14", "Day 28", "Day 42", "Day 56", "Day 70", "Day 84", "Day 140"
-                                       ,"Day 196","Day 236","Day 292","Day 348","Day 404","Day B0","Day B14","Day B28","Day B84","Day B140","Day B168","Day B224","Day B280", "Day B336", "Day B365/2B0")))
+                                       ,"Day 196","Day 236","Day 292","Day 348","Day 404","Day B0","Day B14","Day B28","Day B84","Day B140","Day B168","Day B224","Day B280", "Day B336", "Day B365/2B0", "Day 2B28", "Day 2B180")))
 
 
 combined_l_e <- left_join(summary_of, summary_vis_out, by = "visitCode",relationship = "many-to-many")|>
@@ -763,6 +771,18 @@ hembioqry23<-left_join(noresdat<-hemboirsltew|>
   rename(`age at test(months)`=Age)
 
 
+### Additional samples
+
+addsamp<-suppressWarnings(fread(paste0(here(),"/study data/Sample For Additional Laboratory Listing.csv")))|>fill_blanks()|>
+  filter(`Was sample collected for additional analysis?`=="Yes")|>mutate(test_cat = coalesce(`Test Category`, `Type of sample`),
+                                                                         days = as.numeric(today()-as.Date(`Date of sample collection`, "%d-%b-%Y")))|>
+  select(Subject, VISIT, days, test_cat, `Test name`)|>mutate(day_cat=case_when(days < 31~ "This month", between(days,31, 365) ~ "Within year" ,TRUE~"Over an year"))|>
+  group_by(test_cat,`Test name`)|>
+  dplyr::summarize("This month" = sum(day_cat == "This month"),
+            "Within Year" = sum(day_cat == "Within Year"),
+            "Over an year" = sum(day_cat == "Over an year"), .groups = "drop")|>
+  filter(`This month` > 0 | `Within Year` > 0 | `Over an year` > 0)|>adorn_totals("row")|>flextable()|>vline()|>hline()|>vline_left()|>autofit()
+
 ###+end lab results+#################################
 
 ###+++++ Adverse Events++++######
@@ -801,7 +821,7 @@ unsolicited2<-left_join(unsolicited_2|>
                         left_join(dateofvisit|>
                                     dplyr::rename(VISDAT=`Visit date`),
                                   in_completed1|>
-                                    dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>mutate(VISDAT=as.Date(VISDAT, "%Y-%m-%d"))|>filter(!VISIT%in%c("Day 14","Day 42","Day 70","Day 140","Day 196","Day 292","Day 348","Day 404","B 14","B 84","B 140","B 224","B 280","B 336")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
+                                    dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>filter(!VISIT%in%c("Day 14","Day 42","Day 70","Day 140","Day 196","Day 292","Day 348","Day 404","B 14","B 84","B 140","B 224","B 280","B 336")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
                           filter(EntryStatus!="Not Started")|>
                           select(2:3,18,23:26)|>
                           mutate(`First Data Time`=as.Date(`First Data Time`,format="%d-%m-%Y %H:%M")),by=c("Subject","First Data Time"),relationship = "many-to-many")|>
@@ -837,6 +857,9 @@ sharona<-get_name|>
 seriana<-get_name|>
   filter(grepl("Seriana",`Entered By`))|>
   select(-`Entered By`)
+titus<-get_name|>
+  filter(grepl("Titus",`Entered By`))|>
+  select(-`Entered By`)
 marthaa<-get_name|>
   filter(grepl("Martha",`Entered By`)|grepl("Omar",`Entered By`)|grepl("Grace",`Entered By`)|grepl("Boni",`Entered By`)|grepl("Adam",`Entered By`)|grepl("Anthony",`Entered By`)|grepl("Kennedy",`Entered By`)|grepl("Oscar",`Entered By`))|>
   select(-`Entered By`)
@@ -847,7 +870,7 @@ chronica<-get_name|>
 ###====local AEs ====###
 lsae<-localae|>filter(!is.na(post_dose))|>
   group_by(`Outcome`,`Severity grade`)|>
-  summarise(count=n(), .groups='drop')|>
+  dplyr::summarize(count=n(), .groups='drop')|>
   pivot_wider(names_from = `Severity grade`, values_from = count)|>
   adorn_totals(c("row","col"))|>
   flextable()|>
@@ -856,7 +879,7 @@ lsae<-localae|>filter(!is.na(post_dose))|>
   set_caption(caption = "Severity grade against Outcome")
 lsae2<-localae|>filter(!is.na(post_dose))|>
   group_by(`Local solicited adverse event term`,`Severity grade`)|>
-  summarise(count=n(), .groups='drop')|>
+  dplyr::summarize(count=n(), .groups='drop')|>
   pivot_wider(names_from = `Severity grade`, values_from = count)|>
   adorn_totals(c("row","col"))|>
   flextable()|>
@@ -867,7 +890,7 @@ lsae2<-localae|>filter(!is.na(post_dose))|>
 ###==== Systemic AEs =====###
 ssae<-solicited|>filter(!is.na(post_dose))|>
   group_by(`Outcome`,`Severity grade`)|>
-  summarise(count=n(), .groups='drop')|>
+  dplyr::summarize(count=n(), .groups='drop')|>
   pivot_wider(names_from = `Severity grade`, values_from = count)|>
   adorn_totals(c("row","col"))|>
   flextable()|>
@@ -877,7 +900,7 @@ ssae<-solicited|>filter(!is.na(post_dose))|>
 
 ssae2<-solicited|>filter(!is.na(post_dose))|>
   group_by(`Systemic solicited adverse event term`,`Severity grade`)|>
-  summarise(count=n(), .groups='drop')|>
+  dplyr::summarize(count=n(), .groups='drop')|>
   pivot_wider(names_from = `Severity grade`, values_from = count)|>
   adorn_totals(c("row","col"))|>
   flextable()|>
@@ -888,7 +911,7 @@ ssae2<-solicited|>filter(!is.na(post_dose))|>
 ###==== Unsolicited AEs =====###
 sumunsol<-unsolicited|>filter(`Did the subject experience any unsolicited adverse event?`=="Yes")|>
   group_by(`Outcome`,`Severity grade`)|>
-  summarise(count=n(), .groups='drop')|>
+  dplyr::summarize(count=n(), .groups='drop')|>
   pivot_wider(names_from = `Severity grade`, values_from = count)|>
   select(1,4,3,2)|>
   adorn_totals(c("row","col"))|>
@@ -901,7 +924,7 @@ sumunsol<-unsolicited|>filter(`Did the subject experience any unsolicited advers
 sumunsol2<-unsolicited|>filter(`Did the subject experience any unsolicited adverse event?`=="Yes")|>
   mutate(`Adverse Event High Level Term`=case_when(is.na(`Adverse Event High Level Term`)~"Other infections", TRUE~`Adverse Event High Level Term`))|>
   group_by(`Adverse Event High Level Term`,`Severity grade`)|>
-  summarise(count=n(), .groups='drop')|>
+  dplyr::summarize(count=n(), .groups='drop')|>
   pivot_wider(names_from = `Severity grade`, values_from = count)|>
   select(1,4,2,3)|>
   arrange(desc(`Grade 2`))|>
@@ -915,7 +938,7 @@ sumunsol2<-unsolicited|>filter(`Did the subject experience any unsolicited adver
 g3summ1<-unsolicited2|>
   filter(`Severity grade`=="Grade 3")|>
   group_by(`Outcome`)|>
-  summarise(count=n(), .groups='drop')|>
+  dplyr::summarize(count=n(), .groups='drop')|>
   arrange(desc(count))|>
   adorn_totals()|>
   flextable()|>
@@ -926,7 +949,7 @@ g3summ1<-unsolicited2|>
 g3summ2<-unsolicited2|>
   filter(`Severity grade`=="Grade 3")|>
   group_by(`Adverse Event High Level Term`)|>
-  summarise(count=n(), .groups='drop')|>
+  dplyr::summarize(count=n(), .groups='drop')|>
   arrange(desc(count))|>
   adorn_totals()|>
   flextable()|>
@@ -936,24 +959,23 @@ g3summ2<-unsolicited2|>
 
 ## AE closure summary
 sumari<-left_join(get_open<-get_name|>
-                    mutate(`Entered By`=case_when(`Entered By`%in%c("Joseph Ochieng Weya","Chronic","Seriana Nyange","Kevin Njogu","Martha Ndichu")~`Entered By`, TRUE~"Pending Link"))|>
+                    mutate(`Entered By`=case_when(`Entered By`%in%c("Joseph Ochieng Weya","Chronic","Seriana Nyange","Kevin Njogu","Martha Ndichu","Titus Buluku")~`Entered By`, TRUE~"Pending Link"))|>
                     group_by(`Entered By`)|>
-                    summarise(open=n()),left_join(get_open<-get_name|>
-                                                    mutate(`Entered By`=case_when(`Entered By`%in%c("Joseph Ochieng Weya","Chronic","Seriana Nyange","Kevin Njogu","Martha Ndichu")~`Entered By`, TRUE~"Pending Link"),
+                    dplyr::summarize(open=n()),left_join(get_open<-get_name|>
+                                                    mutate(`Entered By`=case_when(`Entered By`%in%c("Joseph Ochieng Weya","Chronic","Seriana Nyange","Kevin Njogu","Martha Ndichu", "Titus Buluku")~`Entered By`, TRUE~"Pending Link"),
                                                            datedif=today()-as.Date(`Date of onset`))|>
                                                     filter(datedif>7)|>
                                                     group_by(`Entered By`)|>
-                                                    summarise("open>7days"=n()),
+                                                    dplyr::summarize("open>7days"=n()),
                                                   asda<-left_join(unsolicited|>
                                                                     mutate(`First Data Time`=as.Date(`First Data Time`,format="%d-%b-%Y %H:%M"),
                                                                            `Last Data Time`=as.Date(`Last Data Time`,format="%d-%b-%Y %H:%M"),
                                                                            diffe_r=as.numeric(today()-`Last Data Time`)),
                                                                   left_join(dateofvisit|> dplyr::rename(VISDAT=`Visit date`),
                                                                             in_completed1|>
-                                                                              dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>mutate(VISDAT=as.Date(VISDAT, "%Y-%m-%d")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
+                                                                              dplyr::rename(Subject="Subject Id", VISIT=VISITNAME),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
                                                                     filter(EntryStatus!="Not Started")|>
-                                                                    select(2:3,18,23:26)|>
-                                                                    mutate(`First Data Time`=as.Date(`First Data Time`,format="%Y-%m-%d")),by=c("Subject","First Data Time"),relationship = "many-to-many")|>
+                                                                    select(2:3,18,23:26),by=c("Subject","First Data Time"),relationship = "many-to-many")|>
                                                     arrange(Subject)|>
                                                     distinct(Subject,`Unsolicited adverse event code`,.keep_all = TRUE)|>
                                                     mutate(`Date of onset`=as.Date(`Date of onset`,"%d-%b-%Y"),
@@ -961,7 +983,7 @@ sumari<-left_join(get_open<-get_name|>
                                                                                   TRUE~`Entered By`))|>
                                                     filter(!is.na(`Date of resolution`)&diffe_r<=7)|>
                                                     group_by(`Entered By`)|>
-                                                    summarise(closed=n()),by="Entered By",relationship = "many-to-many"),by="Entered By",relationship = "many-to-many")|>arrange(factor(`Entered By`, levels=c("Joseph Ochieng Weya","Kevin Njogu","Martha Ndichu","Seriana Nyange","Pending Link","Chronic")))|>adorn_totals(c("row"))|>flextable()|>autofit()
+                                                    dplyr::summarize(closed=n()),by="Entered By",relationship = "many-to-many"),by="Entered By",relationship = "many-to-many")|>arrange(factor(`Entered By`, levels=c("Joseph Ochieng Weya","Kevin Njogu","Martha Ndichu","Seriana Nyange","Titus Buluku","Pending Link","Chronic")))|>adorn_totals(c("row"))|>flextable()|>autofit()
 
 
 
@@ -1020,8 +1042,10 @@ plasample<- suppressWarnings(fread(paste0(here(),"/study data/Blood Sample Colle
 
 withvacdate<-withvacdate1|>
   group_by(dosevisit)|>
-  summarise(count=n())|>
-  mutate(percentage=(round(as.numeric(count/sum(count)*100),0)))|>
+  dplyr::summarize(count=n())|>
+  mutate(percentage=(round(as.numeric(count/sum(count)*100),0)),
+         dosevisit=factor(dosevisit, levels = c("Dose 1", "Dose 2", "Dose 3", "Booster", "2B0")))|>
+  arrange(dosevisit)|>
   adorn_totals("row")|>
   mutate(percentage=paste0(percentage,"%"))|>
   flextable()|>hline()|>align(align = "center", part = "body")|>
@@ -1051,8 +1075,10 @@ newsumm1<-left_join(malcasecrfdbspos,updatedcases<-vacdata|>mutate(Subject=as.ch
 
 newsumm<-newsumm1|>
   group_by(dosevisit)|>
-  summarise(count=n())|>
-  mutate(percentage=(round(as.numeric(count/sum(count)*100),1)))|>
+  dplyr::summarize(count=n())|>
+  mutate(percentage=(round(as.numeric(count/sum(count)*100),1)),
+         dosevisit=factor(dosevisit, levels = c("Dose 1", "Dose 2", "Dose 3", "Booster", "2B0")))|>
+  arrange(dosevisit)|>
   adorn_totals("row")|>
   mutate(percentage=paste0(percentage,"%"))|>
   flextable()|>hline()|>align(align = "center", part = "body")|>
@@ -1060,8 +1086,9 @@ newsumm<-newsumm1|>
 
 newsumm2<-newsumm1|>
   group_by(case_number)|>
-  summarise(count=n())|>
+  dplyr::summarize(count=n())|>
   mutate(percentage=(round(as.numeric(count/sum(count)*100),1)))|>
+  arrange(as.numeric(stri_sub(case_number, from=5)))|>
   adorn_totals("row")|>
   mutate(percentage=paste0(percentage,"%"))|>
   flextable()|>hline()|>align(align = "center", part = "body")|>
@@ -1076,7 +1103,7 @@ cleanmeds<-left_join(medications|>
                      durta<-left_join(dateofvisit|>
                                         dplyr::rename(VISDAT=`Visit date`),
                                       incomp<-in_completed1|>
-                                        dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>mutate(VISDAT=as.Date(VISDAT, "%Y-%m-%d"))|>filter(VISIT%nin%c("Day 14","Day 42","Day 70","Day 140","Day 196","Day 292","Day 348","Day 404","B 14","B 84","B 140","B 224","B 280","B 336")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
+                                        dplyr::rename(Subject="Subject Id", VISIT=VISITNAME)|>filter(VISIT%nin%c("Day 14","Day 42","Day 70","Day 140","Day 196","Day 292","Day 348","Day 404","B 14","B 84","B 140","B 224","B 280","B 336")),by=c("Subject","VISIT","VISDAT"),relationship = "many-to-many")|>
                        filter(EntryStatus!="Not Started")|>
                        select(2:3,18,23:26)|>
                        mutate(`Visit date`=as.Date(`First Data Time`,format="%d-%m-%Y %H:%M")),
@@ -1098,7 +1125,7 @@ summa1<-cleanmeds|>
 ## open meds summaries
 openau<-cleanmeds|>
   filter(is.na(`Stop date`))|>
-  mutate(`other staff`=`Entered By`,`Entered By`=case_when(`Entered By` %nin% c("Joseph Ochieng Weya","Kevin Njogu","Martha Ndichu","Name missing","Sharon Nyaringa Omenda","Seriana Nyange")~"Other staff", TRUE~`Entered By`))
+  mutate(`other staff`=`Entered By`,`Entered By`=case_when(`Entered By` %nin% c("Joseph Ochieng Weya","Kevin Njogu","Martha Ndichu","Name missing","Sharon Nyaringa Omenda","Seriana Nyange", "Titus Buluku")~"Other staff", TRUE~`Entered By`))
 
 ## summary of open meds
 opensum1<-left_join(openau|>
@@ -1116,6 +1143,7 @@ josmed<-openau|>filter(`Entered By`=="Joseph Ochieng Weya")|>select(1:11)
 kevmed<-openau|>filter(`Entered By`=="Kevin Njogu")|>select(1:11)
 martmed<-openau|>filter(`Entered By`=="Martha Ndichu")|>select(1:11)
 mismed<-openau|>filter(`Entered By`=="Name missing")|>select(1:11)
+titmed<-openau|>filter(`Entered By`=="Titus Buluku")|>select(1:11)
 othermed<-openau|>filter(`Entered By`=="Other staff")|>select(1:11,14)
 sharmed<-openau|>filter(`Entered By`=="Sharon Nyaringa Omenda")|>select(1:11)
 sermed<-openau|>filter(`Entered By`=="Seriana Nyange")|>select(1:11)
@@ -1164,15 +1192,26 @@ scnwkdayt21 <- scheduler |>
   filter(rescheduledDate== today()+7 & is.na(exactDate))|>
   mutate(weekday=weekdays(rescheduledDate))
 
-scnwkdayt<-rbind(scnwkdayt1,scnwkdayt2)
+scnwkdayt_now<-rbind(scnwkdayt1,scnwkdayt2)
+scnwkdayt<-scnwkdayt_now|>
+  mutate(targetDate=coalesce(rescheduledDate, scheduledDate))|>
+  select(1,2,13,10,11,12)|>
+  rename(scheduledDate=targetDate)|>
+  mutate(scheduledDate=ymd(scheduledDate))|>
+  arrange(scheduledDate,Site,group,visitCode,screenID)|>
+  distinct(screenID,visitCode, .keep_all = TRUE)|>
+  mutate(weekday=weekdays(scheduledDate))
+
 scnwkdayt1n<-rbind(scnwkdayt11,scnwkdayt21)
 
-scnwkdaytnew<-rbind(scnwkdayt,scnwkdayt1n)|>
-  mutate(targetDate=coalesce(scheduledDate,rescheduledDate))|>
+scnwkdaytnew<-rbind(scnwkdayt_now,scnwkdayt1n)|>
+  mutate(targetDate=coalesce(rescheduledDate, scheduledDate))|>
   select(1,2,13,10,11,12)|>
   dplyr::rename(scheduledDate=targetDate)|>
   mutate(scheduledDate=ymd(scheduledDate))|>
-  arrange(scheduledDate,Site,group,visitCode,screenID)
+  arrange(scheduledDate,Site,group,visitCode,screenID)|>
+  distinct(screenID,visitCode, .keep_all = TRUE)|>
+  mutate(weekday=weekdays(scheduledDate))
 
 if(weekdays(today())== "Monday"){
   scnwkdayt$weekday<-factor(scnwkdayt$weekday,levels = c('Monday','Tuesday', 'Wednesday', 'Thursday' ,'Friday','Saturday','Sunday'))
@@ -1202,7 +1241,7 @@ fupdata2<-fupdata|>
          consentV7_0Accept=if_else(is.na(consentV7_0Accept), "Pending",consentV7_0Accept))
 
 ###+Version 6.0
-v6.0_summ<-fupdata2|> group_by(consentV6_0Accept)|> summarise(count=n())
+v6.0_summ<-fupdata2|> group_by(consentV6_0Accept)|> dplyr::summarize(count=n())
 cons<-fupdata2|>
   filter(consentV6_0Accept=="Yes")|>
   select(1,2,4:6)
@@ -1214,7 +1253,7 @@ pens<-fupdata2|>
   select(1:4)
 
 ###+Version 7.0
-v7.0_summ<-fupdata2|> group_by(consentV7_0Accept)|> summarise(count=n())
+v7.0_summ<-fupdata2|> group_by(consentV7_0Accept)|> dplyr::summarize(count=n())
 cons7<-fupdata2|>
   filter(consentV7_0Accept=="Yes")|>
   select(1,2,4,7,8)
@@ -1236,20 +1275,34 @@ dose_sum<- suppressWarnings(fread(here("study data/Dosing Summary.csv"),colClass
 dsum1<-left_join(dose_sum|>
   mutate(VISIT= factor(VISIT, levels = c("Dose 1","Dose 2","Dose 3","Booster","Booster 2")))|>
   group_by(VISIT)|>
-  summarise(Dosed = n()),
+  dplyr::summarize(Dosed = n()),
 
-vacdata|>
+nert<-vacdata|>
   mutate(VISIT = if_else(VISIT=="2B0 Vaccination","Booster 2", VISIT),
          VISIT= factor(VISIT, levels = c("Dose 1","Dose 2","Dose 3","Booster","Booster 2")))|>
   group_by(VISIT)|>
-  summarise(Vaccinated = n()), by="VISIT")
+  dplyr::summarize(Vaccinated = n()), by="VISIT")
 
-notvax<- anti_join(dose_sum|>rename(Subject="Participant Id")|>mutate(VISIT= factor(VISIT, levels = c("Dose 1","Dose 2","Dose 3","Booster","Booster 2"))),derf<-vacdata|>
-                     mutate(VISIT = case_when(VISIT=="2B0 Vaccination"~"Booster 2",TRUE ~ VISIT),
-                            VISIT= factor(VISIT, levels = c("Dose 1","Dose 2","Dose 3","Booster","Booster 2"))), by=c("Subject", "VISIT"))
+
+dosesum1<-dose_sum|>rename(Subject="Participant Id")
+derf<-vacdata|>
+  mutate(VISIT = case_when(VISIT=="2B0 Vaccination"~"Booster 2",TRUE ~ VISIT), visit2 = VISIT)|>select(Subject, VISIT, visit2)
+notvax<- bind_rows(anti_join(dosesum1|>filter(VISIT=="    Dose 1"), derf|>filter(VISIT=="   Dose 1"), by=c("Subject")),
+                   anti_join(dosesum1|>filter(VISIT=="Dose 2"), derf|>filter(VISIT=="Dose 2"), by=c("Subject")))
+
+table(dosesum1$VISIT)
 
 ###+
 
+incompleteded <- anti_join(in_completed,
+                           tibble::tibble("Subject Id"=c(785100021,785100152,785100163,785100167,785100203,785100304,
+                                                         785100313,785100382,785100383,785100435,785100450,785100499,
+                                                         785100541,785100548,785100551,785100185,785100201,785100503),
+                                          VISITNAME=c("Unscheduled - 3","Unscheduled - 2","Unscheduled - 13","Dose 1 (Pre-vaccination)",
+                                                      "Dose 1 (Pre-vaccination)","Dose 3 (Pre-vaccination)","Unscheduled - 16","Unscheduled - 19",
+                                                      "Unscheduled - 4","Unscheduled - 9","Unscheduled - 7","Unscheduled - 3","Unscheduled - 3",
+                                                      "Unscheduled - 6","Unscheduled - 2","Unscheduled - 5","Unscheduled - 9","Unscheduled - 14")),
+                           by=c("Subject Id","VISITNAME"))
 
 
 ######Users
@@ -1311,9 +1364,24 @@ ui <- fluidPage(
                                                                        tableOutput('queriestab2'),
                                                                        p("The current query trends in order of the most common Open queries.")),
                                                               tabPanel("Open queries",downloadButton("downloadDataqu", "download"),
-                                                                       DTOutput('openq')),
+                                                                       tabsetPanel(
+                                                                         tabPanel("All", DTOutput('openq')),
+                                                                         tabPanel("ResultSignificanceQ", DTOutput('datateamq')),
+                                                                         tabPanel("FieldQ", DTOutput('fieldq')),
+                                                                         tabPanel("ClinicalQ", DTOutput('clinicalq')),
+                                                                         tabPanel("ResultentryQ", DTOutput('resultentryq'))
+                                                                       )),
                                                               tabPanel("Incomplete records",
-                                                                       DTOutput('incomprec')))),
+                                                                       tabsetPanel(
+                                                                         tabPanel("All",DTOutput('incomprec')),
+                                                                         tabPanel("Kelvin",DTOutput('incompkev')),
+                                                                         tabPanel("Joseph",DTOutput('incompjos')),
+                                                                         tabPanel("Titus",DTOutput('incomptit')),
+                                                                         tabPanel("Sharon",DTOutput('incompsha')),
+                                                                         tabPanel("Martha",DTOutput('incompmar')),
+                                                                         tabPanel("Seriana",DTOutput('incompser')),
+                                                                         tabPanel("Mwatasa",DTOutput('incompmwat')),
+                                                                         tabPanel("Others",DTOutput('incompothers')))))),
                                                    tabPanel("E-Sign off",
                                                             tabsetPanel(
                                                               tabPanel("eSource pending", textOutput('signtxt1'),br(),downloadButton("downloadsinof", "download"),br(),DTOutput('esourcesign')),
@@ -1330,7 +1398,8 @@ ui <- fluidPage(
                                                                          tabPanel("Plasmodium",
                                                                                   DTOutput('plasres')),
                                                                          tabPanel("Haematology", DTOutput('haemres')),
-                                                                         tabPanel("Biochemistry",DTOutput('biores'))
+                                                                         tabPanel("Biochemistry",DTOutput('biores')),
+                                                                         tabPanel("Additional samples",uiOutput('addsamp'))
                                                                        )), 
                                                               tabPanel("Results pending entry on eSource",
                                                                        tabsetPanel(
@@ -1359,6 +1428,7 @@ ui <- fluidPage(
                                                                          tabPanel('Joseph',downloadButton("downloadData4", "download"), DTOutput('josepha')),
                                                                          tabPanel('Martha',downloadButton("downloadData5", "download"), DTOutput('marthaa')),
                                                                          tabPanel('Seriana',downloadButton("downloadData8", "download"), DTOutput('seriana')),
+                                                                         tabPanel('Titus',downloadButton("downloadData81", "download"), DTOutput('titus')),
                                                                          tabPanel('Chronic', downloadButton("downloadData6", "download"),DTOutput('chronica')),
                                                                          tabPanel('Pending link with clinic visit',downloadButton("downloadData7", "download"), DTOutput('sharona')),
                                                                          tabPanel('Open solicited',DTOutput('opensol')),
@@ -1373,6 +1443,7 @@ ui <- fluidPage(
                                                                          tabPanel('Martha',downloadButton("downloadmed2", "download"), DTOutput('martmed')),
                                                                          tabPanel('Sharon',downloadButton("downloadmed3", "download"), DTOutput('sharmed')),
                                                                          tabPanel('Seriana',downloadButton("downloadmed4", "download"), DTOutput('sermed')),
+                                                                         tabPanel('Titus',downloadButton("downloadmed41", "download"), DTOutput('titmed')),
                                                                          tabPanel('Other staff',downloadButton("downloadmed5", "download"), DTOutput('othermed')),
                                                                          tabPanel('Missing',downloadButton("downloadmed6", "download"), DTOutput('mismed'))
                                                                        ))),
@@ -1539,8 +1610,90 @@ server <- function(input, output){
     options = list(
       pageLength = 100,
       autoWidth=TRUE))
+  output$datateamq<-renderDT(
+    trends1|>dplyr::filter(`Entered By` %in% c("John Safari", "Grace Jumbale", "Amos Fondo", "Agnes Luvuno Munga", "Charles Mwangi Muiruri", "Rachael Thuva"))|>
+      convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$fieldq<-renderDT(
+    trends1|>dplyr::filter(`Entered By` %in% c("Anthony Nyale Muli", "Oscar Chidui", "Josphine A Mwangome"))|>
+      convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$clinicalq<-renderDT(
+    trends1|>dplyr::filter(`Entered By` %in% c("Grace Dena", "Harold Makanza Kaulu", "Janet Musembi",
+                                               "Joseph Ochieng Weya", "Kevin Njogu", "Mainga Hamaluba",
+                                               "Martha Ndichu","Sharon Nyaringa Omenda",
+                                               "Stephen Chakaya Muweye", "Titus Buluku"))|>
+      convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$resultentryq<-renderDT(
+    trends1|>dplyr::filter(`Entered By` %in% c("Pending Entry"))|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
   output$incomprec<-renderDT(
-    anti_join(in_completed,tibble::tibble("Subject Id"=c(785100021,785100152,785100163,785100167,785100203,785100304,785100313,785100382,785100383,785100435,785100450,785100499,785100541,785100548,785100551,785100185,785100201,785100503),VISITNAME=c("Unscheduled - 3","Unscheduled - 2","Unscheduled - 13","Dose 1 (Pre-vaccination)","Dose 1 (Pre-vaccination)","Dose 3 (Pre-vaccination)","Unscheduled - 16","Unscheduled - 19","Unscheduled - 4","Unscheduled - 9","Unscheduled - 7","Unscheduled - 3","Unscheduled - 3","Unscheduled - 6","Unscheduled - 2","Unscheduled - 5","Unscheduled - 9","Unscheduled - 14")),by=c("Subject Id","VISITNAME"))|>convert_to_factors(),
+    incompleteded|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$incompkev<-renderDT(
+    incompleteded|>dplyr::filter(`Entered By` == "Kevin Njogu")|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$incompjos<-renderDT(
+    incompleteded|>dplyr::filter(`Entered By` == "Joseph Ochieng Weya")|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$incomptit<-renderDT(
+    incompleteded|>dplyr::filter(`Entered By` == "Titus Buluku")|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$incompsha<-renderDT(
+    incompleteded|>dplyr::filter(`Entered By` == "Sharon Nyaringa Omenda")|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$incompmar<-renderDT(
+    incompleteded|>dplyr::filter(`Entered By` == "Martha Ndichu")|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$incompser<-renderDT(
+    incompleteded|>dplyr::filter(`Entered By` == "Seriana Nyange")|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$incompmwat<-renderDT(
+    incompleteded|>dplyr::filter(`Entered By` == "Mwaganyuma Mwatasa")|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$incompothers<-renderDT(
+    incompleteded|>dplyr::filter(`Entered By`%nin%c("Kevin Njogu", "Joseph Ochieng Weya",
+                                                    "Titus Buluku", "Sharon Nyaringa Omenda",
+                                                    "Martha Ndichu", "Mwaganyuma Mwatasa",
+                                                    "Seriana Nyange"))|>
+      convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,
@@ -1665,11 +1818,11 @@ server <- function(input, output){
   output$immunology<-renderDT(
     scheduler|>mutate(targetDate=coalesce(rescheduledDate,scheduledDate),
                       dayt=as.numeric(as.Date(targetDate)-today()))|>
-      filter(visitCode%in%c("Day B365/2B0","Day 2B28","Day 2B180","Day 3B0","Day 3B28","Day 3B180","Day 3B365"),
+      filter(visitCode%in%c("Day 2B180","Day 3B0","Day 3B28","Day 3B180","Day 3B365"),
              group=="Group A",
              dayt<=8,
              is.na(exactDate))|>
-      select(1,2,12,10,11)|>
+      select(1,2,12,10,11)|>mutate(weekday= weekdays(targetDate))|>
       arrange(targetDate,screenID),
     filter = list(position="top",clear=TRUE),
     options = list(
@@ -1677,6 +1830,8 @@ server <- function(input, output){
       autoWidth=TRUE)
   )
   
+  output$addsamp<-renderUI(
+    addsamp|>htmltools_value())
   output$locflex1<-renderUI(
     lsae|>htmltools_value())
   output$sysflex1<-renderUI(
@@ -1795,6 +1950,20 @@ server <- function(input, output){
       write.csv(sermed|>arrange(Subject), file, row.names = TRUE)
     }
   )
+  output$titmed<-renderDT(
+    sermed|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$downloadmed41 <- downloadHandler(
+    filename = function() {
+      "Titus meds.csv"
+    },
+    content = function(file) {
+      write.csv(titmed|>arrange(Subject), file, row.names = TRUE)
+    }
+  ) 
   output$kelvina<-renderDT(
     kelvina|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
@@ -1821,6 +1990,12 @@ server <- function(input, output){
       autoWidth=TRUE))
   output$seriana<-renderDT(
     seriana|>convert_to_factors(),
+    filter = list(position="top",clear=TRUE),
+    options = list(
+      pageLength = 100,
+      autoWidth=TRUE))
+  output$titus<-renderDT(
+    titus|>convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
       pageLength = 100,
@@ -1969,6 +2144,14 @@ server <- function(input, output){
     },
     content = function(file) {
       write.csv(seriana, file, row.names = TRUE)
+    }
+  )
+  output$downloadData81 <- downloadHandler(
+    filename = function() {
+      "Titus_AEs.csv"
+    },
+    content = function(file) {
+      write.csv(titus, file, row.names = TRUE)
     }
   )
   output$downloadData6 <- downloadHandler(
