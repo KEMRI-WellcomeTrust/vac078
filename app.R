@@ -424,6 +424,11 @@ in_completed<-in_completed1|>
   filter(status == "Incomplete")|>
   select(2,5:7,9,10)
 
+detected_encoding <- stri_enc_detect(queries_now$`Query Text`)[[1]]$Encoding[1]
+
+queries_now$`Field Name` <- stri_encode(queries_now$`Field Name`, from = detected_encoding, to = "UTF-8")
+queries_now$`Query Text` <- stri_encode(queries_now$`Query Text`, from = detected_encoding, to = "UTF-8")
+
 trends1<-left_join(queries_now|>
                      filter(status=="Open Query")|>dplyr::rename(Module=`Module Name`),dateofvisit|>
                      dplyr::rename("Subject ID"=Subject, Visit=VISIT)|>
