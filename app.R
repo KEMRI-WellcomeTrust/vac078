@@ -435,8 +435,8 @@ trends1<-left_join(queries_now|>
                      select(2,3,7),by=c("Subject ID","Visit"),relationship = "many-to-many")|>
   select(4,5,21,6,7,14,8)|>
   mutate(`Visit date`=as.Date(`Visit date`, format="%Y-%m-%d"),
-         `Field Name` = str_replace_all(`Field Name`, "[μ<>°?]", ""),
-         `Query Text` = str_replace_all(`Query Text`, "[μ<>°?]", ""))|>left_join(dertas<-in_completed1|>select(2,6,7,10)|>
+         `Field Name` = str_replace_all(`Field Name`, "[μ<>°?]", ""),
+         `Query Text` = str_replace_all(`Query Text`, "[μ<>°?]", ""))|>left_join(dertas<-in_completed1|>select(2,6,7,10)|>
                                                                              dplyr::rename(`Subject ID`=`Subject Id`, Visit=VISITNAME, Module=FORMNAME),by=c("Subject ID","Visit","Module"),relationship = "many-to-one")|>
  distinct(`Subject ID`, Visit,`Visit date`, Module,`Field Name`,`Query Text`,`Entered By`, `Query ID`, .keep_all = TRUE)|>select(-`Query ID`)|>
   mutate(`Entered By` = case_when(is.na(`Entered By`) ~ "Pending Entry", TRUE ~ `Entered By`))
@@ -1623,7 +1623,12 @@ server <- function(input, output){
       pageLength = 100,
       autoWidth=TRUE))
   output$fieldq<-renderDT(
-    trends1|>dplyr::filter(`Entered By` %in% c("Anthony Nyale Muli", "Oscar Chidui", "Josphine A Mwangome"))|>
+    trends1|>dplyr::filter(`Entered By` %in% c("Anthony Nyale Muli", "Oscar Chidui", "Josphine A Mwangome","Adam Kombe Kiti",
+                                               "Peter Mwangome Chitsao", "Anthony Amani Nyamawi","Joyce Nyevu Mwacharo",
+                                               "Boniface Shida Kabwere","Titus Tunje","Donald Bahari Charo","Kennedy Genya",
+                                               "Daudi Shume Munga","Oscar Deche Mwagambo","Kelly Kai Mwasambu",
+                                               "Sylus Mwamuye Chibungu","Evans Kalama Mwatsuma","Fredrick Nyale Kiti",
+                                               "Phedys Magombe Bokoro"))|>
       convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
@@ -1632,8 +1637,10 @@ server <- function(input, output){
   output$clinicalq<-renderDT(
     trends1|>dplyr::filter(`Entered By` %in% c("Grace Dena", "Harold Makanza Kaulu", "Janet Musembi",
                                                "Joseph Ochieng Weya", "Kevin Njogu", "Mainga Hamaluba",
-                                               "Martha Ndichu","Sharon Nyaringa Omenda",
-                                               "Stephen Chakaya Muweye", "Titus Buluku"))|>
+                                               "Martha Ndichu","Sharon Nyaringa Omenda","Evance Seko",
+                                               "Stephen Chakaya Muweye", "Titus Buluku",
+                                               "Samuel Yaah Shuma","Solomon Ali","Omar Ngoto",
+                                               "Victor Mwalewa","Seriana Nyange","Emmaloise Gathuri"))|>
       convert_to_factors(),
     filter = list(position="top",clear=TRUE),
     options = list(
